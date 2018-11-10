@@ -76,17 +76,32 @@ screen choice(items):
 
         vbox:
             style "menu"
-            spacing 2
+            spacing 50
+            xalign 0.5
 
             for caption, action, chosen in items:
 
                 if action:
 
                     button:
+                        xalign 0.5
+                        xsize 1003
+                        ysize 73
                         action action
                         style "menu_choice_button"
+                        idle_background 'gui/textbox/choice_idle.png'
+                        hover_background 'gui/textbox/choice_hover.png'
 
-                        text caption style "menu_choice"
+                        text caption style "menu_choice":
+                            text_align 0.5
+                            min_width 1003
+                            xsize 1003
+                            ysize 73
+                            ypos 15
+                            font 'clementepdairegular.ttf'
+                            size 40
+                            idle_color '#fff'
+                            hover_color '#C21547'
 
                 else:
                     text caption style "menu_caption"
@@ -177,9 +192,15 @@ screen nvl(dialogue, items=None):
 # Screen that's used to display the main menu, when Ren'Py first starts
 # http://www.renpy.org/doc/html/screen_special.html#main-menu
 
+transform pulse:
+    ease 1.0 zoom 1.05
+    ease 1.0 zoom 1.0
+    repeat
+
 screen main_menu():
     tag menu
     add "gui/menu/background.png"
+    add "gui/menu/logo.png" align (0.6, 0.5) at pulse
 
     imagebutton auto "gui/menu/start_%s.png" xpos 161 ypos 301 focus_mask None action Start()
     imagebutton auto "gui/menu/load_%s.png" xpos 161 ypos 431 focus_mask None action ShowMenu('load')
@@ -359,22 +380,22 @@ init -2 python:
 
 screen yesno_prompt:
     modal True
-    add "gui/yesno/background.png"
-    imagebutton auto "gui/yesno/yes_%s.png" xpos 678 ypos 572 focus_mask None action yes_action
-    imagebutton auto "gui/yesno/no_%s.png" xpos 1129 ypos 581 focus_mask None action no_action
+    add "gui/yesno/background.png" size (1920, 1080) pos (0, 0)
+    imagebutton auto "gui/yesno/yes_%s.png" xpos 1450 ypos 550 focus_mask None action yes_action
+    imagebutton auto "gui/yesno/no_%s.png" xpos 1420 ypos 700 focus_mask None action no_action
 
     if message == layout.ARE_YOU_SURE:
-        add "gui/yesno/message_quit.png"
+        add "gui/yesno/message_quit.png" size (1920, 1080) pos (0, 0)
     elif message == layout.DELETE_SAVE:
-        add "gui/yesno/message_delete.png"
+        add "gui/yesno/message_delete.png" size (1920, 1080) pos (0, 0)
     elif message == layout.OVERWRITE_SAVE:
-        add "gui/yesno/message_overwrite.png"
+        add "gui/yesno/message_overwrite.png" size (1920, 1080) pos (0, 0)
     elif message == layout.LOADING:
-        add "gui/yesno/message_load.png"
+        add "gui/yesno/message_load.png" size (1920, 1080) pos (0, 0)
     elif message == layout.QUIT:
-        add "gui/yesno/message_quit.png"
+        add "gui/yesno/message_quit.png" size (1920, 1080) pos (0, 0)
     elif message == layout.MAIN_MENU:
-        add "gui/yesno/message_menu.png"
+        add "gui/yesno/message_menu.png" size (1920, 1080) pos (0, 0)
 
 ##############################################################################
 # Quick Menu
