@@ -1,11 +1,17 @@
 label scene17ii:
 scene dormhallway
+show lucca nervous at center
+with dissolve
 
 "I watch Stacey and Moe head off together. Now it was just Lucca and myself."
 "Silence hung heavy in the air. Nobody wanted to make the first move."
 
+show lucca nervoussmile
+
 voice "c-17ii-1.wav" #Lucca (Victoria Wong)
 luc "...W-well... I guess the party left quite a mess in there, huh?"
+
+show lucca bashful
 
 voice "c-17ii-2.wav" #Lucca (Victoria Wong)
 luc "I could... I could help with some of the cleanup. I-I had to clean up after my sisters all of the time, eheh... heh..."
@@ -13,10 +19,14 @@ luc "I could... I could help with some of the cleanup. I-I had to clean up after
 voice "c-17ii-3.wav" #Yumi (Kathy Pfautsch)
 yum "...I think we can leave clean-up detail for the morning..."
 
+show lucca neutral
+
 voice "c-17ii-4.wav" #Lucca (Victoria Wong)
 luc "O-oh... okay."
 
 "The small talk didn't last long, and silence hung over the two of us once more. Lucca was fidgeting to herself, stifled by the deafening quiet."
+
+show lucca nervouser
 
 voice "c-17ii-5.wav" #Lucca (Victoria Wong)
 luc "...S-so, Yumi, can I... may I speak with you? Alone?"
@@ -24,14 +34,20 @@ luc "...S-so, Yumi, can I... may I speak with you? Alone?"
 voice "c-17ii-6.wav" #Yumi (Kathy Pfautsch)
 yum "You, uh, sure it's a good idea to leave her alone like this?"
 
+show lucca nervoussmile
+
 voice "c-17ii-7.wav" #Lucca (Victoria Wong)
 luc "I-it'll be fine. She tends to get a little, ah, broody? When things don't go her way..."
+
+show lucca happy
 
 voice "c-17ii-8.wav" #Lucca (Victoria Wong)
 luc "...L-let's go for a walk! There's... stuff we should probably go over."
 
 voice "c-17ii-9.wav" #Yumi (Kathy Pfautsch)
 yum "Um, okay. But the walls are actually, like, super thick, so..."
+
+show lucca nervoussmile
 
 voice "c-17ii-10.wav" #Lucca (Victoria Wong)
 luc "Oh?? ...E-even then."
@@ -45,11 +61,15 @@ luc "Ah... you just wanna walk around campus for a bit? It's a nice night out...
 voice "c-17ii-13.wav" #Yumi (Kathy Pfautsch)
 yum "That sounds, uh, nice, but... did you bring your hat?"
 
+show lucca bashful
+
 voice "c-17ii-14.wav" #Lucca (Victoria Wong)
 luc "...Eh?"
 
 voice "c-17ii-15.wav" #Yumi (Kathy Pfautsch)
 yum "I mean, if someone saw the horn. We'll probably run into people, even at night, sooo..."
+
+show lucca happy
 
 voice "c-17ii-16.wav" #Lucca (Victoria Wong)
 luc "Oh, oh yes, you... you're right. I-I got it in my bag here..."
@@ -75,6 +95,8 @@ scene campusnight
 
 "Lucca's eyes wandered from building to building. They tended to linger on the odd outdoor exhibit on the campus, but not for long."
 
+show lucca nervousclose
+
 voice "c-17ii-19.wav" #Lucca (Victoria Wong)
 luc "Y'know... whenever I need a moment of quiet, I like to come outside by myself."
 
@@ -83,6 +105,8 @@ yum "Mm. It's pretty relaxed when there aren't a billion students futzing about.
 
 voice "c-17ii-21.wav" #Yumi (Kathy Pfautsch)
 yum "...Christ, I'm gonna turn into a pretentious loner, aren't I? Living on top of a mountain, probably..."
+
+show lucca nervouser
 
 voice "c-17ii-22.wav" #Lucca (Victoria Wong)
 luc "Th-that's not... probable! Artists like their isolation, but..."
@@ -97,17 +121,23 @@ luc "...C'mon, let's take a seat over here."
 voice "c-17ii-24.wav" #Yumi (Kathy Pfautsch)
 yum "...Of course, you're the sort to slow down and smell the roses a bit, Lucca."
 
+show lucca happyclosed
+
 voice "c-17ii-25.wav" #Lucca (Victoria Wong)
 luc "Haha... Guilty as charged!~"
 
 voice "c-17ii-26.wav" #Yumi (Kathy Pfautsch)
 yum "Heh. I'm too busy rushing to classes. Or the cafeteria. Or the bus..."
 
+show lucca guilty
+
 voice "c-17ii-27.wav" #Lucca (Victoria Wong)
 luc "Aw, that's a shame."
 
 voice "c-17ii-28.wav" #Yumi (Kathy Pfautsch)
 yum "Yeah yeah, really bad habit... I could at least slow down a bit for inspiration."
+
+show lucca neutral
 
 voice "c-17ii-29.wav" #Lucca (Victoria Wong)
 luc "Mmhm. W-well, not just inspiration, but..."
@@ -216,7 +246,7 @@ luc "Yeah, we'll kick... kick some good ass, heheh..."
 "We stayed like that for a bit, quietly enjoying our surroundings."
 
 #end cg
-
+show lucca nervous at center
 
 voice "c-17ii-60.wav" #Lucca (Victoria Wong)
 luc "...Yumi, I... I should apologize for, ah, the weird situation you've been putting up with..."
@@ -226,6 +256,8 @@ yum "Mm? Oh, well..."
 
 voice "c-17ii-62.wav" #Yumi (Kathy Pfautsch)
 yum "...It's nothing new. I've, uh, gotten a bit used to it, over time. You remember stuff from back in Japan, right?"
+
+show lucca happysmile
 
 voice "c-17ii-63.wav" #Lucca (Victoria Wong)
 luc "Pfft! Heheh, yeah, how could I forget..."
@@ -239,17 +271,23 @@ yum "Yeah. We send emails every month. Think he's reining back the 'dark lord' s
 voice "c-17ii-66.wav" #Yumi (Kathy Pfautsch)
 yum "...Or maybe he's just doing it less around me. Who knows."
 
+show lucca nervoussmile
+
 voice "c-17ii-67.wav" #Lucca (Victoria Wong)
 luc "I'm glad. We kind of have a... more awkward situation with our little family. I'm sorry you had to get roped up in it."
 
 voice "c-17ii-68.wav" #Yumi (Kathy Pfautsch)
 yum "It's fine. I'm just glad you were around. You were always the least crazy of the demons..."
 
+show lucca bashful
+
 voice "c-17ii-69.wav" #Lucca (Victoria Wong)
 luc "Really? Aww, you flatter me...!~"
 
 voice "c-17ii-70.wav" #Yumi (Kathy Pfautsch)
 yum "Psh. It's true, though."
+
+show lucca sigh
 
 voice "c-17ii-71.wav" #Lucca (Victoria Wong)
 luc "Ahh... I forgot, I owed you an explanation for... everything."
@@ -258,6 +296,8 @@ voice "c-17ii-72.wav" #Lucca (Victoria Wong)
 luc "...Jeez, though, where do I even start?"
 
 "Lucca rubbed the back of her neck. She seemed to be thinking on her words carefully."
+
+show lucca nervouser
 
 voice "c-17ii-73.wav" #Lucca (Victoria Wong)
 luc "...Well... S-Tan put together our idol troupe a while ago. A-and Kamika used to be part of it, too."
@@ -274,14 +314,20 @@ yum "And there was the whole live performance spectacle on campus..."
 voice "c-17ii-77.wav" #Lucca (Victoria Wong)
 luc "Mmhm. She was jealous of S-Tan's popularity, and Kamika... felt like she wasn't getting the respect she deserved."
 
+show lucca guilty
+
 voice "c-17ii-78.wav" #Lucca (Victoria Wong)
 luc "So she split from the group. S-Tan found a replacement for her, but... Kamika was always pretty moody about these sorts of things."
+
+show lucca nervouseropen
 
 voice "c-17ii-79.wav" #Lucca (Victoria Wong)
 luc "I-I didn't really wanna get involved, but... S-Tan gave me a heads up, and I was in the area, so..."
 
 voice "c-17ii-80.wav" #Yumi (Kathy Pfautsch)
 yum "Whoa, you're telling me S-Tan actually sent someone? I thought it was just hot air!"
+
+show lucca nervoussmile
 
 voice "c-17ii-81.wav" #Lucca (Victoria Wong)
 luc "Heheh, y-you'd be surprised... sh-she didn't really, 'send me', per se."
@@ -295,8 +341,12 @@ luc "I never really had, um... stage presence? Not like the others, eheh..."
 voice "c-17ii-84.wav" #Yumi (Kathy Pfautsch)
 yum "Well, hey, you stood up to Kamika during her show, right? That took more guts!"
 
+show lucca nervousclose
+
 voice "c-17ii-85.wav" #Lucca (Victoria Wong)
 luc "Ahh, I guess? I dunno, I just... did what anyone would've."
+
+show lucca guilt
 
 voice "c-17ii-86.wav" #Lucca (Victoria Wong)
 luc "A-and I don't think it made much difference. Kamika just went up and did something even more... s-stupid."
@@ -307,8 +357,12 @@ yum "Eh, she's stubborn. Don't take it personally, we had our own share of shout
 voice "c-17ii-88.wav" #Yumi (Kathy Pfautsch)
 yum "Still, though. 'Invoking world domination' is a bit of a dramatic upswing from a band breakup."
 
+show lucca neutral
+
 voice "c-17ii-89.wav" #Lucca (Victoria Wong)
 luc "Mmhm... Kamika's always been a bit of a... a drama queen."
+
+show lucca nervouser
 
 voice "c-17ii-90.wav" #Lucca (Victoria Wong)
 luc "P-pardon my language, eheh.~"
@@ -316,10 +370,14 @@ luc "P-pardon my language, eheh.~"
 voice "c-17ii-91.wav" #Yumi (Kathy Pfautsch)
 yum "Pfft. When'd you get so brutally honest, Lucca? You can call a spade a spade."
 
+show lucca happyclosed
+
 voice "c-17ii-92.wav" #Lucca (Victoria Wong)
 luc "Y-yeah, but I wouldn't want Kamika to hear it!"
 
 #sfx phone ring
+
+show lucca uwah
 
 voice "c-17ii-93.wav" #Lucca (Victoria Wong)
 luc "A-augh!"
@@ -330,6 +388,8 @@ yum "R-relax, Lucca, it's my phone!"
 voice "c-17ii-95.wav" #Yumi (Kathy Pfautsch)
 yum "Hehe, sheesh, almost thought we were about to get jumped by a killer..."
 
+show lucca doh
+
 voice "c-17ii-96.wav" #Lucca (Victoria Wong)
 luc "I thought Kamika might've heard us..."
 
@@ -337,6 +397,8 @@ luc "I thought Kamika might've heard us..."
 
 voice "c-17ii-97.wav" #Yumi (Kathy Pfautsch)
 yum "...'Sinful Stars'? Is it S-Tan?"
+
+show lucca nervoussmile
 
 voice "c-17ii-98.wav" #Lucca (Victoria Wong)
 luc "Eh? Really?? Put her on speaker!"
@@ -427,14 +489,20 @@ luc "O-okay! Byeee!"
 
 #sfx hangup
 
+show lucca nervoussmile
+
 voice "c-17ii-127.wav" #Lucca (Victoria Wong)
 luc "...That wouldn't be a structurally-sound building at all..."
 
 voice "c-17ii-128.wav" #Yumi (Kathy Pfautsch)
 yum "She sounded happy to talk to you again."
 
+show lucca happyclosed
+
 voice "c-17ii-129.wav" #Lucca (Victoria Wong)
 luc "Mmhm. We call regularly. S-Tan can go on for hours, complaining about work stuff..."
+
+show lucca happy
 
 voice "c-17ii-130.wav" #Lucca (Victoria Wong)
 luc "Heheh, she was gossiping about this guy calling about fish people in Wichita. I think he got demons mixed up with... whatever those are."
@@ -442,8 +510,12 @@ luc "Heheh, she was gossiping about this guy calling about fish people in Wichit
 voice "c-17ii-131.wav" #Yumi (Kathy Pfautsch)
 yum "I assume that's the reason the telemarketing service is a pain in the ass to get through..."
 
+show lucca happyclosed
+
 voice "c-17ii-132.wav" #Lucca (Victoria Wong)
 luc "Haha! Maybe!"
+
+show lucca neutral
 
 voice "c-17ii-133.wav" #Lucca (Victoria Wong)
 luc "Ahhh, but neither here nor there, I should head back to my room. I'll see you tomorrow?"
@@ -455,6 +527,8 @@ yum "Yeah. Definitely."
 
 voice "c-17ii-135.wav" #Yumi (Kathy Pfautsch)
 yum "Hey, Lucca... thanks again. For everything."
+
+show lucca happyclosed
 
 voice "c-17ii-136.wav" #Lucca (Victoria Wong)
 luc "No problem. It's the least I can do."
