@@ -272,4 +272,9 @@ image transformhuman = "cgs/transformhuman.png"
 # Music           #
 ###################
 label start:
+    menu:
+        "Choice 1":
+            "Picked choice 1."
+        "Longer Choice 2":
+            "Picked choice 2."
     jump scene1
