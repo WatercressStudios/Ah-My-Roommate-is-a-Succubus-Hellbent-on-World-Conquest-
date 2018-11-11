@@ -1,5 +1,5 @@
 label scene7iii:
-scene dormhallway
+scene dormhallway with dissolve
 
 #CHECK: flags for Scene 6 choice
 #MIGHT NEED WORK; GONNA WRITE UP A SECTION FOR IF YUMI GOES TO SEE STACEY INSTEAD
@@ -17,6 +17,7 @@ else:
 
 label showerkamika:
 #BRANCH: use if opted to head to Kamika in Scene6
+
 "But when I round the corner and head down the hall back to my room... I hear something."
 
 voice "c-7iii-1.wav" #Kamika (Ariane Marchese)
@@ -399,9 +400,6 @@ yum "What the fuck is {i}wrong{/i} with you."
 show kamika d wideeyes
 voice "c-7iii-81.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, no. We don't have time for that. What the fuck is {i}right{/i} with you?"
-
-voice "c-7iii-82.wav" #Kamika (Ariane Marchese)
-kam "Um."
 
 voice "c-7iii-83.wav" #Yumi (Kathy Pfautsch)
 yum "Why in the name of Satan's strawberry asshole do you think {i}anyone{/i} would put up with your bullshit, let alone {i}beg{/i} for it?"

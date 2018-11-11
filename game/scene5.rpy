@@ -1,5 +1,5 @@
 label scene5:
-scene dormhallway
+scene dormhallway with dissolve
 
 "After a quick stop for lunch, I make my way back to the dorms. The thought of a phone call's still fresh in my mind, but..."
 "I don't trust Kamika to behave herself in my absense. I'll swing by the apartment, drop my stuff off, and make the call afterwards."
@@ -14,6 +14,7 @@ scene dormroom with dissolve
 "...Wait, that's {i}MY{/i} art!"
 "There's more of my sketches laying around on the floor! Did she go through {i}all{/i} of my belongings while I was gone?!"
 
+play music kamtheme fadein 1.0
 show kamika s annoyed with dissolve
 voice "c-5-1.wav" #Kamika (Ariane Marchese)
 kam "Jeez, human art is so {i}passionless!{/i} All these people look so bored with living... {i}Yawn!{/i}"
@@ -146,7 +147,8 @@ show kamika d thinking
 voice "c-5-27.wav" #Kamika (Ariane Marchese)
 kam "Well, it's always a possibility. I {i}have{/i} been sensing an unusual amount of demonic energy from you..."
 
-"Probably from those demons back home... I swear, it's damn near impossible to get rid of their stench!"
+"Probably from those demons back home... I swear, it's damn near impossible to get rid of the stuff."
+"Maybe I should hit up an exorcist. Or connect with God? Ugh, I'll do anything at this point..."
 
 voice "c-5-28.wav" #Yumi (Kathy Pfautsch)
 yum "Whatever, look, just keep your grubby hands out of my things! I don't need to come home to a mess after every class!"
@@ -163,6 +165,7 @@ show kamika d neutralclosed
 voice "c-5-30.wav" #Kamika (Ariane Marchese)
 kam "Besides, it's not like I've just been doing {i}that{/i} the entire time, either..."
 
+stop music fadeout 1.0
 voice "c-5-31.wav" #Yumi (Kathy Pfautsch)
 yum "Oh God... what else did you do?"
 
@@ -180,11 +183,13 @@ show kamika d happy
 voice "c-5-34.wav" #Kamika (Ariane Marchese)
 kam "Wait right here; I'll get a special presentation prepared just for you~"
 
+
 "She darts away into my bedroom, leaving me to dread whatever she's come up with..."
 "Less than half a minute passes before she returns with a laptop - {i}MY{/i} laptop - and begins showing me a slideshow presentation."
 
-#show CG of Kamika showing Ultimate Plan Powerpoint presentation intro on a laptop
+show laptopnc with dissolve
 
+play music evilplot fadein 1.0
 voice "c-5-35.wav" #Kamika (Ariane Marchese)
 kam "Allow me to present: Kamika's Ultimate Plan for Worldwide Enrapture!"
 
@@ -211,18 +216,21 @@ kam "Anyways! 'Kamika's Ultimate Plan for Worldwide Enrapture' is the thrilling 
 
 #show next slide in CG, mediocre acrylic paint drawing of Kamika with hearts
 
+show laptop ks with dissolve
 voice "c-5-43.wav" #Kamika (Ariane Marchese)
 kam "And it all revolves around me - Kamika Malagic, Demon of Lust!"
 
 voice "c-5-44.wav" #Yumi (Kathy Pfautsch)
 yum "(snrk) Nice grade-school drawing."
 
+show laptop km
 voice "c-5-45.wav" #Kamika (Ariane Marchese)
 kam "W-watch your mouth! This was the best I could do on short notice!"
 
 voice "c-5-46.wav" #Kamika (Ariane Marchese)
 kam "And I had to use whatever was on hand..."
 
+show laptop ky with dissolve
 voice "c-5-47.wav" #Yumi (Kathy Pfautsch)
 yum "Is that so? This oughta be good, then.... "
 
@@ -244,6 +252,7 @@ yum "You're paying me back later..."
 voice "c-5-53.wav" #Kamika (Ariane Marchese)
 kam "...Like I was saying, this plan revolves around me, Kamika Malagic."
 
+show laptop nc with dissolve
 voice "c-5-54.wav" #Kamika (Ariane Marchese)
 kam "As you know, I am one of the most {i}beautiful{/i} and {i}sought-after{/i} demons in all of existence!"
 
@@ -265,12 +274,15 @@ kam "There are no swaths of fans or monuments made in my honor; there are only t
 voice "c-5-59.wav" #Kamika (Ariane Marchese)
 kam "How {i}utterly terrible{/i} it must be, to live in a world that has {i}nothing{/i} for a man or woman to dedicate their life to!"
 
+show laptop y with dissolve
 voice "c-5-60.wav" #Yumi (Kathy Pfautsch)
 yum "Well, we have religion and stuff-"
 
+show laptop ky with dissolve
 voice "c-5-61.wav" #Kamika (Ariane Marchese)
 kam "Did I give you permission to speak? No? Then {i}zip it{/i}, and wait for the conclusion!"
 
+show laptop ks with dissolve
 voice "c-5-62.wav" #Kamika (Ariane Marchese)
 kam "To make a long story short, your world is in serious need of a shake-up! And how do we do that?"
 
@@ -279,6 +291,7 @@ kam "To make a long story short, your world is in serious need of a shake-up! An
 voice "c-5-63.wav" #Kamika (Ariane Marchese)
 kam "With {i}me{/i}, of course~!"
 
+show laptop nc with dissolve
 voice "c-5-64.wav" #Kamika (Ariane Marchese)
 kam "I've already made landfall here a short while ago, but {i}now{/i}, it's time to set things in motion!"
 
@@ -300,7 +313,6 @@ yum "World... domination? You serious?"
 voice "c-5-70.wav" #Kamika (Ariane Marchese)
 kam "Super serious! And perfectly lucid!~"
 
-show kamika d thinkingclosed
 voice "c-5-71.wav" #Yumi (Kathy Pfautsch)
 yum "...I just kind of assumed you were joking, but..."
 
@@ -309,6 +321,10 @@ yum "...I just kind of assumed you were joking, but..."
 #fade CG
 #show kam thinking, eyes closed
 
+
+scene dormroom with dissolve
+show kamika d thinkingclosed with dissolve
+
 voice "c-5-72.wav" #Kamika (Ariane Marchese)
 kam "Now I know what you're thinking: 'but Mistress Kamika, how will you {i}ever{/i} achieve such a lofty goal??'"
 
@@ -316,6 +332,7 @@ show kamika d confident
 
 "She closes the laptop and looks at me with a grin."
 
+stop music fadeout 2.0
 voice "c-5-73.wav" #Kamika (Ariane Marchese)
 kam "That's where {i}you{/i} come in~"
 
@@ -330,6 +347,7 @@ show kamika d smug
 voice "c-5-76.wav" #Kamika (Ariane Marchese)
 kam "You know the ways of this school, so you can do the information gathering while {i}I{/i} determine the best course of action for us!"
 
+play music kamevil fadein 1.0
 show kamika d evilgrin
 voice "c-5-77.wav" #Kamika (Ariane Marchese)
 kam "With you and I working together, we'll bring this school under my heel and usher in a new era the world over~!"
@@ -370,6 +388,7 @@ menu:
 label s5deny:
 #BRANCH: dialogue path from ">>Oh hell no."
 
+stop music fadeout 1.0
 "...You know what, I have better things to do than worry over every little thing this bitch does."
 
 show kamika d surprise
@@ -383,6 +402,7 @@ yum "Sorry, but I'm not getting myself involved with any of this. Find someone e
 
 show kamika d madclosed
 
+play music kamtheme fadein 1.0
 voice "c-5-84.wav" #Kamika (Ariane Marchese)
 kam "After {i}all{/i} the work I've done to get to this point, you {i}still{/i} won't join me?!"
 
@@ -458,6 +478,10 @@ show kamika s smug
 voice "c-5-97.wav" #Kamika (Ariane Marchese)
 kam "Say that to me, and only then will I sincerely believe you want to help me."
 
+"God... I want to punch her right in the lip, but I have to pretend to go along with this garbage."
+"...At least nobody's watching me do this. At this single point in time. Nope."
+
+stop music fadeout 1.0
 voice "c-5-98.wav" #Yumi (Kathy Pfautsch)
 yum "...'Oh Mistress Kamika-'"
 
@@ -485,6 +509,7 @@ yum "{i}OH{/i}, Mistress Kamika, {i}PLEASE{/i} let me cater to your {i}EVERY WHI
 
 #show kam laughing
 
+play music kamtheme fadein 1.0
 show kamika s hystericallaugh
 voice "c-5-102.wav" #Kamika (Ariane Marchese)
 kam "...Hahahahahaha! {i}Ahahahahahaha~!{/i}"
@@ -536,7 +561,9 @@ scene dormhallway with dissolve
 "I silently leave the room and exit out into the hallway."
 "Only out here do I realize I've made a deal with a devil... I feel as though my soul's been tainted."
 "If I let this go on for too long, it's going to affect my studies! Not only that, but I'll be helping a demon enslave the world!"
-"I have to do something to stop this from going too far! I have to..."
+"I have to do something to stop this from going too far. I have to..."
+
+scene black with dissolve
 "...I have to make a call."
 
 jump scene6

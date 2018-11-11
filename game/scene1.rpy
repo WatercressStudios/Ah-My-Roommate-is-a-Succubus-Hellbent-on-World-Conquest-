@@ -1,5 +1,7 @@
 label scene1:
 
+scene lecturehall with dissolve
+play music classtime fadein 1.0
 voice "c-1-1.wav" #Yumi (Kathy Pfautsch)
 yum "Ughhh, why did they schedule art history for the early hours of the goddamn morning..."
 
@@ -253,18 +255,29 @@ dee "...Well, we're gonna have a small, uh, exercise. On translating 3D space to
 voice "c-1-54.wav" #Yumi (Kathy Pfautsch)
 yum "Okedoke... it's a little pointed towards the center of the room, so I gotta... mm?"
 
+stop music fadeout 1.0
+"My hand stops for just a moment as my eyes rose lazily to look around the room. My eyes spotted someone."
 #memo: kamika sprite? or cg?
+
+play music kamseduce fadein 1.0
+show kamika u neutral with dissolve
 "My eyes met with another girl. I hadn't recognized her in class before. Did she transfer to class recently?"
+
+show kamika u seduce
 "It was hard to ignore her now that our eyes had locked. She was strikingly attractive, but moreover... she was staring back at me. Her eyes squinted, as if looking right through me."
-"It was a strange look. I couldn't manage to avert my gaze for some time."
+
+hide kamika with dissolve
+"It was a strange look. I couldn't manage to avert my gaze for some time. It was as if the world went completely still for a moment..."
 
 show stacey neutral with dissolve
 voice "c-1-55.wav" #Stacey (Ashe Thurman)
 sta "Wow, you done already??"
 
+stop music
 voice "c-1-56.wav" #Yumi (Kathy Pfautsch)
 yum "Ah-"
 
+play music classtime fadein 2.0
 show stacey eyebrow
 voice "c-1-57.wav" #Stacey (Ashe Thurman)
 sta "...Oh? Who's that girl you were staring at??"
@@ -403,10 +416,14 @@ yum "A'ight, see ya 'round."
 voice "c-1-91.wav" #Stacey (Ashe Thurman)
 sta "You too."
 
+stop music fadeout 1.0
 hide stacey with dissolve
 "We trade smiles, and I wave goodbye, strolling to the door."
+
+
 #variable name change kamika = ???
 
+play music kamtheme fadein 1.0
 show kamika u thinkingclosed with dissolve
 voice "c-1-92.wav" #Kamika (Ariane Marchese)
 kam "...Hm... they both have dark energies about them."
@@ -453,6 +470,7 @@ voice "c-1-102.wav" #Kamika (Ariane Marchese)
 kam "I heard that, you muttering harlot!"
 
 #scene black with dissolve
+stop music fadeout 3.0
 scene black with dissolve
 "I overheard some kind of commotion going on back in the lecture hall. I stop in my tracks, mildly tempted to sneak a look."
 

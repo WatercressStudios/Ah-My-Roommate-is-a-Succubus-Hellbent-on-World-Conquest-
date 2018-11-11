@@ -490,7 +490,7 @@ kam "...Sure. Just... gimme a minute."
 "Kamika puts her hand over the phone and turns her sad eyes in my direction."
 
 voice "c-17i-126.wav" #Kamika (Ariane Marchese)
-kam "...I need to be alone for a little bit."
+kam "...I need to be alone for a bit."
 
 "She barely has any fight left in her. I can't even interpret it as a demand, just a soft plea..."
 

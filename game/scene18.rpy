@@ -173,7 +173,7 @@ voice "c-18-v.wav" #Kamika (Ariane Marchese)
 kam "I can do that. I'll give her the best signature I can, so that I'll always be touching her heart."
 
 voice "c-18-w.wav" #Kamika (Ariane Marchese)
-kam "Maybe even a little closer...~"
+kam "Maybe even closer...~"
 
 voice "c-18-x.wav" #Yumi (Kathy Pfautsch)
 yum "Don't push it."
@@ -319,7 +319,7 @@ voice "c-18-35.wav" #Kamika (Ariane Marchese)
 kam "The rest of my kind had no patience for someone who couldn't keep up with everyone else. In fact, they wanted nothing to do with me."
 
 voice "c-18-36.wav" #Kamika (Ariane Marchese)
-kam "They would always tease and taunt me over my weakness, and then they would say I'm worth nothing to anyone."
+kam "They would always tease and taunt me for my weakness, and then they would say I'm worth nothing to anyone."
 
 voice "c-18-37.wav" #Kamika (Ariane Marchese)
 kam "It was so frustrating to be told that over and over in my childhood... Eventually, I ended up believing what they said to me."
@@ -383,7 +383,7 @@ voice "c-18-55.wav" #Kamika (Ariane Marchese)
 kam "I made it very clear to her that I wanted the title of Lust, and she told me she would give it some serious thought."
 
 voice "c-18-56.wav" #Kamika (Ariane Marchese)
-kam "At the time I thought, 'this is my chance! This will show all those bitches who put me down in the past!' I couldn't wait to take my Demon of Lust title and shove it in their faces."
+kam "At the time I thought, 'this is my chance! This will show all the bitches who put me down in the past!' I couldn't wait to take my Demon of Lust title and shove it in their faces!"
 
 #show kam angry
 
@@ -403,7 +403,7 @@ voice "c-18-61.wav" #Kamika (Ariane Marchese)
 kam "I began thinking she had been making fun of me this whole time. Like she thought our entire friendship was a joke... and she thought I was no better than garbage."
 
 voice "c-18-62.wav" #Kamika (Ariane Marchese)
-kam "Then I started thinking about the others. They had so much better titles than I did; the only guy we got even got the Lust title all for himself!"
+kam "Then I started thinking about the others. They had so much better titles than I did; the only guy we got even got the title of Lust all for himself!"
 
 voice "c-18-63.wav" #Kamika (Ariane Marchese)
 kam "So why was I stuck with the ugliest title of all? Were they just out to get me? Did they really want to make me feel as horrible as I did all those years ago?"
@@ -424,7 +424,7 @@ voice "c-18-68.wav" #Kamika (Ariane Marchese)
 kam "'There's nothing else that's a better fit for you~!'"
 
 voice "c-18-69.wav" #Kamika (Ariane Marchese)
-kam "And... every single piece of rage and frustration boiled over in that moment, and I left the Sinful Stars for good."
+kam "And... every single piece of rage and frustration boiled over in that moment, and I left Sinful Stars for good."
 
 #show kam neutral
 
@@ -504,7 +504,7 @@ voice "c-18-90.wav" #Kamika (Ariane Marchese)
 kam "...I guess I could try. But just because I'm doing what I like doesn't mean people will pay attention."
 
 voice "c-18-91.wav" #Kamika (Ariane Marchese)
-kam "What if I do end up doing what I like, yet people still don't notice..."
+kam "What if I end up doing what I like, yet people still don't notice..."
 
 voice "c-18-92.wav" #Yumi (Kathy Pfautsch)
 yum "Well, if it comes to that, then I can help you get your name out there."

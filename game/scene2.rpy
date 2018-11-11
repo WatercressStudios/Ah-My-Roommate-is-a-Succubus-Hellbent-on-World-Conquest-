@@ -1,6 +1,7 @@
 label scene2:
-scene dormhallway
+scene dormhallway with dissolve
 
+play music happysong fadein 1.0
 "Soon enough, I found myself back outside my dorm room."
 "But it was strange... I've never felt {i}this{/i} exhausted after art history class."
 "It's supposed to be an easy credit, yeah? Mr. Deeks really needs to calm down about this stuff..."
@@ -9,7 +10,7 @@ scene dormhallway
 "...Whatever. It's not like thinking about it too hard is gonna make it any better. Besides, I can't be thinking about that when I have anatomy homework to deal with before next class."
 "I put my key into the lock, turn it, and enter my room."
 
-#scene dormroom
+scene dormroom with dissolve
 
 "As far as dorm rooms go, it's a pretty alright one."
 "I had requested the use of a single person dorm, when most of the dorms at this school are for two, or even four."
@@ -19,6 +20,7 @@ scene dormhallway
 voice "c-2-1.wav" #Yumi (Kathy Pfautsch)
 yum "...Huh?"
 
+stop music fadeout 1.0
 "...Something smells strange all of a sudden."
 "I can't tell if it's pleasant or revolting... is it coming from here?"
 "...No, couldn't be. I make absolutely sure to throw out my trash. It must be coming from someone else's room."
@@ -32,18 +34,17 @@ yum "It's like ten in the morning guys, come on..."
 "I mutter to myself. Whatever it was, it was invasive."
 "They could at least be more considerate of the other people in these dorms... If it keeps being a problem, I'll just let the RA know."
 
-scene dormroom with dissolve
+scene dormbed with dissolve
 
 "Shrugging it off as nothing, I enter my room to prepare myself for school work..."
 "And that's when... I found her."
 
 
-#show cg of Kamika looking normal lying in bed, giving viewer a sultry look, zorder 2
-
+play music kamseduce
 voice "c-2-4.wav" #Kamika (Ariane Marchese)
 kam "Hello there~!"
 
-show kamika u mad zorder 1
+show kamika u seduce zorder 1
 voice "c-2-5.wav" #Yumi (Kathy Pfautsch)
 yum "?!"
 
@@ -57,72 +58,92 @@ kam "You sure took your sweet time getting here. Don't you know it's rude to kee
 voice "c-2-7.wav" #Yumi (Kathy Pfautsch)
 yum "...Who are you? How did you get in here?"
 
+show kamika u happyclosed
 voice "c-2-8.wav" #Kamika (Ariane Marchese)
 kam "You {i}reeeally{/i} wanna know? Come a little closer and find out~"
 
 voice "c-2-9.wav" #Yumi (Kathy Pfautsch)
 yum "Wh-what? No, I... s-stop that this instant!"
 
+show kamika u seduce
 "She beckons me with her finger, which only infuriates me more. I clench my fist and march towards her."
 
 voice "c-2-10.wav" #Yumi (Kathy Pfautsch)
 yum "You are leaving {i}right now-{/i}"
 
+show kamika u seduceclosed
 voice "c-2-11.wav" #Kamika (Ariane Marchese)
 kam "Oooh, so fiesty~! Just relax, my dear~"
 
 "She sits up and, like a predator making its move, she grabs my chin with lightning speed. I freeze."
 
+show kamika u confident
 voice "c-2-12.wav" #Kamika (Ariane Marchese)
 kam "{i}Muuuch{/i} better~ Now, look into my eyes..."
 
 "She moves her hand to my cheek, staring at me right in the eyes. I shiver with fear, unsure of what she might do to me."
 
+show kamika u pout
 voice "c-2-13.wav" #Kamika (Ariane Marchese)
 kam "I've been watching you all day, you know. You must have been {i}oh-so-tired{/i} after this morning, right~?"
 
+show kamika u poutclosed
 voice "c-2-14.wav" #Kamika (Ariane Marchese)
 kam "The exhaustion overwhelms you like a tidal wave... your body {i}aches{/i} to let go and forget all your worries."
 
+show kamika u happy
 voice "c-2-15.wav" #Kamika (Ariane Marchese)
 kam "Yet ever since you saw me, you couldn't stop thinking about me. You've wanted to fall into my arms so badly, and forget about all your troubles."
 
+show kamika u seduce
 voice "c-2-16.wav" #Kamika (Ariane Marchese)
 kam "And now, like a moth to a flame, you've found your way to me, and I've allowed you to stay by my side~"
 
+show kamika u seducesquint
 voice "c-2-17.wav" #Kamika (Ariane Marchese)
 kam "It feels {i}sooo{/i} nice to know your place, doesn't it~?"
 
+show kamika u licklips
 voice "c-2-18.wav" #Kamika (Ariane Marchese)
 kam "Well, you won't have to worry about a thing anymore; I'll take care of everything for you~"
 
 "She whispers sweetly into my ear as she strokes my cheek."
+
+show kamika u confident
 "I can barely understand what she's saying, nor do I feel like I want to. I feel like I've wandered into a nightmare."
 
+show kamika happyclosed
 voice "c-2-19.wav" #Kamika (Ariane Marchese)
 kam "Well? Do you have anything to say to me, darling~?"
 
 "She waits ever so patiently for my response. And then I say..."
 
+stop music fadeout 1.0
 voice "c-2-20.wav" #Yumi (Kathy Pfautsch)
 yum "...What the hell is that smell?"
 
 #show Kamika looking shocked/confused in CG
 
+
+show kamika wideeyes
 voice "c-2-21.wav" #Kamika (Ariane Marchese)
 kam "What?"
 
 voice "c-2-22.wav" #Yumi (Kathy Pfautsch)
 yum "(sniff) {i}UGH{/i}, it {i}STINKS!!{/i} Good God, I'm gonna puke!"
 
-#fade CG
-#scene bedroom
+#sfx: shove
+show kamika u exclaim
+hide kamika with dissolve
 
 "I push the girl away and plug my nose to get that vile stench out of my head."
 "No doubt about it, it's the same smell from before, only now it's gotten even stronger and more repulsive than ever! How did it even {i}get{/i} like this?!"
 
-#show kam annoyed
 
+show kamika u mad zorder 2 with easeinright:
+    align (0.3, 1.0)
+
+play music kamtheme fadein 1.0
 voice "c-2-23.wav" #Kamika (Ariane Marchese)
 kam "Hey! What's your problem?! Haven't you ever heard of mood-setting before?!"
 
@@ -139,30 +160,38 @@ kam "Jeez, you are {i}so{/i} ungrateful! And after all the hard work I spent spi
 voice "c-2-27.wav" #Yumi (Kathy Pfautsch)
 yum "Wait... that was {i}YOU?!{/i} You're smoking weed at ten in the morning aren't you!?"
 
-show kamika u sigh
+show kamika u sigh with easeinleft:
+    align (0.5, 1.0)
 voice "c-2-28.wav" #Kamika (Ariane Marchese)
 kam "Are you even listening!? God, you're stupid..."
 
 #kamika shows devilish features
 #show kam confident
-show pinkfog zorder 3
+show sexfogfront zorder 4 with dissolve
+show sexfogback zorder 1 with dissolve
 #sfx: poof
 
 "A puff of pink smoke appears around her. I can barely make out anything through the thick fog!"
 
-show transformhuman zorder 2 with dissolve
+show transformhuman zorder 3 with dissolve
+hide kamika
 "I have to squint to make out any details. It was hard to make out her form."
 
-show transformdemon zorder 2 with dissolve
+show transformdemon zorder 3 with dissolve
 hide transformhuman
-show kamika d confident
+show kamika d confident zorder 2
+hide sexffront with dissolve
 "...Was it changing?? No, no, that's insane. What even is all this??"
-hide transformdemon with dissolve
-"...I was getting a very bad feeling about this..."
+show white zorder 5 with dissolve
+hide sexfogfront
+hide sexfogback
+hide transformdemon
+"A flash of light blinded me! I was getting a very bad feeling about this..."
 
+hide white with dissolve
 #sfx: swish
-hide pinkfog with dissolve
-"Before long, the fog had dissipated entirely, revealing Kamika once more."
+"When my vision returned, the fog had dissipated entirely, revealing Kamika once more."
+
 "...I think it was Kamika, but... Her outfit was completely different! So revealing! I hope her mother didn't pick that outfit out for her..."
 "Well, okay, she wasn't {i}entirely{/i} different, but she didn't have those horns before. Or wings... or that tail..."
 "...Wait a second. No, it couldn't be..."
@@ -206,6 +235,7 @@ yum "{i}Fuck{/i}, I'm... I'm getting the RA!"
 
 #show kam yelling
 
+stop music fadeout 1.0
 show kamika d surprise
 voice "c-2-38.wav" #Kamika (Ariane Marchese)
 kam "H-hey, wait just a second!"
@@ -213,7 +243,7 @@ kam "H-hey, wait just a second!"
 voice "c-2-39.wav" #Yumi (Kathy Pfautsch)
 yum "Shut up and stay here! Open a window or something, just, get rid of this smell before I get back!"
 
-scene dormhallway
+scene dormhallway with dissolve
 
 "Her demands falling on deaf ears, I storm out of my room and straight to the Resident Assistant's room."
 "I haven't seen a whole lot of him and I've never felt the need to get his assistance before, but there's never been a better time than now."
@@ -221,6 +251,7 @@ scene dormhallway
 
 #show moe annoyed
 
+play music funkyjam fadein 1.0
 show moe neutral with dissolve
 voice "c-2-40.wav" #Moe (CJ Heineman)
 moe "What is it? I'm in the middle of something."
@@ -323,6 +354,7 @@ voice "c-2-61.wav" #Yumi (Kathy Pfautsch)
 yum "...H-hey wait, we aren't done yet-"
 
 hide moe with dissolve
+stop music
 #sfx door close
 
 voice "c-2-62.wav" #Yumi (Kathy Pfautsch)

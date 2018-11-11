@@ -1,5 +1,5 @@
 label scene8:
-scene black
+scene black with dissolve
 
 "..."
 "This is definitely one of the most restless nights I've had in a long while."
@@ -22,6 +22,7 @@ scene black
 voice "c-8-1.wav" #Kamika (Ariane Marchese)
 kam "It's almost time, Yumi~"
 
+play music kamevil fadein 1.0
 "...My eyes dare not open."
 "Is this a dream? Or am I awake right now? I'll regret the answer either way, so I try not to think about it."
 "But the voice in my head continues."
@@ -105,9 +106,11 @@ label s8merge:
 "Every part of my brain is rife with indecision... but against my better judgement, my eyes slowly open anyways."
 "And what I find..."
 
-#CG: show CG of Kamika lying in bed, giving viewer a sultry look
+show kamikabed1 with dissolve
 
 "...is Kamika."
+
+play music kamseduce fadein 1.0
 "She's not just whispering to me... she's cuddling up to me! In my own bed! After I {i}just{/i} told her not to touch me!"
 "She doesn't even have a hint of remorse on her face as she smiles at me!"
 
@@ -115,14 +118,17 @@ voice "c-8-22.wav" #Kamika (Ariane Marchese)
 kam "Good morning, my dear~"
 
 "Rage overtakes me in an instant. I've dealt with this shit enough already!"
+
+show kamikabed2
 "My eyes fling open, and before I know it, I'm flinging a pillow at her while screaming at her face."
 
 #CG: show pillow being thrown at Kamika's face in CG
 
+show dormbed with vpunch
+stop music
+
 voice "c-8-23.wav" #Yumi (Kathy Pfautsch)
 yum "{i}GET OFF!!!{/i}"
-
-show bedroom with dissolve
 
 "The force of my throw sends Kamika tumbling onto the floor."
 "Meanwhile, I'm left huffing and puffing, clearly wide awake now and not putting my consciousness through anymore torture."
@@ -130,6 +136,7 @@ show bedroom with dissolve
 
 show kamika u angrysurprise with dissolve
 
+play music wordfight fadein 1.0
 voice "c-8-24.wav" #Kamika (Ariane Marchese)
 kam "Oww...! That {i}hurt{/i}, god dammit! Is that how you {i}thank{/i} people for waking you up?!"
 
@@ -185,10 +192,12 @@ hide kamika with easeoutright
 voice "c-8-33.wav" #Yumi (Kathy Pfautsch)
 yum "Wait!"
 
+stop music fadeout 1.0
 "And with that, she darts away, leaving me to fend for myself."
 "This is bad. I can't let her go off on her own without knowing what she has planned!"
 "But I can't just skip class either... my good standing and perfect attendance won't allow it!"
 "As much as I hate to admit it, I don't have a lot of choice right now... I'll have to deal with her later in the day."
+scene black with dissolve
 "For now, I get dressed and make haste towards my morning classes..."
 
 jump scene9i
@@ -217,10 +226,12 @@ voice "c-8-37.wav" #Kamika (Ariane Marchese)
 kam "I'll go and get things ready! Toodles~!"
 
 hide kamika with easeoutright
-
+stop music fadeout 1.0
 "And with that, she darts away."
 "I have her word that she won't try anything funny while on her own, but how much does that really mean when it's {i}Kamika{/i} we're talking about?"
 "Either way, I don't really have a choice right now. I'll go to class as normal, then go along with her dumb idea later."
+
+scene black with dissolve
 "For now, I get dressed and make haste towards my morning class..."
 
 jump scene9ii

@@ -9,6 +9,7 @@ kam "Unbelievable!"
 
 #show kam angry
 
+play music happysong fadein 1.0
 "...she appears once again."
 
 voice "c-3-2.wav" #Kamika (Ariane Marchese)
@@ -72,7 +73,7 @@ yum "'A place to stay...?'"
 
 show kamika smug
 voice "c-3-12.wav" #Kamika (Ariane Marchese)
-kam "Of course! I happened to learn that the Salem School for Calligraphy, Art, and Music is the perfect breeding ground for... "
+kam "Of course! I happened to learn that the Salem School of Calligraphy, Art, and Music is the perfect breeding ground for... "
 
 show kamika d evilgrin
 extend "{i}impressionable{/i} minds~"
@@ -129,10 +130,16 @@ kam "What, you mean you {i}don't{/i} know? "
 show kamika d sigh
 extend "Perhaps you really {i}are{/i} stupid after all!"
 
-#show CG of kam's introduction
+stop music fadeout 1.0
+"She took a deep breath. Oh boy, I hope this isn't going where I think it's going..."
 
+show kamikaintro with dissolve
+
+play music kamtheme fadein 1.0
 voice "c-3-23.wav" #Kamika (Ariane Marchese)
 kam "Honestly, who {i}hasn't{/i} heard of me by this point?"
+
+"Yup. It is."
 
 voice "c-3-24.wav" #Kamika (Ariane Marchese)
 kam "'The Breakout Sinful Star,' 'The Empress of Erotica,' 'The Dame of All Your Desires...' I just have too many accolades to count~!"
@@ -143,10 +150,10 @@ kam "I am the most alluring and powerful force in this world! I am a goddess unp
 
 "...Alright, now I {i}know{/i} this girl is crazy."
 
-#fade CG
+hide kamikaintro with dissolve
 #show kam confident
 
-
+stop music fadeout 1.0
 voice "c-3-26.wav" #Kamika (Ariane Marchese)
 kam "What do you think, my little servant~? I have an impressive resume, right~?"
 
@@ -170,6 +177,7 @@ yum "Stop that right now."
 
 show kamika d neutralclosed
 
+#music: find a neutral song from CC
 voice "c-3-32.wav" #Kamika (Ariane Marchese)
 kam "Fine, fine, whatever helps you sleep at night."
 
@@ -215,7 +223,7 @@ kam "And like it or not, {i}your{/i} room was the only one they could squeeze me
 show kamika d confident
 
 voice "c-3-42.wav" #Kamika (Ariane Marchese)
-kam "Which {i}means{/i} as far as the school's concerned, I'm just a regular student now. And kicking me out of {i}my{/i} dorm room is grounds for drastic measures, you know."
+kam "Which {i}means{/i} as far as the school's concerned, I'm just a regular student now. And kicking me out of {i}my{/i} dorm is grounds for drastic measures, you know."
 
 voice "c-3-43.wav" #Yumi (Kathy Pfautsch)
 yum "But... That's not... You... {i}Aaagh!!{/i}"
@@ -277,6 +285,7 @@ extend "Let's talk about you!~"
 voice "c-3-55.wav" #Yumi (Kathy Pfautsch)
 yum "I... beg your pardon?"
 
+play music kamevil fadein 1.0
 show kamika d confidentclosed
 voice "c-3-56.wav" #Kamika (Ariane Marchese)
 kam "Just now, I felt a spark between us. The way you carry yourself with confidence and resolve... "
@@ -310,6 +319,7 @@ menu:
 
 #show kam annoyed
 
+stop music fadeout 1.0
 label s3deny:
 show kamika d surprise
 "I grabbed Kamika's hand and removed it from my chin."
@@ -329,6 +339,7 @@ kam "'Vexatious-' {i}Me?!{/i} You have {i}some{/i} nerve calling your future emp
 show kamika d shoutclosed
 extend " a... whatever that was!"
 
+play music happysong fadein 1.0
 show kamika d glare
 voice "c-3-63.wav" #Kamika (Ariane Marchese)
 kam "I ought to punish you for even {i}thinking{/i} about disgracing my name like that...!"
@@ -350,6 +361,7 @@ jump s3merge
 label s3accept:
 #BRANCH: dialogue path from ">>Begrudgingly accept her offer"
 
+stop music fadeout 1.0
 show kamika d wideeyes
 "I cautiously remove Kamika's hand from my chin and let out a sigh."
 
@@ -384,6 +396,7 @@ show kamika d glare
 voice "c-3-72.wav" #Kamika (Ariane Marchese)
 kam "Humph! Killjoy."
 
+play music happysong fadein 1.0
 "Even when I try to get on her good side, she's not satisfied unless it's exactly how {i}she{/i} wants it!"
 "How in the world did I end up with the most annoying and demanding demon the underworld has ever produced?!"
 jump s3merge
@@ -429,7 +442,8 @@ yum "I never liked spicy things, so no thanks."
 show kamika d glare
 "Not even bothering to look at Kamika at this point, I start to make my way out of the dorm room."
 
-scene dormhallway with dissolve
+scene black with dissolve
+stop music fadeout 2.0
 "I don't even want to think about all the trouble she might get herself into while I'm away... I just have to hope and pray that it doesn't amount to anything."
 "And besides, thinking about all this isn't going to do me any good, especially when it comes to my next class..."
 

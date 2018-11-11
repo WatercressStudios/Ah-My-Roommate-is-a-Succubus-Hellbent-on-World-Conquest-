@@ -1,5 +1,4 @@
 label scene10:
-scene campus
 
 show lucca nervous with easeinleft:
     align (0.40, 1.0)
@@ -23,14 +22,17 @@ luc "N-no. I'm a little... a little tired after all that, so I'm gonna head back
 voice "c-10-6.wav" #Yumi (Kathy Pfautsch)
 yum "Later."
 
+stop music fadeout 1.0
 hide lucca with easeoutright
 "She heads off, leaving me alone. But not for too long."
+
 
 show stacey neutral with easeinleft:
     align (0.40, 1.0)
 voice "c-10-7.wav" #Stacey (Ashe Thurman)
 sta "'Sup."
 
+play music staceytheme fadein 1.0
 voice "c-10-8.wav" #Yumi (Kathy Pfautsch)
 yum "Oh. hey, Stacey. Enjoy the show?"
 
@@ -59,7 +61,7 @@ voice "c-10-14.wav" #Stacey (Ashe Thurman)
 sta "So is it me or were you chatting up the star of the show back there."
 
 voice "c-10-15.wav" #Yumi (Kathy Pfautsch)
-yum "Oh god, don't even get me started on her."
+yum "Oh God, don't even get me started on her."
 
 show stacey smug
 voice "c-10-16.wav" #Stacey (Ashe Thurman)
@@ -246,6 +248,7 @@ show stacey smug
 voice "c-10-67.wav" #Stacey (Ashe Thurman)
 sta "Oooooooooooooooooooooooooooohhhhhhh. Like Moe!"
 
+stop music
 voice "c-10-68.wav" #Yumi (Kathy Pfautsch)
 yum "I- That- I don't- What?"
 
@@ -265,6 +268,7 @@ sta "Otherwise hell would get really smokey. I'll have to ask."
 voice "c-10-72.wav" #Yumi (Kathy Pfautsch)
 yum "You mean you actually believe me?"
 
+play music happysong fadein 1.0
 voice "c-10-73.wav" #Stacey (Ashe Thurman)
 sta "Totes. And this kinda sounds like a problem, actually."
 

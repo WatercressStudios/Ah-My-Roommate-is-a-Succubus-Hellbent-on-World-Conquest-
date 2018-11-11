@@ -1,6 +1,7 @@
 label scene9i:
 scene classroom with dissolve
 
+play music funkyjam fadein 1.0
 "Something about class this morning... really doesn't feel right. I have this low, humming feeling of dread deep in my gut, as though I'm slowly realizing I overdrafted my bank account."
 
 "When I was gathering my things, a classmate I didn't recognize came up to me to tell me they thought the question I asked during the lecture was really smart."
@@ -9,8 +10,8 @@ scene classroom with dissolve
 
 "Ugh, it's all these demons... they're getting in my head, I guess. Which, come to think of it, is pretty much what people expect demons to do."
 
-scene campus with dissolve
-"After class, I head back towards the dorm rooms, but I don't get far before I'm distracted by a particular ten-gallon hat hurrying towards my position."
+scene classhallway with dissolve
+"After class, I opt to head back to the dorms, but I don't get far before I'm distracted by a particular ten-gallon hat hurrying towards my position."
 
 "That can't be good... God, I knew it. I {i}knew{/i} there was going to be another shoe dropping today."
 
@@ -72,6 +73,7 @@ scene plaza with dissolve
 
 "As we're rushing along, a thought pops into my head, and I puzzle over it silently before giving the words form."
 
+stop music fadeout 1.0
 voice "c-9i-12.wav" #Yumi (Kathy Pfautsch)
 yum "Hey, Lucca?"
 
@@ -85,6 +87,7 @@ yum "That Kamika... she can't {i}really{/i} do anything horrible, can she? I mea
 show lucca guilty
 "A vaguely apologetic expression crosses her face, and I realize the reassurance I'm seeking isn't on its way."
 
+play music kamtheme fadein 1.0
 voice "c-9i-15.wav" #Lucca (Victoria Wong)
 luc "Well... There are t-technically certain avenues by which she c-could succeed..."
 
@@ -150,6 +153,7 @@ show lucca bashful
 voice "c-9i-31.wav" #Lucca (Victoria Wong)
 luc "P-please, try not to worry about it... That sort of thing doesn't h-happen very often anymore, because they're so hard to c-cover up."
 
+stop music fadeout 1.0
 "Literally everything that just came out of Lucca's mouth is absolutely the worst."
 
 "As I quietly walk alongside her, I realize that I will never be able to learn about some unusual tragedy again without quietly wondering if the official story's just a smokescreen for a messily smote demon."
@@ -160,6 +164,7 @@ luc "P-please, try not to worry about it... That sort of thing doesn't h-happen 
 
 "When this is over and done with, I swear I'm going to see what my options are for a lobotomy."
 
+play music happysong fadein 1.0
 show lucca happyclosed
 voice "c-9i-32.wav" #Lucca (Victoria Wong)
 luc "Anyway, if you're concerned, maybe w-we should team up? A-and figure out a plan to h-handle her?"
@@ -298,9 +303,11 @@ yum "Right, I knew that. Of course."
 hide lucca with dissolve
 "I mean, if nothing else, her singing in the shower didn't have any effect on me, so I probably could have guessed that."
 
+stop music fadeout 1.0
 show kamika u confident flip with easeinright
 "As we're discussing amongst ourselves what her dastardly agenda might be, Kamika steps to the front of the platform with a microphone, looking for all the world as smug as a politician that just stole an election."
 
+play music kamtheme fadein 1.0
 show kamika u happy flip
 voice "c-9i-56.wav" #Kamika (Ariane Marchese)
 kam "Hello there, my dears~! It is I, the one and only Kamika Malagic~!"
@@ -316,6 +323,7 @@ kam "I'm here to give the students of the Salem School for Calligraphy, Art, and
 ##SFX: The worst sound fucking imaginable
 show kamika u wideeyes flip with hpunch
 
+stop music fadeout 1.0
 voice "c-9i-58.wav" #Yumi (Kathy Pfautsch)
 yum "Ack!!"
 
@@ -374,6 +382,7 @@ kam "No. No! This can't be happening!"
 
 "For a second, she remains huddled over the deactivated stereo equipment like a child whose dog just got run over."
 
+#music: pick something neutral later
 "It's a sad tableau that remains undisturbed until some guy in the crowd sheepishly approaches her."
 
 voice "c-9i-68.wav" #Male Student (???)
@@ -407,6 +416,7 @@ kam "{i}You!{/i} You {i}contemptible{/i} little reprobate!"
 voice "c-9i-71.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Me?!{/i} What the hell did {i}I{/i} do?"
 
+play music wordfight fadein 1.0
 show kamika u mad
 voice "c-9i-72.wav" #Kamika (Ariane Marchese)
 kam "You {i}stood{/i} there and beheld your own {i}incompetence{/i} written large, like the insect you are, and set back my ascension immeasurably!"
@@ -452,52 +462,56 @@ show lucca madclosed
 voice "c-9i-80.wav" #Lucca (Victoria Wong)
 luc "I don't even kn-know what you're talking about, but..."
 
-show kamika u glare flip
+show jojo1 with dissolve
+#show kamika u glare flip
 voice "c-9i-81.wav" #Kamika (Ariane Marchese)
 kam "I see now that it was misguided to blame this defeat upon my intended minion. How confused must she have been, with all the {i}susurrous seditions{/i} you've been hissing into her virgin ears!"
 
 voice "c-9i-82.wav" #Yumi (Kathy Pfautsch)
 yum "...Um."
-
-show lucca madclosed
+#show lucca madclosed
 voice "c-9i-83.wav" #Lucca (Victoria Wong)
 luc "Or m-maybe she's just a normal g-girl that doesn't want any part of your harebrained schemes. Did y-y-you consider that?"
 
-show kamika u confident flip
+#show kamika u confident flip
 voice "c-9i-84.wav" #Kamika (Ariane Marchese)
 kam "Pfft. Save your breath, deceiver. I've heard enough of your poison to drown an eternity."
 
-show kamika u confidentclosed flip
+#show kamika u confidentclosed flip
 voice "c-9i-85.wav" #Kamika (Ariane Marchese)
 kam "Or do you think I didn't learn of your last little insult?"
 
-show kamika u nervous flip
+#show kamika u nervous flip
 voice "c-9i-86.wav" #Lucca (Victoria Wong)
 luc "What are you even t-talking about?"
 
-show kamika u mad flip
+show jojo2
+hide jojo1
+#show kamika u mad flip
 voice "c-9i-87.wav" #Kamika (Ariane Marchese)
 kam "Oh, please, as if it were anything but wanton mockery when you'd brought that grungy skink into your collective."
 
 voice "c-9i-88.wav" #Yumi (Kathy Pfautsch)
 yum "...Don't you mean \"skank\"?"
 
-show kamika u glare flip
+#show kamika u glare flip
 voice "c-9i-89.wav" #Kamika (Ariane Marchese)
 kam "Did I stutter, mortal?"
 
-show kamika u sigh flip
+#show kamika u sigh flip
 voice "c-9i-90.wav" #Lucca (Victoria Wong)
 luc "Levi? Levi's not a m-{i}mockery{/i} of you! People aren't mockeries of {i}other people{/i}, Kamika!"
 
-show kamika u madclosed flip
+#show kamika u madclosed flip
 voice "c-9i-91.wav" #Lucca (Victoria Wong)
 luc "What do you care, really? You'll just h-h-hate anything that gives you an excuse to feel slighted."
 
-show kamika u madclosed flip
+#show kamika u madclosed flip
 voice "c-9i-92.wav" #Kamika (Ariane Marchese)
 kam "Forget it. There's no talking to you, you horrible little {i}hag{/i}."
 
+hide jojo2 with dissolve
+stop music fadeout 1.0
 show kamika u evilsmile flip
 show lucca mad
 voice "c-9i-93.wav" #Kamika (Ariane Marchese)
@@ -528,7 +542,7 @@ voice "c-9i-98.wav" #Yumi (Kathy Pfautsch)
 yum "Still, what you did, staring her down like that, was pretty cool."
 
 ## Lucca blushing surprised
-
+play music luccatheme fadein 1.0
 show lucca bashful
 voice "c-9i-99.wav" #Lucca (Victoria Wong)
 luc "Oh... Oh my. I didn't r-realize - I just couldn't stand her at-t-tacking you like that..."

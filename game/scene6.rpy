@@ -1,6 +1,6 @@
 label scene6:
-scene campus with dissolve
-
+scene classhallway with dissolve
+play music happysong fadein 1.0
 #MEMO: Replace all instances of S-Tan hyphen with the star later
 "Hastily, I glide out through the dorm corridor, weaving around the other students just milling outside their doors lazily, like children sitting on a stoop."
 
@@ -20,14 +20,17 @@ scene campus with dissolve
 
 "The elevator takes infuriatingly long to arrive, particularly given that there aren't that many floors in this building, but eventually it reaches my floor with a droll little chime and I slip between the parting doors."
 
-"I take it all the way down to the lobby, blow past the tired upperclassman studying at the reception desk, and loop all the way back around the building to an unphotogenic alcove concealing a bunch of overstuffed dumpsters."
+"I take it all the way down to the lobby, blow past the tired upperclassman studying at the reception desk, and loop all the way back around the building..."
+
+scene dumpsters with dissolve
+"... to an unphotogenic alcove concealing a bunch of overstuffed dumpsters."
 
 "Good grief, do American college students generate a lot of garbage. "
 
 "Still, nobody will see or eavesdrop on me here, which is good... I'll die before I let anyone witness what I'm about to do."
 
 
-"...I'm about to given Satan a phone call."
+"...I'm about to given Satan a phone call. She gave me and my brother her business card. I wish I still had it..."
 
 voice "c-6-1.wav" #Yumi (Kathy Pfautsch)
 yum "Wait... do I even have her number saved?"
@@ -40,7 +43,7 @@ yum "Wait... do I even have her number saved?"
 
 voice "c-6-2.wav" #Yumi (Kathy Pfautsch)
 yum "...Her number's just a bunch of sixes, isn't it."
-
+stop music fadeout 2.0
 "Feeling like an idiot, I briskly open my flip-phone,  jam the \"6\" button until I get bored, and just send the call."
 
 show phonedefault with dissolve
@@ -49,6 +52,7 @@ show phonedefault with dissolve
 show phone1 stanclosed
 show phone yumisurprise
 hide phonedefault
+play music stantheme fadein 1.0
 voice "c-6-3.wav" #S-Tan (Dani Chambers)
 sat "Hiya! It's me! S-Tan! You've called the official hotline of Hell's top idol group, the Sinful Stars!"
 
@@ -124,7 +128,8 @@ show phoneyumi sigh
 voice "c-6-18.wav" #Yumi (Kathy Pfautsch)
 yum "Yes! Okay! That's the one I want!"
 
-
+stop music
+play music holdmusic fadein 1.0
 show phone1 calling
 "After a pause, the phone mercifully begins ringing an actual sentient being, and I heave a sigh of relief."
 
@@ -439,6 +444,7 @@ voice "c-6-84.wav" #Yumi (Kathy Pfautsch)
 yum "Satan! There's a crazy succubus named Kamika in my dorm room and I need to be rid of her literally {i}yesterday!{/i} And frankly-"
 
 #sfx: beep
+stop music fadeout 1.0
 "{i}~Beep~{/i}"
 
 show phone1 stanclosed
@@ -448,10 +454,7 @@ sat "Message received! Thank you for supporting me: S-Tan! Byeeeeeeee!"
 show phoneyumi annoyed
 "As the phone call ends, I find myself swept with a sudden impulse to set fire to the entire state."
 
-show phoneyumi sigh
-"That might actually be preferable to the long-term damage this demon is going to do to my life..."
-
-scene rooftop
+scene dumpsters with dissolve
 "If the others aren't going to help me, what else can I even do? It's not exactly like I can call the police on my roommate for being a demon."
 
 "Also, being known throughout campus as the girl who called the police on her roommate wouldn't exactly save my reputation."
@@ -473,6 +476,7 @@ sta "Um?"
 voice "c-6-88.wav" #Yumi (Kathy Pfautsch)
 yum "Oh!"
 
+play music staceytheme fadein 1.0
 "Stacey's standing by the open dumpster, holding a bag of trash with a very surprised look on her face."
 
 show stacey smuglook

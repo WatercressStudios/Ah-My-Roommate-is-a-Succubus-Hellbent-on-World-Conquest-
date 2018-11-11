@@ -31,7 +31,9 @@ sta "Sureee."
 voice "c-7ii-5.wav" #Yumi (Kathy Pfautsch)
 yum "R-right..."
 
-hide stacey with dissolve
+scene cafe with dissolve
+play ambient cafeamb fadein 3.0
+play music funkyjam fadein 1.0
 
 "I gather my stuff, art materials and all, and we head out. It's only a short walk to the campus cafe, and from what I've heard, the coffee here is at least half decent."
 
@@ -194,6 +196,8 @@ sta "Yeah."
 voice "c-7ii-45.wav" #Yumi (Kathy Pfautsch)
 yum "Hey!"
 
+stop music
+stop ambient
 show stacey smug
 voice "c-7ii-46.wav" #Stacey (Ashe Thurman)
 sta "I'm thinking of killing a few people, too."
@@ -221,6 +225,7 @@ sta "Yeah. Especially when the character's a reader favorite."
 voice "c-7ii-53.wav" #Yumi (Kathy Pfautsch)
 yum "Wait."
 
+play music staceytheme fadein 1.0
 show stacey smug
 voice "c-7ii-54.wav" #Stacey (Ashe Thurman)
 sta "Yeah. Actually, if you want to help, we could do a reading of the first part of the script right now."
@@ -269,8 +274,10 @@ show stacey smug
 voice "c-7ii-64.wav" #Stacey (Ashe Thurman)
 sta "Yeah."
 
+stop music fadeout 1.0
 "I squint my eyes, finally making some sense of the first few lines."
 
+play music dramamusic fadein 1.0
 voice "c-7ii-65.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Oh, my dear prince, I have failed you! How can I ever make this up to you?{/i}"
 
@@ -292,6 +299,7 @@ sta "{i}Yes, young one. You won't.{/i}"
 
 "Wait."
 
+stop music fadeout 1.0
 voice "c-7ii-70.wav" #Yumi (Kathy Pfautsch)
 yum "...You killed my character. Why'd we run the one part of the script where {i}the character I play{/i} dies?? "
 
@@ -312,6 +320,7 @@ sta "No."
 voice "c-7ii-75.wav" #Yumi (Kathy Pfautsch)
 yum "You masochist."
 
+play music staceytheme fadein 1.0
 show stacey eyebrow
 voice "c-7ii-76.wav" #Stacey (Ashe Thurman)
 sta "Hey, don't blame me. It's the main character's fault. {i}He's{/i} the masochist."
@@ -373,6 +382,7 @@ hide stacey with dissolve
 
 "After some chiding by me, Stacey pulls her chair back to her original position and gets to work on her own stuff."
 
+scene black with dissolve
 "I look at my own project, and sigh. I've got a long ways to go."
 
 jump scene7i

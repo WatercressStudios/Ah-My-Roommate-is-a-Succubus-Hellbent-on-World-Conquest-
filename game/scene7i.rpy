@@ -1,6 +1,7 @@
 label scene7i:
-scene campus
+scene outsideschool with dissolve
 
+#music: might need something tranquil
 #MEMO: Replace all instances of S-Tan hyphen with the star later
 "It's as I'm heading back up to the dorms that I recognize a certain ridiculous cowboy hat furtively sneaking into the distance."
 
@@ -14,6 +15,7 @@ scene campus
 
 "Making my way down the sidewalk, I notice that the road wends into the trees, creating a canopy-like effect. After I've been walking for a minute or two, I realize that that's all I can see anymore."
 
+scene foresttrail with dissolve
 "Nothing but trees, and a road that seems to get more poorly-maintained the further I walk along it."
 
 "It's vaguely spooky... but, somehow, knowing I'm following a {i}demon{/i} into it just makes the moment feel farcical."
@@ -26,17 +28,18 @@ scene campus
 
 "Only a few minutes of walking later, the trees part, and in the clearing, I see something I never would have expected to see:"
 
-"...Dorms."
+scene graffitiwoods with dissolve
+"...A row of barricades, covered in graffiti. Were they constructing something back here?"
 
-"Yep, these buildings are definitely student housing... though I've never heard of them."
+"If they were, it looks like the workers were long gone. Nobody's working here, and everything looked so worn down."
 
 "The metal railing and scaffolding leading to the second floor is totally rusted over, and the concrete stairways are literally crumbling - there's literally piles of rocky debris at the bottom of the steps, the way upstairs blocked off by construction tape."
 
 "Around them, the grass around them is totally unmowed, the tall underbrush threatened to encroach into the covered walkways. It's like a tableau of growth and decay."
 
-"I guess these buildings have been... decommissioned, or condemned. Clearly, nobody's lived in this ghost town for a while."
+"I guess if they were building something back here, they cancelled the order long ago. What a waste. What an eyesore."
 
-"Well, except for the various deer I can see grazing off in the distance. I guess they like this place, since it's so quiet and undisturbed."
+"In the corner of my eye, I spot a deer grazing off in the distance. I guess they like this place, since it's so quiet and undisturbed."
 
 "Maybe this is where Kamika was squatting before she decided to invade my living space..."
 
@@ -60,6 +63,7 @@ show lucca bigaaaa
 voice "c-7i-2.wav" #Lucca (Victoria Wong)
 luc "YAAH!"
 
+play music luccatheme fadein 1.0
 show lucca doh
 "She pops up from her poised position like a released spring and slashes in my direction with the can, as though brandishing a longsword."
 
@@ -323,6 +327,7 @@ luc "Y-yes! I look forward to it!"
 voice "c-7i-41.wav" #Yumi (Kathy Pfautsch)
 yum "Me, too."
 
+stop music fadeout 1.0
 "And I am, a lot more than I was before I headed out here..."
 
 jump scene7iii

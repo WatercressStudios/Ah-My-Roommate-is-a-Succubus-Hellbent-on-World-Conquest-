@@ -134,7 +134,7 @@ sta "I mean, even if she spiked the punch with like, rum or whatever, we're all 
 
 show kamika u evilgrin flip
 voice "c-15-29.wav" #Kamika (Ariane Marchese)
-kam "Mmhmhmhm~... yes. Rum. Precisely. And a {i}very special ingredient!~{/i}"
+kam "Mhm, mhm, mhm~... yes. Rum. Precisely. And a {i}very special ingredient!~{/i}"
 
 voice "c-15-30.wav" #Yumi (Kathy Pfautsch)
 yum "...Oh my God that's actually disgusting. And unsanitary."

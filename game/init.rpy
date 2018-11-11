@@ -209,6 +209,24 @@ init python:
     MapEmote('kamika d seducetongue', 'kamika pose1 base m lick ed default brow sad')
     MapEmote('kamika u stew', 'kamika pose1 base mc baka ed default brow mad')
     MapEmote('kamika d stew', 'kamika pose1 base mc baka ed default brow mad')
+    MapEmote('kamika u quietsquint', 'kamika pose1 public md default ed squint brow sad')
+    MapEmote('kamika d quietsquint', 'kamika pose1 base md default ed squint brow sad')
+    MapEmote('kamika u shock', 'kamika pose1 public md default ed default brow surprise')
+    MapEmote('kamika d shock', 'kamika pose1 base md default ed default brow surprise')
+    MapEmote('kamika u quietclosed', 'kamika pose1 public md default ec default brow sad')
+    MapEmote('kamika d quietclosed', 'kamika pose1 base md default ec default brow sad')
+    MapEmote('kamika u sob', 'kamika pose1 public md default ed default brow sad cry 3')
+    MapEmote('kamika d sob', 'kamika pose1 base md default ed default brow sad cry 3')
+    MapEmote('kamika u sobsquint', 'kamika pose1 public md default ed squint brow sad cry 3')
+    MapEmote('kamika d sobsquint', 'kamika pose1 base md default ed squint brow sad cry 3')
+    MapEmote('kamika u screamclosed', 'kamika pose1 public md mad ec happy brow mad')
+    MapEmote('kamika d screamclosed', 'kamika pose1 base md mad ec happy brow mad')
+    MapEmote('kamika u madcry', 'kamika pose1 public md mad ed default brow mad cry 2')
+    MapEmote('kamika d madcry', 'kamika pose1 base md mad ed default brow mad cry 2')
+    MapEmote('kamika u madcrysquint', 'kamika pose1 public md mad ed squint brow mad cry 3')
+    MapEmote('kamika d madcrysquint', 'kamika pose1 base md mad ed squint brow mad cry 3')
+    MapEmote('kamika u surprisecry', 'kamika pose1 public md default ed default brow surprise cry 2')
+    MapEmote('kamika d surprisecry', 'kamika pose1 base md default ed default brow surprise cry 2')
 
 #MINOR CHARACTERS
 define dee = Character('Mr. Deeks', color="#FFFFFF", voice_tag="dee")
@@ -231,6 +249,23 @@ default lucca_points = 0
 ##################
 # BG Declaration #
 ##################
+
+image cafe = "bgs/cafe.png"
+image classroom = "bgs/classroom.png"
+image dormbed = "bgs/dormbed.png"
+image dormhallway = "bgs/dormhallway.png"
+image dormroom = "bgs/dormroom.png"
+image lecturehall = "bgs/lecturehall.png"
+image outsidedorm = "bgs/outsidedorm.png"
+image outsideschool = "bgs/outsideschool.png"
+image paintingroom = "bgs/paintingroom.png"
+image rooftopnight = "bgs/rooftopnight.png"
+image dumpsters = "bgs/dumpsters.png"
+image moeroom = "bgs/moeroom.png"
+image classhallway = "bgs/classhallway.png"
+image alley = "bgs/alley.png"
+image foresttrail = "bgs/foresttrail.png"
+image graffitiwoods = "bgs/graffitiwoods.png"
 
 ###################
 # CGs             #
@@ -256,9 +291,33 @@ image phoneyumi rant = "cgs/phone/phone_yumi6.png"
 image phoneyumi annoyed = "cgs/phone/phone_yumi7.png"
 image phoneyumi sigh = "cgs/phone/phone_yumi8.png"
 
+image laptop nc = "cgs/laptop/Laptop 1v2.png"
+image laptop km = "cgs/laptop/Laptop 2v2.png"
+image laptop y = "cgs/laptop/Laptop 3v2.png"
+image laptop ky = "cgs/laptop/Laptop 4v2.png"
+image laptop ks = "cgs/laptop/Laptop 5v2.png"
+
+image moeintro = "cgs/MoeIntroCG.png"
+image kamikaintro = "cgs/KamikaIntroCG.png"
+
+image kamikabed1 = "cgs/kamika_bed_1.png"
+image kamikabed2 = "cgs/kamika_bed_2.png"
+
+image jojo1 = "cgs/Scene 9-1 p1v3 (Resized).png"
+image jojo2 = "cgs/Scene 9-1 Jojo v3 (Resized).png"
+
+image rooftop1 = "cgs/Scene 18 v3 16x9Cropped Resized.png"
+image rooftop2 = "cgs/Scene 18 v3 Resized.png"
+
+image moesmolder1 = "cgs/moedemongrills2_cg__smolder1__ad.png"
+image moesmolder2 = "cgs/moedemongrills2_cg__smolder0__ad.png"
+
 #MINOR CGS
 image transformdemon = "cgs/transformdemon.png"
 image transformhuman = "cgs/transformhuman.png"
+
+image sexfogf = "cgs/sexfogfront.png"
+image sexfogb = "cgs/sexfogback.png"
 
 #######
 # VFX #
@@ -268,13 +327,38 @@ image transformhuman = "cgs/transformhuman.png"
 # SFX             #
 ###################
 
+
 ###################
 # Music           #
 ###################
+define titlescreen = "music/Title Screen.ogg"
+define ourlastnighttogether = "music/Our Last Night Together - Kamica Song.ogg"
+define classtime = "music/Class Time.ogg"
+define evilplot = "music/Evil Plot.ogg"
+define funkyjam = "music/Funky Jam.ogg"
+define kamevil = "music/Kamica Dark Theme_.ogg"
+define kamseduce = "music/Kamica Seduction.ogg"
+define kamtheme = "music/Kamica Theme.ogg"
+define kamreflect = "music/Kamika Reflection.ogg"
+define luccatheme = "music/Lucca Theme looped.ogg"
+define feels = "music/Much Feels.ogg"
+define holdmusic = "music/Phone-On-Hold-Music-_loop_.ogg"
+define rave = "music/Rave Music.ogg"
+define sadsong = "music/Sad Song.ogg"
+define happysong = "music/So Happy.ogg"
+define staceytheme = "music/Stacey_s Theme.ogg"
+define wordfight = "music/Word Fight.ogg"
+define dramamusic = "music/Drama Scene.ogg"
+define stantheme = "music/Magical Main.ogg"
+
+###################
+# Ambient         #
+###################
+define cafeamb = "ambient/Cafe BFX.ogg"
+define showeramb = "ambient/Shower BFX.ogg"
+define showerambbehind = "ambient/Shower from Behind Door _ _Steam for Pheromone use_ BFX.ogg"
+define trafficamb = "ambient/Traffic BFX.ogg"
+
+
 label start:
-    menu:
-        "Choice 1":
-            "Picked choice 1."
-        "Longer Choice 2":
-            "Picked choice 2."
     jump scene1

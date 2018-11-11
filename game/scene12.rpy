@@ -129,7 +129,7 @@ kam "Ohhh, now you're blaming {i}me{/i} for your academic failings??"
 
 show kamika u happyclosed
 voice "c-12-30.wav" #Kamika (Ariane Marchese)
-kam "If you kept your head down and minded your studies in the proper classroom setting, you wouldn't be so far behind!"
+kam "If you kept your head down and minded your studies in the proper classroom settings, you wouldn't be so far behind!"
 
 
 

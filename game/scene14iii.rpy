@@ -106,7 +106,7 @@ yum "You're too kind."
 
 show kamika d thinkingclosed
 voice "c-14iii-23.wav" #Kamika (Ariane Marchese)
-kam "The truth is, think you're actually pretty useful. For a mortal, I mean."
+kam "The truth is, I think you're actually pretty useful. For a mortal, I mean."
 
 show kamika d confidentclosed
 voice "c-14iii-24.wav" #Kamika (Ariane Marchese)
@@ -355,7 +355,7 @@ yum "Uh, y'know, Kamika, I'm sure whatever plan you have is great and all-"
 
 show kamika d confidentclosed
 voice "c-14iii-78.wav" #Kamika (Ariane Marchese)
-kam "And it's my best one yet~! See, even someone like {i}you{/i} have good taste from time to time!"
+kam "And it’s my best one yet~! See, even someone like {i}you{/i} have a good taste in (?) time to time!"
 
 voice "c-14iii-79.wav" #Yumi (Kathy Pfautsch)
 yum "...Right. But, might I suggest an even better idea than that?"
@@ -385,7 +385,7 @@ yum "It's great, right? We can totally get some work done, no problem, and you c
 
 show kamika d mad
 voice "c-14iii-86.wav" #Kamika (Ariane Marchese)
-kam "Are you a {i}buffoon?!{/i} What kind of stupid plan is {i}that?!{/i} That is probably the {i}last{/i} thing I'm up for right now!"
+kam "Are you a {i}buffoon?!{/i} What kind of stupid plan {i}is{/i} that?! That is probably the {i}last{/i} thing I’m up for right now!"
 
 show kamika d madclosed
 voice "c-14iii-87.wav" #Kamika (Ariane Marchese)

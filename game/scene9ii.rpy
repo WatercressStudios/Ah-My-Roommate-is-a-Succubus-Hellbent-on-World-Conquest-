@@ -1,10 +1,12 @@
 label scene9ii:
-scene campus
+scene classroom with dissolve
 
 "For some reason, today's classes go by lightning fast."
 "It's probably because I had my mind focused on Kamika the whole time, because the material we went over has been nothing but a blur to me."
 "Damn it all, even when she's not in my presence, she somehow finds a way to interfere with my life! I just want this day to be done with as quickly as possible..."
 "Thankfully, I only have one morning class to worry about today, and as soon as it's over, I trot out to the plaza to look for Kamika."
+
+scene outsidedorm with dissolve
 "To her credit, it doesn't take long for me to find her at all - probably because she starts screaming my name and waving to me as soon as she sees me."
 "Sighing, I make my way to her like a lost soul finding its way to the Gates of Hell."
 "...And now I feel a sudden urge to punch my brother on the shoulder for even thinking that. God damn it, I cannot catch a break lately..."
@@ -254,7 +256,7 @@ kam "Oh, this is just {i}hilarious!{/i} Do you really think I'm doing anything {
 
 show kamika u seduce
 voice "c-9ii-54.wav" #Kamika (Ariane Marchese)
-kam "You're quite mistaken; All {i}I'm{/i} doing is giving the people a good time. There's nothing {i}wrong{/i} with that!"
+kam "You're quite mistaken; All {i}I'm{/i} doing is giving people a good time. There's nothing {i}wrong{/i} with that!"
 
 show kamika u confident
 voice "c-9ii-55.wav" #Kamika (Ariane Marchese)

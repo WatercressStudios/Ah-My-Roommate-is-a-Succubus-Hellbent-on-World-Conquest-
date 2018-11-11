@@ -1,6 +1,6 @@
 label scene4:
 
-scene campus
+scene outsidedorm
 "The way across campus did little to cool me off. So much for a fresh start at a different school... on a whole other continent, no less!"
 "I thought putting 5,000 miles between me and Japan would be enough to get away from all this demon nonsense. Nope! Not even close!"
 "Soon as this class is over, I'm writing an angry letter to my idiot brother. He probably got into some more occult bullshit with his witchy fling at home."
@@ -15,7 +15,8 @@ yum "Maybe this class'll get my mind off of things."
 "I can only dream. God knows what that horny succubus is up to in my dorm room. Probably replacing the bed sheets with silk, or satin, or something from some dingy sex hotel."
 "I don't even want to think about it..."
 
-scene paintingroom
+scene paintingroom with dissolve
+play music classtime fadein 1.0
 "With a heavy sigh, I pick out my seat. Looks like I just made it just in time."
 "I scowl to myself. Usually I try to give myself to at least prep my work area, but Kamika kept me preoccupied. Not to mention that decidedly unhelpful RA."
 
@@ -275,6 +276,7 @@ luc "Haha! Of course, of course!~"
 
 "She had a pleasant, fluttery laugh... it sounded familiar."
 
+stop music fadeout 2.0
 "Too familiar. I blinked, staring at her a bit more intently."
 
 show lucca nervoussmile
@@ -308,6 +310,7 @@ luc "...!"
 
 "She stifled a gasp, her eyes looking both ways around the classroom."
 
+play music funkyjam fadein 1.0
 show lucca nervoussmile
 voice "c-4-74.wav" #Lucca (Victoria Wong)
 luc "I-I dunno what you're talking about! I-I'm Luanne, just your average... exchange student from Texas!"
@@ -337,10 +340,9 @@ voice "c-4-81.wav" #Lucca (Victoria Wong)
 luc "Ack! P-please don't-"
 
 hide lucca with easeoutright
-"It was time to get to the bottom of this nonsense! Discreetly!"
+"It was time to get to the bottom of this nonsense! {i}Discreetly!{/i}"
 
-scene hallway
-
+scene classhallway with dissolve
 
 "I drag Lucy by the collar out into the hallway, and then just a little past the corner."
 
@@ -613,6 +615,7 @@ luc "N-no, wait, Yumiii!"
 voice "c-4-148.wav" #Lucca (Victoria Wong)
 luc "...Hoo... quicker than a scalded cat. Does she even have S-Tan's number...?"
 
+scene black with dissolve
 voice "c-4-149.wav" #Lucca (Victoria Wong)
 luc "...Wait... does {i}she{/i} even know who the starting quarterback for the Dallas Cowboys is...?"
 
