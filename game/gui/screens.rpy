@@ -404,7 +404,7 @@ screen yesno_prompt:
 # several useful functions.
 screen quick_menu():
 
-    imagebutton auto "gui/textbox/log_%s.png" xpos 746 ypos 1009 focus_mask None action ShowMenu("text_history")
+    #imagebutton auto "gui/textbox/log_%s.png" xpos 746 ypos 1009 focus_mask None action ShowMenu("text_history")
     imagebutton auto "gui/textbox/skip_%s.png" xpos 829 ypos 1012 focus_mask None action Skip()
     imagebutton auto "gui/textbox/auto_%s.png" xpos 910 ypos 1012 focus_mask None action Preference("auto-forward", "toggle")
     imagebutton auto "gui/textbox/save_%s.png" xpos 995 ypos 1014 focus_mask None action ShowMenu('save')

@@ -642,6 +642,7 @@ voice "c-9ii-136.wav" #Yumi (Kathy Pfautsch)
 yum "Alright, I got it..."
 
 #MERGE: all dialogue paths converge here
+jump s9iimerge
 
 label s9iimerge:
 hide kamika u with dissolve

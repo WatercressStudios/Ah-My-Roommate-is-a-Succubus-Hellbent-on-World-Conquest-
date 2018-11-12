@@ -80,11 +80,11 @@ show stacey neutralclosed
 voice "c-16-15.wav" #Stacey (Ashe Thurman)
 sta "Yeah, I have homework and shit to do anyways."
 
-if route = "kamika":
+if route == "kamika":
     jump scene17i
 
-elif route = "lucca":
+elif route == "lucca":
     jump scene17ii
 
-elif route = "stacey":
+elif route == "stacey":
     jump scene17iii
