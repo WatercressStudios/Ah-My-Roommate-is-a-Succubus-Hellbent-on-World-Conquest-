@@ -7,7 +7,8 @@ scene dormroom with dissolve
 "I had to come up with an excuse, but she seemed pretty cool with it... so long as I did my work at the end of the day. So long as I got this done and in to her tomorrow, I'd be back where I'm supposed to be!"
 "And Kamika was out of the room for now as well. Part of me hoped she had some night class to deal with..."
 "...Or maybe she found some fling to spend the night with. Hell, that'd be even better. A night of peace and quiet wouldn't be all that bad..."
-#sfx door unlock
+
+play sound doorunlock
 
 voice "c-12-1.wav" #Yumi (Kathy Pfautsch)
 yum "...Hm?"
@@ -177,7 +178,8 @@ show kamika u licklips
 voice "c-12-41.wav" #Kamika (Ariane Marchese)
 kam "Ahh, I dunno... self-pleasuring doesn't have the same sort of appeal as-"
 
-#sfx whack
+#sfx
+play sound whack
 
 show kamika u ouch
 voice "c-12-42.wav" #Kamika (Ariane Marchese)
@@ -208,8 +210,6 @@ hide kamika with easeoutright
 "Lowering my eyes back to the canvas, I get started on a fresh slate. For what it's worth, I wasn't very far in my first draft, so starting over doesn't set me too far back."
 
 "I get some different angles of the fruit at least, but overall they were still fairly similar. I didn't want to burn midnight oil on this project, so my sketchy lines are increasingly slapdash and messy."
-
-#sfx: poof
 
 "In the corner of my eye, it looks like Kamika's about done changing. Probably more skimpy lingerie from a German dungeon porn magazine..."
 
@@ -420,7 +420,8 @@ hide kamika with dissolve
 voice "c-12-102.wav" #Yumi (Kathy Pfautsch)
 yum "Weh... it's gonna smell like paint in here while it dries. Opening a window..."
 
-#sfx sliding
+#sfx
+play sound slidewindow
 
 "I slide the window open, letting in a cool breeze."
 
@@ -445,7 +446,8 @@ kam "I'll let you do whatever you want to me, y'know. Just think about it."
 voice "c-12-108.wav" #Kamika (Ariane Marchese)
 kam "Your body against mine. My body against yours. All tangled up in knots, twisting and writhing in a union of-"
 
-#sfx whack: pillow gets thrown into her face
+
+play sound whack
 voice "c-12-109.wav" #Kamika (Ariane Marchese)
 kam "Ack! Okay, don't do {i}that!{/i}"
 
@@ -483,11 +485,13 @@ kam "The bed springs are all out of whack anyway... this bed can't handle me!"
 
 "Part of me hoped Kamika didn't get her pheromones on the bed, but at this point in the evening, I could not muster any more fucks to give."
 
-#sfx bed springs
+#sfx
+play sound bedsprings
 
 "WIth a heavy sigh, I flop onto the bed. I lazily reach for my bedside lamp, the only source of illumination at this hour."
 scene black
-#sfx click
+#sfx 
+play sound click
 "...And drown the room in darkness."
 
 voice "c-12-120.wav" #Yumi (Kathy Pfautsch)

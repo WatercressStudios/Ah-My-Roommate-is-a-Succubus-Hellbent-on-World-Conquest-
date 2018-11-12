@@ -490,7 +490,8 @@ hide kamika with dissolve
 voice "c-7iii-107.wav" #Kamika (Ariane Marchese)
 kam "Bitch!"
 
-#sfx doorslam
+#sfx 
+play sound doorslam
 "And she slams the door. How quaint."
 
 "Thank God. Free at last."

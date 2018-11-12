@@ -3,9 +3,9 @@
 #########################
 #IMPORTANT CHARACTERS
 define yum = Character("Yumi", color="#FFFFFF", voice_tag="yum", callback=speaker("yumi"))
-define kam = Character("Kamika", color="#FFFFFF", voice_tag="kam", callback=speaker("kamika"))
+define kam = Character("kam_name", color="#FFFFFF", voice_tag="kam", callback=speaker("kamika"), dynamic=True)
 define sta = Character("Stacey", color="#FFFFFF", voice_tag="sta", callback=speaker("stacey"))
-define luc = Character("Lucca", color="#FFFFFF", voice_tag="luc", callback=speaker("lucca"))
+define luc = Character("luc_name", color="#FFFFFF", voice_tag="luc", callback=speaker("lucca"), dynamic=True)
 define lev = Character("Levi", color="#FFFFFF", voice_tag="lev", callback=speaker("levi"))
 define moe = Character("Moe", color="#FFFFFF", voice_tag="moe", callback=speaker("moe"))
 define sat = Character("S-Tan", color="#FFFFFF", voice_tag="sat", callback=speaker("satan"))
@@ -375,7 +375,7 @@ define turnpage = "sfx/turn_page_thick_magazine_002.wav"
 #define bedsprings = "sfx/"
 #define click  = "sfx/"
 #define slidewindow  = "sfx/"
-#define rington = "sfx/"
+#define ringtone = "sfx/"
 #define beep = "sfx/"
 #define phonevibrate = "sfx/"
 #define explosion = "sfx/"
@@ -384,6 +384,7 @@ define turnpage = "sfx/turn_page_thick_magazine_002.wav"
 #define stomping = "sfx/"
 #define thud = "sfx/"
 #define ringtone = "sfx/"
+#define chuckle = "sfx/"
 
 
 ###################

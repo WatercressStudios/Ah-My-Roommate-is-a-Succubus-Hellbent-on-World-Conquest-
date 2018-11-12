@@ -40,7 +40,8 @@ ber "You'll probably have to compromise on your creative vision a bit. That's a 
 voice "c-4-8.wav" #Mrs Bernardinelli (???)
 ber "Y'all are basically adults at this point, so try not to be hyper-possessive brats about your own projects, 'kay? Play nice."
 
-#sfx chuckle
+#sfx 
+play sound chuckle
 "A bit of awkward laughter permeated the classroom. Mrs. Bernardinelli was nothing if not blunt..."
 
 voice "c-4-9.wav" #Mrs Bernardinelli (???)
@@ -81,10 +82,11 @@ voice "c-4-17.wav" #Lucca (Victoria Wong)
 luc "S-shoot, I mean... h, howdy... pardner? M-my name's Lu- ...Lu... Luanne?"
 
 #variable name change to Luanne?
-#$ luc_name = "Luanne?"
+
 
 show lucca h happy
 voice "c-4-18.wav" #Lucca (Victoria Wong)
+$ luc_name = "Luanne?"
 luc "Yeah, Luanne! Right. Obviously."
 
 voice "c-4-19.wav" #Yumi (Kathy Pfautsch)
@@ -373,10 +375,11 @@ yum "It wasn't a very good disguise, Lucy."
 
 #variable name change Lucy
 
-$ luc_name = "Lucy"
+
 
 show lucca n mad
 voice "c-4-87.wav" #Lucca (Victoria Wong)
+$ luc_name = "Lucy"
 luc "H-hey, I worked hard on it! A-and I rehearsed all these dumb Texan colloquialisms and everything!"
 
 voice "c-4-88.wav" #Yumi (Kathy Pfautsch)
@@ -439,10 +442,11 @@ yum "Okay. {i}Lucca.{/i}"
 
 #variable name change to Lucca
 
-$ luc_name = "Lucca"
+
 
 show lucca n sadsmile
 voice "c-4-104.wav" #Lucca (Victoria Wong)
+$ luc_name = "Lucca"
 luc "Thank you, Yumi..."
 
 show lucca n nervousclose

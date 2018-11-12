@@ -280,7 +280,8 @@ show kamika d madcry
 voice "c-17i-66.wav" #Yumi (Kathy Pfautsch)
 yum "Kamika... I-"
 
-#sfx "RIIIING~!"
+
+play sound ringtone
 
 show kamika d surprisecry
 voice "c-17i-67.wav" #Yumi (Kathy Pfautsch)

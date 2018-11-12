@@ -43,7 +43,8 @@ luc "I-it would be pretty rude to walk in on a girl's dorm."
 voice "c-15-10.wav" #Yumi (Kathy Pfautsch)
 yum "Doesn't matter. It's unlocked."
 
-#sfx door open
+
+play sound dooropen
 "I open the door with a cautious squeeze of the handle..."
 
 #cg rave? special bg?
@@ -175,7 +176,8 @@ show stacey eyebrow
 voice "c-15-39.wav" #Stacey (Ashe Thurman)
 sta "...Touche?"
 
-#sfx: stomping
+
+play sound stomping
 scene dormroomparty with dissolve
 "Unbelievable. I stomped up to Kamika and pressed a finger right into her chest."
 
@@ -490,7 +492,8 @@ show kamika u evilsmilesquint
 voice "c-15-111.wav" #Kamika (Ariane Marchese)
 kam "Hey everyone! You guys having a good time!?"
 
-#sfx: cheer
+#sfx:
+play sound cheer
 "The crowd responded with a rousing cheer. This party wasn't losing steam anytime soon."
 
 scene dormroomparty
@@ -637,7 +640,8 @@ show kamika u panic flip with easeinright:
 voice "c-15-140.wav" #Kamika (Ariane Marchese)
 kam "Wait, guys! Come back! I-I can make cupcakes!!"
 
-#sfx closing door
+#sfx
+play sound doorclose
 
 show kamika u sad flip
 "None of them reciprocated their attention as Kamika was faced with the door closing on her."
@@ -673,7 +677,8 @@ show kamika u desperateclosed flip
 voice "c-15-147.wav" #Kamika (Ariane Marchese)
 kam "Ehehe, yes, yes! This is perfect, flawless, it's going to definitely work-"
 
-#sfx: throwing pitch
+#sfx:
+play sound throw
 show kamika u wideeyes
 show stacey eyebrow flip
 show lucca h ohno flip
@@ -684,7 +689,8 @@ show kamika u ouch
 voice "c-15-148.wav" #Kamika (Ariane Marchese)
 kam "Oof!"
 
-#sfx clatter
+#sfx
+play sound thud
 hide kamika with vpunch
 "And just like that, she crumpled to the floor..."
 

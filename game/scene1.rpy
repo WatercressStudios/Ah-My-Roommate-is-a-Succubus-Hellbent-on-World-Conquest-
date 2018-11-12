@@ -76,6 +76,7 @@ hide stacey with dissolve
 "He was a huge beefcake of a man. If I didn't know better, I'd've thought he'd be the star linebacker on the football team."
 
 #sfx smack
+play sound smack
 
 "With a few deft smacks of the box, the projector whirred to life. The presentation was ready to go."
 
@@ -127,6 +128,7 @@ yum "Um, excuse me...?"
 #variable name: Lucca = ???
 
 show lucca h nervousopen
+$ luc_name = "???"
 voice "c-1-27.wav" #Lucca (Victoria Wong)
 luc "E-eh?"
 
@@ -237,7 +239,8 @@ hide stacey with dissolve
 "Be polite, be efficient, keep your head down, and mind your studies. That was my philosophy up to this point."
 "And Hell, it worked pretty well so far. The meat of the lecture ends up going much more quickly than anticipated, just keeping tabs on the notes."
 "Mr. Deeks actually knows his stuff. I'd just much rather hear it from a teacher with any sense of chill?"
-#sfx slam
+#sfx 
+play sound slam
 "With about thirty minutes left in class, Deeks slams his podium, rousing the attention of the whole class."
 
 voice "c-1-52.wav" #Mister Deeks (???)
@@ -425,6 +428,8 @@ hide stacey with dissolve
 
 play music kamtheme fadein 1.0
 show kamika u thinkingclosed with dissolve
+
+$ kam_name = "???"
 voice "c-1-92.wav" #Kamika (Ariane Marchese)
 kam "...Hm... they both have dark energies about them."
 
@@ -437,6 +442,7 @@ voice "c-1-94.wav" #Kamika (Ariane Marchese)
 kam "Mwehehehe... now's my chance to strike!~"
 
 #sfx bump
+play sound bump
 
 show kamika u surprise
 voice "c-1-95.wav" #Kamika (Ariane Marchese)

@@ -140,7 +140,9 @@ show kamika d confident
 voice "c-14iii-27.wav" #Kamika (Ariane Marchese)
 kam "Excellent! I knew you'd see things my way eventually. Now you see, all we have to do is-"
 #music cuts out
-#sfx phone buzz
+
+
+play sound phonevibrate
 
 show kamika d mad
 voice "c-14iii-28.wav" #Kamika (Ariane Marchese)
@@ -279,7 +281,8 @@ show phone1 stanclosed
 voice "c-14iii-61.wav" #S-Tan (Dani Chambers)
 sat "Whelp, fireball's about to touch down. Gotta jet! Oh, and see you in hell, Yumi! Oh my gosh, you're just going to {i}love{/i} it there! Toodles!"
 
-#sfx hanging up
+
+play sound beep
 
 scene rooftop
 "She hung up."
@@ -336,7 +339,8 @@ yum "Heh, yeah. Any time, Kamika."
 voice "c-14iii-76.wav" #Yumi (Kathy Pfautsch)
 yum "Any time."
 
-#sfx explosion
+
+play sound explosion
 
 #The end!
 

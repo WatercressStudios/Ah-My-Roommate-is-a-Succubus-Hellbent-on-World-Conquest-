@@ -44,7 +44,8 @@ scene graffitiwoods with dissolve
 
 "Maybe this is where Kamika was squatting before she decided to invade my living space..."
 
-##sfx: Sound of an aerosol can
+##sfx:
+play sound aerosolcan
 
 "Is that... spray paint I hear?"
 

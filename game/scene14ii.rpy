@@ -281,7 +281,9 @@ lev "Yeah, um, sorry to be the bearer of bad news."
 voice "c-14ii-70.wav" #Levi (Nina Sumter)
 lev "...Kay bye."
 
-#sfx phone hang up
+#sfx
+
+play sound beep
 
 "{i}Click.{/i}"
 

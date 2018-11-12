@@ -347,7 +347,8 @@ show phoneyumi rant
 voice "c-6-66.wav" #Yumi (Kathy Pfautsch)
 yum "Look, there's some {i}deranged succubus{/i} in my room invading my personal space and bragging about a master plan to take over the world! Just put me through to Satan so that she can get out here and take her back to Hell in a dog crate or something!!"
 
-#sfx: trash can clatter
+#sfx:
+play sound clatter
 show phoneyumi surprise
 show phone1 levieyebrow
 "It's only after I've finished shouting the words that I start at a loud {i}bang{/i}, and a raccoon comes vaulting out of the far dumpsters with an almost frenzied panic and dashes hurriedly into the underbrush."
@@ -443,7 +444,8 @@ show phoneyumi rant
 voice "c-6-84.wav" #Yumi (Kathy Pfautsch)
 yum "Satan! There's a crazy succubus named Kamika in my dorm room and I need to be rid of her literally {i}yesterday!{/i} And frankly-"
 
-#sfx: beep
+#sfx:
+play sound beep
 stop music fadeout 1.0
 "{i}~Beep~{/i}"
 
@@ -461,7 +463,8 @@ scene dumpsters with dissolve
 
 "Man, this is just {i}super{/i}. The best problems to have are always the ones you literally can't tell another soul about without being perceived as completely insane."
 
-#sfx: shuffle
+#sfx:
+play sound shuffle
 
 "There's another shuffling sound coming from the dumpster behind me, and the minor disturbance annoys me enough that I spin around."
 

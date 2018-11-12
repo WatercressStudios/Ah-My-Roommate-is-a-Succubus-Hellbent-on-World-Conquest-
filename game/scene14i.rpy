@@ -84,7 +84,8 @@ voice "c-14i-22.wav" #Yumi (Kathy Pfautsch)
 yum "Turn the page."
 
 
-#SFX flipping page
+#SFX 
+play sound turnpage
 
 show stacey evil
 voice "c-14i-23.wav" #Stacey (Ashe Thurman)
@@ -229,7 +230,8 @@ sta "Moe would say otherwise."
 voice "c-14i-64.wav" #Yumi (Kathy Pfautsch)
 yum "Point is, you can't force this kind of thing. You have plenty of time to buff out any imperfections."
 
-#SFX cell ringing
+#SFX
+play sound ringtone
 
 show stacey neutral
 voice "c-14i-65.wav" #Yumi (Kathy Pfautsch)
@@ -241,7 +243,8 @@ yum "Oh, speak of the devil."
 voice "c-14i-67.wav" #Stacey (Ashe Thurman)
 sta "Gimme-"
 "She snatched my phone right out of my hand..."
-#SFX beep
+#SFX
+play sound beep
 
 voice "c-14i-68.wav" #Stacey (Ashe Thurman)
 sta "Hello, this is phone, who dis?"
@@ -262,7 +265,8 @@ sta "No, YOU hang up first."
 voice "c-14i-73.wav" #Yumi (Kathy Pfautsch)
 yum "Are we really doing this..."
 
-#sfx beep
+#sfx
+play sound beep
 
 show stacey neutral
 voice "c-14i-74.wav" #Stacey (Ashe Thurman)

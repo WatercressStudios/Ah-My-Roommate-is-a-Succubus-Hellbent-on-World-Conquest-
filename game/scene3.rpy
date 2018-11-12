@@ -1,6 +1,7 @@
 label scene3:
 scene dormhallway
 
+
 "I'm about to round the corner back to where my room lies, when suddenly..."
 
 show kamika d shout with easeinleft
@@ -38,7 +39,8 @@ hide kamika with dissolve
 "With the demon girl struggling to break free, I hustle over to my corner and quickly sneak back inside."
 
 scene dormroom with dissolve
-#sfx shove
+#sfx 
+play sound shove
 "Once we're safe, I shove her onto the sofa and slam the door shut behind me."
 "Just the act of bringing this girl back here has me catching my breath... It must be that natural demon power."
 "But now I can focus my attention on dealing with her..."
@@ -148,12 +150,14 @@ show kamika d happyclosed
 voice "c-3-25.wav" #Kamika (Ariane Marchese)
 kam "I am the most alluring and powerful force in this world! I am a goddess unparalleled by any other! I am Kamika Malagic, the Demon of Lust!"
 
+
 "...Alright, now I {i}know{/i} this girl is crazy."
 
 hide kamikaintro with dissolve
 #show kam confident
 
 voice "c-3-26.wav" #Kamika (Ariane Marchese)
+$ kam_name = "Kamika"
 kam "What do you think, my little servant~? I have an impressive resume, right~?"
 
 voice "c-3-27.wav" #Yumi (Kathy Pfautsch)
