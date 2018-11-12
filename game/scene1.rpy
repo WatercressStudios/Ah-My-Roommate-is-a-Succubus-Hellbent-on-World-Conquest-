@@ -119,42 +119,42 @@ hide stacey with dissolve
 "Texas ten-gallon? Whatever, I couldn't make out the bottom half of the screen."
 "Is she new? Maybe a transfer. Whatever, she was in the way."
 
-show lucca nervous with dissolve:
+show lucca h nervous with dissolve:
     align (0.5, 1.0)
 voice "c-1-26.wav" #Yumi (Kathy Pfautsch)
 yum "Um, excuse me...?"
 
 #variable name: Lucca = ???
 
-show lucca nervousopen
+show lucca h nervousopen
 voice "c-1-27.wav" #Lucca (Victoria Wong)
 luc "E-eh?"
 
 voice "c-1-28.wav" #Yumi (Kathy Pfautsch)
 yum "Could you, uh, remove your hat? It's getting in the way of a few of the slides."
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-1-29.wav" #Lucca (Victoria Wong)
 luc "...A-aaahh... I..."
 
 voice "c-1-30.wav" #Yumi (Kathy Pfautsch)
 yum "...And we, well, can't see it that well. Please?"
 
-show lucca nervousclose
+show lucca h nervousclose
 voice "c-1-31.wav" #Lucca (Victoria Wong)
 luc "...O-oh, I'm... sorry, it's..."
 
 voice "c-1-32.wav" #Yumi (Kathy Pfautsch)
 yum "...? Are you okay?"
 
-show lucca doh
+show lucca h doh
 voice "c-1-33.wav" #Lucca (Victoria Wong)
 luc "! "
 
-show lucca sigh
+show lucca h sigh
 extend "Waaah..."
 
-show lucca sigh with easeinright:
+show lucca h sigh with easeinright:
     align (0.5, 6.0)
 #pan lucca down slightly
 

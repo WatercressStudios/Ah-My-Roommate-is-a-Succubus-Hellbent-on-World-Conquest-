@@ -1,5 +1,5 @@
 label scene17ii:
-scene dormhallway
+scene dormhallway with dissolve
 
 "I watch Stacey and Moe head off together. Now it was just Lucca and myself."
 "Silence hung heavy in the air. Nobody wanted to make the first move."

@@ -3,14 +3,14 @@ scene dormhallway with None
 
 show stacey neutral:
     align (0.3, 1.0)
-show lucca sad flip with dissolve
+show lucca h sad flip with dissolve
 
 "I lean against the wall nearest my door, trying to relax as much as I can."
 
 "It's over. For now. It's way quieter when Kamika isn't cackling or boasting about something or other."
 "...It occurs to me that I didn't hear any sick rave beats anymore. Did Kamika turn those off??"
 
-show lucca nervous
+show lucca h nervous
 show stacey neutrallook
 show moe madclosed flip with easeinright:
     align (0.7, 1.0)
@@ -29,7 +29,7 @@ show stacey smug
 voice "c-16-4.wav" #Stacey (Ashe Thurman)
 sta "It's whatever."
 
-show lucca happy flip
+show lucca h happy flip
 voice "c-16-5.wav" #Lucca (Victoria Wong)
 luc "Y-yeah! It's the least we could do..."
 
@@ -42,7 +42,7 @@ voice "c-16-7.wav" #Moe (CJ Heineman)
 moe "I have to watch the partygoers anyways."
 
 show moe madlook flip
-show lucca neutral
+show lucca h neutral
 show stacey neutrallook
 voice "c-16-8.wav" #Moe (CJ Heineman)
 moe "...Y'all got a plan for Kamika? Been trying to ignore the problem for a while now on my end..."
@@ -55,7 +55,7 @@ voice "c-16-10.wav" #Yumi (Kathy Pfautsch)
 yum "That sounds awf-wait."
 
 show stacey smug
-show lucca nervous
+show lucca h nervous
 show moe smug flip
 "I can't believe I'm actually considering this."
 
@@ -68,7 +68,7 @@ show stacey neutral
 voice "c-16-12.wav" #Stacey (Ashe Thurman)
 sta "You just feel bad for her."
 
-show lucca neutral
+show lucca h neutral
 voice "c-16-13.wav" #Lucca (Victoria Wong)
 luc "I-I agree with Yumi..."
 

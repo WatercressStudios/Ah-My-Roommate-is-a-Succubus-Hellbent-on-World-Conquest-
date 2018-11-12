@@ -68,7 +68,7 @@ yum "...Mmkay. Think that's good."
 
 "I turn back to my canvas..."
 
-show lucca happy with easeinright
+show lucca h happy with easeinright
 
 voice "c-4-15.wav" #Lucca (Victoria Wong)
 luc "H, hello Yumi-."
@@ -76,25 +76,25 @@ luc "H, hello Yumi-."
 voice "c-4-16.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Whoa!{/i}"
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-4-17.wav" #Lucca (Victoria Wong)
 luc "S-shoot, I mean... h, howdy... pardner? M-my name's Lu- ...Lu... Luanne?"
 
 #variable name change to Luanne?
 #$ luc_name = "Luanne?"
 
-show lucca happy
+show lucca h happy
 voice "c-4-18.wav" #Lucca (Victoria Wong)
 luc "Yeah, Luanne! Right. Obviously."
 
 voice "c-4-19.wav" #Yumi (Kathy Pfautsch)
 yum "Where'd you come from?? You pret near snuck up on me, girl!"
 
-show lucca nervous
+show lucca h nervous
 voice "c-4-20.wav" #Lucca (Victoria Wong)
 luc "I-I'm sorry I... didn't mean to startle you!"
 
-show lucca nervousclose
+show lucca h nervousclose
 voice "c-4-21.wav" #Lucca (Victoria Wong)
 luc "Honestly, I-I'm a little nervous... jumpier than spit on a hot skillet, heheh..."
 
@@ -103,7 +103,7 @@ luc "Honestly, I-I'm a little nervous... jumpier than spit on a hot skillet, heh
 voice "c-4-22.wav" #Yumi (Kathy Pfautsch)
 yum "...Still sticking with the goofy Texas ten-gallon? Are you an exchange student?"
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-4-23.wav" #Lucca (Victoria Wong)
 luc "Well, I... I-I mean, yes! I mean, uh... y-you darn tootin'??"
 
@@ -113,15 +113,15 @@ yum "...Uh..."
 "This girl was kind of off her rocker. I know artists are supposed to be eccentric and all, but..."
 "...Well, I should at least be polite."
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-25.wav" #Yumi (Kathy Pfautsch)
 yum "Do you... need something from me?"
 
-show lucca happy
+show lucca h happy
 voice "c-4-26.wav" #Lucca (Victoria Wong)
 luc "O-oh, yes! Abso-tootin'-lutely!"
 
-show lucca bashful
+show lucca h bashful
 voice "c-4-27.wav" #Lucca (Victoria Wong)
 luc "I-I was wondering if... if you had a partner for the collaborative painting thingy?"
 
@@ -131,39 +131,39 @@ yum "N, not yet. I hadn't really asked around."
 voice "c-4-29.wav" #Yumi (Kathy Pfautsch)
 yum "...Wait, you wanted to team up? It's not like I have a problem with that, but..."
 
-show lucca happy
+show lucca h happy
 voice "c-4-30.wav" #Lucca (Victoria Wong)
 luc "Ahh, only if you wanted to! I think you're really good!"
 
-show lucca nervous
+show lucca h nervous
 voice "c-4-31.wav" #Lucca (Victoria Wong)
 luc "I-I mean, like you're... better than a... a bull in... mating season??"
 
 voice "c-4-32.wav" #Yumi (Kathy Pfautsch)
 yum "...Thanks????????"
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-4-33.wav" #Lucca (Victoria Wong)
 luc "Y-yeah, with the... depth and shading and everything... y-yippee ki-yay!~"
 
 voice "c-4-34.wav" #Yumi (Kathy Pfautsch)
 yum "K-keep it down, you're... drawing attention..."
 
-show lucca nervousclose
+show lucca h nervousclose
 voice "c-4-35.wav" #Lucca (Victoria Wong)
 luc "O-oh, sorry..."
 
 "She was really an oddball. But I think she was trying to praise me?"
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-36.wav" #Yumi (Kathy Pfautsch)
 yum "I-I didn't know anyone else was really looking at my work..."
 
-show lucca happy
+show lucca h happy
 voice "c-4-37.wav" #Lucca (Victoria Wong)
 luc "Y-yeah! Like, you're good with details, and got a really good eye for lighting, and..."
 
-show lucca bashful
+show lucca h bashful
 voice "c-4-38.wav" #Lucca (Victoria Wong)
 luc "A-and the brushwork is... smoother than, than creamed gravy!~"
 
@@ -175,25 +175,25 @@ yum "Wow, I... thanks."
 voice "c-4-40.wav" #Yumi (Kathy Pfautsch)
 yum "...I think it's just called 'cream gravy', though."
 
-show lucca nervous
+show lucca h nervous
 voice "c-4-41.wav" #Lucca (Victoria Wong)
 luc "Gah! W-whoops, silly me, getting all... tongue-twisted, eh heh..."
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-4-42.wav" #Lucca (Victoria Wong)
 luc "I-I got a bit of a shaky hand when I'm... brushing and stuff, so I... need to work on that."
 
 voice "c-4-43.wav" #Yumi (Kathy Pfautsch)
 yum "...Bit of an issue in an art school. What's your major?"
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-44.wav" #Lucca (Victoria Wong)
 luc "Architectural History."
 
 voice "c-4-45.wav" #Yumi (Kathy Pfautsch)
 yum "...That's, uh... eclectic. What're you gonna use it for?"
 
-show lucca aaaa
+show lucca h aaaa
 voice "c-4-46.wav" #Lucca (Victoria Wong)
 luc "..."
 
@@ -209,13 +209,13 @@ luc "...Um..."
 voice "c-4-50.wav" #Yumi (Kathy Pfautsch)
 yum "...Okay, forget I asked."
 
-show lucca sad
+show lucca h sad
 "A heavy silence hung between us. Honestly, she was pretty distracting, but I gotta deal with her before I could focus on the task at hand."
 
 voice "c-4-51.wav" #Yumi (Kathy Pfautsch)
 yum "I could give the team-up idea some thought, uh... can I see some of your work? Just wanna meet you halfway."
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-52.wav" #Lucca (Victoria Wong)
 luc "Oh, sure! L-lemme show you, it's over here..."
 
@@ -225,7 +225,7 @@ yum "W-whoa!"
 
 "Taking my hand, she ushered me towards the back of the room. Assignments from last week were hung on the wall, and were rotated on a weekly basis."
 
-show lucca happyclosed with dissolve
+show lucca h happyclosed with dissolve
 voice "c-4-54.wav" #Lucca (Victoria Wong)
 luc "There's mine, in the middle, see??"
 
@@ -234,18 +234,18 @@ yum "...Wow, there's uh... {i}interesting{/i} use of colours going on with yours
 
 "It didn't look bad. Actually it looked quite stylized and pleasant. It kind of popped out against the backdrop of the more realistic depictions..."
 
-show lucca happy
+show lucca h happy
 voice "c-4-56.wav" #Lucca (Victoria Wong)
 luc "Yeah! I used brighter colours with sharp outlines to make everything pop like kettle corn!"
 
 voice "c-4-57.wav" #Yumi (Kathy Pfautsch)
 yum "...It's a still-life class, though. I don't think sheep skulls are pink with polka dots..."
 
-show lucca nervous
+show lucca h nervous
 voice "c-4-58.wav" #Lucca (Victoria Wong)
 luc "Oh! It's more like, ah... a reflection of what it could've been! Maybe the sheep wants to feel cuter, y'know?"
 
-show lucca happyclosed
+show lucca h happyclosed
 voice "c-4-59.wav" #Lucca (Victoria Wong)
 luc "L-like a reflection of their inner self!"
 
@@ -260,7 +260,7 @@ yum "Well... your fundamentals are pretty solid. Could stay in the lines a bit b
 voice "c-4-62.wav" #Yumi (Kathy Pfautsch)
 yum "...I like it!"
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-63.wav" #Lucca (Victoria Wong)
 luc "R-really?"
 
@@ -270,7 +270,7 @@ yum "Yeah!"
 voice "c-4-65.wav" #Yumi (Kathy Pfautsch)
 yum "...Or, uh... y-ya darn tootin'?"
 
-show lucca happyclosed
+show lucca h happyclosed
 voice "c-4-66.wav" #Lucca (Victoria Wong)
 luc "Haha! Of course, of course!~"
 
@@ -279,18 +279,18 @@ luc "Haha! Of course, of course!~"
 stop music fadeout 2.0
 "Too familiar. I blinked, staring at her a bit more intently."
 
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-4-67.wav" #Lucca (Victoria Wong)
 luc "...Y-Yumi? What's wrong?"
 
 voice "c-4-68.wav" #Yumi (Kathy Pfautsch)
 yum "...Holy shit, it can't be."
 
-show lucca nervous
+show lucca h nervous
 voice "c-4-69.wav" #Lucca (Victoria Wong)
 luc "E-eh? W-what are you saying?"
 
-show lucca ohno
+show lucca h ohno
 voice "c-4-70.wav" #Lucca (Victoria Wong)
 luc "S-stop staring at me like that, it's so... probing!"
 
@@ -304,21 +304,21 @@ yum "...It {i}is{/i} you!"
 voice "c-4-72.wav" #Yumi (Kathy Pfautsch)
 yum "Lucy??"
 
-show lucca aaaa
+show lucca h aaaa
 voice "c-4-73.wav" #Lucca (Victoria Wong)
 luc "...!"
 
 "She stifled a gasp, her eyes looking both ways around the classroom."
 
 play music funkyjam fadein 1.0
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-4-74.wav" #Lucca (Victoria Wong)
 luc "I-I dunno what you're talking about! I-I'm Luanne, just your average... exchange student from Texas!"
 
 voice "c-4-75.wav" #Yumi (Kathy Pfautsch)
 yum "Okay. Who's the starting quarterback for the Dallas Cowboys?"
 
-show lucca aaaa
+show lucca h aaaa
 voice "c-4-76.wav" #Lucca (Victoria Wong)
 luc "..."
 
@@ -328,14 +328,14 @@ yum "..."
 voice "c-4-78.wav" #Yumi (Kathy Pfautsch)
 yum "...{i}Luanne.{/i}"
 
-show lucca bigaaaa
+show lucca h bigaaaa
 voice "c-4-79.wav" #Lucca (Victoria Wong)
 luc "...Uhhhhhhhhhh..."
 
 voice "c-4-80.wav" #Yumi (Kathy Pfautsch)
 yum "...Outside. {i}Now.{/i}"
 
-show lucca uwah
+show lucca h uwah
 voice "c-4-81.wav" #Lucca (Victoria Wong)
 luc "Ack! P-please don't-"
 
@@ -348,22 +348,23 @@ scene classhallway with dissolve
 
 "Glancing both ways, I make sure the coast is clear, before I begin my interrogation."
 
-show lucca nervous with dissolve
+show lucca h nervous with dissolve
 voice "c-4-82.wav" #Yumi (Kathy Pfautsch)
 yum "Alright, {i}you.{/i} Why'd you follow me all the way out to America?"
 
 voice "c-4-83.wav" #Yumi (Kathy Pfautsch)
 yum "And drop the dumb Texan act, nobody's falling for it! Especially after the first game!"
 
-show lucca guilty
+show lucca h guilty
 voice "c-4-84.wav" #Lucca (Victoria Wong)
 luc "I-I... okay. It's me."
 
+show lucca n guilty
 "Quietly, she removed her hat, revealing a single horn underneath. It jutted out like a unicorn."
 
 "It must've been annoying to accessorize around it. She found a way, though."
 
-show lucca sad
+show lucca n sad
 voice "c-4-85.wav" #Lucca (Victoria Wong)
 luc "You saw right through my disguise..."
 
@@ -374,21 +375,21 @@ yum "It wasn't a very good disguise, Lucy."
 
 $ luc_name = "Lucy"
 
-show lucca mad
+show lucca n mad
 voice "c-4-87.wav" #Lucca (Victoria Wong)
 luc "H-hey, I worked hard on it! A-and I rehearsed all these dumb Texan colloquialisms and everything!"
 
 voice "c-4-88.wav" #Yumi (Kathy Pfautsch)
 yum "Don't change the subject. Why are you following me?"
 
-show lucca nervous
+show lucca n nervous
 voice "c-4-89.wav" #Lucca (Victoria Wong)
 luc "F, follow you?? I-I dunno what you're saying-"
 
 voice "c-4-90.wav" #Yumi (Kathy Pfautsch)
 yum "We spent six months together sharing the same house! Remember??"
 
-show lucca nervouser
+show lucca n nervouser
 voice "c-4-91.wav" #Yumi (Kathy Pfautsch)
 yum "My idiot brother summoned a layabout demon, and then {i}she{/i} invited {i}you{/i} and the rest of your posse!"
 
@@ -401,14 +402,14 @@ luc "It's not like that! I-I didn't follow you Yumi, honest!"
 voice "c-4-94.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, that's {i}reeeeal convincing{/i} coming from a demon! Like hell you didn't come to haunt me or something!"
 
-show lucca nervoussmile
+show lucca n nervoussmile
 voice "c-4-95.wav" #Lucca (Victoria Wong)
 luc "You're thinking ghosts, actually..."
 
 voice "c-4-96.wav" #Yumi (Kathy Pfautsch)
 yum "Ugh, whatever! Semantics!"
 
-show lucca ohno
+show lucca n ohno
 voice "c-4-97.wav" #Lucca (Victoria Wong)
 luc "Yumi, Yumi, you're gonna cause a scene! Take a breath, I can explain!"
 
@@ -422,14 +423,14 @@ yum "...Ah..."
 voice "c-4-99.wav" #Yumi (Kathy Pfautsch)
 yum "Alright, Lucy. This better be good."
 
-show lucca neutral
+show lucca n neutral
 voice "c-4-100.wav" #Lucca (Victoria Wong)
 luc "O-oh, it's Lucca now."
 
 voice "c-4-101.wav" #Yumi (Kathy Pfautsch)
 yum "Oh for f- can you make up your mind on your name? Why the name change?"
 
-show lucca ohno
+show lucca n ohno
 voice "c-4-102.wav" #Lucca (Victoria Wong)
 luc "I-I thought it'd be cuter! Can we just stick with it?"
 
@@ -440,33 +441,33 @@ yum "Okay. {i}Lucca.{/i}"
 
 $ luc_name = "Lucca"
 
-show lucca sadsmile
+show lucca n sadsmile
 voice "c-4-104.wav" #Lucca (Victoria Wong)
 luc "Thank you, Yumi..."
 
-show lucca nervousclose
+show lucca n nervousclose
 voice "c-4-105.wav" #Lucca (Victoria Wong)
 luc "...Th-there isn't actually a ton to explain, I... I'm just a student here."
 
 voice "c-4-106.wav" #Yumi (Kathy Pfautsch)
 yum "You're telling me that we both travelled across the Pacific to enroll in the same school? Isn't that a little too convenient?"
 
-show lucca nervouser
+show lucca n nervouser
 voice "c-4-107.wav" #Lucca (Victoria Wong)
 luc "Is it really that weird? This is a really prestigious school, and I... I really wanna be an artist."
 
-show lucca mad
+show lucca n mad
 voice "c-4-108.wav" #Lucca (Victoria Wong)
 luc "And besides that, you... you were the one following me to this school!"
 
 voice "c-4-109.wav" #Yumi (Kathy Pfautsch)
 yum "...Beg pardon?"
 
-show lucca madclosed
+show lucca n madclosed
 voice "c-4-110.wav" #Lucca (Victoria Wong)
 luc "Yeah! I've been attending this school for years now..."
 
-show lucca sad
+show lucca n sad
 voice "c-4-111.wav" #Lucca (Victoria Wong)
 luc "I was on break when I came out to see you and Makoto. I thought you... you might be happy to see me again."
 
@@ -480,15 +481,15 @@ yum "...Ah..."
 voice "c-4-113.wav" #Yumi (Kathy Pfautsch)
 yum "S-sorry, I... I've been having a rough day. I didn't mean to take it out on you, Lucca..."
 
-show lucca sadsmile
+show lucca n sadsmile
 voice "c-4-114.wav" #Lucca (Victoria Wong)
 luc "W-well... it's okay. I-it's a bit strange, isn't it, to meet again like this..."
 
-show lucca happy
+show lucca n happy
 voice "c-4-115.wav" #Lucca (Victoria Wong)
 luc "...Though we never made a contract or anything, so... i-it's not like you're the center of my life or anything."
 
-show lucca happyclosed
+show lucca n happyclosed
 voice "c-4-116.wav" #Lucca (Victoria Wong)
 luc "I-I'm independent! And proud of it!"
 
@@ -498,11 +499,11 @@ yum "A-alright, Lucca. I believe you."
 voice "c-4-118.wav" #Yumi (Kathy Pfautsch)
 yum "...You might wanna put your hat back on. Someone might catch us."
 
-show lucca uwah
+show lucca n uwah
 voice "c-4-119.wav" #Lucca (Victoria Wong)
 luc "O-oh! Right..."
 
-show lucca nervouser
+show lucca h nervouser
 "She quickly slipped it back on, fussing to make sure the base of the horn didn't show."
 
 voice "c-4-120.wav" #Lucca (Victoria Wong)
@@ -511,14 +512,14 @@ luc "Does it look better?"
 voice "c-4-121.wav" #Yumi (Kathy Pfautsch)
 yum "Looks fine. No one'll suspect a thing."
 
-show lucca sigh
+show lucca h sigh
 voice "c-4-122.wav" #Lucca (Victoria Wong)
 luc "Phew... thank God."
 
 voice "c-4-123.wav" #Yumi (Kathy Pfautsch)
 yum "And... sorry I was interrogating you. I've been dealing with a lot."
 
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-4-124.wav" #Lucca (Victoria Wong)
 luc "I-I can imagine. Art deadlines are pretty scary. I-if you need help, I can make time."
 
@@ -528,7 +529,7 @@ yum "N-no, I'm fine with the art. It's just..."
 voice "c-4-126.wav" #Yumi (Kathy Pfautsch)
 yum "...Huh."
 
-show lucca neutral
+show lucca h neutral
 voice "c-4-127.wav" #Lucca (Victoria Wong)
 luc "...Huh? What is it, Yumi?"
 
@@ -537,7 +538,7 @@ luc "...Huh? What is it, Yumi?"
 voice "c-4-128.wav" #Yumi (Kathy Pfautsch)
 yum "There's, uh... some kind of demon. She's bunking in my room, uninvited."
 
-show lucca aaaa
+show lucca h aaaa
 voice "c-4-129.wav" #Lucca (Victoria Wong)
 luc "...Eeeeehh!?"
 
@@ -556,25 +557,25 @@ luc "O-oh no, Kamika...?"
 voice "c-4-133.wav" #Yumi (Kathy Pfautsch)
 yum "Ah, so you {i}do{/i} know something. Can you help a sister out here?"
 
-show lucca nervousclosed
+show lucca h nervousclosed
 voice "c-4-134.wav" #Lucca (Victoria Wong)
 luc "I-I dunno, she... I could go and say something, but... but she wouldn't listen to me. Sh-she's really stubborn... and rude, and vulgar, and..."
 
-show lucca mad
+show lucca h mad
 voice "c-4-135.wav" #Lucca (Victoria Wong)
 luc "...And a big jerky stupid head!"
 
 voice "c-4-136.wav" #Yumi (Kathy Pfautsch)
 yum "...Wow. Strong words."
 
-show lucca ohno
+show lucca h ohno
 voice "c-4-137.wav" #Lucca (Victoria Wong)
 luc "D-did I go too far? I-I'm sorry..."
 
 voice "c-4-138.wav" #Yumi (Kathy Pfautsch)
 yum "No, I... I just want to get her out of my room, so I can focus on my studies, y'know?"
 
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-4-139.wav" #Lucca (Victoria Wong)
 luc "W-well... d-did you call S-Tan yet? She could prolly, ah, coerce her, somehow..."
 
@@ -590,7 +591,7 @@ yum "...S-Tan?"
 voice "c-4-141.wav" #Yumi (Kathy Pfautsch)
 yum "...Hey, that's right! She's, like, everyone's boss, right? Ruler of Demons, Prince... {i}Princess{/i} of all Darkness, Satan of Wrath, all that fun stuff, right?"
 
-show lucca happy
+show lucca h happy
 voice "c-4-142.wav" #Lucca (Victoria Wong)
 luc "Y, yeah, that's... that's what it says on her business card..."
 

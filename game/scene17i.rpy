@@ -10,7 +10,7 @@ yum "..."
 
 #show luc, sta, and moe
 
-show lucca nervous with dissolve:
+show lucca h nervous with dissolve:
     align (0.2, 1.0)
 show stacey neutral with dissolve:
     align (0.5, 1.0)
@@ -74,11 +74,11 @@ show moe yum
 voice "c-17i-16.wav" #Moe (CJ Heineman)
 moe "Oh baby.~"
 
-show lucca bigaaaa
+show lucca h bigaaaa
 voice "c-17i-17.wav" #Lucca (Victoria Wong)
 luc "Moe!"
 
-show lucca nervous
+show lucca h nervous
 show moe neutral
 voice "c-17i-18.wav" #Stacey (Ashe Thurman)
 sta "Well, don't go too hard on her. We still need to send her back to Hell."
@@ -504,7 +504,7 @@ scene dormhallway
 
 #show luc, sta, and moe
 
-show lucca nervous with dissolve:
+show lucca h nervous with dissolve:
     align (0.2, 1.0)
 show stacey neutral with dissolve:
     align (0.5, 1.0)
@@ -516,7 +516,7 @@ sta "...Did you do it?"
 voice "c-17i-129.wav" #Yumi (Kathy Pfautsch)
 yum "Well, S-Tan happened to call, and... Kamika's talking with her right now. I think things are gonna be alright."
 
-show lucca bashful
+show lucca h bashful
 voice "c-17i-130.wav" #Lucca (Victoria Wong)
 luc "Oh, thank god! I-I was so afraid that you'd n-never come out of there...!"
 
@@ -524,7 +524,7 @@ show moe sighsweat
 voice "c-17i-131.wav" #Moe (CJ Heineman)
 moe "Uh, Kamika may be dangerous, but not THAT dangerous."
 
-show lucca nervous
+show lucca h nervous
 voice "c-17i-132.wav" #Lucca (Victoria Wong)
 luc "Ah, y-you're right! I'm sorry...!"
 
@@ -536,18 +536,18 @@ show stacey eyebrow
 voice "c-17i-134.wav" #Stacey (Ashe Thurman)
 sta "It was kinda hard {i}not{/i} to. You two really know how to scream."
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-17i-135.wav" #Lucca (Victoria Wong)
 luc "S-still, I had no idea Kamika was k-keeping all that bottled up inside... I-I kinda feel bad for her..."
 
 voice "c-17i-136.wav" #Moe (CJ Heineman)
 moe "I don't."
 
-show lucca bigaaaa
+show lucca h bigaaaa
 voice "c-17i-137.wav" #Lucca (Victoria Wong)
 luc "M-Moe...!"
 
-show lucca nervous
+show lucca h nervous
 show moe mad
 voice "c-17i-138.wav" #Moe (CJ Heineman)
 moe "What? She was the one pullin' all this shit on us from the start."

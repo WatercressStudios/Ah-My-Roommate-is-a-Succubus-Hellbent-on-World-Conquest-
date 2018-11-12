@@ -115,7 +115,7 @@ sta "Shocking, I know."
 
 #variable lucca name = ???
 
-show lucca neutral at centerright, flipimage with easeinright
+show lucca h neutral at centerright, flipimage with easeinright
 voice "c-13-27.wav" #Lucca (Victoria Wong)
 luc "I h-hope I'm not interrupting anything..."
 
@@ -129,7 +129,7 @@ sta "Yumi, you know the cowgirl?"
 voice "c-13-30.wav" #Yumi (Kathy Pfautsch)
 yum "We go way back, she's another demon, sort of."
 
-show lucca mad
+show lucca h mad
 voice "c-13-31.wav" #Lucca (Victoria Wong)
 luc "I'm right here, you know!"
 
@@ -143,7 +143,7 @@ sta "Are you sure? I hear you're not supposed to trust demons in funny hats."
 voice "c-13-34.wav" #Yumi (Kathy Pfautsch)
 yum "I was talking about you and your funny hat, actually."
 
-show lucca uwah
+show lucca h uwah
 voice "c-13-35.wav" #Lucca (Victoria Wong)
 luc "I-I'll have you know this hat is fashionable and f-functional..."
 
@@ -151,7 +151,7 @@ show stacey therocklook
 voice "c-13-36.wav" #Stacey (Ashe Thurman)
 sta "I bet there's a big ol' horn under there. Like a unicorn. Majestic and aerodynamic."
 
-show lucca doh
+show lucca h doh
 voice "c-13-37.wav" #Lucca (Victoria Wong)
 luc "W-what!? N-No!"
 
@@ -160,7 +160,7 @@ luc "W-what!? N-No!"
 voice "c-13-38.wav" #Stacey (Ashe Thurman)
 sta "..."
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-13-39.wav" #Lucca (Victoria Wong)
 luc "I-It's rude to stare..."
 
@@ -178,7 +178,7 @@ sta "If she says there isn't a horn, there isn't one."
 voice "c-13-43.wav" #Yumi (Kathy Pfautsch)
 yum "Anyway..."
 
-show lucca nervous
+show lucca h nervous
 voice "c-13-44.wav" #Lucca (Victoria Wong)
 luc "Yumi, I have to talk to you. I-In private. Are you free?"
 
@@ -202,7 +202,7 @@ menu:
         yum "Sorry Lucca, I already made plans. Can it wait?"
 
         voice "c-13-46.wav" #Lucca (Victoria Wong)
-        show lucca sigh
+        show lucca h sigh
         luc "...I-I guess..."
         jump staceyroute
     "Go with Lucca":
@@ -239,7 +239,7 @@ $ route = "stacey"
 voice "c-13-54.wav" #Yumi (Kathy Pfautsch)
 yum "I would, but I promised Stacey."
 
-show lucca guilty
+show lucca h guilty
 voice "c-13-55.wav" #Lucca (Victoria Wong)
 luc "Not the issue here, but okay."
 
@@ -260,7 +260,7 @@ show stacey smug
 voice "c-13-58.wav" #Stacey (Ashe Thurman)
 sta "Take it easy, Yumi."
 
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-13-59.wav" #Lucca (Victoria Wong)
 luc "A-Alright, let's go!"
 
@@ -280,7 +280,7 @@ show stacey neutral
 voice "c-13-62.wav" #Stacey (Ashe Thurman)
 sta "You're the boss, boss. Do whatcha gotta do."
 
-show lucca uwah
+show lucca h uwah
 voice "c-13-63.wav" #Lucca (Victoria Wong)
 luc "B-be careful, Yumi..."
 

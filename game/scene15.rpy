@@ -5,7 +5,7 @@ scene dormhallway with dissolve
 "Before we could even get inside my dorm room, I could tell preeeetty quickly that something was off."
 "For one, I heard some {i}real{/i} deep bass going down. Could feel it too."
 
-show lucca nervous with dissolve:
+show lucca h nervous with dissolve:
     align (0.2, 1.0)
 voice "c-15-1.wav" #Lucca (Victoria Wong)
 luc "Where's it coming from?"
@@ -154,7 +154,7 @@ show stacey mad
 voice "c-15-34.wav" #Stacey (Ashe Thurman)
 sta "Oh, man. Yuck."
 
-show lucca nervouser with easeinright:
+show lucca h nervouser with easeinright:
     align (0.1, 1.0)
 voice "c-15-35.wav" #Lucca (Victoria Wong)
 luc "O-oh nooo, that isn't good... that's really really bad!"
@@ -234,7 +234,7 @@ yum "W-what does that mean!?"
 voice "c-15-54.wav" #Yumi (Kathy Pfautsch)
 yum "Ugh, forget this. I'll kick everyone out myself."
 
-show lucca happy with easeinright:
+show lucca h happy with easeinright:
     align (0.4, 1.0)
 voice "c-15-55.wav" #Lucca (Victoria Wong)
 luc "A-and I'll help!"
@@ -244,7 +244,7 @@ show kamika u sighclosed flip with dissolve:
 voice "c-15-56.wav" #Kamika (Ariane Marchese)
 kam "Oh. And Yumi's little toadie comes in to lend her valuable assistance. I expect so little from the both of you..."
 
-show lucca nervous
+show lucca h nervous
 voice "c-15-57.wav" #Lucca (Victoria Wong)
 luc "Ah... I-I'll show you!"
 
@@ -283,7 +283,7 @@ sta "...Maybe some weed will cleanse the palate later..."
 scene dormroomparty with dissolve
 "The two of us split up. We figured we could try a pincer movement to corral the crowds out the door, but..."
 
-show lucca happy flip with easeinright:
+show lucca h happy flip with easeinright:
     align (0.8, 1.0)
 voice "c-15-65.wav" #Lucca (Victoria Wong)
 luc "O-okay everyone! I-if you could all get in a single-file line and funnel through the door, that... would be... cool?"
@@ -291,7 +291,7 @@ luc "O-okay everyone! I-if you could all get in a single-file line and funnel th
 voice "c-15-66.wav" #Partygoer 1 (???)
 pg1 "SHOW US YOUR TITS!"
 
-show lucca madblush flip
+show lucca h madblush flip
 voice "c-15-67.wav" #Lucca (Victoria Wong)
 luc "W-wha!? No! Screw you!"
 
@@ -301,7 +301,7 @@ pg2 "Oh, shit, you aren't Kamika, sorry. My bud's pretty wasted."
 voice "c-15-69.wav" #Partygoer 1 (???)
 pg1 "TIIIIIIIIIIIITS!"
 
-show lucca uwah
+show lucca h uwah
 show kamika u happyclosed flip with easeinright
 voice "c-15-70.wav" #Kamika (Ariane Marchese)
 kam "Well, don't mind if I do!~"
@@ -367,7 +367,7 @@ yum "W-w-what?? How'd she do that!?"
 voice "c-15-82.wav" #Yumi (Kathy Pfautsch)
 yum "...Wait. Bluetooth speakers. God {i}damn{/i} it..."
 
-show lucca nervous flip with easeinright:
+show lucca h nervous flip with easeinright:
     align (0.7, 1.0)
 voice "c-15-83.wav" #Lucca (Victoria Wong)
 luc "W-we have to destroy the speakers, Yumi!"
@@ -398,7 +398,7 @@ voice "c-15-89.wav" #Yumi (Kathy Pfautsch)
 yum "Actually, you're flat like a cutting board, but that's neither here nor there..."
 
 show kamika u angrysurprise
-show lucca neutral flip
+show lucca h neutral flip
 voice "c-15-90.wav" #Kamika (Ariane Marchese)
 kam "I-I'm not flat! Are you blind!?"
 
@@ -431,7 +431,7 @@ voice "c-15-97.wav" #Yumi (Kathy Pfautsch)
 yum "Her name's Lucca, get it right."
 
 show kamika u sighclosed
-show lucca ohno flip
+show lucca h ohno flip
 voice "c-15-98.wav" #Kamika (Ariane Marchese)
 kam "Oh, really? Poor thing must have an awful identity crisis. Always wants to prove herself to everyone."
 
@@ -463,7 +463,7 @@ show kamika u disappointed
 voice "c-15-105.wav" #Kamika (Ariane Marchese)
 kam "Taking over the school, and then further beyond. But I knew you were planning on double-crossing me. Everyone does."
 
-show lucca ohno flip
+show lucca h ohno flip
 voice "c-15-106.wav" #Yumi (Kathy Pfautsch)
 yum "That's not what this is about! I didn't want you to go and do something incredibly stupid!"
 
@@ -508,7 +508,7 @@ show moe neutralclosed
 voice "c-15-114.wav" #Moe (CJ Heineman)
 moe "Well, I'm properly hydrated, so I guess I could help out."
 
-show lucca nervous flip with dissolve:
+show lucca h nervous flip with dissolve:
     align (0.6, 1.0)
 voice "c-15-115.wav" #Lucca (Victoria Wong)
 luc "...Eh? What're you suggesting?"
@@ -523,7 +523,7 @@ voice "c-15-117.wav" #Moe (CJ Heineman)
 moe "...Y'sure about that?"
 
 show kamika mad flip
-show lucca nervouser flip
+show lucca h nervouser flip
 voice "c-15-118.wav" #Lucca (Victoria Wong)
 luc "...O-oh gosh, you're not gonna... y-you can't, they're already-"
 
@@ -536,7 +536,7 @@ voice "c-15-120.wav" #Moe (CJ Heineman)
 moe "The punch is pretty much useless, guys. Her pheromones lost their potency in the punch."
 
 show kamika u wideeyes flip
-show lucca ohno flip
+show lucca h ohno flip
 voice "c-15-121.wav" #Kamika (Ariane Marchese)
 kam "...Eh? What?"
 
@@ -554,7 +554,7 @@ voice "c-15-124.wav" #Stacey (Ashe Thurman)
 sta "Me and Moe basically downed the rest of it. I'm getting a bit of a buzz, but I think it's the rum..."
 
 show kamika stew flip
-show lucca neutral flip
+show lucca h neutral flip
 show moe neutral
 voice "c-15-125.wav" #Moe (CJ Heineman)
 moe "Trust me. It's more effective airborne. If you set up a fog machine or something, things might be different."
@@ -642,7 +642,7 @@ kam "Wait, guys! Come back! I-I can make cupcakes!!"
 show kamika u sad flip
 "None of them reciprocated their attention as Kamika was faced with the door closing on her."
 
-show lucca bashful with dissolve:
+show lucca h bashful with dissolve:
     align (0.8, 1.0)
 voice "c-15-141.wav" #Lucca (Victoria Wong)
 luc "...I-it really is like night and day with Moe, huh..."
@@ -676,7 +676,7 @@ kam "Ehehe, yes, yes! This is perfect, flawless, it's going to definitely work-"
 #sfx: throwing pitch
 show kamika u wideeyes
 show stacey eyebrow flip
-show lucca ohno flip
+show lucca h ohno flip
 "{b}WHOOSH!{/i}"
 #sfx pillow hitting sound effect
 
@@ -709,7 +709,7 @@ sta "Oop, nevermind, she's fine. Phew, I felt bad for a second there."
 voice "c-15-154.wav" #Yumi (Kathy Pfautsch)
 yum "Good. Great. Fantastic. {i}God{/i} I need a breather..."
 
-show lucca nervous with easeinright:
+show lucca h nervous with easeinright:
     align (0.65, 1.0)
 voice "c-15-155.wav" #Lucca (Victoria Wong)
 luc "W-where's Moe gonna take the party?"
@@ -722,14 +722,14 @@ show stacey smug
 voice "c-15-157.wav" #Stacey (Ashe Thurman)
 sta "Hopefully they don't all catch bedbugs over at his place or something. Heh."
 
-show lucca nervouser flip
+show lucca h nervouser flip
 voice "c-15-158.wav" #Lucca (Victoria Wong)
 luc "...Bedbugs?"
 
 voice "c-15-159.wav" #Yumi (Kathy Pfautsch)
 yum "...Pfft. Yeah. {i}Bedbugs.{/i} Heheh..."
 
-show lucca nervousclose flip
+show lucca h nervousclose flip
 voice "c-15-160.wav" #Lucca (Victoria Wong)
 luc "W-what's so funny? Bedbugs are a serious matter..."
 
@@ -740,7 +740,7 @@ sta "Haha, yeah. Don't wanna wake up with {i}bedbugs{/i} all over you.~"
 voice "c-15-162.wav" #Yumi (Kathy Pfautsch)
 yum "Oh my gosh stop, ahahahaha!"
 
-show lucca bashful
+show lucca h bashful
 voice "c-15-163.wav" #Lucca (Victoria Wong)
 luc "I-I don't get you guys at all..."
 

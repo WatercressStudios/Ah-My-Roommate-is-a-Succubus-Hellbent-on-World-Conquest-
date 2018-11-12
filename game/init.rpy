@@ -158,26 +158,48 @@ init python:
     MapEmote('kamika s sadside', 'kamika pose2 base md default ed side brow sad')
 
     #LUCCA
-    MapEmote('lucca neutral', 'lucca base md default ed default brow default')
-    MapEmote('lucca nervous', 'lucca base md default ed default brow sad')
-    MapEmote('lucca nervousopen', 'lucca base m default ed default brow sad')
-    MapEmote('lucca nervousclose', 'lucca base md default ec default brow sad')
-    MapEmote('lucca nervouser', 'lucca base md default ed default brow sadder')
-    MapEmote('lucca nervouseropen', 'lucca base m default ed default brow sadder')
-    MapEmote('lucca sigh', 'lucca base m sad ec default brow sad')
-    MapEmote('lucca uwah', 'lucca base m uwah ec uwah brow sad')
-    MapEmote('lucca doh', 'lucca base mc default ec uwah brow sadder blush')
-    MapEmote('lucca happy', 'lucca base md happy ed happy brow default')
-    MapEmote('lucca happyclosed', 'lucca base md happy ec happy brow default')
-    MapEmote('lucca bashful', 'lucca base md happy ed happy brow sad')
-    MapEmote('lucca ohno', 'lucca base md uwah ed default brow sad')
-    MapEmote('lucca aaaa', 'lucca base m uwah ed default brow sad')
-    MapEmote('lucca bigaaaa', 'lucca base m uwah ed default brow sadder')
-    MapEmote('lucca nervoussmile', 'lucca base md happy ed default brow sad')
-    MapEmote('lucca guilty', 'lucca base md sad ec default brow sad')
-    MapEmote('lucca mad', 'lucca base md mad ed default brow mad')
-    MapEmote('lucca mad', 'lucca base md mad ed default brow mad optional blush')
-    MapEmote('lucca happy', 'lucca base md happy ed happy brow sad')
+    MapEmote('lucca h neutral', 'lucca base md default ed default brow default')
+    MapEmote('lucca h nervous', 'lucca base md default ed default brow sad')
+    MapEmote('lucca h nervousopen', 'lucca base m default ed default brow sad')
+    MapEmote('lucca h nervousclose', 'lucca base md default ec default brow sad')
+    MapEmote('lucca h nervouser', 'lucca base md default ed default brow sadder')
+    MapEmote('lucca h nervouseropen', 'lucca base m default ed default brow sadder')
+    MapEmote('lucca h sigh', 'lucca base m sad ec default brow sad')
+    MapEmote('lucca h uwah', 'lucca base m uwah ec uwah brow sad')
+    MapEmote('lucca h doh', 'lucca base mc default ec uwah brow sadder blush')
+    MapEmote('lucca h happy', 'lucca base md happy ed happy brow default')
+    MapEmote('lucca h happyclosed', 'lucca base md happy ec happy brow default')
+    MapEmote('lucca h bashful', 'lucca base md happy ed happy brow sad')
+    MapEmote('lucca h ohno', 'lucca base md uwah ed default brow sad')
+    MapEmote('lucca h aaaa', 'lucca base m uwah ed default brow sad')
+    MapEmote('lucca h bigaaaa', 'lucca base m uwah ed default brow sadder')
+    MapEmote('lucca h nervoussmile', 'lucca base md happy ed default brow sad')
+    MapEmote('lucca h guilty', 'lucca base md sad ec default brow sad')
+    MapEmote('lucca h mad', 'lucca base md mad ed default brow mad')
+    MapEmote('lucca h mad', 'lucca base md mad ed default brow mad optional blush')
+    MapEmote('lucca h happy', 'lucca base md happy ed happy brow sad')
+
+    #LUCCA WITHOUT HAT
+    MapEmote('lucca n neutral', 'lucca nohat md default ed default brow default')
+    MapEmote('lucca n nervous', 'lucca nohat md default ed default brow sad')
+    MapEmote('lucca n nervousopen', 'lucca nohat m default ed default brow sad')
+    MapEmote('lucca n nervousclose', 'lucca nohat md default ec default brow sad')
+    MapEmote('lucca n nervouser', 'lucca nohat md default ed default brow sadder')
+    MapEmote('lucca n nervouseropen', 'lucca nohat m default ed default brow sadder')
+    MapEmote('lucca n sigh', 'lucca nohat m sad ec default brow sad')
+    MapEmote('lucca n uwah', 'lucca nohat m uwah ec uwah brow sad')
+    MapEmote('lucca n doh', 'lucca nohat mc default ec uwah brow sadder blush')
+    MapEmote('lucca n happy', 'lucca nohat md happy ed happy brow default')
+    MapEmote('lucca n happyclosed', 'lucca nohat md happy ec happy brow default')
+    MapEmote('lucca n bashful', 'lucca nohat md happy ed happy brow sad')
+    MapEmote('lucca n ohno', 'lucca nohat md uwah ed default brow sad')
+    MapEmote('lucca n aaaa', 'lucca nohat m uwah ed default brow sad')
+    MapEmote('lucca n bigaaaa', 'lucca nohat m uwah ed default brow sadder')
+    MapEmote('lucca n nervoussmile', 'lucca nohat md happy ed default brow sad')
+    MapEmote('lucca n guilty', 'lucca nohat md sad ec default brow sad')
+    MapEmote('lucca n mad', 'lucca nohat md mad ed default brow mad')
+    MapEmote('lucca n mad', 'lucca nohat md mad ed default brow mad optional blush')
+    MapEmote('lucca n happy', 'lucca nohat md happy ed happy brow sad')
 
     #MOE
     MapEmote('moe neutral', 'moe base md default ed default brow default')
@@ -199,8 +221,10 @@ init python:
     MapEmote('stacey evil', 'stacey base md default ed default brow mad')
     MapEmote('stacey madlook', 'stacey base md sad ed side brow mad')
     MapEmote('stacey eyebrowclosed', 'stacey base md sad ec default brow raised')
-    MapEmote('lucca waah', 'lucca base md default ed default brow sadder cry 1')
-    MapEmote('lucca sniff', 'lucca base md sad ed default brow sad cry 1')
+    MapEmote('lucca h waah', 'lucca base md default ed default brow sadder cry 1')
+    MapEmote('lucca h sniff', 'lucca base md sad ed default brow sad cry 1')
+    MapEmote('lucca n waah', 'lucca nohat md default ed default brow sadder cry 1')
+    MapEmote('lucca n sniff', 'lucca nohat md sad ed default brow sad cry 1')
     MapEmote('kamika u quiet', 'kamika pose1 public md default ed default brow sad')
     MapEmote('kamika d quiet', 'kamika pose1 base md default ed default brow sad')
     MapEmote('kamika u disappointed', 'kamika pose1 public md default ec default brow sad')
@@ -390,6 +414,10 @@ define happysong2 = "music/Quircky Shop.ogg"
 ###################
 # Ambient         #
 ###################
+
+init python:
+    renpy.music.register_channel("ambient","sfx",loop=True,tight=True)
+
 define cafeamb = "ambient/Cafe BFX.ogg"
 define showeramb = "ambient/Shower BFX.ogg"
 define showerambbehind = "ambient/Shower from Behind Door _ _Steam for Pheromone use_ BFX.ogg"
