@@ -74,7 +74,7 @@ voice "c-4-15.wav" #Lucca (Victoria Wong)
 luc "H, hello Yumi-."
 
 voice "c-4-16.wav" #Yumi (Kathy Pfautsch)
-yum "{I}Whoa!{/I}"
+yum "{i}Whoa!{/i}"
 
 show lucca nervouser
 voice "c-4-17.wav" #Lucca (Victoria Wong)
