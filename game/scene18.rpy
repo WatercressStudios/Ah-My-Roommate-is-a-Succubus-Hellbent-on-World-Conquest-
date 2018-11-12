@@ -1,6 +1,7 @@
 label scene18:
 scene rooftopnight
 
+play music kamreflect fadein 1.0
 "What should have been a simple excursion to get here turned into an ordeal near the end."
 "I don't think I've felt this exhausted since the day I first moved here... which shows how much I know about college in more ways than one."
 "I lean against the balcony, staring out at the rest of the school as I gather my thoughts."
@@ -616,7 +617,9 @@ else:
 #dialogue path if on Stacey or Lucca route
 
 label notbitchend:
-"We both just hung out on the roof in silence for the rest of the night, watching the stars lazily pass us by..."
+show kamikaend with dissolve
+"We both just hung out on the roof in silence for the rest of the night, watching the stars lazily pass us by."
+"It's such a clear night. And tomorrow's a new day."
 
 jump credits
 
@@ -680,6 +683,7 @@ kam "Y... yeah. I'll be fine..."
 "Hoo boy. This is gonna be a loooong semester..."
 
 label s18merge:
+show kamikaend with dissolve
 "I look up to the night sky, finding stars as I see them."
 "Who knows what the future's gonna be like for me... for all of us."
 

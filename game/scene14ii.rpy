@@ -1,5 +1,5 @@
 label scene14ii:
-scene campus
+scene library with dissolve
 
 show lucca h neutral at center
 with dissolve
@@ -12,6 +12,7 @@ with dissolve
 
 "I don't even realize the memory of yesterday's hijinks has my face twisted all up into a frown until Lucca shoots me a concerned look."
 
+play music luccatheme fadein 1.0
 show lucca h guilty
 voice "c-14ii-1.wav" #Lucca (Victoria Wong)
 luc "Is... is everything alright?"
@@ -142,12 +143,14 @@ show lucca h ohno
 voice "c-14ii-34.wav" #Lucca (Victoria Wong)
 luc "And anyway, that... that's n-not what we're here to talk about!"
 
+stop music fadeout 1.0
 show lucca h nervouser
 voice "c-14ii-35.wav" #Lucca (Victoria Wong)
 luc "Kamika! Do you know what k-Kamika's up to?"
 
 "It's probably the most obvious evasive maneuver I've ever seen, but I guess I'll let it slide for now, because that really {i}is{/i} something we need to discuss."
 
+play music funkyjam fadein 1.0
 voice "c-14ii-36.wav" #Yumi (Kathy Pfautsch)
 yum "In terms of the so-called \"Phase 2\" of her plan? Not so much."
 
@@ -224,12 +227,17 @@ luc "B-b-but that's insider information! I'll get in a lot of trouble if people 
 voice "c-14ii-53.wav" #Yumi (Kathy Pfautsch)
 yum "I mean, ideally, I'd like to forget about the hotline entirely, so I don't think there's much worry of me spreading it around."
 
+stop music fadeout 1.0
+show phonedefault zorder 2 with dissolve
 show lucca h nervous
 "Sure enough, when I punch the modified number into my phone, I don't get a machine - just a normal ringing sound."
 
+show phone1 levineutral with dissolve
+play music holdmusic fadein 1.0
 voice "c-14ii-54.wav" #Levi (Nina Sumter)
 lev "Sinful Stars hotline. How may I assist you?"
 
+show phoneyumi neutraltalk
 voice "c-14ii-55.wav" #Yumi (Kathy Pfautsch)
 yum "Oh - hey, Levi. It's Yumi again."
 
@@ -239,42 +247,55 @@ show lucca h happy
 voice "c-14ii-56.wav" #Lucca (Victoria Wong)
 luc "Levi!"
 
+show phoneyumi eyebrow
 voice "c-14ii-57.wav" #Yumi (Kathy Pfautsch)
 yum "...Lucca says hi."
 
+show phone1 levieyebrow
 voice "c-14ii-58.wav" #Levi (Nina Sumter)
 lev "Aww, hi."
 
+show phone1 levisigh
 voice "c-14ii-59.wav" #Levi (Nina Sumter)
 lev "I, um, can't tell if this is a social call or an SOS. Did everything work out with Kamika?"
 
+show phoneyumi surprise
 voice "c-14ii-60.wav" #Yumi (Kathy Pfautsch)
 yum "Er, that's the thing, actually. Could you convey to Satan that we're dealing with the situation on our own?"
 
+show phone1 levineutral
 voice "c-14ii-61.wav" #Levi (Nina Sumter)
 lev "Sure thing, I'd be happy to, but I haven't seen her around, so I can't say if she knows about it in the first place."
 
+show phone1 rant
 voice "c-14ii-62.wav" #Levi (Nina Sumter)
 lev "Probably just avoiding me because she knows I still demand an explanation for her leapfrogging my nun - "
 
+show phoneyumi dread
 voice "c-14ii-63.wav" #Yumi (Kathy Pfautsch)
 yum "...Right, whatever. just tell her when you see her, okay?"
 
+show phone1 levisigh
 voice "c-14ii-64.wav" #Levi (Nina Sumter)
 lev "*sigh* Mm-hmm. You got it."
 
+show phone1 levieyebrow
 voice "c-14ii-65.wav" #Levi (Nina Sumter)
 lev "Also, you might want to go check out what's going on in your dorm room."
 
+show phoneyumi eyebrow
 voice "c-14ii-66.wav" #Yumi (Kathy Pfautsch)
 yum "What?"
 
+show phone1 levineutral
 voice "c-14ii-67.wav" #Levi (Nina Sumter)
 lev "Moe just went AFK in the middle of the damn raid, saying there's some commotion going on over there."
 
+show phoneyumi dread
 voice "c-14ii-68.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, {i}shit{/i}!"
 
+show phone1 levideadpan
 voice "c-14ii-69.wav" #Levi (Nina Sumter)
 lev "Yeah, um, sorry to be the bearer of bad news."
 
@@ -283,14 +304,15 @@ lev "...Kay bye."
 
 #sfx
 
-play sound beep
+#play sound beep
 
+scene library with dissolve
 "{i}Click.{/i}"
 
 voice "c-14ii-71.wav" #Yumi (Kathy Pfautsch)
 yum "...Uhh..."
 
-show lucca h guilty
+show lucca h guilty with dissolve
 voice "c-14ii-72.wav" #Lucca (Victoria Wong)
 luc "...I-is it bad?"
 
@@ -303,13 +325,18 @@ luc "We should go?"
 voice "c-14ii-75.wav" #Yumi (Kathy Pfautsch)
 yum "Probably."
 
-#FLAG
-voice "c-14ii-76.wav" #Yumi (Kathy Pfautsch)
-yum "...Oh yeah, don't do the whole prism power thingy on my dorm room. I enjoy sleeping under a roof."
+if prismpower = True:
+    voice "c-14ii-76.wav" #Yumi (Kathy Pfautsch)
+    yum "...Oh yeah, don't do the whole prism power thingy on my dorm room. I enjoy sleeping under a roof."
 
-show lucca h ohno
-voice "c-14ii-77.wav" #Lucca (Victoria Wong)
-luc "I-I understand!"
+    show lucca h ohno
+    voice "c-14ii-77.wav" #Lucca (Victoria Wong)
+    luc "I-I understand!"
+    jump end14ii
+else:
+    jump end14ii
+
+label end14ii:
 
 "Getting our things together, we make our way towards my dorm room."
 

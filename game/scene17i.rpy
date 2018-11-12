@@ -1,6 +1,7 @@
 label scene17i:
-scene dormhallway
+scene dormhallway with dissolve
 
+stop music
 voice "c-17i-1.wav" #Yumi (Kathy Pfautsch)
 yum "..."
 
@@ -33,6 +34,7 @@ moe "Think about what you're saying. You're trying to talk some reason into an u
 voice "c-17i-6.wav" #Yumi (Kathy Pfautsch)
 yum "Guys, I know it sounds crazy, but... hear me out here."
 
+play music neutral fadein 1.0
 show stacey neutral
 show moe neutral
 voice "c-17i-7.wav" #Yumi (Kathy Pfautsch)
@@ -107,13 +109,15 @@ scene black
 
 #scene dormroomtrashed
 
-scene dormroom
+scene dormroomparty with dissolve
+stop music fadeout 1.0
 "The chaotic mess left by the partygoers is still there. It's gonna take {i}forever{/i} just to make this look decent again..."
 
 "Kamika is seated at the table near the kitchen, burying her head in her arms."
 
 "Once I close the door, I glance towards her. She glares back at me."
 
+play music kamtheme fadein 1.0
 show kamika s annoyed with dissolve
 voice "c-17i-23.wav" #Kamika (Ariane Marchese)
 kam "What do {i}you{/i} want? Come back to gloat over me? To {i}laugh{/i} at me?"
@@ -156,6 +160,7 @@ kam "To get some recognition, is that so much to ask?"
 voice "c-17i-33.wav" #Yumi (Kathy Pfautsch)
 yum "There are {i}better{/i} ways to do that! You can do {i}so{/i} many other things than-"
 
+stop music
 show kamika s grit
 voice "c-17i-34.wav" #Kamika (Ariane Marchese)
 kam "Oh, {i}can I? Is that right?!{/i}"
@@ -173,6 +178,7 @@ show kamika d glare
 voice "c-17i-37.wav" #Kamika (Ariane Marchese)
 kam "Lemme ask you something. Do you think I {i}like{/i} being jerked around like this?"
 
+play music sadsong fadein 1.0
 voice "c-17i-38.wav" #Kamika (Ariane Marchese)
 kam "Do you think I {i}enjoy{/i} it when something I've worked {i}so hard on{/i} falls apart before I can even put it together?!"
 
@@ -281,7 +287,7 @@ voice "c-17i-66.wav" #Yumi (Kathy Pfautsch)
 yum "Kamika... I-"
 
 
-play sound ringtone
+stop music
 
 show kamika d surprisecry
 voice "c-17i-67.wav" #Yumi (Kathy Pfautsch)
@@ -310,6 +316,7 @@ show kamika d mad
 voice "c-17i-71.wav" #Kamika (Ariane Marchese)
 kam "What do {i}you{/i} want?!"
 
+play music happysong2
 voice "c-17i-72.wav" #S-Tan (Dani Chambers)
 sat "{i}Oooh{/i}, what a beautiful display of burning anger that I just {i}love{/i} to see~!"
 
@@ -361,6 +368,7 @@ kam "And not only do you insult me and make fun of me with that {i}ugly{/i} titl
 voice "c-17i-86.wav" #S-Tan (Dani Chambers)
 sat "I {i}did{/i} try calling you, but you had my number blocked!"
 
+stop music
 show kamika d screamclosed
 voice "c-17i-87.wav" #Kamika (Ariane Marchese)
 kam "{i}Shut up while I'm talking at you!!{/i}"
@@ -399,6 +407,7 @@ kam "I... {i}I HATE YOU!!!{/i}"
 voice "c-17i-97.wav" #S-Tan (Dani Chambers)
 sat "...Oh..."
 
+play music feels
 voice "c-17i-98.wav" #S-Tan (Dani Chambers)
 sat "Oh, sweetie, I'm so sorry! I never meant to hurt you like that!"
 
@@ -498,9 +507,10 @@ kam "...I need to be alone for a bit."
 voice "c-17i-127.wav" #Yumi (Kathy Pfautsch)
 yum "...Alright. Take as long as you need."
 
+stop music fadeout 1.0
 "Kamika nods, and returns to the phone while I make my way out into the hallway."
 
-scene dormhallway
+scene dormhallway with dissolve
 "Immediately a wave of relief and exhaustion washes over me as soon as I close the door."
 
 #show luc, sta, and moe
@@ -517,6 +527,7 @@ sta "...Did you do it?"
 voice "c-17i-129.wav" #Yumi (Kathy Pfautsch)
 yum "Well, S-Tan happened to call, and... Kamika's talking with her right now. I think things are gonna be alright."
 
+play music funkyjam fadein 1.0
 show lucca h bashful
 voice "c-17i-130.wav" #Lucca (Victoria Wong)
 luc "Oh, thank god! I-I was so afraid that you'd n-never come out of there...!"
@@ -627,7 +638,8 @@ show stacey neutral
 voice "c-17i-158.wav" #Stacey (Ashe Thurman)
 sta "Hm. Makes sense I guess."
 
-scene black
+scene black with dissolve
+stop music fadeout 1.0
 
 "After that, we all just kinda disperse and go our separate ways."
 "I feel like a miracle just happened, but I can't say it's from heaven with how many demons are involved in it."

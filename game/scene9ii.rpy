@@ -6,11 +6,12 @@ scene classroom with dissolve
 "Damn it all, even when she's not in my presence, she somehow finds a way to interfere with my life! I just want this day to be done with as quickly as possible..."
 "Thankfully, I only have one morning class to worry about today, and as soon as it's over, I trot out to the plaza to look for Kamika."
 
-scene outsidedorm with dissolve
+scene outsideschool with dissolve
 "To her credit, it doesn't take long for me to find her at all - probably because she starts screaming my name and waving to me as soon as she sees me."
 "Sighing, I make my way to her like a lost soul finding its way to the Gates of Hell."
 "...And now I feel a sudden urge to punch my brother on the shoulder for even thinking that. God damn it, I cannot catch a break lately..."
 
+play music happysong2 fadein 1.0
 show kamika u shout with dissolve
 voice "c-9ii-1.wav" #Kamika (Ariane Marchese)
 kam "What took you so long?! I was about to start the whole thing {i}without{/i} you!"
@@ -94,6 +95,8 @@ kam "Come along then, my most devoted of servants! Let us begin~!"
 
 hide kamika u with easeoutleft
 "Kamika leads the way, while I try to cover my face from as many prying eyes as possible."
+
+scene library with dissolve
 "Eventually, we make our way to the entrance of the library. Kamika's managed to scrounge up a collection of things for her little concert too."
 "Large speakers, a microphone, a tiny little music player, plenty of cables... She put more thought into this than I give her credit for."
 
@@ -144,8 +147,7 @@ yum "I- You- {i}Urrrrrgh!{/i}"
 "She wants me to learn all this on the fly?! I'm not a miracle worker here!"
 "But she's not even going to take no for an answer, or else who knows {i}what{/i} she might do..."
 
-hide kamika u with dissolve
-#scene black
+scene black with dissolve
 
 "So without much say in the matter, I hunker down and begin to work."
 "Man, they really make it a pain in the ass to set up audio nowadays. So many cords and ports..."
@@ -171,7 +173,7 @@ kam "I call it as I see it! Now MOVE!"
 "Augh, this woman is {i}relentless{/i} with her bitching! Maybe I should sabotage this on purpose just to teach her a lesson!"
 "...But despite all my grumbling, I somehow manage to hook up the audio."
 
-#scene campus
+scene library with dissolve
 
 show kamika u happy with dissolve
 voice "c-9ii-39.wav" #Kamika (Ariane Marchese)
@@ -190,6 +192,7 @@ kam "So I need you to make yourself useful and get the song going when I give th
 voice "c-9ii-43.wav" #Yumi (Kathy Pfautsch)
 yum "Oh for- ...Fine, but this better be the last thing you ask of me today."
 
+stop music fadeout 2.0
 show kamika u confident
 "Satisfied with my answer, Kamika picks up the microphone and calls out to the rest of campus."
 
@@ -206,9 +209,12 @@ voice "c-9ii-46.wav" #Kamika (Ariane Marchese)
 kam "Psst! That's your cue! Play the music!"
 
 hide kamika u with dissolve
-#scene black
+
+scene black
 
 "With a grumble, I play the first song that appears on the music player."
+
+play music ourlastnighttogether fadein 1.0
 "I close my eyes... and listen to her sing."
 
 #Our Last Night Together begins playing
@@ -218,7 +224,7 @@ hide kamika u with dissolve
 "And the words are thoughtful, too... I feel like I'm listening to the memoir of a lovesick lady and her struggles with people who come and go in her life."
 "It's... oddly sad. Which I never expected from Kamika..."
 
-#music stops
+stop music
 voice "c-9ii-47.wav" #Lucca (Victoria Wong)
 luc "{i}Stop!!!{/i}"
 
@@ -227,7 +233,7 @@ yum "?!"
 
 "In an instant, a familiar voice cuts through the singing. I open my eyes as soon as the voice rings out..."
 
-#scene campus
+scene campus library
 #show luc, kam
 
 show lucca h mad with dissolve:
@@ -235,6 +241,7 @@ show lucca h mad with dissolve:
 show kamika u pout with dissolve:
     align (0.8, 1.0)
 
+play music wordfight fadein 1.0
 "It's Lucca! And she's standing up to Kamika! What is she {i}thinking?!{/i}"
 
 voice "c-9ii-49.wav" #Kamika (Ariane Marchese)
@@ -360,6 +367,8 @@ menu:
 #dialogue path from ">>Stand down"
 
 label luccasurrender:
+
+stop music fadeout 1.0
 "I wrestle my way out of Kamika's grasp and head over to Lucca's side."
 
 show kamika u pout
@@ -381,7 +390,7 @@ kam "You {i}backstabbing louse!{/i} How {i}dare{/i} you?!"
 
 show lucca h nervousclose
 voice "c-9ii-80.wav" #Lucca (Victoria Wong)
-luc "Phew... wh-what a relief. To be honest, I don't think I was ready to use that..."
+luc "Phew... wh-what a relief. To be honest, I don't think I was ready to use {i}that{/i}..."
 
 show kamika u glare
 voice "c-9ii-81.wav" #Kamika (Ariane Marchese)
@@ -423,7 +432,11 @@ show lucca h mad
 voice "c-9ii-89.wav" #Lucca (Victoria Wong)
 luc "I... I-I won't back down! I-I'll just have to use my ultimate attack!"
 
-"Lucca pulls out a wand and points it toward me and Kamika, as a powerful energy begins gathering into it."
+show energyspark one
+#play sound chargingattack
+show lucca n mad
+"Without a moment of hesitation, Lucca removed her hat, revealing her striking horn."
+"Energy crackled at the pointed tip. Her expression grew more determined."
 
 #show CG of Lucca with her staff, charging her attack
 
@@ -437,11 +450,11 @@ kam "Oh gimme a break, you're {i}actually{/i} trying to stop us with {i}that?{/i
 voice "c-9ii-92.wav" #Lucca (Victoria Wong)
 luc "D-don't try to stop me! Once I've charged this attack to its highest possible power level, it'll be enough to defeat you once and for all!"
 
-show lucca h nervous
+show lucca n nervous
 voice "c-9ii-93.wav" #Lucca (Victoria Wong)
 luc "O-oh, but, Yumi could die if it hits her, s-so, um... P-please reconsider before it's done, okay?!"
 
-show lucca h mad
+show lucca n mad
 voice "c-9ii-94.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, I could {i}die{/i} from this?!"
 
@@ -467,6 +480,13 @@ luc "Don't listen to her, Yumi! Get away, b-before it's too late!"
 menu:
     "Stand down":
         $ lucca_points += 1
+        $ prismpower = True
+
+        "Yeah, I'm not gonna die like this. No sir. Nuh uh."
+
+        show lucca h neutral
+        hide energyspark with dissolve
+        "Lucca seemed to realize this as well. She nodded, cutting the juice."
         jump luccasurrender
     "Refuse to back down":
         jump resist2
@@ -479,7 +499,7 @@ label resist2:
 voice "c-9ii-99.wav" #Yumi (Kathy Pfautsch)
 yum "I'm sorry, Lucca, but I can't leave her."
 
-show lucca h aaaa
+show lucca n aaaa
 voice "c-9ii-100.wav" #Lucca (Victoria Wong)
 luc "{i}What?! Why?!{/i}"
 
@@ -494,11 +514,13 @@ show kamika u evilgrin
 voice "c-9ii-103.wav" #Kamika (Ariane Marchese)
 kam "You see that, you dumb bitch?! She's {i}mine{/i}, and there's {i}nothing{/i} your little glowstick can do about it!"
 
-show lucca h mad
+show lucca n mad
 voice "c-9ii-104.wav" #Lucca (Victoria Wong)
 luc "D-d-don't think I'm giving up! I-I'm almost done charging!"
 
-show lucca h waah
+#play sound charge2
+show energyspark 2 with dissolve
+show lucca n waah
 voice "c-9ii-105.wav" #Lucca (Victoria Wong)
 luc "Th-this is your last chance, Yumi! Just, p-p-please move s-so I can hit her! ...Please?"
 
@@ -516,6 +538,12 @@ kam "Stand up and defend me, Yumi! Prove your loyalty to me once and for all~!"
 menu:
     "Stand down":
         $ lucca_points += 1
+        $ prismpower = True
+        "Yeah, I'm not gonna die like this. No sir. Nuh uh."
+
+        show lucca h neutral
+        hide energyspark with dissolve
+        "Lucca seemed to realize this as well. She nodded, cutting the juice."
         jump luccasurrender
     "Prove your loyalty":
         $ kamika_points += 1
@@ -530,7 +558,7 @@ label resist3:
 voice "c-9ii-109.wav" #Yumi (Kathy Pfautsch)
 yum "Lucca... I won't back down."
 
-show lucca h bigaaaa
+show lucca n bigaaaa
 voice "c-9ii-110.wav" #Lucca (Victoria Wong)
 luc "Wh... {i}WHAAAAAAAAAAAT?!{/i}"
 
@@ -541,7 +569,7 @@ kam "{i}Eeyahahahahahahahaaa!!{/i} Oh Yumi, I could {i}kiss{/i} you right now~!"
 voice "c-9ii-112.wav" #Yumi (Kathy Pfautsch)
 yum "Don't push your luck."
 
-show lucca h sniff
+show lucca n sniff
 voice "c-9ii-113.wav" #Lucca (Victoria Wong)
 luc "Ah... Ahhhh... Umm..."
 
@@ -549,7 +577,7 @@ show kamika u smug
 voice "c-9ii-114.wav" #Kamika (Ariane Marchese)
 kam "Well? Do you have anything to say to that, you horrible little {i}hag~?{/i}"
 
-show lucca h waah
+show lucca n waah
 voice "c-9ii-115.wav" #Lucca (Victoria Wong)
 luc "I-I don't know! I... N-n-no one's ever refused to back down so many times before!"
 
@@ -568,15 +596,17 @@ luc "But... I... y-you can't, it..."
 "I tell her, 'I'm fine, I know what I'm doing. Please, stop...' as discreetly as possible, hoping Lucca can take the hint."
 "Fortunately, it looks like she got it."
 
-show lucca h doh
+show lucca n doh
+hide energyspark with dissolve
+stop music
 voice "c-9ii-119.wav" #Lucca (Victoria Wong)
 luc "I... {i}I GIVE UP!!!{/i}"
 
-#fade CG
 
-hide lucca with easeoutleft
+hide lucca with dissolve
 "Lucca collapses to the ground, overwhelmed with grief. Or is she doing her part in the acting, too? It's a little hard to tell with her..."
 
+play music kamevil fadein 1.0
 show kamika u confident with easeinleft:
     align (0.5, 1.0)
 voice "c-9ii-120.wav" #Kamika (Ariane Marchese)
@@ -643,6 +673,7 @@ yum "Alright, I got it..."
 
 #MERGE: all dialogue paths converge here
 
+stop music fadeout 1.0
 label s9iimerge:
 hide kamika u with dissolve
 "And with that, Kamika storms off..."

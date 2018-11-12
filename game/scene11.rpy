@@ -3,6 +3,7 @@ scene dormhallway
 show stacey smug at centerright, flipimage
 with dissolve
 
+play music funkyjam fadein 1.0
 "We make our way to the dorms. Stacey's walking pace is the agonizing middle ground where it's slow enough to be annoying, but fast enough that I can't justify calling her out on it."
 "Slowly, it dawns on me that we're heading to the RA's room. Stacey knocks on the door."
 
@@ -23,7 +24,6 @@ sta "Hey, Moe! Couldja quit closing your porn and open the door already?"
 show moe neutral at centerleft, flipimage with dissolve
 "He opens the door and looks at me for a moment."
 
-##scene Moe's room?
 
 voice "c-11-5.wav" #Moe (CJ Heineman)
 moe "Oh. It's you."
@@ -31,13 +31,18 @@ moe "Oh. It's you."
 voice "c-11-6.wav" #Moe (CJ Heineman)
 moe "Just... get inside where no one can hear you."
 
-"He all but drags us in."
 
-show stacey neutral
+scene moeroom with dissolve
+
+"Moe drags us both into the room. I don't think Moe really wanted me here, but alas..."
+
+show stacey neutral with easeinleft:
+    align (0.35, 1.0)
 voice "c-11-7.wav" #Stacey (Ashe Thurman)
 sta "Okay, Moe. We've got some {i}serious{/i} shit to talk about."
 
-show moe squint
+show moe squint with dissolve:
+    align (0.65, 1.0)
 voice "c-11-8.wav" #Moe (CJ Heineman)
 moe "You say as you drag in the girl who was raving about a mysterious assailant with purple wings in her room."
 
@@ -122,7 +127,7 @@ moe "Well. I guess there's no helping it."
 
 
 
-#if we have suitable music
+stop music
 show moe mad
 voice "c-11-30.wav" #Moe (CJ Heineman)
 moe "Stacey! Hit the music!"
@@ -134,9 +139,8 @@ sta "You got it, man."
 voice "c-11-32.wav" #Yumi (Kathy Pfautsch)
 yum "What? What's going on? What are you doing?"
 
-
-scene black with dissolve ##for now
-#moe intro cg
+play music moetheme fadein 1.0
+show moeintro with dissolve
 
 voice "c-11-33.wav" #Moe (CJ Heineman)
 moe "'The Debonaire Demon of Desire', 'The Spanish Stallion', 'The Hunk of Hearts'..."
@@ -171,11 +175,11 @@ sta "I made him take that out of the speech when we were workshopping it. Just d
 voice "c-11-43.wav" #Yumi (Kathy Pfautsch)
 yum "I don't care about that! {i}Kamika{/i} is the Demon of Lust. So who the hell are you?"
 
-scene dormhallway
-show moe sighsweat at centerleft, flipimage
-show stacey smug at centerright, flipimage
-with dissolve
+show moe sighsweat
+show stacey smug
+hide moeintro with dissolve
 
+stop music fadeout 2.0
 voice "c-11-44.wav" #Moe (CJ Heineman)
 moe "Oh, god. {i}That's{/i} your demon?"
 
@@ -193,6 +197,7 @@ moe "Oh, I dunno, maybe because she's the Demon of Envy and being a lying self-c
 voice "c-11-48.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, I get your point."
 
+play music funkyjam fadein 1.0
 show moe sigh
 voice "c-11-49.wav" #Moe (CJ Heineman)
 moe "If she's your roommate demon, that might be a problem."
@@ -453,9 +458,8 @@ moe "Keep me posted on Kamika, alright? She's too stupid to be dangerous, but we
 voice "c-11-119.wav" #Yumi (Kathy Pfautsch)
 yum "You got it, Moe."
 
-scene black ##for now
-with dissolve
-scene dormhallway
+stop music fadeout 1.0
+scene dormhallway with dissolve
 show stacey neutral at center
 with dissolve
 
@@ -463,6 +467,7 @@ with dissolve
 "Finally, it feels as though things are getting somewhere... but I can't let down my guard yet."
 "Kamika might try something incredibly stupid, and I need to be prepared for anything."
 
+play music staceytheme fadein 1.0
 show stacey smuglook
 voice "c-11-120.wav" #Stacey (Ashe Thurman)
 sta "By the way, you think you could get me an autographed shirt from Kamika?"

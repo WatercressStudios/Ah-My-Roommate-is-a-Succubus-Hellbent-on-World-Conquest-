@@ -39,8 +39,8 @@ hide kamika with dissolve
 "With the demon girl struggling to break free, I hustle over to my corner and quickly sneak back inside."
 
 scene dormroom with dissolve
-#sfx 
-play sound shove
+#sfx
+#play sound shove
 "Once we're safe, I shove her onto the sofa and slam the door shut behind me."
 "Just the act of bringing this girl back here has me catching my breath... It must be that natural demon power."
 "But now I can focus my attention on dealing with her..."

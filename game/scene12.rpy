@@ -1,6 +1,7 @@
 label scene12:
 scene dormroom with dissolve
 
+play music neutralmusic fadein 1.0
 "After spending time with Stacey and Moe, I ended up feeling pretty... relaxed!"
 "Relaxed enough to actually get some homework out of the way. Or, at least, in-class work I had to skimp out on."
 "Yeaaah, that still life assignment in Mrs Bernardinelli's class didn't up and disappear... and she definitely had questions for me about it too over email."
@@ -8,7 +9,7 @@ scene dormroom with dissolve
 "And Kamika was out of the room for now as well. Part of me hoped she had some night class to deal with..."
 "...Or maybe she found some fling to spend the night with. Hell, that'd be even better. A night of peace and quiet wouldn't be all that bad..."
 
-play sound doorunlock
+#play sound doorunlock
 
 voice "c-12-1.wav" #Yumi (Kathy Pfautsch)
 yum "...Hm?"
@@ -179,7 +180,7 @@ voice "c-12-41.wav" #Kamika (Ariane Marchese)
 kam "Ahh, I dunno... self-pleasuring doesn't have the same sort of appeal as-"
 
 #sfx
-play sound whack
+#play sound whack
 
 show kamika u ouch
 voice "c-12-42.wav" #Kamika (Ariane Marchese)
@@ -305,10 +306,11 @@ kam "Here, I'll try a few poses!"
 voice "c-12-73.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, what?"
 
+stop music fadeout 1.0
 "The next time I look up..."
 
-
-#cg sequence
+play music kamseduce
+show kamikapose butt with dissolve
 
 "Kamika had already slid between myself and what's {i}supposed{/i} to be my subject. It was absolutely infuriating!"
 
@@ -341,6 +343,7 @@ yum "Adonis was a {i}guy{/i} you idiot..."
 voice "c-12-82.wav" #Yumi (Kathy Pfautsch)
 yum "And stop moving so much! You'd have to hold still!"
 
+show kamikapose shiny with dissolve
 voice "c-12-83.wav" #Kamika (Ariane Marchese)
 kam "Only when we settle on a perfect pose! A perfect pose for a perfect body like mine!~"
 
@@ -360,8 +363,9 @@ yum "That doesn't change anything!"
 "We go back and forth like this for some time. I'm worried the neighbours might end up yelling at us. But no one does. How thick are the walls in these dorm rooms?"
 "Well, neither here nor there. Before too long..."
 
-#fade cg
+hide kamikapose with dissolve
 
+stop music fadeout 1.0
 voice "c-12-88.wav" #Yumi (Kathy Pfautsch)
 yum "Alright. It's finished."
 
@@ -373,6 +377,7 @@ show kamika d eyebrow
 voice "c-12-90.wav" #Kamika (Ariane Marchese)
 kam "...Eh? This... isn't me??"
 
+play music neutralmusic fadein 1.0
 voice "c-12-91.wav" #Yumi (Kathy Pfautsch)
 yum "Of course it isn't, you egomaniacal buffoon. I had to visualize the damn fruits because you were in my way."
 
@@ -421,9 +426,11 @@ voice "c-12-102.wav" #Yumi (Kathy Pfautsch)
 yum "Weh... it's gonna smell like paint in here while it dries. Opening a window..."
 
 #sfx
-play sound slidewindow
+#play sound slidewindow
 
-"I slide the window open, letting in a cool breeze."
+"I slide the window open, letting in a cool breeze. With a shrug, I stroll over to my bed."
+
+scene dormbed with dissolve
 
 voice "c-12-103.wav" #Yumi (Kathy Pfautsch)
 yum "Chilly night... well, it's autumn, so..."
@@ -434,20 +441,20 @@ kam "I guess that means we'll have to huddle up and stay warm togetherrr!~"
 voice "c-12-105.wav" #Yumi (Kathy Pfautsch)
 yum "...Eh?"
 
-
-#cg kamika on bed
-
+show kamika d happyclosed with dissolve
 voice "c-12-106.wav" #Kamika (Ariane Marchese)
 kam "C'mooon, Yumi. Let's have a little snuggle before bed.~"
 
+show kamika d seduce
 voice "c-12-107.wav" #Kamika (Ariane Marchese)
 kam "I'll let you do whatever you want to me, y'know. Just think about it."
 
+show kamika d licklips
 voice "c-12-108.wav" #Kamika (Ariane Marchese)
 kam "Your body against mine. My body against yours. All tangled up in knots, twisting and writhing in a union of-"
 
-
-play sound whack
+hide kamika with hpunch
+#play sound whack
 voice "c-12-109.wav" #Kamika (Ariane Marchese)
 kam "Ack! Okay, don't do {i}that!{/i}"
 
@@ -460,12 +467,14 @@ kam "B-but I wasn't finished, we were going to-"
 voice "c-12-112.wav" #Yumi (Kathy Pfautsch)
 yum "Down girl. Heel."
 
+show kamika d shout with dissolve
 voice "c-12-113.wav" #Kamika (Ariane Marchese)
 kam "This is insulting! Where am I supposed to sleep!?"
 
 voice "c-12-114.wav" #Yumi (Kathy Pfautsch)
 yum "Under the bed. Like the little gremlin you are."
 
+show kamika d sad
 voice "c-12-115.wav" #Kamika (Ariane Marchese)
 kam "B-but... but that's no place for a girl like me! There might be a m, monster under there..."
 
@@ -475,23 +484,25 @@ yum "My room, my rules. I won't repeat myself."
 voice "c-12-117.wav" #Yumi (Kathy Pfautsch)
 yum "...Do I need to swat you with a rolled up newspaper to get you to listen??"
 
+show kamika d glare
 voice "c-12-118.wav" #Kamika (Ariane Marchese)
 kam "Grr... {i}fine.{/i}"
 
 voice "c-12-119.wav" #Kamika (Ariane Marchese)
 kam "The bed springs are all out of whack anyway... this bed can't handle me!"
 
+hide kamika with easeoutright
 "With a pout, Kamika slithered off the bed and onto the carpeted floor."
 
 "Part of me hoped Kamika didn't get her pheromones on the bed, but at this point in the evening, I could not muster any more fucks to give."
 
 #sfx
-play sound bedsprings
+#play sound bedsprings
 
-"WIth a heavy sigh, I flop onto the bed. I lazily reach for my bedside lamp, the only source of illumination at this hour."
+"With a heavy sigh, I flop onto the bed. I lazily reach for my bedside lamp, the only source of illumination at this hour."
 scene black
-#sfx 
-play sound click
+#sfx
+#play sound click
 "...And drown the room in darkness."
 
 voice "c-12-120.wav" #Yumi (Kathy Pfautsch)

@@ -278,6 +278,7 @@ stop music fadeout 1.0
 "I squint my eyes, finally making some sense of the first few lines."
 
 play music dramamusic fadein 1.0
+show rehearsal neutral with dissolve
 voice "c-7ii-65.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Oh, my dear prince, I have failed you! How can I ever make this up to you?{/i}"
 
@@ -299,6 +300,7 @@ sta "{i}Yes, young one. You won't.{/i}"
 
 "Wait."
 
+hide rehearsal neutral with dissolve
 stop music fadeout 1.0
 voice "c-7ii-70.wav" #Yumi (Kathy Pfautsch)
 yum "...You killed my character. Why'd we run the one part of the script where {i}the character I play{/i} dies?? "

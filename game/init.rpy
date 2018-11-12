@@ -269,6 +269,7 @@ default helpkamika = False
 default kamika_points = 0
 default stacey_points = 0
 default lucca_points = 0
+default prismpower = False
 
 ##################
 # BG Declaration #
@@ -290,6 +291,11 @@ image classhallway = "bgs/classhallway.png"
 image alley = "bgs/alley.png"
 image foresttrail = "bgs/foresttrail.png"
 image graffitiwoods = "bgs/graffitiwoods.png"
+image library = "bgs/library.png"
+image ruins = "bgs/ruins.png"
+image outsidedormnight = "bgs/outsidedormnight.png"
+image outsideschoolnight = "bgs/outsideschoolnight.png"
+image foresttrailnight = "bgs/foresttrailnight.png"
 
 ###################
 # CGs             #
@@ -336,14 +342,29 @@ image kamikaintro = "cgs/KamikaIntroCG.png"
 image kamikabed1 = "cgs/kamika_bed_1.png"
 image kamikabed2 = "cgs/kamika_bed_2.png"
 
-image jojo1 = "cgs/Scene 9-1 p1v4 (Resized).png"
-image jojo2 = "cgs/Scene 9-1 Jojo v4 (Resized).png"
+image jojo1 = "cgs/showdown/Scene 9-1 p1v4 (Resized).png"
+image jojo2 = "cgs/showdown/Scene 9-1 Jojo v4 (Resized).png"
 
 image rooftop1 = "cgs/Scene 18 v4 16x9Cropped Resized.png"
 image rooftop2 = "cgs/Scene 18 v4 Resized.png"
 
 image moesmolder1 = "cgs/moedemongrills2_cg__smolder1__ad.png"
 image moesmolder2 = "cgs/moedemongrills2_cg__smolder0__ad.png"
+
+image energyspark one = "cgs/energyspark1.png"
+image energyspark two = "cgs/energyspark2.png"
+
+image rehearsal neutral = "cgs/stacydemongrills2_cg__rehearse_1_ad.png"
+image rehearsal pout = "cgs/stacydemongrills2_cg__rehearse_2_ad.png"
+image rehearsal look = "cgs/stacydemongrills2_cg__rehearse_3_ad.png"
+
+image moesmoulder default = "cgs/moedemongrills2_cg__smolder1__ad.png"
+image moesmoulder maximum = "cgs/moedemongrills2_cg__smolder0__ad.png"
+
+image kamikapose butt = "cgs/kamikademongrills2_cg_'pose1'_ad.png"
+image kamikapose shiny = "cgs/kamikademongrills2_cg_'pose2'_ad.png"
+
+image kamikaend = "cgs/Scene 18 v4 Resized.png"
 
 #MINOR CGS
 image transformdemon = "cgs/transformdemon.png"
@@ -411,6 +432,7 @@ define dramamusic = "music/Drama Scene.ogg"
 define stantheme = "music/Magical Main.ogg"
 define neutralmusic = "music/bensound-theelevatorbossanova.mp3"
 define happysong2 = "music/Quircky Shop.ogg"
+define moetheme = "music/bensound-sexy.mp3"
 
 ###################
 # Ambient         #

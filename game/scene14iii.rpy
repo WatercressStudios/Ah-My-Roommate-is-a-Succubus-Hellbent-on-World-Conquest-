@@ -1,8 +1,9 @@
 label scene14iii:
-scene dormroom
+scene dormroom with dissolve
 
 "I decide to check in with Kamika. Just to make sure that she's not causing any trouble, of course. She's putzing around my room again. As usual."
 
+play music kamtheme fadein 1.0
 show kamika d seduce with dissolve
 voice "c-14iii-1.wav" #Kamika (Ariane Marchese)
 kam "Ohhh, coming back to see me? After your insubordination last night, I'd almost thought you'd lost your senses, but it turns out you're a good little servant after all!~"
@@ -124,7 +125,7 @@ kam "While this plan is sure to help me control the world, you might help it fin
 menu:
     "Just roll with it":
         jump badend
-    "Try to get her to stop":
+    "Kamika, stop being evil":
         jump kamikareason
 #choice
 #>>Just roll with it
@@ -141,8 +142,9 @@ voice "c-14iii-27.wav" #Kamika (Ariane Marchese)
 kam "Excellent! I knew you'd see things my way eventually. Now you see, all we have to do is-"
 #music cuts out
 
+stop music
 
-play sound phonevibrate
+#play sound phonevibrate
 
 show kamika d mad
 voice "c-14iii-28.wav" #Kamika (Ariane Marchese)
@@ -158,6 +160,7 @@ yum "Uh, no. This might be important."
 #Basically anything to indicate the apocalypse
 #Put on the most dramatic and bombastic music track we have
 
+play music evilkamika fadein 1.0
 show phonedefault with dissolve
 "The phone comes on speaker automatically."
 
@@ -282,15 +285,18 @@ voice "c-14iii-61.wav" #S-Tan (Dani Chambers)
 sat "Whelp, fireball's about to touch down. Gotta jet! Oh, and see you in hell, Yumi! Oh my gosh, you're just going to {i}love{/i} it there! Toodles!"
 
 
-play sound beep
+#play sound beep
 
 scene rooftop
+
+stop music
 "She hung up."
 
 show kamika d glare with dissolve
 voice "c-14iii-62.wav" #Yumi (Kathy Pfautsch)
 yum "Well... This is it, I guess."
 
+play music feels fadein 1.0
 voice "c-14iii-63.wav" #Yumi (Kathy Pfautsch)
 yum "What a way to go. Trapped here with you."
 
@@ -322,6 +328,7 @@ kam "Hm hm hm! Maybe this isn't so bad. After all, life is about the {i}quality{
 voice "c-14iii-71.wav" #Kamika (Ariane Marchese)
 kam "So how about one last kiss amidst the raging flames, hmmmmm~?"
 
+stop music
 voice "c-14iii-72.wav" #Yumi (Kathy Pfautsch)
 yum "I'll pass."
 
@@ -340,7 +347,7 @@ voice "c-14iii-76.wav" #Yumi (Kathy Pfautsch)
 yum "Any time."
 
 
-play sound explosion
+#play sound explosion
 
 #The end!
 
@@ -351,6 +358,7 @@ jump credits
 label kamikareason:
 #dialogue path from ">>Try and get her to stop"
 
+stop music fadeout 2.0
 "I can just tell this plan is more serious than her last one... if she goes through with it, there's no telling {i}what{/i} could happen!"
 "I have to get her to change course somehow!"
 
@@ -380,6 +388,7 @@ yum "See, all we have to do..."
 voice "c-14iii-83.wav" #Yumi (Kathy Pfautsch)
 yum "...Is keep our heads down, and mind our studies."
 
+play music kamtheme fadein 1.0
 show kamika d pout
 voice "c-14iii-84.wav" #Kamika (Ariane Marchese)
 kam "...Excuse me?"
@@ -403,7 +412,7 @@ yum "Ohhhh nooooooo."
 "So is that it? Do I {i}have{/i} to go along with Kamika's plan now...?"
 
 menu:
-    "Just roll with it":
+    "Roll with it":
         jump badend
     "Get help from friends":
         jump helpfromfriends
@@ -414,6 +423,8 @@ menu:
 #dialogue path from ">>Attempt to get help"
 
 label helpfromfriends:
+
+stop music fadeout 1.0
 "...I tried, but there's no reasoning with her. She's seriously hellbent on world conquest right now."
 
 "I need to get help the only way I know how! But I also can't let Kamika know I'm going behind her back..."
@@ -425,6 +436,7 @@ kam "Well?! Don't just {i}stand{/i} there! Do you wanna hear my plan or not?!"
 voice "c-14iii-90.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, um... I-I just remembered something! I have to make a, uh... a phone call! Yeah!"
 
+play music happysong2 fadein 1.0
 show kamika d question
 voice "c-14iii-91.wav" #Kamika (Ariane Marchese)
 kam "...Really? A \"phone call?\""
@@ -455,26 +467,31 @@ hide kamika d with dissolve
 "Ugh... there's such a thing as building walls too thick. Is this a college dorm or a nuclear bunker?"
 "I could go back in my room, but then Kamika might suspect I'm up to something. This is annoying..."
 
-#scene rooftop
+scene outsidedorm with dissolve
 
-"I make a dash to the rooftop, in pursuit of better signal. Looks like I can get one up here... and some privacy to report the news."
+"I make a dash outside in pursuit of better signal. Looks like I can get one out here... and some privacy to report the news."
 "Kamika's up to something. I don't know. Maybe a bomb? That explodes sex? A sex bomb?"
+"...I guess if you hid it well enough, it'd be a ninja sex bomb..."
 
-"...I guess this is what Moe was talking about when he said to keep an eye on Kamika. She sounds pretty confident in this next one, so it might be a good idea to give Moe a call."
+"...So this is what Moe was talking about when he said to keep an eye on Kamika. She sounds pretty confident in this next one, so it might be a good idea to give Moe a call."
 
 "Let's call him up now. Report the news. He can probably relay to Lucca as well. We got a whole team thing going on now!"
 
+#play sound calling
+show phonedefault with dissolve
 "*Rrring* *Rrring*"
 
 voice "c-14iii-97.wav" #Moe (CJ Heineman)
 moe "Yes?"
 
+show phoneyumi neutraltalk
 voice "c-14iii-98.wav" #Yumi (Kathy Pfautsch)
 yum "Hey, Moe. It's Yumi. Kamika's up to no good again."
 
 voice "c-14iii-99.wav" #Moe (CJ Heineman)
 moe "Yes, and water is wet. Do you have anything I {i}don't{/i} know?"
 
+show phoneyumi eyebrow
 voice "c-14iii-100.wav" #Yumi (Kathy Pfautsch)
 yum "Idunno. She seems a bit more smug than usual."
 
@@ -486,34 +503,37 @@ moe "Fine. Come over to my room and we'll see what we can do."
 voice "c-14iii-102.wav" #Moe (CJ Heineman)
 moe "...What was that?"
 
+show phoneyumi surprise
 voice "c-14iii-103.wav" #Yumi (Kathy Pfautsch)
 yum "What was what? It's all quiet on my end..."
 
 voice "c-14iii-104.wav" #Moe (CJ Heineman)
 moe "Not you. Quiet."
 
+show phoneyumi annoyed
 "I flattened my mouth, raising a hand to play with my hair. What was going on over on his end?"
 
 voice "c-14iii-105.wav" #Moe (CJ Heineman)
 moe "...There's a commotion out in the hall."
 
+show phoneyumi neutraltalk
 voice "c-14iii-106.wav" #Yumi (Kathy Pfautsch)
 yum "...You think it has anything to do with Kamika?"
 
+show phoneyumi neutrallisten
 voice "c-14iii-107.wav" #Moe (CJ Heineman)
 moe "Odds aren't bad. Where are you?"
-
-voice "c-14iii-108.wav" #Yumi (Kathy Pfautsch)
-yum "On the rooftop of the dorm. Signal sucks."
 
 voice "c-14iii-109.wav" #Moe (CJ Heineman)
 moe "Meet me in front of my room. I'll tell Stacey and Lucca as well."
 
+show phoneyumi dread
 voice "c-14iii-110.wav" #Yumi (Kathy Pfautsch)
 yum "Okay. Got it."
 
 #sfx click
 
+scene black with dissolve
 "Hanging up the phone, I pocket it once more. I had a bad feeling about all this..."
 
 #workshop the transition

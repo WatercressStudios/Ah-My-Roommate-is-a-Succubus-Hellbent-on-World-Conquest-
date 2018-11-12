@@ -76,7 +76,7 @@ hide stacey with dissolve
 "He was a huge beefcake of a man. If I didn't know better, I'd've thought he'd be the star linebacker on the football team."
 
 #sfx smack
-play sound smack
+#play sound smack
 
 "With a few deft smacks of the box, the projector whirred to life. The presentation was ready to go."
 
@@ -239,8 +239,8 @@ hide stacey with dissolve
 "Be polite, be efficient, keep your head down, and mind your studies. That was my philosophy up to this point."
 "And Hell, it worked pretty well so far. The meat of the lecture ends up going much more quickly than anticipated, just keeping tabs on the notes."
 "Mr. Deeks actually knows his stuff. I'd just much rather hear it from a teacher with any sense of chill?"
-#sfx 
-play sound slam
+#sfx
+#play sound slam
 "With about thirty minutes left in class, Deeks slams his podium, rousing the attention of the whole class."
 
 voice "c-1-52.wav" #Mister Deeks (???)
@@ -442,7 +442,7 @@ voice "c-1-94.wav" #Kamika (Ariane Marchese)
 kam "Mwehehehe... now's my chance to strike!~"
 
 #sfx bump
-play sound bump
+#play sound bump
 
 show kamika u surprise
 voice "c-1-95.wav" #Kamika (Ariane Marchese)

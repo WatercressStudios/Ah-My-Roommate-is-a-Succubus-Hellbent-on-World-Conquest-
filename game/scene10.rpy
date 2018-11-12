@@ -1,5 +1,6 @@
 label scene10:
 
+play music luccatheme fadein 1.0
 show lucca h nervous with easeinleft:
     align (0.40, 1.0)
 voice "c-10-1.wav" #Lucca (Victoria Wong)

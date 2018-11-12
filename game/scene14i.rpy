@@ -1,10 +1,11 @@
 label scene14i:
-scene campus
+scene outsideschool with dissolve
+play music happysong2 fadein 1.0
 
 "I left the classroom with Stacey feeling bad about brushing Lucca off."
 "I've decided to allow myself some time away from the whole \"demons all around me\" thing, and just enjoy the company of another human being for awhile."
 
-show stacey neutral with easeinleft:
+show stacey neutral zorder 1 with easeinleft:
     align (0.40, 1.0)
 voice "c-14i-1.wav" #Stacey (Ashe Thurman)
 sta "Alright, let's start from the end."
@@ -19,6 +20,7 @@ sta "You already know the context. Dude summons demon, it's all in his head, mas
 voice "c-14i-4.wav" #Yumi (Kathy Pfautsch)
 yum "If you say so..."
 
+stop music fadeout 1.0
 show stacey neutralclosed
 voice "c-14i-5.wav" #Stacey (Ashe Thurman)
 sta "Here-"
@@ -49,23 +51,28 @@ show stacey neutrallook
 voice "c-14i-12.wav" #Stacey (Ashe Thurman)
 sta "Left."
 
+stop music fadeout 1.0
 voice "c-14i-13.wav" #Yumi (Kathy Pfautsch)
 yum "wha-?"
 
+show rehearsal neutral zorder 2 with dissolve
 show stacey mad
 voice "c-14i-14.wav" #Stacey (Ashe Thurman)
 sta "{i}Script. {/i}"
 
+play music dramamusic fadein 1.0
+show rehearsal neutral
 voice "c-14i-15.wav" #Yumi (Kathy Pfautsch)
 yum "\"Master, I have not been by your side long. You cannot reasonably expect me to fulfill such a demand.\""
 
-show stacey neutralclosed
+show stacey neutralclosed look
 voice "c-14i-16.wav" #Stacey (Ashe Thurman)
 sta "\"Is it power you need? I can grant you power, for a price.\""
 
 voice "c-14i-17.wav" #Yumi (Kathy Pfautsch)
 yum "\"You act more a demon than I, Master. Pray, do not overextend your hand.\""
 
+show rehearsal look
 show stacey mad
 voice "c-14i-18.wav" #Stacey (Ashe Thurman)
 sta "\"I will decide the nature of this relationship, not you! Now, {i}kneel!{/i}\""
@@ -73,6 +80,7 @@ sta "\"I will decide the nature of this relationship, not you! Now, {i}kneel!{/i
 voice "c-14i-19.wav" #Yumi (Kathy Pfautsch)
 yum "It just says \"kneel\" after that."
 
+show rehearsal pout
 show stacey neutral
 voice "c-14i-20.wav" #Stacey (Ashe Thurman)
 sta "You don't have to do that this time."
@@ -84,9 +92,10 @@ voice "c-14i-22.wav" #Yumi (Kathy Pfautsch)
 yum "Turn the page."
 
 
-#SFX 
-play sound turnpage
+#SFX
+#play sound turnpage
 
+show rehearsal neutral
 show stacey evil
 voice "c-14i-23.wav" #Stacey (Ashe Thurman)
 sta "\"Good, you are wise to obey. Now, feel my magic flow within you, releasing the restraints placed upon your soul as you entered this world.\""
@@ -94,6 +103,7 @@ sta "\"Good, you are wise to obey. Now, feel my magic flow within you, releasing
 voice "c-14i-24.wav" #Yumi (Kathy Pfautsch)
 yum "Seems pretty corny so far."
 
+show rehearsal pout
 show stacey neutral
 voice "c-14i-25.wav" #Stacey (Ashe Thurman)
 sta "I appreciate the honesty, but I appreciate reading more."
@@ -101,6 +111,7 @@ sta "I appreciate the honesty, but I appreciate reading more."
 voice "c-14i-26.wav" #Yumi (Kathy Pfautsch)
 yum "\"My master, you truly are a fool.\""
 
+show rehearsal look
 show stacey mad
 voice "c-14i-27.wav" #Stacey (Ashe Thurman)
 sta "\"Excuse you, minion?\""
@@ -108,6 +119,7 @@ sta "\"Excuse you, minion?\""
 voice "c-14i-28.wav" #Yumi (Kathy Pfautsch)
 yum "\"In releasing the seals, you have unleashed Hell's curse! Did you truly think a spell with which you can control a demon was entirely of your own design?\""
 
+show rehearsal neutral
 show stacey sad
 voice "c-14i-29.wav" #Stacey (Ashe Thurman)
 sta "\"I-I don't understand, why do I feel so weak?\""
@@ -115,6 +127,8 @@ sta "\"I-I don't understand, why do I feel so weak?\""
 voice "c-14i-30.wav" #Yumi (Kathy Pfautsch)
 yum "\"You assumed I belonged to you, master. You can drag a demon from hell, but you cannot drag the hell from a demon! You have doomed us both!\""
 
+stop music
+hide rehearsal
 show stacey neutral
 voice "c-14i-31.wav" #Stacey (Ashe Thurman)
 sta "And this is where the demon melts into a puddle of magic goo that sucks the life force from the prince and everyone in the castle."
@@ -140,6 +154,7 @@ show stacey neutral
 voice "c-14i-37.wav" #Stacey (Ashe Thurman)
 sta "Haven't written the post-wakeup part yet, not important."
 
+play music staceytheme fadein 1.0
 voice "c-14i-38.wav" #Yumi (Kathy Pfautsch)
 yum "I'm pretty sure that's important. What even is the lesson to be learned here?"
 
@@ -230,8 +245,9 @@ sta "Moe would say otherwise."
 voice "c-14i-64.wav" #Yumi (Kathy Pfautsch)
 yum "Point is, you can't force this kind of thing. You have plenty of time to buff out any imperfections."
 
+stop music fadeout 1.0
 #SFX
-play sound ringtone
+#play sound ringtone
 
 show stacey neutral
 voice "c-14i-65.wav" #Yumi (Kathy Pfautsch)
@@ -244,7 +260,7 @@ voice "c-14i-67.wav" #Stacey (Ashe Thurman)
 sta "Gimme-"
 "She snatched my phone right out of my hand..."
 #SFX
-play sound beep
+#play sound beep
 
 voice "c-14i-68.wav" #Stacey (Ashe Thurman)
 sta "Hello, this is phone, who dis?"
@@ -266,12 +282,13 @@ voice "c-14i-73.wav" #Yumi (Kathy Pfautsch)
 yum "Are we really doing this..."
 
 #sfx
-play sound beep
+#play sound beep
 
 show stacey neutral
 voice "c-14i-74.wav" #Stacey (Ashe Thurman)
 sta "Something's going on at your place, just so you know."
 
+play music staceytheme fadein 1.0
 voice "c-14i-75.wav" #Yumi (Kathy Pfautsch)
 yum "Was that really worth snatching my phone out of my hands for?"
 
@@ -295,7 +312,8 @@ sta "Thanks for reading rainbow with me. We should proooolly check up on your fr
 voice "c-14i-81.wav" #Yumi (Kathy Pfautsch)
 yum "Yeah, we can workshop the script a bit later, no biggie. More worried about the state of my room..."
 
-hide stacey with dissolve
+scene black with dissolve
+stop music fadeout 1.0
 "Gathering our things, we make a beeline for the dorms."
 
 jump scene15

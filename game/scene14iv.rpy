@@ -1,6 +1,7 @@
 label scene14iv:
 scene dormroom with dissolve
 
+stop music fadeout 1.0
 "I decide to check in with Kamika. She's putzing around my room again. As usual."
 
 show kamika d glare with dissolve
@@ -84,6 +85,7 @@ yum "Huh? But..."
 #Kamika's Theme
 "I hear the intercom click on and feel my heart hit the floor."
 
+play music evilkam fadein 1.0
 voice "c-14iv-9.wav" #Kamika (Ariane Marchese)
 kam "Ueeeeeheheheheheheheheheeeeee!"
 
@@ -120,6 +122,7 @@ kam "But! Not to worry. I'm nothing if not a {i}merciful{/i} empress. So I {i}su
 voice "c-14iv-20.wav" #Kamika (Ariane Marchese)
 kam "You'll have to climb up the ranks from the very bottom, of course, but you might manage it within your lifetime."
 
+stop music fadeout 4.0
 voice "c-14iv-21.wav" #Yumi (Kathy Pfautsch)
 yum "I'm all alone!"
 
@@ -129,6 +132,7 @@ kam "Okay, could you quit it with that? I'm trying to assert dominance here, and
 voice "c-14iv-23.wav" #Yumi (Kathy Pfautsch)
 yum "{i}I'm finally alone!{/i}"
 
+play music titlescreen fadein 1.0
 voice "c-14iv-24.wav" #Yumi (Kathy Pfautsch)
 yum "I'm free! Free from you, free from... from everyone!"
 

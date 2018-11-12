@@ -124,7 +124,7 @@ show kamikabed2
 
 #CG: show pillow being thrown at Kamika's face in CG
 
-show dormbed with vpunch
+scene dormbed with vpunch
 stop music
 
 voice "c-8-23.wav" #Yumi (Kathy Pfautsch)

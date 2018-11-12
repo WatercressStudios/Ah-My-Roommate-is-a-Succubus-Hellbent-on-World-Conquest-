@@ -132,13 +132,13 @@ kam "What?"
 voice "c-2-22.wav" #Yumi (Kathy Pfautsch)
 yum "(sniff) {i}UGH{/i}, it {i}STINKS!!{/i} Good God, I'm gonna puke!"
 
-#sfx: shove
+#sfx:
+#play sound shove
 show kamika u exclaim
 hide kamika with dissolve
 
 "I push the girl away and plug my nose to get that vile stench out of my head."
 "No doubt about it, it's the same smell from before, only now it's gotten even stronger and more repulsive than ever! How did it even {i}get{/i} like this?!"
-
 
 show kamika u mad zorder 2 with easeinright:
     align (0.3, 1.0)
@@ -192,7 +192,7 @@ hide white with dissolve
 #sfx: swish
 "When my vision returned, the fog had dissipated entirely, revealing Kamika once more."
 
-"...I think it was Kamika, but... Her outfit was completely different! So revealing! I hope her mother didn't pick that outfit out for her..."
+"...I think it was the same girl, but... Her outfit was completely different! So revealing! I hope her mother didn't pick that outfit out for her..."
 "Well, okay, she wasn't {i}entirely{/i} different, but she didn't have those horns before. Or wings... or that tail..."
 "...Wait a second. No, it couldn't be..."
 
@@ -355,7 +355,8 @@ yum "...H-hey wait, we aren't done yet-"
 
 hide moe with dissolve
 stop music
-#sfx door close
+#sfx
+#play sound doorclose
 
 voice "c-2-62.wav" #Yumi (Kathy Pfautsch)
 yum "Oh. Okay then, I guess we are..."

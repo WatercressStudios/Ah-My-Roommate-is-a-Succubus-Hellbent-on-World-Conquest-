@@ -1,5 +1,6 @@
 label scene13:
-scene classroom
+scene lecturehall with dissolve
+play music classtime fadein 1.0
 
 #fade in from black, classroom
 voice "c-13-1.wav" #Mister Deeks (???)
@@ -34,7 +35,8 @@ jump scene14iv
 
 label s13continue:
 
-show stacey neutral at centerleft with dissolve
+show stacey neutral with dissolve:
+    align (0.35, 1.0)
 voice "c-13-4.wav" #Yumi (Kathy Pfautsch)
 yum "I can't believe he spent almost an entire hour talking about children's shows."
 
@@ -113,9 +115,9 @@ show stacey smug
 voice "c-13-26.wav" #Stacey (Ashe Thurman)
 sta "Shocking, I know."
 
-#variable lucca name = ???
 
-show lucca h neutral at centerright, flipimage with easeinright
+show lucca h neutral flip with easeinright:
+    align (0.65, 1.0)
 voice "c-13-27.wav" #Lucca (Victoria Wong)
 luc "I h-hope I'm not interrupting anything..."
 
@@ -287,6 +289,8 @@ luc "B-be careful, Yumi..."
 voice "c-13-64.wav" #Yumi (Kathy Pfautsch)
 yum "I'll be back soon. Hopefully."
 
+stop music fadeout 1.0
+scene black with dissolve
 "With trepidation in my heart, I make my way back to the dorms."
 
 jump scene14iii

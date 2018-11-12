@@ -320,7 +320,8 @@ kam "I'm here to give the students of the Salem School for Calligraphy, Art, and
 
 "She brings the microphone to her lips, and then..."
 
-##SFX: The worst sound fucking imaginable
+
+#play sound feedback
 show kamika u wideeyes flip with hpunch
 
 stop music fadeout 1.0

@@ -44,10 +44,12 @@ voice "c-15-10.wav" #Yumi (Kathy Pfautsch)
 yum "Doesn't matter. It's unlocked."
 
 
-play sound dooropen
+#play sound dooropen
 "I open the door with a cautious squeeze of the handle..."
 
 #cg rave? special bg?
+play music rave fadein 2.0
+scene dormroomparty with dissolve
 
 voice "c-15-11.wav" #Yumi (Kathy Pfautsch)
 yum "...Eh?"
@@ -177,7 +179,7 @@ voice "c-15-39.wav" #Stacey (Ashe Thurman)
 sta "...Touche?"
 
 
-play sound stomping
+#play sound stomping
 scene dormroomparty with dissolve
 "Unbelievable. I stomped up to Kamika and pressed a finger right into her chest."
 
@@ -324,6 +326,7 @@ voice "c-15-73.wav" #Yumi (Kathy Pfautsch)
 yum "Haha, yes! Her playlist! All I have to do is..."
 
 #cut music
+stop music
 
 show laptop default
 "With a click of a button, I powered down the laptop, abruptly cutting off the steady flow of beats to the room."
@@ -357,6 +360,7 @@ voice "c-15-79.wav" #Kamika (Ariane Marchese)
 kam "...Just need to set this, aaaand..."
 
 #music renews
+play music rave fadein 1.0
 
 show kamika u smug
 voice "c-15-80.wav" #Kamika (Ariane Marchese)
@@ -493,7 +497,7 @@ voice "c-15-111.wav" #Kamika (Ariane Marchese)
 kam "Hey everyone! You guys having a good time!?"
 
 #sfx:
-play sound cheer
+#play sound cheer
 "The crowd responded with a rousing cheer. This party wasn't losing steam anytime soon."
 
 scene dormroomparty
@@ -585,7 +589,8 @@ show moe sigh
 voice "c-15-131.wav" #Moe (CJ Heineman)
 moe "...I suppose I shall. If I must."
 
-scene dormroomparty
+stop music fadeout 1.0
+scene dormroomparty with dissolve
 "He took a deep breath, and stepped back, getting some quick shoulder stretches in."
 
 "He flicked his wrist and pointed skywards..."
@@ -594,7 +599,7 @@ voice "c-15-132.wav" #Moe (CJ Heineman)
 moe "...Let's turn up the heat."
 
 #rgb the room with a slight pink hue
-
+show sexfogfront zorder2 with dissolve
 
 "All of a sudden, the room was filled with a pink haze! Where did it all come from?"
 
@@ -603,7 +608,8 @@ moe "...Let's turn up the heat."
 "The party was reduced to a murmur, as all eyes were on him. They were rendered speechless, the din of the music falling deaf on their ears."
 
 
-#cg: moe smoulder
+show moesmoulder default with dissolve
+play music moetheme fadein 1.0
 
 voice "c-15-133.wav" #Moe (CJ Heineman)
 moe "Hey. Boys and girls. And any of you delicious non-binaries too. You looking for a good time?"
@@ -618,8 +624,12 @@ kam "Wh-what're you doing!? Stop that this instant!"
 
 "It was... so different. Kamika's cries for attention fell on deaf ears."
 
+
+show moesmoulder maximum with dissolve
 voice "c-15-136.wav" #Moe (CJ Heineman)
 moe "All you have to do is follow me. I'll take you to places you've only dreamed about.~"
+
+"He shone so brilliantly! It was hard to look away...!"
 
 "That was enough to draw the crowd closer to him. They staggered forward like zombies."
 
@@ -632,6 +642,8 @@ yum "W-what? What was I... o-oh shit."
 voice "c-15-139.wav" #Stacey (Ashe Thurman)
 sta "It's cool. Shit happens."
 
+stop music fadeout 4.0
+scene dormroomparty with dissolve
 "I could only watch in amazement as Moe led the crowd out of the room, like the Pied Piper playing his tune. None of us said a word."
 "...Well, Kamika said words. Most of them were expletives."
 
@@ -641,7 +653,7 @@ voice "c-15-140.wav" #Kamika (Ariane Marchese)
 kam "Wait, guys! Come back! I-I can make cupcakes!!"
 
 #sfx
-play sound doorclose
+#play sound doorclose
 
 show kamika u sad flip
 "None of them reciprocated their attention as Kamika was faced with the door closing on her."
@@ -678,7 +690,7 @@ voice "c-15-147.wav" #Kamika (Ariane Marchese)
 kam "Ehehe, yes, yes! This is perfect, flawless, it's going to definitely work-"
 
 #sfx:
-play sound throw
+#play sound throw
 show kamika u wideeyes
 show stacey eyebrow flip
 show lucca h ohno flip
@@ -690,7 +702,7 @@ voice "c-15-148.wav" #Kamika (Ariane Marchese)
 kam "Oof!"
 
 #sfx
-play sound thud
+#play sound thud
 hide kamika with vpunch
 "And just like that, she crumpled to the floor..."
 

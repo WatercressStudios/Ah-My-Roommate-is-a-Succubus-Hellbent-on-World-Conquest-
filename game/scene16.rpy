@@ -1,9 +1,9 @@
 label scene16:
-scene dormhallway with None
+scene dormhallway with dissolve
 
-show stacey neutral:
+show stacey neutral with easeinleft:
     align (0.3, 1.0)
-show lucca h sad flip with dissolve
+show lucca h sad flip with easeinright
 
 "I lean against the wall nearest my door, trying to relax as much as I can."
 
@@ -19,6 +19,7 @@ show moe madclosed flip with easeinright:
 voice "c-16-1.wav" #Lucca (Victoria Wong)
 luc "S-so..."
 
+play music funkyjam fadein 1.0
 voice "c-16-2.wav" #Yumi (Kathy Pfautsch)
 yum "Right. I have to say thanks to everyone for helping me with this... situation. I thought I've had enough demons to last a lifetime, but then Kamika..."
 

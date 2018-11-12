@@ -40,8 +40,8 @@ ber "You'll probably have to compromise on your creative vision a bit. That's a 
 voice "c-4-8.wav" #Mrs Bernardinelli (???)
 ber "Y'all are basically adults at this point, so try not to be hyper-possessive brats about your own projects, 'kay? Play nice."
 
-#sfx 
-play sound chuckle
+#sfx
+#play sound chuckle
 "A bit of awkward laughter permeated the classroom. Mrs. Bernardinelli was nothing if not blunt..."
 
 voice "c-4-9.wav" #Mrs Bernardinelli (???)

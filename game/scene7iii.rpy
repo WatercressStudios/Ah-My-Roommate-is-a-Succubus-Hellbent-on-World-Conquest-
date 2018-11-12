@@ -18,7 +18,7 @@ else:
 label showerkamika:
 #BRANCH: use if opted to head to Kamika in Scene6
 
-play ambient shower
+play ambient shower fadein 2.0
 "But when I round the corner and head down the hall back to my room... I hear something."
 
 voice "c-7iii-1.wav" #Kamika (Ariane Marchese)
@@ -64,17 +64,21 @@ kam "Our last night togetherrrr~"
 "She sings with a passion and a drive that's hitherto unheard of..."
 "Why was she ever talking about 'taking over the world' with singing like this?"
 "...That {i}is{/i} Kamika in there, right?"
+
+#play sound doorknock
 "I knock on the door and ask just to be safe."
 
 voice "c-7iii-9.wav" #Yumi (Kathy Pfautsch)
 yum "Kamika? Is that you in there?"
 
+stop ambient
 voice "c-7iii-10.wav" #Kamika (Ariane Marchese)
 kam "EEP!"
 
 voice "c-7iii-11.wav" #Kamika (Ariane Marchese)
 kam "I-I mean, who's to say? Why don't you come on in and find out~?"
 
+play music kamtheme fadein 1.0
 "...Yeah, no doubt about it. That's definitely her."
 
 voice "c-7iii-12.wav" #Yumi (Kathy Pfautsch)
@@ -83,7 +87,6 @@ yum "N-no thanks, I'm good."
 voice "c-7iii-13.wav" #Kamika (Ariane Marchese)
 kam "Oh well, your loss~"
 
-#fade CG
 scene dormroom with dissolve
 
 "I spend the next few precious moments catching up on my anatomy homework."
@@ -190,6 +193,7 @@ show kamika d glare with dissolve
 voice "c-7iii-34.wav" #Kamika (Ariane Marchese)
 kam "You're late."
 
+play music kamtheme fadein 1.0
 voice "c-7iii-35.wav" #Yumi (Kathy Pfautsch)
 yum "...Mm?"
 
@@ -377,7 +381,7 @@ jump kamikapowerpoint
 
 label screwyoukamika:
 
-
+stop music fadeout 1.0
 voice "c-7iii-75.wav" #Yumi (Kathy Pfautsch)
 yum "Are you serious?"
 
@@ -398,6 +402,7 @@ yum "Oh my God, you're actually serious."
 voice "c-7iii-80.wav" #Yumi (Kathy Pfautsch)
 yum "What the fuck is {i}wrong{/i} with you."
 
+play music wordfight fadein 1.0
 show kamika d wideeyes
 voice "c-7iii-81.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, no. We don't have time for that. What the fuck is {i}right{/i} with you?"
@@ -490,8 +495,9 @@ hide kamika with dissolve
 voice "c-7iii-107.wav" #Kamika (Ariane Marchese)
 kam "Bitch!"
 
-#sfx 
-play sound doorslam
+#sfx
+#play sound doorslam
+stop music
 "And she slams the door. How quaint."
 
 "Thank God. Free at last."
@@ -505,6 +511,7 @@ label kamikapowerpoint:
 #CG: show CG of Kamika showing Phase 1 Powerpoint presentation intro on a laptop
 
 show kamika d happyclosed
+play music evilplot fadein 1.0
 voice "c-7iii-65.wav" #Kamika (Ariane Marchese)
 kam "Alright, come hither. We have {i}so much{/i} to discuss!~"
 
@@ -589,11 +596,12 @@ kam "Don't worry about the little details; I've got it all under control!"
 "If she's able to use her singing as a means to convert an entire audience of people... there's no telling {i}what{/i} she might do after that."
 
 
-
+stop music fadeout 1.0
 "I mean. If she's able to. That's a {i}biiiiiiiiiig{/i} if."
 
 scene dormroom with dissolve
 
+play music kamtheme fadein 1.0
 show kamika d confident with dissolve
 voice "c-7iii-128.wav" #Kamika (Ariane Marchese)
 kam "We'll initiate the plan tomorrow as soon as possible! Don't be late!"
