@@ -17,7 +17,7 @@ scene classhallway with dissolve
 
 "I guess the sooner I get it over with, the better..."
 
-show lucca aaaa with easeinleft
+show lucca h aaaa with easeinleft
 voice "c-9i-1.wav" #Lucca (Victoria Wong)
 luc "Yumi!"
 
@@ -26,14 +26,14 @@ luc "Yumi!"
 voice "c-9i-2.wav" #Yumi (Kathy Pfautsch)
 yum "Hey. What's going on?"
 
-show lucca bashful
+show lucca h bashful
 voice "c-9i-3.wav" #Lucca (Victoria Wong)
 luc "I j-just wanted to ask... do you know if Kamika is up to anything today?"
 
 voice "c-9i-4.wav" #Yumi (Kathy Pfautsch)
 yum "She did say something to that effect this morning, yes. That she was \"putting things into motion\"."
 
-show lucca nervous
+show lucca h nervous
 "Though it almost got lost amidst my anger at her {i}literally crawling into my bed{/i} last night..."
 
 voice "c-9i-5.wav" #Lucca (Victoria Wong)
@@ -42,7 +42,7 @@ luc "Well, I just s-saw her running around campus... She had a b-bunch of electr
 voice "c-9i-6.wav" #Yumi (Kathy Pfautsch)
 yum "Electronics?"
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-9i-7.wav" #Lucca (Victoria Wong)
 luc "I... I don't know. but I have a b-bad feeling about it. The t-trouble she might get up to. Shouldn't we go and check on her?"
 
@@ -58,7 +58,7 @@ extend "Oh, hell, I'm doing it again!"
 voice "c-9i-8.wav" #Yumi (Kathy Pfautsch)
 yum "Sure, I guess we'd better have a look at what she's doing."
 
-show lucca neutral
+show lucca h neutral
 voice "c-9i-9.wav" #Yumi (Kathy Pfautsch)
 yum "Also... are you noticing that there's an unusual amount of students heading toward the plaza?"
 
@@ -77,14 +77,14 @@ stop music fadeout 1.0
 voice "c-9i-12.wav" #Yumi (Kathy Pfautsch)
 yum "Hey, Lucca?"
 
-show lucca neutral with dissolve
+show lucca h neutral with dissolve
 voice "c-9i-13.wav" #Lucca (Victoria Wong)
 luc "Yes?"
 
 voice "c-9i-14.wav" #Yumi (Kathy Pfautsch)
 yum "That Kamika... she can't {i}really{/i} do anything horrible, can she? I mean if somebody could have done something they would have done it by now, yeah?"
 
-show lucca guilty
+show lucca h guilty
 "A vaguely apologetic expression crosses her face, and I realize the reassurance I'm seeking isn't on its way."
 
 play music kamtheme fadein 1.0
@@ -94,27 +94,27 @@ luc "Well... There are t-technically certain avenues by which she c-could succee
 voice "c-9i-16.wav" #Yumi (Kathy Pfautsch)
 yum "God. You're serious."
 
-show lucca happy
+show lucca h happy
 voice "c-9i-17.wav" #Lucca (Victoria Wong)
 luc "However! I don't think she'd ever get very far with c-certain, large-scale plans. There's... contingencies."
 
 voice "c-9i-18.wav" #Yumi (Kathy Pfautsch)
 yum "Contingencies, eh? But are they {i}good{/i} contingencies?"
 
-show lucca neutral
+show lucca h neutral
 voice "c-9i-19.wav" #Lucca (Victoria Wong)
 luc "Er. No. Very much no."
 
 voice "c-9i-20.wav" #Yumi (Kathy Pfautsch)
 yum "Really? That bad?"
 
-show lucca bashful
+show lucca h bashful
 voice "c-9i-21.wav" #Lucca (Victoria Wong)
 luc "Um... yes."
 
 "She runs a hand sheepishly through her hair, glancing skyward, and sighs."
 
-show lucca nervousclose
+show lucca h nervousclose
 voice "c-9i-22.wav" #Lucca (Victoria Wong)
 luc "For example, there was this cambion, a-about a hundred and t-ten years ago... Barry."
 
@@ -122,18 +122,18 @@ luc "For example, there was this cambion, a-about a hundred and t-ten years ago.
 voice "c-9i-23.wav" #Yumi (Kathy Pfautsch)
 yum "...Barry."
 
-show lucca happy
+show lucca h happy
 voice "c-9i-24.wav" #Lucca (Victoria Wong)
 luc "Short for Barbas. He n-never really got along with anyone. Cambions can be so touchy..."
 
-show lucca nervoussmile
+show lucca h nervoussmile
 voice "c-9i-25.wav" #Lucca (Victoria Wong)
 luc "Anyway, he, um, g-gathered followers out somewhere in Siberia, and bragged about t-turning it into his personal fiefdom."
 
 voice "c-9i-26.wav" #Yumi (Kathy Pfautsch)
 yum "So what happened?"
 
-show lucca neutral
+show lucca h neutral
 voice "c-9i-27.wav" #Lucca (Victoria Wong)
 luc "I'm not really sure, but... m-millions of poor trees were f-flattened."
 
@@ -142,14 +142,14 @@ luc "I'm not really sure, but... m-millions of poor trees were f-flattened."
 voice "c-9i-28.wav" #Yumi (Kathy Pfautsch)
 yum "{i}What?!{/i}"
 
-show lucca  nervoussmile
+show lucca h  nervoussmile
 voice "c-9i-29.wav" #Lucca (Victoria Wong)
 luc "Oh, but I don't think that'll happen with Kamika! You'll manage to talk some sense into her, I just know it!"
 
 voice "c-9i-30.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, geez, but no pressure, huh?"
 
-show lucca bashful
+show lucca h bashful
 voice "c-9i-31.wav" #Lucca (Victoria Wong)
 luc "P-please, try not to worry about it... That sort of thing doesn't h-happen very often anymore, because they're so hard to c-cover up."
 
@@ -165,7 +165,7 @@ stop music fadeout 1.0
 "When this is over and done with, I swear I'm going to see what my options are for a lobotomy."
 
 play music happysong fadein 1.0
-show lucca happyclosed
+show lucca h happyclosed
 voice "c-9i-32.wav" #Lucca (Victoria Wong)
 luc "Anyway, if you're concerned, maybe w-we should team up? A-and figure out a plan to h-handle her?"
 
@@ -194,7 +194,7 @@ yum "Yeah, maybe later on we can put our heads together and work on a strategy t
 voice "c-9i-35.wav" #Yumi (Kathy Pfautsch)
 yum "I'd really appreciate your input, since you've probably known her a lot longer than me."
 
-show lucca bashful
+show lucca h bashful
 voice "c-9i-36.wav" #Lucca (Victoria Wong)
 luc "Well, longer doesn't always mean b-better, heh. But I'll absolutely help however I can!"
 
@@ -210,11 +210,11 @@ label s9iedgelord:
 voice "c-9i-37.wav" #Yumi (Kathy Pfautsch)
 yum "Well, you know, I wouldn't want to put you out... and who knows, maybe Kamika's diabolical plan is totally impotent."
 
-show lucca neutral
+show lucca h neutral
 voice "c-9i-38.wav" #Yumi (Kathy Pfautsch)
 yum "If all that this whole thing boils down to is having a stinky, self-important, obnoxious roommate with delusions of grandeur, well, that's something I already know how to handle. I'd feel stupid if we held strategy sessions just for that."
 
-show lucca sigh
+show lucca h sigh
 voice "c-9i-39.wav" #Lucca (Victoria Wong)
 luc "That's... true, I suppose."
 
@@ -233,14 +233,14 @@ hide lucca with dissolve
 voice "c-9i-41.wav" #Yumi (Kathy Pfautsch)
 yum "What do you think she's up to?"
 
-show lucca ohno flip
+show lucca h ohno flip
 voice "c-9i-42.wav" #Lucca (Victoria Wong)
 luc "I... I'm not entirely certain. Kamika can be so hard to predict..."
 
 voice "c-9i-43.wav" #Yumi (Kathy Pfautsch)
 yum "Well, you're both demons, right? How would {i}you{/i} try to take over the world, if you were so inclined?"
 
-show lucca bigaaaa flip
+show lucca h bigaaaa flip
 
 "The look she gives in response is one of the utmost horror. It's as though I just told her there was an entire frog in her smoothie."
 
@@ -250,7 +250,7 @@ luc "I... I would n-never even dream...!"
 voice "c-9i-45.wav" #Yumi (Kathy Pfautsch)
 yum "I know. But you have to know certain tricks of the trade, right?"
 
-show lucca mad flip
+show lucca h mad flip
 "She just shakes her head ardently."
 
 voice "c-9i-46.wav" #Lucca (Victoria Wong)
@@ -259,11 +259,11 @@ luc "That just isn't what our talents are for! M-most of us know this instinctiv
 voice "c-9i-47.wav" #Yumi (Kathy Pfautsch)
 yum "*sigh*"
 
-show lucca neutral flip
+show lucca h neutral flip
 voice "c-9i-48.wav" #Yumi (Kathy Pfautsch)
 yum "Well, that's very admirable, but it leaves me pretty flat-footed in terms of having any idea what she's up to."
 
-show lucca happy flip
+show lucca h happy flip
 "But Lucca just offers me a warm, reassuring smile."
 
 voice "c-9i-49.wav" #Lucca (Victoria Wong)
@@ -276,7 +276,7 @@ luc "Not to worry! Another thing Kamika rejects outright is subtlety."
 voice "c-9i-50.wav" #Yumi (Kathy Pfautsch)
 yum "That's a soundstage..."
 
-show lucca nervous flip
+show lucca h nervous flip
 voice "c-9i-51.wav" #Lucca (Victoria Wong)
 luc "Oh, dear."
 
@@ -284,14 +284,14 @@ luc "Oh, dear."
 
 "How she got all this expensive stuff, or how she even got herself {i}authorized{/i} to set it all up in the middle of a public space like this. is quite beyond my comprehension, and after the day I've had I think it'd be best to keep it that way."
 
-show lucca nervouser flip
+show lucca h nervouser flip
 voice "c-9i-52.wav" #Lucca (Victoria Wong)
 luc "She's g-going to sing..."
 
 voice "c-9i-53.wav" #Yumi (Kathy Pfautsch)
 yum "Crap. Is that going to hypnotize everyone?"
 
-show lucca neutral flip
+show lucca h neutral flip
 "For a moment, Lucca just gives me a stare so blank I could print a resume on it."
 
 voice "c-9i-54.wav" #Lucca (Victoria Wong)
@@ -344,7 +344,7 @@ luc "This is terrible..."
 
 "She dashes back to the sound system - an impressive feat, with the heels she's in - and tries to correct the blasphemous shrieking coming out of the speakers, but all she succeeds in doing is modulating the sound into a nauseating low hum, and then a sharp, angry static."
 
-show lucca ohno with dissolve
+show lucca h ohno with dissolve
 voice "c-9i-61.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, she didn't set up her equipment properly!"
 
@@ -354,7 +354,7 @@ luc "...What?"
 voice "c-9i-63.wav" #Yumi (Kathy Pfautsch)
 yum "I said, SHE DIDN'T SET UP HER EQUIPMENT PROPERLY!"
 
-show lucca uwah
+show lucca h uwah
 voice "c-9i-64.wav" #Lucca (Victoria Wong)
 luc "...WHAT?"
 
@@ -436,7 +436,7 @@ kam "I assure you, when the history of my conquests has been written large acros
 voice "c-9i-76.wav" #Yumi (Kathy Pfautsch)
 yum "Listen, you stupid, utterly deluded...."
 
-show lucca mad with easeinright:
+show lucca h mad with easeinright:
     align (0.3, 1.0)
 show kamika u wideeyes
 voice "c-9i-77.wav" #Lucca (Victoria Wong)
@@ -458,7 +458,7 @@ show kamika u evilsmile flip
 voice "c-9i-79.wav" #Kamika (Ariane Marchese)
 kam "Why do you befoul these grounds with your ghastly presence, Lucy? Come back around for another twist of the knife?"
 
-show lucca madclosed
+show lucca h madclosed
 voice "c-9i-80.wav" #Lucca (Victoria Wong)
 luc "I don't even kn-know what you're talking about, but..."
 
@@ -469,7 +469,7 @@ kam "I see now that it was misguided to blame this defeat upon my intended minio
 
 voice "c-9i-82.wav" #Yumi (Kathy Pfautsch)
 yum "...Um."
-#show lucca madclosed
+#show lucca h madclosed
 voice "c-9i-83.wav" #Lucca (Victoria Wong)
 luc "Or m-maybe she's just a normal g-girl that doesn't want any part of your harebrained schemes. Did y-y-you consider that?"
 
@@ -513,7 +513,7 @@ kam "Forget it. There's no talking to you, you horrible little {i}hag{/i}."
 hide jojo2 with dissolve
 stop music fadeout 1.0
 show kamika u evilsmile flip
-show lucca mad
+show lucca h mad
 voice "c-9i-93.wav" #Kamika (Ariane Marchese)
 kam "Just know that there's nothing you, your hired gun, or any of your deplorable sisters can do to stand in the way of my ultimate destiny."
 
@@ -530,20 +530,20 @@ show kamika u glare
 hide kamika with easeoutright
 "And with that, she storms off towards the dorms, Lucca still angrily staring her down until she disappears into the trees."
 
-show lucca madclosed
+show lucca h madclosed
 voice "c-9i-96.wav" #Lucca (Victoria Wong)
 luc "...Ugh... She's just the worst..."
 
 voice "c-9i-97.wav" #Yumi (Kathy Pfautsch)
 yum "Truer words have never been spoken."
 
-show lucca neutral
+show lucca h neutral
 voice "c-9i-98.wav" #Yumi (Kathy Pfautsch)
 yum "Still, what you did, staring her down like that, was pretty cool."
 
 ## Lucca blushing surprised
 play music luccatheme fadein 1.0
-show lucca bashful
+show lucca h bashful
 voice "c-9i-99.wav" #Lucca (Victoria Wong)
 luc "Oh... Oh my. I didn't r-realize - I just couldn't stand her at-t-tacking you like that..."
 

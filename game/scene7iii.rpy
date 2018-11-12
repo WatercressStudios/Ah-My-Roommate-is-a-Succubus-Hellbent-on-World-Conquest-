@@ -18,6 +18,7 @@ else:
 label showerkamika:
 #BRANCH: use if opted to head to Kamika in Scene6
 
+play ambient shower
 "But when I round the corner and head down the hall back to my room... I hear something."
 
 voice "c-7iii-1.wav" #Kamika (Ariane Marchese)

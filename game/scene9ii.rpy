@@ -230,7 +230,7 @@ yum "?!"
 #scene campus
 #show luc, kam
 
-show lucca mad with dissolve:
+show lucca h mad with dissolve:
     align (0.2, 1.0)
 show kamika u pout with dissolve:
     align (0.8, 1.0)
@@ -262,11 +262,11 @@ show kamika u confident
 voice "c-9ii-55.wav" #Kamika (Ariane Marchese)
 kam "So if you understand that, you can take your ugly spray-tanned ass and go crawl back home!"
 
-show lucca nervous
+show lucca h nervous
 voice "c-9ii-56.wav" #Lucca (Victoria Wong)
 luc "'U-ugly...?!'"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-57.wav" #Lucca (Victoria Wong)
 luc "I-I mean... th-that ain't no way t-t-to talk to me, little lady! Y-y'all better apologize now!"
 
@@ -277,7 +277,7 @@ kam "Oh my god, will you drop that embarrassing accent already? It's making you 
 voice "c-9ii-59.wav" #Yumi (Kathy Pfautsch)
 yum "Hey! What's going on here?!"
 
-show lucca nervous
+show lucca h nervous
 voice "c-9ii-60.wav" #Lucca (Victoria Wong)
 luc "Ah-! {i}Yumi?!{/i} Wh-what are {i}you{/i} doing here?!"
 
@@ -291,7 +291,7 @@ show kamika u seduce
 voice "c-9ii-62.wav" #Kamika (Ariane Marchese)
 kam "{i}I've{/i} got little miss Yumi here helping me achieve all of my worldly desires~!"
 
-show lucca ohno
+show lucca h ohno
 voice "c-9ii-63.wav" #Lucca (Victoria Wong)
 luc "Y-you're doing {i}WHAT?!{/i}"
 
@@ -310,21 +310,21 @@ show kamika u confident
 voice "c-9ii-67.wav" #Kamika (Ariane Marchese)
 kam "Just as soon as I'm {i}finished{/i} with my business here!"
 
-show lucca sniff
+show lucca h sniff
 voice "c-9ii-68.wav" #Lucca (Victoria Wong)
 luc "N-no... I can't believe it... Why, Yumi..?"
 
 voice "c-9ii-69.wav" #Yumi (Kathy Pfautsch)
 yum "Lucca, you don't understand! This girl is-"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-70.wav" #Lucca (Victoria Wong)
 luc "W-well, fine then! If that's the way you want it, then I... I..."
 
 voice "c-9ii-71.wav" #Lucca (Victoria Wong)
 luc "I have no choice but to beat Kamika AND you by myself!"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-72.wav" #Lucca (Victoria Wong)
 luc "I'll only say this once... stand down, and I won't hurt you!"
 
@@ -366,7 +366,7 @@ show kamika u pout
 voice "c-9ii-76.wav" #Kamika (Ariane Marchese)
 kam "{i}Hey!{/i} What do you think you're doing?!"
 
-show lucca bashful
+show lucca h bashful
 voice "c-9ii-77.wav" #Yumi (Kathy Pfautsch)
 yum "Sorry, but I've had enough of being near you for one day, if you don't mind."
 
@@ -379,7 +379,7 @@ kam "You {i}backstabbing louse!{/i} How {i}dare{/i} you?!"
 
 #next line only shows up after the first time you defend Kamika
 
-show lucca nervousclose
+show lucca h nervousclose
 voice "c-9ii-80.wav" #Lucca (Victoria Wong)
 luc "Phew... wh-what a relief. To be honest, I don't think I was ready to use that..."
 
@@ -407,7 +407,7 @@ label resist1:
 voice "c-9ii-85.wav" #Yumi (Kathy Pfautsch)
 yum "Lucca, I... I can't. I'm sorry."
 
-show lucca sniff
+show lucca h sniff
 voice "c-9ii-86.wav" #Lucca (Victoria Wong)
 luc "Wh... what...?"
 
@@ -419,7 +419,7 @@ show kamika u smug
 voice "c-9ii-88.wav" #Kamika (Ariane Marchese)
 kam "Maybe {i}now{/i} you'll go home and cry over what a disgusting, pretentious {i}pig{/i} you are!"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-89.wav" #Lucca (Victoria Wong)
 luc "I... I-I won't back down! I-I'll just have to use my ultimate attack!"
 
@@ -437,11 +437,11 @@ kam "Oh gimme a break, you're {i}actually{/i} trying to stop us with {i}that?{/i
 voice "c-9ii-92.wav" #Lucca (Victoria Wong)
 luc "D-don't try to stop me! Once I've charged this attack to its highest possible power level, it'll be enough to defeat you once and for all!"
 
-show lucca nervous
+show lucca h nervous
 voice "c-9ii-93.wav" #Lucca (Victoria Wong)
 luc "O-oh, but, Yumi could die if it hits her, s-so, um... P-please reconsider before it's done, okay?!"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-94.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, I could {i}die{/i} from this?!"
 
@@ -479,7 +479,7 @@ label resist2:
 voice "c-9ii-99.wav" #Yumi (Kathy Pfautsch)
 yum "I'm sorry, Lucca, but I can't leave her."
 
-show lucca aaaa
+show lucca h aaaa
 voice "c-9ii-100.wav" #Lucca (Victoria Wong)
 luc "{i}What?! Why?!{/i}"
 
@@ -494,11 +494,11 @@ show kamika u evilgrin
 voice "c-9ii-103.wav" #Kamika (Ariane Marchese)
 kam "You see that, you dumb bitch?! She's {i}mine{/i}, and there's {i}nothing{/i} your little glowstick can do about it!"
 
-show lucca mad
+show lucca h mad
 voice "c-9ii-104.wav" #Lucca (Victoria Wong)
 luc "D-d-don't think I'm giving up! I-I'm almost done charging!"
 
-show lucca waah
+show lucca h waah
 voice "c-9ii-105.wav" #Lucca (Victoria Wong)
 luc "Th-this is your last chance, Yumi! Just, p-p-please move s-so I can hit her! ...Please?"
 
@@ -530,7 +530,7 @@ label resist3:
 voice "c-9ii-109.wav" #Yumi (Kathy Pfautsch)
 yum "Lucca... I won't back down."
 
-show lucca bigaaaa
+show lucca h bigaaaa
 voice "c-9ii-110.wav" #Lucca (Victoria Wong)
 luc "Wh... {i}WHAAAAAAAAAAAT?!{/i}"
 
@@ -541,7 +541,7 @@ kam "{i}Eeyahahahahahahahaaa!!{/i} Oh Yumi, I could {i}kiss{/i} you right now~!"
 voice "c-9ii-112.wav" #Yumi (Kathy Pfautsch)
 yum "Don't push your luck."
 
-show lucca sniff
+show lucca h sniff
 voice "c-9ii-113.wav" #Lucca (Victoria Wong)
 luc "Ah... Ahhhh... Umm..."
 
@@ -549,7 +549,7 @@ show kamika u smug
 voice "c-9ii-114.wav" #Kamika (Ariane Marchese)
 kam "Well? Do you have anything to say to that, you horrible little {i}hag~?{/i}"
 
-show lucca waah
+show lucca h waah
 voice "c-9ii-115.wav" #Lucca (Victoria Wong)
 luc "I-I don't know! I... N-n-no one's ever refused to back down so many times before!"
 
@@ -568,7 +568,7 @@ luc "But... I... y-you can't, it..."
 "I tell her, 'I'm fine, I know what I'm doing. Please, stop...' as discreetly as possible, hoping Lucca can take the hint."
 "Fortunately, it looks like she got it."
 
-show lucca doh
+show lucca h doh
 voice "c-9ii-119.wav" #Lucca (Victoria Wong)
 luc "I... {i}I GIVE UP!!!{/i}"
 

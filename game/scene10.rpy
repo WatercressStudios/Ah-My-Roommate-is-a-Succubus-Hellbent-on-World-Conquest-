@@ -1,6 +1,6 @@
 label scene10:
 
-show lucca nervous with easeinleft:
+show lucca h nervous with easeinleft:
     align (0.40, 1.0)
 voice "c-10-1.wav" #Lucca (Victoria Wong)
 luc "Y-yikes... What a handful."
@@ -8,14 +8,14 @@ luc "Y-yikes... What a handful."
 voice "c-10-2.wav" #Yumi (Kathy Pfautsch)
 yum "Oh yeah? Try living with her."
 
-show lucca nervouser
+show lucca h nervouser
 voice "c-10-3.wav" #Lucca (Victoria Wong)
 luc "Oof... I-I'm guessing you won't be h-heading back to the dorms yet?"
 
 voice "c-10-4.wav" #Yumi (Kathy Pfautsch)
 yum "I've put up with her enough for the day. Think I'll stick around here a while. You?"
 
-show lucca nervous
+show lucca h nervous
 voice "c-10-5.wav" #Lucca (Victoria Wong)
 luc "N-no. I'm a little... a little tired after all that, so I'm gonna head back. B-bye..."
 
