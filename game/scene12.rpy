@@ -521,7 +521,7 @@ voice "c-12-129.wav" #Yumi (Kathy Pfautsch)
 yum "Long story... too sleepy... g'night..."
 
 voice "c-12-130.wav" #Kamika (Ariane Marchese)
-kam "D-don't fall asleep on me! ...{I}Urgh!{/i}"
+kam "D-don't fall asleep on me! ...{i}Urgh!{/i}"
 
 #whining
 

@@ -296,6 +296,15 @@ image laptop km = "cgs/laptop/Laptop 2v2.png"
 image laptop y = "cgs/laptop/Laptop 3v2.png"
 image laptop ky = "cgs/laptop/Laptop 4v2.png"
 image laptop ks = "cgs/laptop/Laptop 5v2.png"
+image laptop default = "cgs/laptop/laptopdefault.png"
+
+image slide powerpoint1 = "cgs/laptop/powerpoint1.png"
+image slide powerpoint2 = "cgs/laptop/powerpoint2.png"
+image slide powerpointtitle = "cgs/laptop/powerpointtitle.png"
+image slide shittyearth = "cgs/laptop/shittyearth.png"
+image slide kamikawins = "cgs/laptop/shittykamika.png"
+image slide kamikadraw = "cgs/laptop/shittykamika1.png"
+image slide playlist = "cgs/laptop/shittykamika1.png"
 
 image moeintro = "cgs/MoeIntroCG.png"
 image kamikaintro = "cgs/KamikaIntroCG.png"
@@ -326,6 +335,31 @@ image sexfogb = "cgs/sexfogback.png"
 ###################
 # SFX             #
 ###################
+define turnpage = "sfx/turn_page_thick_magazine_002.wav"
+#define smack = "sfx/"
+#define slam = "sfx/"
+#define bump = "sfx/"
+#define shove = "sfx/"
+#define dooropen = "sfx/"
+#define doorclose = "sfx/"
+#define clatter = "sfx/"
+#define aerosolcan = "sfx/"
+#define doorslam = "sfx/"
+#define feedback = "sfx/"
+#define pillowwhack = "sfx/"
+#define doorunlock = "sfx/"
+#define bedsprings = "sfx/"
+#define click  = "sfx/"
+#define slidewindow  = "sfx/"
+#define rington = "sfx/"
+#define beep = "sfx/"
+#define phonevibrate = "sfx/"
+#define explosion = "sfx/"
+#define throw = "sfx/"
+#define cheer = "sfx/"
+#define stomping = "sfx/"
+#define thud = "sfx/"
+#define ringtone = "sfx/"
 
 
 ###################
@@ -350,6 +384,8 @@ define staceytheme = "music/Stacey_s Theme.ogg"
 define wordfight = "music/Word Fight.ogg"
 define dramamusic = "music/Drama Scene.ogg"
 define stantheme = "music/Magical Main.ogg"
+define neutralmusic = "music/bensound-theelevatorbossanova.mp3"
+define happysong2 = "music/Quircky Shop.ogg"
 
 ###################
 # Ambient         #
@@ -358,6 +394,7 @@ define cafeamb = "ambient/Cafe BFX.ogg"
 define showeramb = "ambient/Shower BFX.ogg"
 define showerambbehind = "ambient/Shower from Behind Door _ _Steam for Pheromone use_ BFX.ogg"
 define trafficamb = "ambient/Traffic BFX.ogg"
+define forestamb = "ambient/427400__imjeax__forest-ambient-loop.wav"
 
 
 label start:

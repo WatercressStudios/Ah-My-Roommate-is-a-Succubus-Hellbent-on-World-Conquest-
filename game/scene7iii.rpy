@@ -506,40 +506,50 @@ show kamika d happyclosed
 voice "c-7iii-65.wav" #Kamika (Ariane Marchese)
 kam "Alright, come hither. We have {i}so much{/i} to discuss!~"
 
+show laptop default zorder 3 with dissolve
+show slide powerpoint5 zorder 2
+
 "Before long, Kamika puts together another presentation - again, using {i}my{/i} laptop - and proceeds to divulge her plan to me."
 
+show laptop ks with dissolve
 voice "c-7iii-108.wav" #Kamika (Ariane Marchese)
 kam "Phase 1 of 'Kamika's Ultimate Plan for Worldwide Enrapture' is a simple task, but nonetheless extremely important!"
 
 voice "c-7iii-109.wav" #Yumi (Kathy Pfautsch)
 yum "Do you just sit around making PowerPoints all day? Don't you have {i}anything{/i} better to do with your time?"
 
+show laptop km
 voice "c-7iii-110.wav" #Kamika (Ariane Marchese)
 kam "Th-that's neither here nor there, minion!"
 
 voice "c-7iii-111.wav" #Kamika (Ariane Marchese)
 kam "The events contained within will be the deciding factor in how the rest of the operation proceeds, so listen up and listen well!"
 
+show slide powerpoint3 with dissolve
 #CG: show next slide in CG, mediocre acrylic paint drawing of Kamika watching a singer
 
-voice "c-7iii-112.wav" #Yumi (Kathy Pfautsch)
+voice "c-7iii-112.mp3" #Yumi (Kathy Pfautsch)
 yum "Still using my art supplies, ugh. I don't even care anymore..."
 
+show laptop ks
 voice "c-7iii-113.wav" #Kamika (Ariane Marchese)
 kam "What I've learned from watching your world is that {i}anyone{/i} can be captivated by a good singer!"
 
 voice "c-7iii-114.wav" #Kamika (Ariane Marchese)
 kam "Singing has the power to bring together people from all over the world, and a good singer can enthrall the hearts of many with hardly any effort at all!"
 
+show laptop y with dissolve
 voice "c-7iii-115.wav" #Yumi (Kathy Pfautsch)
 yum "...So your plan is to become a professional singer? Isn't that what I just-"
 
+show laptop ky with dissolve
 voice "c-7iii-116.wav" #Kamika (Ariane Marchese)
 kam "Are you interrupting me with a pointless diatribe yet again?"
 
 voice "c-7iii-117.wav" #Yumi (Kathy Pfautsch)
 yum "No, I just... you know what, nevermind. Go on."
 
+show laptop ks with dissolve
 voice "c-7iii-118.wav" #Kamika (Ariane Marchese)
 kam "So {i}anyways{/i}, we need to draw together a crowd through singing, and {i}who{/i} is able to do that?"
 
@@ -548,6 +558,7 @@ yum "A professional diva?"
 
 #CG: show next slide in CG, mediocre acrylic paint drawing of Kamika singing to an adoring crowd
 
+show slide powerpoint4 with dissolve
 voice "c-7iii-120.wav" #Kamika (Ariane Marchese)
 kam "{i}Me{/i}, obviously!"
 
@@ -575,12 +586,13 @@ kam "Don't worry about the little details; I've got it all under control!"
 "It sounds like such a simple plan, and that's what scares me the most."
 "If she's able to use her singing as a means to convert an entire audience of people... there's no telling {i}what{/i} she might do after that."
 
-show kamika d confident
+
 
 "I mean. If she's able to. That's a {i}biiiiiiiiiig{/i} if."
 
-#fade CG
+scene dormroom with dissolve
 
+show kamika d confident with dissolve
 voice "c-7iii-128.wav" #Kamika (Ariane Marchese)
 kam "We'll initiate the plan tomorrow as soon as possible! Don't be late!"
 

@@ -187,11 +187,15 @@ kam "Wait right here; I'll get a special presentation prepared just for you~"
 "She darts away into my bedroom, leaving me to dread whatever she's come up with..."
 "Less than half a minute passes before she returns with a laptop - {i}MY{/i} laptop - and begins showing me a slideshow presentation."
 
-show laptopnc with dissolve
+show laptop default zorder 3 with dissolve
+show slide powerpoint5 zorder 2
 
 play music evilplot fadein 1.0
 voice "c-5-35.wav" #Kamika (Ariane Marchese)
 kam "Allow me to present: Kamika's Ultimate Plan for Worldwide Enrapture!"
+
+show laptop nc with dissolve
+"She booted it up with a push of a button..."
 
 voice "c-5-36.wav" #Yumi (Kathy Pfautsch)
 yum "...That is my laptop."
@@ -211,12 +215,13 @@ yum "How did you even get in? I have it password locked and everything!"
 voice "c-5-41.wav" #Kamika (Ariane Marchese)
 kam "Honey, your password hint {i}is{/i} your password. It doesn't take a genius to figure {i}that{/i} one out."
 
+show laptop ks with dissolve
 voice "c-5-42.wav" #Kamika (Ariane Marchese)
 kam "Anyways! 'Kamika's Ultimate Plan for Worldwide Enrapture' is the thrilling event that fans have been waiting for~!"
 
 #show next slide in CG, mediocre acrylic paint drawing of Kamika with hearts
 
-show laptop ks with dissolve
+show slide powerpoint4 with dissolve
 voice "c-5-43.wav" #Kamika (Ariane Marchese)
 kam "And it all revolves around me - Kamika Malagic, Demon of Lust!"
 
@@ -265,6 +270,7 @@ kam "I have {i}legions{/i} of adoring fans, all of whom {i}cry out{/i} for me wh
 
 #show next slide in CG, mediocre acrylic paint drawing of Kamika looking at Earth
 
+show slide shittyearth with dissolve
 voice "c-5-57.wav" #Kamika (Ariane Marchese)
 kam "And then there's {i}your{/i} world - a sad, pathetic ball of dirt {i}steeped{/i} in mediocrity."
 
@@ -288,6 +294,7 @@ kam "To make a long story short, your world is in serious need of a shake-up! An
 
 #show last slide in CG, mediocre acrylic paint drawing of Kamika with a crown standing on top of Earth
 
+show slide kamikawins with dissolve
 voice "c-5-63.wav" #Kamika (Ariane Marchese)
 kam "With {i}me{/i}, of course~!"
 

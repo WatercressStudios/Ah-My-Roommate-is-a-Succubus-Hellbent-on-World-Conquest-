@@ -315,14 +315,16 @@ pg1 "WOOOOOOO YEAAAAAAAAAAH!"
 voice "c-15-72.wav" #Lucca (Victoria Wong)
 luc "Oh God no- KAMIKA! Have some pride, damn it! This is an all-ages game!"
 
-"At least Lucca provided enough of a distraction for me to head over to Kamika's laptop."
+show laptop playlist with dissolve
+"At least Lucca provided enough of a distraction for me to head over to the laptop."
 
 voice "c-15-73.wav" #Yumi (Kathy Pfautsch)
 yum "Haha, yes! Her playlist! All I have to do is..."
 
 #cut music
 
-"With a click of a button, the music was put on pause, abruptly cutting off the steady flow of beats to the room."
+show laptop default
+"With a click of a button, I powered down the laptop, abruptly cutting off the steady flow of beats to the room."
 
 "Everyone stopped what they were doing, and looked around, confused. They looked over to me."
 
@@ -337,6 +339,7 @@ yum "DID I STUTTER!? {i}OUT!{/i}"
 
 "A crowd of confused eyes stared at me. I surveyed them all, holding my ground."
 
+hide laptop with dissolve
 "...A few were eying the door! And some stragglers were on their way out!"
 
 show kamika u thinkingclosed with dissolve

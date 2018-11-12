@@ -16,6 +16,7 @@ scene outsideschool with dissolve
 "Making my way down the sidewalk, I notice that the road wends into the trees, creating a canopy-like effect. After I've been walking for a minute or two, I realize that that's all I can see anymore."
 
 scene foresttrail with dissolve
+play ambient forestamb fadein 2.0
 "Nothing but trees, and a road that seems to get more poorly-maintained the further I walk along it."
 
 "It's vaguely spooky... but, somehow, knowing I'm following a {i}demon{/i} into it just makes the moment feel farcical."
@@ -56,6 +57,7 @@ show lucca nervous with dissolve
 
 "Sure enough, along the side of the building that faces away from the road, Lucca's there, brandishing a purple can of spray paint."
 
+stop ambient fadeout 1.0
 voice "c-7i-1.wav" #Yumi (Kathy Pfautsch)
 yum "...Lucca?"
 

@@ -153,7 +153,6 @@ kam "I am the most alluring and powerful force in this world! I am a goddess unp
 hide kamikaintro with dissolve
 #show kam confident
 
-stop music fadeout 1.0
 voice "c-3-26.wav" #Kamika (Ariane Marchese)
 kam "What do you think, my little servant~? I have an impressive resume, right~?"
 
@@ -177,7 +176,6 @@ yum "Stop that right now."
 
 show kamika d neutralclosed
 
-#music: find a neutral song from CC
 voice "c-3-32.wav" #Kamika (Ariane Marchese)
 kam "Fine, fine, whatever helps you sleep at night."
 
