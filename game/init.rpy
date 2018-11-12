@@ -315,8 +315,8 @@ image kamikabed2 = "cgs/kamika_bed_2.png"
 image jojo1 = "cgs/Scene 9-1 p1v3 (Resized).png"
 image jojo2 = "cgs/Scene 9-1 Jojo v3 (Resized).png"
 
-image rooftop1 = "cgs/Scene 18 v3 16x9Cropped Resized.png"
-image rooftop2 = "cgs/Scene 18 v3 Resized.png"
+image rooftop1 = "cgs/Scene 18 v4 16x9Cropped Resized.png"
+image rooftop2 = "cgs/Scene 18 v4 Resized.png"
 
 image moesmolder1 = "cgs/moedemongrills2_cg__smolder1__ad.png"
 image moesmolder2 = "cgs/moedemongrills2_cg__smolder0__ad.png"
