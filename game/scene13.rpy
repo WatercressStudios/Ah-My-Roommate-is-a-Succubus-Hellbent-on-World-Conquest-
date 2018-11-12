@@ -17,7 +17,7 @@ if stacey_points > 0:
     jump s13continue
 elif lucca_points > 0:
     jump s13continue
-elif kamika_points = 3:
+elif kamika_points == 3:
     jump s13continue
 else:
     jump hermitend
@@ -184,7 +184,7 @@ show lucca h nervous
 voice "c-13-44.wav" #Lucca (Victoria Wong)
 luc "Yumi, I have to talk to you. I-In private. Are you free?"
 
-if kamika_points = 3:
+if kamika_points == 3:
     jump kamikaroute
 elif stacey_points > lucca_points:
     jump staceyroute

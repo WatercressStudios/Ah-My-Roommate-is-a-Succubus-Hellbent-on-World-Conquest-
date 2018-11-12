@@ -10,7 +10,7 @@ scene dormhallway with dissolve
 "'Took you long enough, now lick my feet, peasant!' Or {i}something{/i} like that."
 "I'm stuck thinking of all the possible ways she might mess with me as I make my way back to my dorm room."
 
-if sawstacey = True:
+if sawstacey:
     jump angrykamika
 else:
     jump showerkamika
@@ -208,7 +208,7 @@ show kamika d shoutclosed
 voice "c-7iii-38.wav" #Kamika (Ariane Marchese)
 kam "A minion has to prioritize not wasting their master's time!"
 
-if minion = False:
+if not minion:
     jump yumicorrectskamika
 else:
     jump yumimustbeg
@@ -498,6 +498,7 @@ kam "Bitch!"
 #sfx
 #play sound doorslam
 stop music
+
 "And she slams the door. How quaint."
 
 "Thank God. Free at last."

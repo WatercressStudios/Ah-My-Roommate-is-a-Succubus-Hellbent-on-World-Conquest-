@@ -11,11 +11,11 @@ play music kamreflect fadein 1.0
 "Then to make matters worse, she had plans to dominate the entire school, and she almost succeeded in those plans to boot."
 "But in the end, we managed to prevent her from going too far..."
 
-if route = "stacey":
+if route == "stacey":
     jump staceyend1
-elif route = "lucca":
+elif route == "lucca":
     jump luccaend1
-elif route = "kamika":
+elif route == "kamika":
     jump kamikaend1
 #dialogue path if on Stacey route
 
@@ -100,11 +100,11 @@ kam "It's not right to put friends through that, but I was so convinced everyone
 voice "c-18-13.wav" #Yumi (Kathy Pfautsch)
 yum "..."
 
-if route = "stacey":
+if route == "stacey":
     jump staceyend2
-elif route = "lucca":
+elif route == "lucca":
     jump luccaend2
-elif route = "kamika":
+elif route == "kamika":
     jump kamikaend2
 
 label staceyend2:
@@ -610,7 +610,7 @@ kam "I won't be satisfied unless I'm on top, you know."
 voice "c-18-ar.wav" #Yumi (Kathy Pfautsch)
 yum "Heh... good point."
 
-if route = "kamika":
+if route == "kamika":
     jump bitchend
 else:
     jump notbitchend

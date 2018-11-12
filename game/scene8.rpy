@@ -46,7 +46,7 @@ voice "c-8-7.wav" #Kamika (Ariane Marchese)
 kam "It will be the end of what you once knew... and the beginning of my beautiful utopia~"
 
 #BRANCH: dialogue path based on not helping Kamika
-if helpkamika = True:
+if helpkamika:
     jump s8minion
 else:
     jump s8free
@@ -164,7 +164,7 @@ yum "Oh god {i}dammit!{/i} I'm gonna be late!"
 
 "I spring out of bed in a rush, trying as hard as I can to get ready for the day. Kamika simply observes me."
 
-if helpkamika = True:
+if helpkamika:
     jump s8minion2
 else:
     jump s8free2

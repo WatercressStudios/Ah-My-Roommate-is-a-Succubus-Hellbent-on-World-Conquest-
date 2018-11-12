@@ -40,7 +40,9 @@ hide kamika with dissolve
 
 scene dormroom with dissolve
 #sfx
+
 #play sound shove
+
 "Once we're safe, I shove her onto the sofa and slam the door shut behind me."
 "Just the act of bringing this girl back here has me catching my breath... It must be that natural demon power."
 "But now I can focus my attention on dealing with her..."
@@ -314,7 +316,6 @@ menu:
     "Deny her offer":
         jump s3deny
     "Begrudgingly accept her offer":
-        $ kamika_points += 1
         jump s3accept
 
 #BRANCH: dialogue path from ">>Deny her offer"

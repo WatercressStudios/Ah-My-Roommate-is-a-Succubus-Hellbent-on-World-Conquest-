@@ -390,6 +390,7 @@ menu:
         jump s5deny
     "Okay, let's make a pact.":
         $ minion = True
+        $ kamika_points += 1
         jump s5accept
 
 label s5deny:

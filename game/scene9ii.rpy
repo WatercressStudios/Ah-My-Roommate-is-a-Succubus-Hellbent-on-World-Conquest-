@@ -672,6 +672,7 @@ voice "c-9ii-136.wav" #Yumi (Kathy Pfautsch)
 yum "Alright, I got it..."
 
 #MERGE: all dialogue paths converge here
+jump s9iimerge
 
 stop music fadeout 1.0
 label s9iimerge:
