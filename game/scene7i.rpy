@@ -45,7 +45,7 @@ scene graffitiwoods with dissolve
 "Maybe this is where Kamika was squatting before she decided to invade my living space..."
 
 ##sfx:
-#play sound aerosolcan
+play sound aerosolcan
 
 "Is that... spray paint I hear?"
 
@@ -59,11 +59,11 @@ show lucca n nervous with dissolve
 "Sure enough, along the side of the building that faces away from the road, Lucca's there, brandishing a purple can of spray paint."
 
 stop ambient fadeout 1.0
-voice "c-7i-1.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-1.wav" #Yumi (Kathy Pfautsch)
 yum "...Lucca?"
 
 show lucca n bigaaaa
-voice "c-7i-2.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-2.wav" #Lucca (Victoria Wong)
 luc "YAAH!"
 
 play music luccatheme fadein 1.0
@@ -72,29 +72,29 @@ show lucca n doh
 
 "Fortunately for me, I'm standing far enough away that the paint particles don't actually reach me or my stuff..."
 
-voice "c-7i-3.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-3.wav" #Yumi (Kathy Pfautsch)
 yum "Err, sorry, sorry! It's just me!"
 
 show lucca n nervouser
-voice "c-7i-4.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-4.wav" #Lucca (Victoria Wong)
 luc "O-oh, Yumi! I-I thought you were..."
 
 "She's so obviously worked up and panicked that I immediately feel guilty for sneaking up on her."
 
 "Though, I guess turnabout is fair play. She did it to me earlier!"
 
-voice "c-7i-5.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-5.wav" #Yumi (Kathy Pfautsch)
 yum "I'm {i}really{/i} sorry! I just saw you going down this road and wanted to see where it led..."
 
 show lucca n guilty
-voice "c-7i-6.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-6.wav" #Lucca (Victoria Wong)
 luc "Ah... I didn't know you were behind me..."
 
-voice "c-7i-7.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-7.wav" #Yumi (Kathy Pfautsch)
 yum "I wasn't trying to stalk you, really! I just needed to talk to you about stuff anyway and-"
 
 show lucca n nervous
-voice "c-7i-8.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-8.wav" #Yumi (Kathy Pfautsch)
 yum "Wait."
 
 "My eyes glide over to the wall of the building, where an unfinished mural covers the neglected wall, a dreamscape of electric indigo, sapphire, and lilac tones."
@@ -118,30 +118,30 @@ label criminallucca:
 
 "I'm not even sure what I'm looking at right now, but right now I don't even care. I turn to glare at Lucca."
 
-voice "c-7i-a.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-a.wav" #Yumi (Kathy Pfautsch)
 yum "What are you {i}thinking{/i}, Lucca?!"
 
 show lucca n nervouser
-voice "c-7i-b.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-b.wav" #Lucca (Victoria Wong)
 luc "Yumi, wait, I-I can explain-!"
 
-voice "c-7i-c.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-c.wav" #Yumi (Kathy Pfautsch)
 yum "If you're trying to blend into the school, then why are you doing {i}this?{/i}"
 
-voice "c-7i-d.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-d.wav" #Yumi (Kathy Pfautsch)
 yum "This is super illegal, you know. You could go to {i}jail{/i} for this!"
 
 show lucca n waah
-voice "c-7i-e.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-e.wav" #Lucca (Victoria Wong)
 luc "I-I'm sorry! I just... I wanted to express myself..."
 
 "Geez, she's really good at making me feel like the bad guy here. But that doesn't mean I'm gonna allow this to slide."
 
-voice "c-7if.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7if.wav" #Yumi (Kathy Pfautsch)
 yum "Look, I'm not gonna report you for this or anything. Just... try to clean up after yourself, alright?"
 
 show lucca n sniff
-voice "c-7i-g.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-g.wav" #Lucca (Victoria Wong)
 luc "O-okay..."
 
 "She looks utterly crushed... Meanwhile, my eyes drift back to the mural."
@@ -155,14 +155,14 @@ label praiselucca:
 "Before I can inspect the creation anything further, Lucca leaps in front of the graffiti with starling alacrity and throws her arms out."
 
 show lucca n nervouser
-voice "c-7i-h.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-h.wav" #Lucca (Victoria Wong)
 luc "No, no, no! Please don't look at it before it's finished! It makes me so nervous..."
 
-voice "c-7i-i.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-i.wav" #Yumi (Kathy Pfautsch)
 yum "It looks really good already, though!"
 
 show lucca n ohno
-voice "c-7i-j.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-j.wav" #Lucca (Victoria Wong)
 luc "Aaaah, I don't want to hear that! Getting feedback on a piece before it's done is bad luck!"
 
 "...Who would have ever expected a demon to be superstitious?"
@@ -171,11 +171,11 @@ luc "Aaaah, I don't want to hear that! Getting feedback on a piece before it's d
 
 "Nah, nevermind, demons never know anything."
 
-voice "c-7i-k.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-k.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, okay! I'm sorry. I won't look at it."
 
 show lucca n nervous
-voice "c-7i-l.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-l.wav" #Lucca (Victoria Wong)
 luc "Thank you..."
 
 jump s7imerge
@@ -183,17 +183,17 @@ jump s7imerge
 
 label s7imerge:
 
-voice "c-7i-14.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-14.wav" #Yumi (Kathy Pfautsch)
 yum "I'm surprised, though. I would never have guessed you were into this sort of thing."
 
 ##Lucca smiling
 
 show lucca n bashful
-voice "c-7i-15.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-15.wav" #Lucca (Victoria Wong)
 luc "Oh, absolutely! I love graffiti! I've always been fascinated by it."
 
-show lucca n passion
-voice "c-7i-16.wav" #Lucca (Victoria Wong)
+show lucca n happyclosed
+voice "voice/c-7i-16.wav" #Lucca (Victoria Wong)
 luc "A graffito is a monument to an artist's bravery and daring! Graffiti artists are people who put themselves on the line to turn what {i}is{/i} into what {i}could be{/i}, knowing whatever they create might be gone by tomorrow!"
 
 "Whoa... I don't think I've ever seen her so animated talking about {i}anything{/i}. "
@@ -202,23 +202,23 @@ luc "A graffito is a monument to an artist's bravery and daring! Graffiti artist
 
 "I feel like I should say something, but her enthusiasm is genuinely spellbinding."
 
-voice "c-7i-17.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-17.wav" #Yumi (Kathy Pfautsch)
 yum "Wait. {i}That's{/i} why you're majoring in Architectural History?"
 
 "At my question, she seems to remember herself, and goes back to shrinking."
 
 show lucca n nervous
-voice "c-7i-18.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-18.wav" #Lucca (Victoria Wong)
 luc "Y-yes, well, you see... there's not really any degrees offered in street art, so..."
 
-voice "c-7i-19.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-19.wav" #Yumi (Kathy Pfautsch)
 yum "Yeah, I guess there wouldn't be."
 
-voice "c-7i-20.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-20.wav" #Yumi (Kathy Pfautsch)
 yum "It's as good a thing to major in as any, if graffiti is your primary focus. This school doesn't have a program to let students design their own majors..."
 
 show lucca n nervousclose
-voice "c-7i-21.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-21.wav" #Lucca (Victoria Wong)
 luc "Yes, and even if I {i}could{/i} design a graffiti major, it would... well, it'd just make me the number one suspect for any graffito found on campus..."
 
 "I nod in response."
@@ -226,78 +226,78 @@ luc "Yes, and even if I {i}could{/i} design a graffiti major, it would... well, 
 "I guess it's hard enough for a someone like Lucca to remain inconspicuous among human society {i}without{/i} committing crimes..."
 
 show lucca n bashful
-voice "c-7i-22.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-22.wav" #Lucca (Victoria Wong)
 luc "Oh! That's right! Did you manage to call S-Tan?"
 
-voice "c-7i-23.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-23.wav" #Yumi (Kathy Pfautsch)
 yum "Urrrrgh..."
 
 "Dejectedly, I groan."
 
-voice "c-7i-24.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-24.wav" #Yumi (Kathy Pfautsch)
 yum "Well, I did succeed in {i}calling{/i} her. Though all it amounted to was a message left on her machine."
 
 show lucca n nervous
 "She shrugs sadly."
 
-voice "c-7i-25.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-25.wav" #Lucca (Victoria Wong)
 luc "Um... if it makes you feel any better, I always get the machine, too. I think she just hates the phone..."
 
-voice "c-7i-26.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-26.wav" #Yumi (Kathy Pfautsch)
 yum "Yeah, well, if it takes her as long to help me out as the recording said, I might be out of luck getting help with Kamika."
 
-voice "c-7i-27.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-27.wav" #Yumi (Kathy Pfautsch)
 yum "Unless that other demon I talked to can help...?"
 
 show lucca n nervouser
-voice "c-7i-28.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-28.wav" #Lucca (Victoria Wong)
 luc "...\"Other demon?\""
 
-voice "c-7i-29.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-29.wav" #Yumi (Kathy Pfautsch)
 yum "You know. The, um. The envy demon."
 
 show lucca n bashful
-voice "c-7i-30.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-30.wav" #Lucca (Victoria Wong)
 luc "Hm? Why would... Oh! You spoke to Levi."
 
-voice "c-7i-31.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-31.wav" #Yumi (Kathy Pfautsch)
 yum "Right, Levi, that was her name. Would she help?"
 
 show lucca n nervous
-voice "c-7i-32.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-32.wav" #Lucca (Victoria Wong)
 luc "Err! No. No, I don't think so... She doesn't blend in public very well. And they've n-never gotten along..."
 
-voice "c-7i-33.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-33.wav" #Yumi (Kathy Pfautsch)
 yum "Meh. That figures."
 
 show lucca n guilty
-voice "c-7i-34.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-34.wav" #Lucca (Victoria Wong)
 luc "It's all just... complicated. Succubi and incubi can be... fractious, together."
 
-voice "c-7i-a.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-aa.wav" #Yumi (Kathy Pfautsch)
 yum "Wait—an incubus? I thought incubi were male?"
 
 show lucca n nervouser
 "She furrows her brow into an expression of deep concern."
 
-voice "c-7i-b.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-ab.wav" #Lucca (Victoria Wong)
 luc "That’s very unexpectedly gender essentialist of you, Yumi."
 
-voice "c-7i-c.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-ac.wav" #Yumi (Kathy Pfautsch)
 yum  "Oh. {i}Oh{/i}. I didn’t know demons could be—"
 
-voice "c-7i-d.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-ad.wav" #Lucca (Victoria Wong)
 luc "Well, of course."
 
-voice "c-7i-e.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-ae.wav" #Yumi (Kathy Pfautsch)
 yum  "...Duly noted. Sorry about that."
 
 show lucca n bashful
-voice "c-7i-f.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-af.wav" #Lucca (Victoria Wong)
 luc "Ah, it's fine. You learn something new every day, right?"
 
 show lucca n guilty
-voice "c-7i-g.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-ag.wav" #Lucca (Victoria Wong)
 luc "Anyway, the thing with Kamika is... kind of a long story..."
 
 "As much as I tell myself that I really don't care to hear it, a growing part of me -a deeply despised part - is a little intrigued."
@@ -306,28 +306,28 @@ luc "Anyway, the thing with Kamika is... kind of a long story..."
 
 "Still, now isn't the time."
 
-voice "c-7i-35.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-35.wav" #Yumi (Kathy Pfautsch)
 yum "Well, speaking of Kamika, I'd better go make sure she doesn't stink up my room any more than she already has."
 
 show lucca n neutral
-voice "c-7i-36.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-36.wav" #Lucca (Victoria Wong)
 luc "Oh... her ph-pheromones. Right."
 
-voice "c-7i-37.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-37.wav" #Yumi (Kathy Pfautsch)
 yum "I guess you mean to stick around and work on this?"
 
 show lucca n happy
-voice "c-7i-38.wav" #Lucca (Victoria Wong)
+voice "voice/c-7i-38.wav" #Lucca (Victoria Wong)
 luc "Yes, I'll be fine. I should take advantage of the remaining daylight."
 
-voice "c-7i-39.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-39.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, well, I'll see you tomorrow, and we'll discuss our group project more then?"
 
-show lucca nappyclosed
-voice "c-7i-40.wav" #Lucca (Victoria Wong)
+show lucca happyclosed
+voice "voice/c-7i-40.wav" #Lucca (Victoria Wong)
 luc "Y-yes! I look forward to it!"
 
-voice "c-7i-41.wav" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-41.wav" #Yumi (Kathy Pfautsch)
 yum "Me, too."
 
 stop music fadeout 1.0

@@ -30,7 +30,9 @@ init python:
     MapEmote('stacey sarcasticlook', 'stacey base md think ed side brow raised')
     MapEmote('stacey sarcastic', 'stacey base md think ed default brow raised')
     MapEmote('stacey eyebrow', 'stacey base md sad ed default brow raised')
-    MapEmote('stacey sad', 'stacey base md sad ed default brow sad')
+    MapEmote('stacey eyebrowlook', 'stacey base md sad ed side brow raised')
+    MapEmote('stacey mad', 'stacey base md sad ed default brow sad')
+    MapEmote('stacey madclosed', 'stacey base md sad ec default brow mad')
     MapEmote('stacey sadclosed', 'stacey base md sad ec default brow sad')
     MapEmote('stacey therock', 'stacey base md default ed default brow raised')
 
@@ -55,6 +57,7 @@ init python:
     MapEmote('kamika u sigh', 'kamika pose1 public md mad happy ec default brow sad')
     MapEmote('kamika u silenced', 'kamika pose1 public mc baka ed default brow surprise')
     MapEmote('kamika u pout', 'kamika pose1 public md pout ed default brow mad')
+    MapEmote('kamika u poutclosed', 'kamika pose1 public md pout ec default brow mad')
     MapEmote('kamika u whine', 'kamika pose1 public md sad ed squint brow sad cry 0')
     MapEmote('kamika u exclaim', 'kamika pose1 public md shout ed default brow surprise')
     MapEmote('kamika u neutral', 'kamika pose1 public md default ed default brow default')
@@ -68,8 +71,8 @@ init python:
     MapEmote('kamika u simmonsclosed', 'kamika pose1 public m simmons ec happy brow raise')
     MapEmote('kamika u questionsquint', 'kamika pose1 public md pout ed squint brow raise')
     MapEmote('kamika u question', 'kamika pose1 public md pout ed default brow raise')
-    MapEmote('kamika u deadpan', 'kamika pose1 public md flat ed squint brow default')
-    MapEmote('kamika u confused', 'kamika pose1 public md flat ed default brow raise')
+    MapEmote('kamika u deadpan', 'kamika pose1 public md frownside ed squint brow default')
+    MapEmote('kamika u confused', 'kamika pose1 public md frownside ed default brow raise')
     MapEmote('kamika u shoutclosed', 'kamika pose1 public md mad ec default brow mad optional angryvein')
     MapEmote('kamika u evilsmile', 'kamika pose1 public md happy ed default brow mad')
     MapEmote('kamika u evilsmileclosed', 'kamika pose1 public md happy ec default brow mad')
@@ -82,10 +85,12 @@ init python:
     MapEmote('kamika u desperate', 'kamika pose1 public md happy ed default brow sad')
     MapEmote('kamika u desperateclosed', 'kamika pose1 public md happy ec default brow sad')
     MapEmote('kamika u ouch', 'kamika pose1 public m shout ec default brow mad')
-    MapEmote('kamika u eyebrow', 'kamika pose1 public md default ed default brow raised')
+    MapEmote('kamika u eyebrow', 'kamika pose1 public md default ed default brow raise')
     MapEmote('kamika u sad', 'kamika pose1 public md sad ed default brow sad')
     MapEmote('kamika u sadclosed', 'kamika pose1 public md sad ec default brow sad')
     MapEmote('kamika u sadsquint', 'kamika pose1 public md sad ed squint brow sad')
+    MapEmote('kamika u seduceclosed', 'kamika pose1 public md happy ec default brow furrow')
+    MapEmote('kamika u evilsmilesquint', 'kamika pose1 public md happy ed squint brow mad')
     #PAST THIS POINT IS NEW SHIT
 
     #KAMIKA LOOKING AT READER (DEMON FORM)
@@ -116,14 +121,15 @@ init python:
     MapEmote('kamika d confidentclosed', 'kamika pose1 base md happy ec default brow mad')
     MapEmote('kamika d licklips', 'kamika pose1 base m licklips ed squint brow mad')
     MapEmote('kamika d seduce', 'kamika pose1 base md happy ed default brow furrow')
+    MapEmote('kamika d seduceclosed', 'kamika pose1 base md happy ec default brow furrow')
     MapEmote('kamika d seducesquint', 'kamika pose1 base md happy ed squint brow mad')
     MapEmote('kamika d mad', 'kamika pose1 base md mad ed default brow mad')
     MapEmote('kamika d simmons', 'kamika pose1 base m simmons ed squint brow raise')
     MapEmote('kamika d simmonsclosed', 'kamika pose1 base m simmons ec happy brow raise')
     MapEmote('kamika d questionsquint', 'kamika pose1 base md pout ed squint brow raise')
     MapEmote('kamika d question', 'kamika pose1 base md pout ed default brow raise')
-    MapEmote('kamika d deadpan', 'kamika pose1 base md flat ed squint brow default')
-    MapEmote('kamika d confused', 'kamika pose1 base md flat ed default brow raise')
+    MapEmote('kamika d deadpan', 'kamika pose1 base md frownside ed squint brow default')
+    MapEmote('kamika d confused', 'kamika pose1 base md frownside ed default brow raise')
     MapEmote('kamika d shoutclosed', 'kamika pose1 base md mad ec default brow mad optional angryvein')
     MapEmote('kamika d evilsmile', 'kamika pose1 base md happy ed default brow mad')
     MapEmote('kamika d evilsmileclosed', 'kamika pose1 base md happy ec default brow mad')
@@ -136,26 +142,28 @@ init python:
     MapEmote('kamika d desperate', 'kamika pose1 base md happy ed default brow sad')
     MapEmote('kamika d desperateclosed', 'kamika pose1 base md happy ec default brow sad')
     MapEmote('kamika d ouch', 'kamika pose1 base m shout ec default brow mad')
-    MapEmote('kamika d eyebrow', 'kamika pose1 base md default ed default brow raised')
+    MapEmote('kamika d eyebrow', 'kamika pose1 base md default ed default brow raise')
     MapEmote('kamika d sad', 'kamika pose1 base md sad ed default brow sad')
     MapEmote('kamika d sadclosed', 'kamika pose1 base md sad ec default brow sad')
     MapEmote('kamika d sadsquint', 'kamika pose1 base md sad ed squint brow sad')
+    MapEmote('kamika d poutclosed', 'kamika pose1 base md pout ed default brow mad')
+    MapEmote('kamika d evilsmilesquint', 'kamika pose1 base md happy ed squint brow mad')
     #PAST THIS POINT IS NEW SHIT
 
 
     #KAMIKA LOOKING AWAY
-    MapEmote('kamika s annoyedside', 'kamika pose2 base md default ed side brow mad')
+    MapEmote('kamika s annoyedside', 'kamika pose2 base md default ed aside brow mad')
     MapEmote('kamika s sigh', 'kamika pose2 base md default ec default brow mad')
     MapEmote('kamika s annoyed', 'kamika pose2 base md default ed default brow mad')
     MapEmote('kamika s simmonsclosed', 'kamika pose2 base md simmons ec happy brow mad')
     MapEmote('kamika s smug', 'kamika pose2 base md smirk ed default brow mad')
-    MapEmote('kamika s hystericallaugh', 'kamika pose2 base md happy ec happy brow mad')
+    MapEmote('kamika s hystericallaugh', 'kamika pose2 base m happy ec happy brow mad')
     MapEmote('kamika s annoyedclosed', 'kamika pose2 base md default ec default brow mad')
     MapEmote('kamika s grit', 'kamika pose2 base mc grimace ed default brow mad')
     MapEmote('kamika s gritclosed', 'kamika pose2 base mc grimace ec default brow mad')
-    MapEmote('kamika s gritside', 'kamika pose2 base mc grimace ed side brow mad')
+    MapEmote('kamika s gritside', 'kamika pose2 base mc grimace ed aside brow mad')
     MapEmote('kamika s sad', 'kamika pose2 base md default ed default brow sad')
-    MapEmote('kamika s sadside', 'kamika pose2 base md default ed side brow sad')
+    MapEmote('kamika s sadside', 'kamika pose2 base md default ed aside brow sad')
 
     #LUCCA
     MapEmote('lucca h neutral', 'lucca base md default ed default brow default')
@@ -176,8 +184,10 @@ init python:
     MapEmote('lucca h nervoussmile', 'lucca base md happy ed default brow sad')
     MapEmote('lucca h guilty', 'lucca base md sad ec default brow sad')
     MapEmote('lucca h mad', 'lucca base md mad ed default brow mad')
-    MapEmote('lucca h mad', 'lucca base md mad ed default brow mad optional blush')
+    MapEmote('lucca h madblush', 'lucca base md mad ed default brow mad optional blush')
     MapEmote('lucca h happy', 'lucca base md happy ed happy brow sad')
+    MapEmote('lucca h sad', 'lucca base md sad ed sad brow sad')
+    MapEmote('lucca h sadsmile', 'lucca base md happy ed sad brow sad')
 
     #LUCCA WITHOUT HAT
     MapEmote('lucca n neutral', 'lucca nohat md default ed default brow default')
@@ -198,8 +208,10 @@ init python:
     MapEmote('lucca n nervoussmile', 'lucca nohat md happy ed default brow sad')
     MapEmote('lucca n guilty', 'lucca nohat md sad ec default brow sad')
     MapEmote('lucca n mad', 'lucca nohat md mad ed default brow mad')
-    MapEmote('lucca n mad', 'lucca nohat md mad ed default brow mad optional blush')
+    MapEmote('lucca n madblush', 'lucca nohat md mad ed default brow mad optional blush')
     MapEmote('lucca n happy', 'lucca nohat md happy ed happy brow sad')
+    MapEmote('lucca n sad', 'lucca nohat md sad ed sad brow sad')
+    MapEmote('lucca n sadsmile', 'lucca nohat md happy ed sad brow sad')
 
     #MOE
     MapEmote('moe neutral', 'moe base md default ed default brow default')
@@ -208,11 +220,12 @@ init python:
     MapEmote('moe neutralclosed', 'moe base md default ec default brow default')
     MapEmote('moe madside', 'moe base md default ed side brow mad')
     MapEmote('moe mad', 'moe base md default ed default brow mad')
+    MapEmote('moe madclosed', 'moe base md default ec default brow mad')
     MapEmote('moe sigh', 'moe base md default ec default brow sad')
     MapEmote('moe sighsweat', 'moe base md default ec default brow sad optional sweatdrop')
-    MapEmote('moe smug', 'moe base md happy ed default brow angry')
-    MapEmote('moe smuglook', 'moe base md happy ed side brow angry')
-    MapEmote('moe smugclosed', 'moe base md happy ec default brow angry')
+    MapEmote('moe smug', 'moe base md happy ed default brow mad')
+    MapEmote('moe smuglook', 'moe base md happy ed side brow mad')
+    MapEmote('moe smugclosed', 'moe base md happy ec default brow mad')
 
 
     #MADE BY ALF, DOUBLECHECK LATER
@@ -231,7 +244,7 @@ init python:
     MapEmote('kamika d disappointed', 'kamika pose1 base md default ec default brow sad')
     MapEmote('kamika u seducetongue', 'kamika pose1 public m lick ed default brow sad')
     MapEmote('kamika d seducetongue', 'kamika pose1 base m lick ed default brow sad')
-    MapEmote('kamika u stew', 'kamika pose1 base mc baka ed default brow mad')
+    MapEmote('kamika u stew', 'kamika pose1 public mc baka ed default brow mad')
     MapEmote('kamika d stew', 'kamika pose1 base mc baka ed default brow mad')
     MapEmote('kamika u quietsquint', 'kamika pose1 public md default ed squint brow sad')
     MapEmote('kamika d quietsquint', 'kamika pose1 base md default ed squint brow sad')
@@ -254,11 +267,11 @@ init python:
 
 #MINOR CHARACTERS
 define dee = Character('Mr. Deeks', color="#FFFFFF", voice_tag="dee")
-define ber = Character('Mrs. Bernardinelli', color="#FFFFFF", voice_tag="ber")
-define mst = Character('Male Student', color="#FFFFFF", voice_tag="mst")
-define fst = Character('Female Student', color="#FFFFFF", voice_tag="fst")
-define pg1 = Character('Partygoer 1', color="#FFFFFF", voice_tag="pg1")
-define pg2 = Character('Partygoer 2', color="#FFFFFF", voice_tag="pg2")
+define ber = Character('Mrs. Bern.', color="#FFFFFF", voice_tag="ber")
+define mst = Character('M. Student', color="#FFFFFF", voice_tag="mst")
+define fst = Character('F. Student', color="#FFFFFF", voice_tag="fst")
+define pg1 = Character('Rando 1', color="#FFFFFF", voice_tag="pg1")
+define pg2 = Character('Rando 2', color="#FFFFFF", voice_tag="pg2")
 
 ######################
 # Flags              #
@@ -270,6 +283,9 @@ default kamika_points = 0
 default stacey_points = 0
 default lucca_points = 0
 default prismpower = False
+default staceyroute = False
+default luccaroute = False
+default kamikaroute = False
 
 ##################
 # BG Declaration #
@@ -296,6 +312,8 @@ image ruins = "bgs/ruins.png"
 image outsidedormnight = "bgs/outsidedormnight.png"
 image outsideschoolnight = "bgs/outsideschoolnight.png"
 image foresttrailnight = "bgs/foresttrailnight.png"
+image dormroomparty = "bgs/partydorm_bg_edit.png"
+image dormaftermath = "bgs/partydorm_bg_edit2.png"
 
 ###################
 # CGs             #
@@ -330,11 +348,14 @@ image laptop default = "cgs/laptop/laptopdefault.png"
 
 image slide powerpoint1 = "cgs/laptop/powerpoint1.png"
 image slide powerpoint2 = "cgs/laptop/powerpoint2.png"
+image slide powerpoint3 = "cgs/laptop/powerpoint3.png"
+image slide powerpoint4 = "cgs/laptop/powerpoint4.png"
+image slide powerpoint5 = "cgs/laptop/powerpoint5.png"
 image slide powerpointtitle = "cgs/laptop/powerpointtitle.png"
 image slide shittyearth = "cgs/laptop/shittyearth.png"
 image slide kamikawins = "cgs/laptop/shittykamika.png"
 image slide kamikadraw = "cgs/laptop/shittykamika1.png"
-image slide playlist = "cgs/laptop/shittykamika1.png"
+image laptop playlist = "cgs/laptop/playlist.png"
 
 image moeintro = "cgs/MoeIntroCG.png"
 image kamikaintro = "cgs/KamikaIntroCG.png"
@@ -364,7 +385,7 @@ image moesmoulder maximum = "cgs/moedemongrills2_cg__smolder0__ad.png"
 image kamikapose butt = "cgs/kamikademongrills2_cg_'pose1'_ad.png"
 image kamikapose shiny = "cgs/kamikademongrills2_cg_'pose2'_ad.png"
 
-image kamikaend = "cgs/Scene 18 v4 Resized.png"
+image kamikaend = "cgs/Scene 18 v4 16x9Cropped Resized.png"
 
 #MINOR CGS
 image transformdemon = "cgs/transformdemon.png"
@@ -372,6 +393,7 @@ image transformhuman = "cgs/transformhuman.png"
 
 image sexfogf = "cgs/sexfogfront.png"
 image sexfogb = "cgs/sexfogback.png"
+image white = "bgs/white.png"
 
 #######
 # VFX #
@@ -381,32 +403,35 @@ image sexfogb = "cgs/sexfogback.png"
 # SFX             #
 ###################
 define turnpage = "sfx/turn_page_thick_magazine_002.wav"
-#define smack = "sfx/"
-#define slam = "sfx/"
-#define bump = "sfx/"
-#define shove = "sfx/"
-#define dooropen = "sfx/"
-#define doorclose = "sfx/"
-#define clatter = "sfx/"
-#define aerosolcan = "sfx/"
-#define doorslam = "sfx/"
-#define feedback = "sfx/"
-#define pillowwhack = "sfx/"
-#define doorunlock = "sfx/"
-#define bedsprings = "sfx/"
-#define click  = "sfx/"
-#define slidewindow  = "sfx/"
-#define ringtone = "sfx/"
-#define beep = "sfx/"
-#define phonevibrate = "sfx/"
-#define explosion = "sfx/"
-#define throw = "sfx/"
-#define cheer = "sfx/"
-#define stomping = "sfx/"
-#define thud = "sfx/"
-#define ringtone = "sfx/"
-#define chuckle = "sfx/"
+define smack = "sfx/Desk Smack.ogg"
+define slam = "sfx/Desk Slam.ogg"
+define bump = "sfx/Bump.ogg"
+define shove = "sfx/Shove.ogg"
+define dooropen = "sfx/Door Open.ogg"
+define doorclose = "sfx/Door Close.ogg"
+define clatter = "sfx/Trash Can.ogg"
+define aerosolcan = "sfx/Aerosol Can.ogg"
+define doorslam = "sfx/Door Slam.ogg"
+define feedback = "sfx/Mic Feedback Alt.ogg"
+define doorunlock = "sfx/Door Unlock.ogg"
+define bedsprings = "sfx/Bed Springs.ogg"
+define click  = "sfx/Click.ogg"
+define slidewindow  = "sfx/Window Slide.ogg"
+define ringtone = "sfx/Cell Ring.ogg"
+define beep = "sfx/Beep.ogg"
+define phonevibrate = "sfx/Cell Vibrate.ogg"
+define explosion = "sfx/Explosion.ogg"
+define throw = "sfx/Throw.ogg"
+define cheer = "sfx/Cheering.ogg"
+define stomping = "sfx/Stomping.ogg"
+define thud = "sfx/Thud.ogg"
+define chuckle = "sfx/Laughter.ogg"
 
+#SUSPECT
+define pillowsmack = "sfx/Pillow Smack.ogg"
+define charge2 = "ambient/Power Up Greater.ogg"
+define charge1 = "ambient/Power Up Lesser.ogg"
+define doorknock = "sfx/doorknock.ogg"
 
 ###################
 # Music           #
@@ -446,7 +471,8 @@ define showeramb = "ambient/Shower BFX.ogg"
 define showerambbehind = "ambient/Shower from Behind Door _ _Steam for Pheromone use_ BFX.ogg"
 define trafficamb = "ambient/Traffic BFX.ogg"
 define forestamb = "ambient/427400__imjeax__forest-ambient-loop.wav"
-
+define partybass = "ambient/Party.ogg"
+define quake = "ambient/Ramble.ogg"
 
 label start:
     jump scene1
