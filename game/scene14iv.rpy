@@ -8,7 +8,7 @@ show kamika d glare with dissolve
 voice "voice/c-14iv-1.wav" #Kamika (Ariane Marchese)
 kam "Oh. It's {i}you.{/i}"
 
-show kamika d sighclosed
+show kamika d sigh
 voice "voice/c-14iv-2.wav" #Kamika (Ariane Marchese)
 kam "Can you go brood somewhere else? I'm busy."
 
@@ -26,7 +26,7 @@ show kamika d neutralclosed
 voice "voice/c-14iv-6.wav" #Kamika (Ariane Marchese)
 kam "And good riddance."
 
-scene campus with dissolve
+scene outsidedorm with dissolve
 "I decide to leave that skank behind and work outside."
 "And... for the first time in what feels like forever, I'm finally... alone."
 "No Kamika pining for my attention."
@@ -59,7 +59,7 @@ scene black with dissolve
 "And finally... I go to sleep."
 "The night passes uninterrupted."
 #fade from black
-scene campus with dissolve
+scene outsidedorm with dissolve
 "I wake up, energized and raring to go. Without Kamika, I've finally gotten the energy I need."
 "I feel like I can handle anything!"
 "Anything but Kamika herself, of course. That harlot could tire out a caffeinated puppy."
@@ -85,7 +85,7 @@ yum "Huh? But..."
 #Kamika's Theme
 "I hear the intercom click on and feel my heart hit the floor."
 
-play music evilkam fadein 1.0
+play music kamevil fadein 1.0
 voice "voice/c-14iv-9.wav" #Kamika (Ariane Marchese)
 kam "Ueeeeeheheheheheheheheheeeeee!"
 
