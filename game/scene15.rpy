@@ -556,7 +556,7 @@ show moe smugclosed flip
 voice "voice/c-15-117.wav" #Moe (CJ Heineman)
 moe "...Y'sure about that?"
 
-show kamika mad flip
+show kamika u mad flip
 show lucca h nervouser flip
 voice "voice/c-15-118.wav" #Lucca (Victoria Wong)
 luc "...O-oh gosh, you're not gonna... y-you can't, they're already-"
