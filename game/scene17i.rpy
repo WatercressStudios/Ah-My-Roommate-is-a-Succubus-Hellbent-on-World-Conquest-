@@ -317,41 +317,41 @@ voice "voice/c-17i-71.wav" #Kamika (Ariane Marchese)
 kam "What do {i}you{/i} want?!"
 
 play music happysong2
-voice "voice/c-17i-72.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-72.mp3" #S-Tan (Dani Chambers)
 sat "{i}Oooh{/i}, what a beautiful display of burning anger that I just {i}love{/i} to see~!"
 
-voice "voice/c-17i-73.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-73.mp3" #S-Tan (Dani Chambers)
 sat "I'm here to follow up on that message you left me and was wanting to see how your little demon slumber party was going!"
 
 show kamika d glare
 voice "voice/c-17i-74.wav" #Kamika (Ariane Marchese)
 kam "How do you {i}think{/i} it's going, you horrible {i}tramp?!{/i}"
 
-voice "voice/c-17i-75.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-75.mp3" #S-Tan (Dani Chambers)
 sat "Wow, are you even the same person as before? Your voice sounds a little muskier than what I remember..."
 
-voice "voice/c-17i-76.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-76.mp3" #S-Tan (Dani Chambers)
 sat "...Wait. That voice actually sounds familiar..."
 
 show kamika d madclosed
 voice "voice/c-17i-77.wav" #Kamika (Ariane Marchese)
 kam "Well of {i}course{/i} you would forget me! I was {i}never{/i} good enough for you!"
 
-voice "voice/c-17i-78.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-78.mp3" #S-Tan (Dani Chambers)
 sat "...(gasp) Omigosh, is that {i}you{/i}, Kamika???"
 
 show kamika d mad
 voice "voice/c-17i-79.wav" #Kamika (Ariane Marchese)
 kam "{i}Yes{/i}, it's {i}me!{/i} Took you long enough to remember!"
 
-voice "voice/c-17i-80.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-80.mp3" #S-Tan (Dani Chambers)
 sat "Oh my golly gosh, it's been {i}FOREVER{/i} since I've seen you~! How are you doing??"
 
 show kamika d glare
 voice "voice/c-17i-81.wav" #Kamika (Ariane Marchese)
 kam "{i}Terrible.{/i}"
 
-voice "voice/c-17i-82.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-82.mp3" #S-Tan (Dani Chambers)
 sat "Oh no! What happened? Did your solo career blow up before it even started?"
 
 show kamika d mad
@@ -365,7 +365,7 @@ show kamika d madclosed
 voice "voice/c-17i-85.wav" #Kamika (Ariane Marchese)
 kam "And not only do you insult me and make fun of me with that {i}ugly{/i} title, you don't even bother to call me and say you're {i}sorry?!{/i} You {i}disgust{/i} me!"
 
-voice "voice/c-17i-86.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-86.mp3" #S-Tan (Dani Chambers)
 sat "I {i}did{/i} try calling you, but you had my number blocked!"
 
 stop music
@@ -404,52 +404,52 @@ kam "Do you {i}hear me?!{/i} This is {i}all your fault!!{/i}"
 voice "voice/c-17i-96.wav" #Kamika (Ariane Marchese)
 kam "I... {i}I HATE YOU!!!{/i}"
 
-voice "voice/c-17i-97.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-97.mp3" #S-Tan (Dani Chambers)
 sat "...Oh..."
 
 play music feels
-voice "voice/c-17i-98.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-98.mp3" #S-Tan (Dani Chambers)
 sat "Oh, sweetie, I'm so sorry! I never meant to hurt you like that!"
 
 show kamika d sob
 voice "voice/c-17i-99.wav" #Kamika (Ariane Marchese)
 kam "(sniff) (hic) ...It's too late for that, you big {i}jerk{/i}..."
 
-voice "voice/c-17i-100.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-100.mp3" #S-Tan (Dani Chambers)
 sat "No, nothing is too late! There's a better chance for Hell to freeze over than it is for things to be too late!"
 
-voice "voice/c-17i-101.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-101.mp3" #S-Tan (Dani Chambers)
 sat "Listen, I really am sorry, Kamika. I never once thought to consider your feelings, and it was really sucky of me to do that to you..."
 
-voice "voice/c-17i-102.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-102.mp3" #S-Tan (Dani Chambers)
 sat "...But if it means anything, I'm really proud of you!"
 
 show kamika d surprisecry
 voice "voice/c-17i-103.wav" #Kamika (Ariane Marchese)
 kam "...Huh? Proud of me for what...?"
 
-voice "voice/c-17i-104.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-104.mp3" #S-Tan (Dani Chambers)
 sat "For going out on your own, of course! Nobody else would have ever been so brave as to break from the group to start a solo career! Competition is {i}killer!{/i}"
 
-voice "voice/c-17i-105.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-105.mp3" #S-Tan (Dani Chambers)
 sat "And if you're still the same Kamika I know you are, you're strong and confident enough that you'd get legions of fans before you even know it!"
 
-voice "voice/c-17i-106.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-106.mp3" #S-Tan (Dani Chambers)
 sat "I know how much scarier it is to be on your own, but I couldn't be happier that you're making your life your own~!"
 
 voice "voice/c-17i-107.wav" #Kamika (Ariane Marchese)
 kam "...Do... do you really mean that...?"
 
-voice "voice/c-17i-108.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-108.mp3" #S-Tan (Dani Chambers)
 sat "Absolutely~! If anything, I'm sure the others are just as happy for you too!"
 
-voice "voice/c-17i-109.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-109.mp3" #S-Tan (Dani Chambers)
 sat "Oh, hold on a minute..."
 
-voice "voice/c-17i-110.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-110.mp3" #S-Tan (Dani Chambers)
 sat "...You're {i}not{/i} happy? But it's Kamika, she's our- ...Oh. Oh, yeah... Right."
 
-voice "voice/c-17i-111.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-111.mp3" #S-Tan (Dani Chambers)
 sat "S-sorry about that, Kamika! It was just-"
 
 show kamika d sob
@@ -459,38 +459,38 @@ kam "Don't tell me... It's the rest of the Sinful Stars."
 voice "voice/c-17i-113.wav" #Kamika (Ariane Marchese)
 kam "They're {i}not{/i} happy for me... right?"
 
-voice "voice/c-17i-114.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-114.mp3" #S-Tan (Dani Chambers)
 sat "Welllllll... here's the thing about that."
 
-voice "voice/c-17i-115.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-115.mp3" #S-Tan (Dani Chambers)
 sat "We're all {i}really happy{/i} that you've started your own career, but... well..."
 
-voice "voice/c-17i-116.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-116.mp3" #S-Tan (Dani Chambers)
 sat "Some of us still have a little bit of beef with you, unfortunately."
 
 show kamika d sobsquint
 voice "voice/c-17i-117.wav" #Kamika (Ariane Marchese)
 kam "...Of course they would. They all hate me."
 
-voice "voice/c-17i-118.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-118.mp3" #S-Tan (Dani Chambers)
 sat "I-I mean we didn't think you were all that bad when we started! But... you were kind of really mean to us in the last week we knew you."
 
-voice "voice/c-17i-119.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-119.mp3" #S-Tan (Dani Chambers)
 sat "You kept harassing Moe, you kicked Beepy around, you got into fights with Mami... you even made Lucca {i}and{/i} Bubble {i}cry{/i} at one point! Who {i}does{/i} that?"
 
-voice "voice/c-17i-120.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-120.mp3" #S-Tan (Dani Chambers)
 sat "Sure, Lucca cried at a lot of things, some of which weren't even your fault! But making poor little Bubble cry was just too much."
 
-voice "voice/c-17i-121.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-121.mp3" #S-Tan (Dani Chambers)
 sat "You were just being a - pardon my language - a big, jerky stupid head."
 
 voice "voice/c-17i-122.wav" #Kamika (Ariane Marchese)
 kam "...I... I just wanted to have your approval, a-and be proud of myself. And when I felt like you weren't giving it to me, I just..."
 
-voice "voice/c-17i-123.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-123.mp3" #S-Tan (Dani Chambers)
 sat "...Tell you what. The others are busy doing their own things, but I've got Beepy right here with me."
 
-voice "voice/c-17i-124.wav" #S-Tan (Dani Chambers)
+voice "voice/c-17i-124.mp3" #S-Tan (Dani Chambers)
 sat "You can talk with her and apologize to her if you'd like... is that alright?"
 
 show kamika d sob

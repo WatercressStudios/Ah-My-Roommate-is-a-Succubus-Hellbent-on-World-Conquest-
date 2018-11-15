@@ -53,7 +53,7 @@ show phone1 stanclosed with dissolve
 show phoneyumi surprise
 hide phonedefault
 play music stantheme fadein 1.0
-voice "voice/c-6-3.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-3.mp3" #S-Tan (Dani Chambers)
 sat "Hiya! It's me! S-Tan! You've called the official hotline of Hell's top idol group, the Sinful Stars!"
 
 "Cripes, it really {i}was{/i} that easy. It's like demons are allergic to subtlety."
@@ -63,11 +63,11 @@ voice "voice/c-6-4.wav" #Yumi (Kathy Pfautsch)
 yum "Hey, it's Yumi Takaya, I-"
 
 show phone1 stanhappy
-voice "voice/c-6-5.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-5.mp3" #S-Tan (Dani Chambers)
 sat "If you are a small child who accidentally reached this number by playing with an unattended phone, please hang up and call us at a later date!"
 
 #voice: splice
-voice "voice/c-6-5i.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-5i.mp3" #S-Tan (Dani Chambers)
 show phone1 stanwink
 sat "Sorry, cutie, but kiddos under the age of nine can only call me with a parent's permission!"
 
@@ -76,7 +76,7 @@ voice "voice/c-6-6.wav" #Yumi (Kathy Pfautsch)
 yum "Wait, what? Is this a recording?"
 
 show phone1 stanclosed
-voice "voice/c-6-7.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-7.mp3" #S-Tan (Dani Chambers)
 sat "Otherwise, please listen closely, as our menu options have changed!"
 
 show phoneyumi rant
@@ -84,24 +84,24 @@ voice "voice/c-6-8.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, come {i}on{/i}!"
 
 show phone1 stanhappy
-voice "voice/c-6-9.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-9.mp3" #S-Tan (Dani Chambers)
 sat "If you know the extension of the party you are calling, please feel free to dial it at any time... followed by the pentagram key!"
 
 show phoneyumi dread
 "Whose phone even has a pentagram key?!"
 
 show phone1 stanclosed
-voice "voice/c-6-10.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-10.mp3" #S-Tan (Dani Chambers)
 sat "If you are calling about a lien that has been placed on yours or your dependents' souls, please press one!"
 
 "A lien? Does... does that happen very often?"
 
 show phone1 stanwink
-voice "voice/c-6-11.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-11.mp3" #S-Tan (Dani Chambers)
 sat "If you would like to book the Sinful Stars for your event, please press two!"
 
 show phone1 stanclosed
-voice "voice/c-6-12.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-12.mp3" #S-Tan (Dani Chambers)
 sat "To reach the special tipline for our new video game, Mami and Bubble in the City of Dis, now available on the Dendy, Super A'Can, and Nuon, please press three!"
 
 show phoneyumi annoyed
@@ -109,7 +109,7 @@ voice "voice/c-6-13.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, I don't think that any of those are even {i}real!{/i} Why are all these menu options so useless?"
 
 show phone1 stanhappy
-voice "voice/c-6-14.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-14.mp3" #S-Tan (Dani Chambers)
 sat "If your little brother has, after showing admirable growth as a young man, regressed to behaving like a self-involved twit again, please press four!"
 
 show phoneyumi surprise
@@ -121,7 +121,7 @@ voice "voice/c-6-16.wav" #Yumi (Kathy Pfautsch)
 yum "Errrrrrghh! Geez! I just want you guys to get out here and take away your demon friend!"
 
 show phone1 stanclosed
-voice "voice/c-6-17.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-17.mp3" #S-Tan (Dani Chambers)
 sat "For all other inquiries, please stay on the line, and an operator will be available to assist you!"
 
 show phoneyumi sigh
@@ -417,7 +417,7 @@ show phoneyumi neutrallisten
 #MEMO: Reinclude music notes later
 
 show phone1 stanclosed
-voice "voice/c-6-78.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-78.mp3" #S-Tan (Dani Chambers)
 sat "Hellooo~! This is S-Tan!"
 
 show phoneyumi sigh
@@ -425,7 +425,7 @@ voice "voice/c-6-79.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Finally.{/i} Hey, this is Yumi Takawa, and..."
 
 show phone1 stanhappy
-voice "voice/c-6-80.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-80.mp3" #S-Tan (Dani Chambers)
 sat "And unfortunately, I'm not available to come to the phone right now!"
 
 show phoneyumi rant
@@ -433,7 +433,7 @@ voice "voice/c-6-81.wav" #Yumi (Kathy Pfautsch)
 yum "{i}DAMMIT!{/i}"
 
 show phone1 stanwink
-voice "voice/c-6-82.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-82.mp3" #S-Tan (Dani Chambers)
 sat "Not to worry, though! Leave a message after the beep, detailing the exact disposition of your present infernal conundrum, and the nearest representative will be there to assist you within six to eight weeks!"
 
 show phoneyumi dread
@@ -453,7 +453,7 @@ stop music fadeout 1.0
 "{i}~Beep~{/i}"
 
 show phone1 stanclosed
-voice "voice/c-6-85.wav" #S-Tan (Dani Chambers)
+voice "voice/c-6-85.mp3" #S-Tan (Dani Chambers)
 sat "Message received! Thank you for supporting me: S-Tan! Byeeeeeeee!"
 
 show phoneyumi annoyed
