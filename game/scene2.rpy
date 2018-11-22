@@ -39,7 +39,7 @@ scene dormbed with dissolve
 "Shrugging it off as nothing, I enter my room to prepare myself for school work..."
 "And that's when... I found her."
 
-
+show kamikabed1 zorder 5 with dissolve
 play music kamseduce
 voice "voice/c-2-4.wav" #Kamika (Ariane Marchese)
 kam "Hello there~!"
@@ -123,6 +123,8 @@ voice "voice/c-2-20.wav" #Yumi (Kathy Pfautsch)
 yum "...What the hell is that smell?"
 
 #show Kamika looking shocked/confused in CG
+hide kamikabed1
+show kamikabed2 zorder 5
 
 
 show kamika wideeyes
@@ -136,7 +138,7 @@ yum "(sniff) {i}UGH{/i}, it {i}STINKS!!{/i} Good God, I'm gonna puke!"
 play sound shove
 show kamika u exclaim
 hide kamika with dissolve
-scene dormbed zorder 1
+scene dormbed with hpunch
 
 "I push the girl away and plug my nose to get that vile stench out of my head."
 "No doubt about it, it's the same smell from before, only now it's gotten even stronger and more repulsive than ever! How did it even {i}get{/i} like this?!"
