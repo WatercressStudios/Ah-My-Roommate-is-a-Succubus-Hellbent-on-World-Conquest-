@@ -1,6 +1,5 @@
 label scene9i:
 
-scene librarylabel scene9i:
 scene classroom with dissolve
 
 play music funkyjam fadein 1.0

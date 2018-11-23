@@ -218,7 +218,7 @@ voice "voice/c-14iii-42.mp3" #S-Tan (Dani Chambers)
 sat "Not to worry, though! With my Ultra Nuclear Heart Fireball of Love Mk. III, we can just nip this whole thing in the bud."
 
 voice "voice/c-14iii-43.wav" #Kamika (Ariane Marchese)
-kam "You {i}bitch!{/i} I was {i}SO CLOSE!{/I}"
+kam "You {i}bitch!{/i} I was {i}SO CLOSE!{/i}"
 
 show phone1 stanwink
 voice "voice/c-14iii-44.mp3" #S-Tan (Dani Chambers)

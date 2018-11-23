@@ -722,7 +722,7 @@ play sound throw
 show kamika u wideeyes
 show stacey eyebrow flip
 show lucca h ohno flip
-"{b}WHOOSH!{/i}"
+"{b}WHOOSH!{/b}"
 #sfx pillow hitting sound effect
 
 show kamika u ouch

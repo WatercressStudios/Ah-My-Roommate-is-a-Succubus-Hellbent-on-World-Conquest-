@@ -183,7 +183,6 @@ hide kamika
 show transformdemon zorder 4 with dissolve
 hide transformhuman
 show kamika d confident zorder 3
-hide sexffront with dissolve
 "...Was it changing?? No, no, that's insane. What even is all this??"
 show white zorder 6 with dissolve
 hide sexfogf
