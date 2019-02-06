@@ -80,25 +80,25 @@ play sound smack
 
 "With a few deft smacks of the box, the projector whirred to life. The presentation was ready to go."
 
-voice "voice/c-1-16.wav" #Mister Deeks (???)
+voice "voice/c-1-16.wav" #Mister Deeks (Matt Armstrong)
 dee "Awright! Finally! Woo, yeah!"
 
-voice "voice/c-1-17.wav" #Mister Deeks (???)
+voice "voice/c-1-17.wav" #Mister Deeks (Matt Armstrong)
 dee "Alright kiddos, I've been waiting a {i}looong{/i} time to this point on the syllabus! Truthfully, we ended up sprinting through a lot of Classical Antiquity stuff..."
 
-voice "voice/c-1-18.wav" #Mister Deeks (???)
+voice "voice/c-1-18.wav" #Mister Deeks (Matt Armstrong)
 dee "But {i}this!{/i} Ho ho ho... hooo man, the Renaissance! Y'know how much fun we're gonna have??"
 
-voice "voice/c-1-19.wav" #Mister Deeks (???)
+voice "voice/c-1-19.wav" #Mister Deeks (Matt Armstrong)
 dee "This is when every artist in Western Europe up and went to hit the gym... on their fundamentals!"
 
-voice "voice/c-1-20.wav" #Mister Deeks (???)
+voice "voice/c-1-20.wav" #Mister Deeks (Matt Armstrong)
 dee "This's gonna be a real turning point. You kids work on fundamentals in every art class with your anatomy, perspective, lighting, realism..."
 
-voice "voice/c-1-21.wav" #Mister Deeks (???)
+voice "voice/c-1-21.wav" #Mister Deeks (Matt Armstrong)
 dee "We can trace a lot of that philosophy back to the Renaissance! How artists wanted to go hard, capture that human form, dig in reeeeal deep with how things worked..."
 
-voice "voice/c-1-22.wav" #Mister Deeks (???)
+voice "voice/c-1-22.wav" #Mister Deeks (Matt Armstrong)
 dee "It's about capturing the human form! And its spirit! And, well, spirituality..."
 
 voice "voice/c-1-23.wav" #Yumi (Kathy Pfautsch)
@@ -222,7 +222,7 @@ voice "voice/c-1-47.wav" #Stacey (Ashe Thurman)
 sta "Riiiiight."
 
 show stacey neutrallook
-voice "voice/c-1-48.wav" #Mister Deeks (???)
+voice "voice/c-1-48.wav" #Mister Deeks (Matt Armstrong)
 dee "Let's compare to something pre-Renaissance! Look at this {i}ugly baby!{/i} It's like the toy sized version of a man!"
 
 voice "voice/c-1-49.wav" #Yumi (Kathy Pfautsch)
@@ -243,12 +243,12 @@ hide stacey with dissolve
 play sound slam
 "With about thirty minutes left in class, Deeks slams his podium, rousing the attention of the whole class."
 
-voice "voice/c-1-52.wav" #Mister Deeks (???)
+voice "voice/c-1-52.wav" #Mister Deeks (Matt Armstrong)
 dee "Awright! After all that blood-pumpin' hype, y'all gotta be wondering 'how can I be more like them', right??"
 
 "A deafening silence fell across the room. For a second, I could see Mr. Deeks' massive body deflate ever so slightly."
 
-voice "voice/c-1-53.wav" #Mister Deeks (???)
+voice "voice/c-1-53.wav" #Mister Deeks (Matt Armstrong)
 dee "...Well, we're gonna have a small, uh, exercise. On translating 3D space to a 2D canvas. Like Brunelleschi sketched the Pantheon's interior, we're gonna try something similar..."
 
 "He went on to instruct the class to sketch the interior of the lecture hall. I'd done these round enough to recognize what the art historians looked for."
@@ -384,10 +384,10 @@ hide stacey with dissolve
 
 "Before long, the class began to slowly file out, signalling the end of the lecture."
 
-voice "voice/c-1-83.wav" #Mister Deeks (???)
+voice "voice/c-1-83.wav" #Mister Deeks (Matt Armstrong)
 dee "Alright, bring your exercises up front, and I'll take a look at 'em in my office!"
 
-voice "voice/c-1-84.wav" #Mister Deeks (???)
+voice "voice/c-1-84.wav" #Mister Deeks (Matt Armstrong)
 dee "My office hours are pretty weird, but swing by my corner of the gym and we can talk more, eh?!"
 
 show stacey therock with dissolve
