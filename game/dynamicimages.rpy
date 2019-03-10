@@ -45,7 +45,6 @@ init -100 python:
     import os
     import sys
     import logging
-    import copy
 
     # absolute path to the game directory, which is formatted according
     # to the conventions of the local OS
