@@ -1,0 +1,723 @@
+label scene9ii:
+scene classroom with dissolve
+
+"For some reason, today's classes go by lightning fast."
+"It's probably because I had my mind focused on Kamika the whole time, because the material we went over has been nothing but a blur to me."
+"Damn it all, even when she's not in my presence, she somehow finds a way to interfere with my life! I just want this day to be done with as quickly as possible..."
+"Thankfully, I only have one morning class to worry about today, and as soon as it's over, I trot out to the plaza to look for Kamika."
+
+scene outsideschool with dissolve
+"To her credit, it doesn't take long for me to find her at all - probably because she starts screaming my name and waving to me as soon as she sees me."
+"Sighing, I make my way to her like a lost soul finding its way to the Gates of Hell."
+"...And now I feel a sudden urge to punch my brother on the shoulder for even thinking that. God damn it, I cannot catch a break lately..."
+
+play music happysong2 fadein 1.0
+show kamika u shout with dissolve
+voice "voice/c-9ii-1.ogg" #Kamika (Ariane Marchese)
+kam "What took you so long?! I was about to start the whole thing {i}without{/i} you!"
+
+voice "voice/c-9ii-2.ogg" #Yumi (Kathy Pfautsch)
+yum "I had class. You know, the thing that {i}every student here{/i} has to deal with?"
+
+show kamika u glare
+voice "voice/c-9ii-3.ogg" #Kamika (Ariane Marchese)
+kam "Ugh! You really need to do something about that. I can't have you wasting {i}my{/i} free time on whatever tripe you deem more valuable than {i}me!{/i}"
+
+voice "voice/c-9ii-4.ogg" #Yumi (Kathy Pfautsch)
+yum "Well, hey, the next time you decide to complain about that, I'll just take another class and make you wait even longer. How's that sound?"
+
+show kamika u madclosed
+voice "voice/c-9ii-5.ogg" #Kamika (Ariane Marchese)
+kam "Grrr... you won't be saying that for long, you miserable wench."
+
+show kamika u smug
+voice "voice/c-9ii-6.ogg" #Kamika (Ariane Marchese)
+kam "In fact, once my plans are complete, the only classes {i}you'll{/i} be taking will be the ones that revolve around {i}me!{/i}"
+
+voice "voice/c-9ii-7.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh boy, I can hardly wait. I hope I can transfer my credits..."
+
+voice "voice/c-9ii-8.ogg" #Yumi (Kathy Pfautsch)
+yum "So, are we gonna get started or what?"
+
+show kamika u seduce
+voice "voice/c-9ii-9.ogg" #Kamika (Ariane Marchese)
+kam "{i}Ah ah ah~{/i} I You know better than that, my dear little minion."
+
+show kamika u seducesquint
+voice "voice/c-9ii-10.ogg" #Kamika (Ariane Marchese)
+kam "Why don't you {i}beg{/i} for me like you always do and {i}then{/i} we'll start, mmkay~?"
+
+"Oh {i}God{/i} no."
+
+"I look around the plaza. There are students literally everywhere. I whisper to Kamika."
+
+show kamika u glare
+voice "voice/c-9ii-11.ogg" #Yumi (Kathy Pfautsch)
+yum "Kamika, we're in public-"
+
+voice "voice/c-9ii-12.ogg" #Kamika (Ariane Marchese)
+kam "You have to beg."
+
+voice "voice/c-9ii-13.ogg" #Yumi (Kathy Pfautsch)
+yum "I am {i}not{/i} embarrassing myself for-"
+
+voice "voice/c-9ii-14.ogg" #Kamika (Ariane Marchese)
+kam "I wanna hear you beg."
+
+voice "voice/c-9ii-15.ogg" #Yumi (Kathy Pfautsch)
+yum "God {i}dammit{/i}, listen to m-"
+
+voice "voice/c-9ii-16.ogg" #Kamika (Ariane Marchese)
+kam "{i}Beg for me.{/i}"
+
+voice "voice/c-9ii-17.ogg" #Yumi (Kathy Pfautsch)
+yum "...{i}Aaaaaaaaugh.{/i}"
+
+show kamika u confident
+"Please let there be a God so He can smite this reprehensible skank from the face of the earth."
+"I shut my eyes as tight as possible and take a deep breath... then I give her a fake smile and plead with her."
+
+voice "voice/c-9ii-18.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh Mistress Kamika, {i}please{/i} let me help you begin our {i}wonderful{/i} descent into your {i}delightfully devilish{/i} embrace~!"
+
+"...I can feel the eyes of everyone around us looking at me."
+"My social life is dead before it even started; they might as well be looking at a ghost right now."
+"Of course, Kamika doesn't even care about how much she's embarrassing me; in fact, she's {i}laughing!{/i}"
+
+show kamika u evilgrin
+voice "voice/c-9ii-19.ogg" #Kamika (Ariane Marchese)
+kam "(snort) {i}Ihihihi~!{/i} My oh my, how quick you are to falter~"
+
+show kamika u confidentclosed
+voice "voice/c-9ii-20.ogg" #Kamika (Ariane Marchese)
+kam "Come along then, my most devoted of servants! Let us begin~!"
+
+hide kamika u with easeoutleft
+"Kamika leads the way, while I try to cover my face from as many prying eyes as possible."
+
+scene library with dissolve
+"Eventually, we make our way to the entrance of the library. Kamika's managed to scrounge up a collection of things for her little concert too."
+"Large speakers, a microphone, a tiny little music player, plenty of cables... She put more thought into this than I give her credit for."
+
+show kamika u confident with easeinleft:
+    align (0.4, 1.0)
+voice "voice/c-9ii-21.ogg" #Kamika (Ariane Marchese)
+kam "What do you think? Pretty impressive, right~?"
+
+voice "voice/c-9ii-22.ogg" #Yumi (Kathy Pfautsch)
+yum "I-I guess so. You look like you have all the equipment necessary..."
+
+voice "voice/c-9ii-23.ogg" #Yumi (Kathy Pfautsch)
+yum "But wait, we're just going to do it {i}here?{/i} Won't we get in trouble with the faculty?"
+
+show kamika u confidentclosed
+voice "voice/c-9ii-24.ogg" #Kamika (Ariane Marchese)
+kam "Not a chance! I had a little chat with a staff member beforehand, and I managed to convince him with a little... {i}persuasion~{/i}"
+
+show kamika u licklips
+voice "voice/c-9ii-25.ogg" #Yumi (Kathy Pfautsch)
+yum "Eugh. Somehow I don't want to know what that entails."
+
+show kamika u smugclosed
+voice "voice/c-9ii-26.ogg" #Kamika (Ariane Marchese)
+kam "Well anyways, the day is short and we don't have much time, so get to it!"
+
+voice "voice/c-9ii-27.ogg" #Yumi (Kathy Pfautsch)
+yum "Huh? Get to {i}what?{/i}"
+
+show kamika u pout
+voice "voice/c-9ii-28.ogg" #Kamika (Ariane Marchese)
+kam "Getting things set up, {i}duh!{/i} God, it's like I have to spell everything out for you!"
+
+voice "voice/c-9ii-29.ogg" #Yumi (Kathy Pfautsch)
+yum "Wait, do you seriously expect {i}me{/i} to do all this?! I don't know anything about setting up for a concert!"
+
+show kamika u thinkingclosed
+voice "voice/c-9ii-30.ogg" #Kamika (Ariane Marchese)
+kam "Honey, that's your own problem. I can't help it if you're lacking in all the things that {i}I{/i} have."
+
+show kamika u mad
+voice "voice/c-9ii-31.ogg" #Kamika (Ariane Marchese)
+kam "Now quit stalling and get a move on before we miss our chance!"
+
+voice "voice/c-9ii-32.ogg" #Yumi (Kathy Pfautsch)
+yum "I- You- {i}Urrrrrgh!{/i}"
+
+"She wants me to learn all this on the fly?! I'm not a miracle worker here!"
+"But she's not even going to take no for an answer, or else who knows {i}what{/i} she might do..."
+
+scene black with dissolve
+
+"So without much say in the matter, I hunker down and begin to work."
+"Man, they really make it a pain in the ass to set up audio nowadays. So many cords and ports..."
+
+voice "voice/c-9ii-33.ogg" #Yumi (Kathy Pfautsch)
+yum "Let's see, that goes there... and this goes there... wait, no, wrong port..."
+
+voice "voice/c-9ii-34.ogg" #Kamika (Ariane Marchese)
+kam "Tick-tock, Yumi! Time's-a wastin'! Work faster!"
+
+voice "voice/c-9ii-35.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh, I'm sorry, I didn't realize we wanted this to sound like a goddamn {i}nightmare!{/i}"
+
+voice "voice/c-9ii-36.ogg" #Kamika (Ariane Marchese)
+kam "Maybe if you weren't being {i}distracted{/i} all the time, we'd be {i}done{/i} already!"
+
+voice "voice/c-9ii-37.ogg" #Yumi (Kathy Pfautsch)
+yum "Do you really think me looking up the instructions on my phone counts as being {i}distracted?!{/i}"
+
+voice "voice/c-9ii-38.ogg" #Kamika (Ariane Marchese)
+kam "I call it as I see it! Now MOVE!"
+
+"Augh, this woman is {i}relentless{/i} with her bitching! Maybe I should sabotage this on purpose just to teach her a lesson!"
+"...But despite all my grumbling, I somehow manage to hook up the audio."
+
+scene library with dissolve
+
+show kamika u happy with dissolve
+voice "voice/c-9ii-39.ogg" #Kamika (Ariane Marchese)
+kam "Finally, it's ready! Now the whole {i}school{/i} can hear my voice~!"
+
+voice "voice/c-9ii-40.ogg" #Yumi (Kathy Pfautsch)
+yum "If you're sure it's good, then I'm leaving. I need to catch up on studying."
+
+show kamika u pout
+voice "voice/c-9ii-41.ogg" #Kamika (Ariane Marchese)
+kam "{i}Not yet!{/i} We need to ensure that {i}absolutely every part{/i} of this plan goes off without a hitch!"
+
+voice "voice/c-9ii-42.ogg" #Kamika (Ariane Marchese)
+kam "So I need you to make yourself useful and get the song going when I give the order!"
+
+voice "voice/c-9ii-43.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh for- ...Fine, but this better be the last thing you ask of me today."
+
+stop music fadeout 2.0
+show kamika u confident
+"Satisfied with my answer, Kamika picks up the microphone and calls out to the rest of campus."
+
+show kamika u happy
+voice "voice/c-9ii-44.ogg" #Kamika (Ariane Marchese)
+kam "Hello there, my dears~! It is I, the one and only Kamika Malagic~!"
+
+show kamika u happyclosed
+voice "voice/c-9ii-45.ogg" #Kamika (Ariane Marchese)
+kam "I'm here to give the students of the Salem School for Calligraphy, Art, and Music the best time of their lives, so please, turn your attention to me as I sing you this song!"
+
+show kamika u pout
+voice "voice/c-9ii-46.ogg" #Kamika (Ariane Marchese)
+kam "Psst! That's your cue! Play the music!"
+
+hide kamika u with dissolve
+
+scene black
+
+"With a grumble, I play the first song that appears on the music player."
+
+play music ourlastnighttogether fadein 1.0
+"I close my eyes... and listen to her sing."
+
+#Our Last Night Together begins playing
+
+"As much as I hate to admit it, her singing voice is immaculate."
+"It's soft and gentle, but also powerful and passionate, going the whole range of emotions throughout the song."
+"And the words are thoughtful, too... I feel like I'm listening to the memoir of a lovesick lady and her struggles with people who come and go in her life."
+"It's... oddly sad. Which I never expected from Kamika..."
+
+stop music
+voice "voice/c-9ii-47.ogg" #Lucca (Victoria Wong)
+luc "{i}Stop!!!{/i}"
+
+voice "voice/c-9ii-48.ogg" #Yumi (Kathy Pfautsch)
+yum "?!"
+
+"In an instant, a familiar voice cuts through the singing. I open my eyes as soon as the voice rings out..."
+
+scene library
+#show luc, kam
+
+show lucca h mad with dissolve:
+    align (0.2, 1.0)
+show kamika u pout with dissolve:
+    align (0.8, 1.0)
+    xzoom -1.0
+
+play music wordfight fadein 1.0
+"It's Lucca! And she's standing up to Kamika! What is she {i}thinking?!{/i}"
+
+voice "voice/c-9ii-49.ogg" #Kamika (Ariane Marchese)
+kam "Excuse me? And just {i}who{/i} do you think you are interrupting my show?"
+
+voice "voice/c-9ii-50.ogg" #Lucca (Victoria Wong)
+luc "I... I-I-I reckon y-y'all better q-q-quit that right now! Y-y-you're disturbin... the peace 'r-r-r-round these here parts!"
+
+show kamika u wideeyes:
+    xzoom 1.0
+voice "voice/c-9ii-51.ogg" #Kamika (Ariane Marchese)
+kam "...Oh my god. Is that {i}you{/i}, Lucy?"
+
+voice "voice/c-9ii-52.ogg" #Lucca (Victoria Wong)
+luc "{i}Who's Lucy?!{/i} I mean, who in t-tarnation is Lucy? Y'all b-better call me Luanne, i-if y'all know what's g-good for ya!"
+
+show kamika u confidentclosed:
+    xzoom -1.0
+voice "voice/c-9ii-53.ogg" #Kamika (Ariane Marchese)
+kam "Oh, this is just {i}hilarious!{/i} Do you really think I'm doing anything {i}bad{/i}, my dear?"
+
+show kamika u seduce:
+    xzoom 1.0
+voice "voice/c-9ii-54.ogg" #Kamika (Ariane Marchese)
+kam "You're quite mistaken; All {i}I'm{/i} doing is giving people a good time. There's nothing {i}wrong{/i} with that!"
+
+show kamika u confident:
+    xzoom -1.0
+voice "voice/c-9ii-55.ogg" #Kamika (Ariane Marchese)
+kam "So if you understand that, you can take your ugly spray-tanned ass and go crawl back home!"
+
+show lucca h nervous
+voice "voice/c-9ii-56.ogg" #Lucca (Victoria Wong)
+luc "'U-ugly...?!'"
+
+show lucca h mad
+voice "voice/c-9ii-57.ogg" #Lucca (Victoria Wong)
+luc "I-I mean... th-that ain't no way t-t-to talk to me, little lady! Y-y'all better apologize now!"
+
+show kamika u glare:
+    xzoom 1.0
+voice "voice/c-9ii-58.ogg" #Kamika (Ariane Marchese)
+kam "Oh my god, will you drop that embarrassing accent already? It's making you look even {i}more{/i} pathetic than usual!"
+
+voice "voice/c-9ii-59.ogg" #Yumi (Kathy Pfautsch)
+yum "Hey! What's going on here?!"
+
+show lucca h nervous
+voice "voice/c-9ii-60.ogg" #Lucca (Victoria Wong)
+luc "Ah-! {i}Yumi?!{/i} Wh-what are {i}you{/i} doing here?!"
+
+show kamika u confident:
+    xzoom -1.0
+voice "voice/c-9ii-61.ogg" #Kamika (Ariane Marchese)
+kam "What, isn't it obvious?"
+
+show kamika u seduce:
+    xzoom 1.0
+
+"Kamika locks her arm with mine and puts a finger to my chin. Good god, her scent is as revolting as ever!"
+
+voice "voice/c-9ii-62.ogg" #Kamika (Ariane Marchese)
+kam "{i}I've{/i} got little miss Yumi here helping me achieve all of my worldly desires~!"
+
+show lucca h ohno
+voice "voice/c-9ii-63.ogg" #Lucca (Victoria Wong)
+luc "Y-you're doing {i}WHAT?!{/i}"
+
+voice "voice/c-9ii-64.ogg" #Yumi (Kathy Pfautsch)
+yum "Lucca, I can explain-"
+
+show kamika u evilsmile:
+    xzoom -1.0
+voice "voice/c-9ii-65.ogg" #Kamika (Ariane Marchese)
+kam "Oho, so you go by {i}Lucca{/i} now? You're even {i}more{/i} of a fake bitch than I thought you were!"
+
+show kamika u smugclosed:
+    xzoom -1.0
+voice "voice/c-9ii-66.ogg" #Kamika (Ariane Marchese)
+kam "But yes, {i}she{/i} has been an absolutely splendid minion, and I intend to give her only the best reward in the world~"
+
+show kamika u confident:
+    xzoom 1.0
+voice "voice/c-9ii-67.ogg" #Kamika (Ariane Marchese)
+kam "Just as soon as I'm {i}finished{/i} with my business here!"
+
+show lucca h sniff
+voice "voice/c-9ii-68.ogg" #Lucca (Victoria Wong)
+luc "N-no... I can't believe it... Why, Yumi..?"
+
+voice "voice/c-9ii-69.ogg" #Yumi (Kathy Pfautsch)
+yum "Lucca, you don't understand! This girl is-"
+
+show lucca h mad
+voice "voice/c-9ii-70.ogg" #Lucca (Victoria Wong)
+luc "W-well, fine then! If that's the way you want it, then I... I..."
+
+voice "voice/c-9ii-71.ogg" #Lucca (Victoria Wong)
+luc "I have no choice but to beat Kamika AND you by myself!"
+
+show lucca h mad
+voice "voice/c-9ii-72.ogg" #Lucca (Victoria Wong)
+luc "I'll only say this once... stand down, and I won't hurt you!"
+
+show kamika u smugclosed:
+    xzoom -1.0
+voice "voice/c-9ii-73.ogg" #Kamika (Ariane Marchese)
+kam "Oh {i}please!{/i} Listen to your pitiful prattling, do you think you can stop us {i}now?{/i}"
+
+show kamika u confident:
+    xzoom 1.0
+voice "voice/c-9ii-74.ogg" #Kamika (Ariane Marchese)
+kam "I've got dear, sweet Yumi in the palm of my hand~ And she'll do {i}anything{/i} for me, {i}including{/i} standing up to the likes of {i}you!{/i}"
+
+show kamika u seduce:
+    xzoom -1.0
+voice "voice/c-9ii-75.ogg" #Kamika (Ariane Marchese)
+kam "Go on, Yumi~ Tell her the depths of your devotion to me~!"
+
+"Okay, this sounds really crazy to me, but I think I have an idea."
+"Kamika is stretching our relationship to absurd degrees. Maybe she trusts me?"
+"All I have to do is stay on Kamika's good side long enough to figure everything out. And {i}then{/i} maybe I can coerce her to not do something batshit insane."
+"It sucks, but... I'll have to side with Kamika. Or at the very least, pretend to."
+"Or... Lucca might have more information on Kamika. She might know some things I don't. It sounds like they've known each other longer."
+"Shit. Who do I side with? Will Lucca believe me?"
+
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        jump luccasurrender
+    "Stand up for Kamika":
+        jump resist1
+#CHOICE:
+#>>Stand down
+#>>Stand up for Kamika
+
+#dialogue path from ">>Stand down"
+
+label luccasurrender:
+
+stop music fadeout 1.0
+"I wrestle my way out of Kamika's grasp and head over to Lucca's side."
+
+show kamika u pout:
+    xzoom 1.0
+voice "voice/c-9ii-76.ogg" #Kamika (Ariane Marchese)
+kam "{i}Hey!{/i} What do you think you're doing?!"
+
+show lucca h bashful
+voice "voice/c-9ii-77.ogg" #Yumi (Kathy Pfautsch)
+yum "Sorry, but I've had enough of being near you for one day, if you don't mind."
+
+voice "voice/c-9ii-78.ogg" #Lucca (Victoria Wong)
+luc "Yumi...!"
+
+show kamika u mad:
+    xzoom -1.0
+voice "voice/c-9ii-79.ogg" #Kamika (Ariane Marchese)
+kam "You {i}backstabbing louse!{/i} How {i}dare{/i} you?!"
+
+#next line only shows up after the first time you defend Kamika
+
+show lucca h nervousclose
+voice "voice/c-9ii-80.ogg" #Lucca (Victoria Wong)
+luc "Phew... wh-what a relief. To be honest, I don't think I was ready to use {i}that{/i}..."
+
+show kamika u glare:
+voice "voice/c-9ii-81.ogg" #Kamika (Ariane Marchese)
+kam "Grrr... well, whatever. I already have what I came here for."
+
+show kamika u confidentclosed:
+    xzoom 1.0
+voice "voice/c-9ii-82.ogg" #Kamika (Ariane Marchese)
+kam "The students here know of my presence now, which means I can move on to the next step of my plan!"
+
+voice "voice/c-9ii-83.ogg" #Yumi (Kathy Pfautsch)
+yum "Kamika, {i}wait-!{/i}"
+
+show kamika u glare:
+    xzoom -1.0
+voice "voice/c-9ii-84.ogg" #Kamika (Ariane Marchese)
+kam "Don't even {i}think{/i} of talking to me. I have nothing to say to a filthy traitor like {i}you.{/i}"
+jump s9iimerge
+
+#BRANCH: dialogue path from ">>Stand up for Kamika"
+
+label resist1:
+"Gotta stick with the plan. I'll tell Lucca later. She'll understand, right?"
+
+voice "voice/c-9ii-85.ogg" #Yumi (Kathy Pfautsch)
+yum "Lucca, I... I can't. I'm sorry."
+
+show lucca h sniff
+voice "voice/c-9ii-86.ogg" #Lucca (Victoria Wong)
+luc "Wh... what...?"
+
+show kamika u confident:
+    xzoom 1.0
+voice "voice/c-9ii-87.ogg" #Kamika (Ariane Marchese)
+kam "Hah! See that? She's gone {i}head over heels{/i} for me! There's {i}nothing{/i} that can break my hold over her!"
+
+show kamika u smug:
+    xzoom -1.0
+voice "voice/c-9ii-88.ogg" #Kamika (Ariane Marchese)
+kam "Maybe {i}now{/i} you'll go home and cry over what a disgusting, pretentious {i}pig{/i} you are!"
+
+show lucca h mad with easeinright:
+    align (0.1, 1.0)
+voice "voice/c-9ii-89.ogg" #Lucca (Victoria Wong)
+luc "I... I-I won't back down! I-I'll just have to use my ultimate attack!"
+
+show energyspark one
+play sound charge1
+show lucca n mad
+"Without a moment of hesitation, Lucca removed her hat, revealing her striking horn."
+"Energy crackled at the pointed tip. Her expression grew more determined."
+
+#show CG of Lucca with her staff, charging her attack
+
+voice "voice/c-9ii-90.ogg" #Lucca (Victoria Wong)
+luc "Demon Prism Power Blast!"
+
+show kamika u disappointed:
+    xzoom 1.0
+voice "voice/c-9ii-91.ogg" #Kamika (Ariane Marchese)
+kam "Oh gimme a break, you're {i}actually{/i} trying to stop us with {i}that?{/i} That little dinky {i}toy?{/i} You're embarrassing {i}all{/i} of us at this point!"
+
+voice "voice/c-9ii-92.ogg" #Lucca (Victoria Wong)
+luc "D-don't try to stop me! Once I've charged this attack to its highest possible power level, it'll be enough to defeat you once and for all!"
+
+show lucca n nervous
+voice "voice/c-9ii-93.ogg" #Lucca (Victoria Wong)
+luc "O-oh, but, Yumi could die if it hits her, s-so, um... P-please reconsider before it's done, okay?!"
+
+show lucca n mad
+voice "voice/c-9ii-94.ogg" #Yumi (Kathy Pfautsch)
+yum "Wait, I could {i}die{/i} from this?!"
+
+show kamika u pout:
+    xzoom -1.0
+voice "voice/c-9ii-95.ogg" #Kamika (Ariane Marchese)
+kam "Don't focus on that right now, Yumi!"
+
+show kamika u seduce:
+    xzoom 1.0
+voice "voice/c-9ii-96.ogg" #Kamika (Ariane Marchese)
+kam "Focus on me... your gorgeous and divine mistress~ You're not gonna let this get in out way, are you~?"
+
+show kamika u seducetongue:
+    xzoom -1.0
+voice "voice/c-9ii-97.ogg" #Kamika (Ariane Marchese)
+kam "Tell her that she's wrong. Tell her that you belong by my side~!"
+
+voice "voice/c-9ii-98.ogg" #Lucca (Victoria Wong)
+luc "Don't listen to her, Yumi! Get away, b-before it's too late!"
+
+#CHOICE
+#>>Stand down
+#>>Refuse to back down
+
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        $ prismpower = True
+
+        "Yeah, I'm not gonna die like this. No sir. Nuh uh."
+
+        show lucca h neutral
+        hide energyspark with dissolve
+        "Lucca seemed to realize this as well. She nodded, cutting the juice."
+        jump luccasurrender
+    "Refuse to back down":
+        jump resist2
+#BRANCH: dialogue path from ">>Refuse to back down"
+
+label resist2:
+"I can feel Kamika getting more and more possessive of me with each second."
+"I should be disgusted... but if anything, it's showing how much she relies on me. And I have to keep up the facade as much as possible."
+
+voice "voice/c-9ii-99.ogg" #Yumi (Kathy Pfautsch)
+yum "I'm sorry, Lucca, but I can't leave her."
+
+show lucca n aaaa
+voice "voice/c-9ii-100.ogg" #Lucca (Victoria Wong)
+luc "{i}What?! Why?!{/i}"
+
+show kamika u seducesquint:
+    xzoom 1.0
+voice "voice/c-9ii-101.ogg" #Kamika (Ariane Marchese)
+kam "Ihihihihihi~ Yes... you're doing so well, my dear~ See how nice it is to let go and think only of me~?"
+
+voice "voice/c-9ii-102.ogg" #Yumi (Kathy Pfautsch)
+yum "Dude, I already feel awkward doing this, don't make it any worse."
+
+show kamika u evilgrin:
+    xzoom -1.0
+voice "voice/c-9ii-103.ogg" #Kamika (Ariane Marchese)
+kam "You see that, you dumb bitch?! She's {i}mine{/i}, and there's {i}nothing{/i} your little glowstick can do about it!"
+
+show lucca n mad
+voice "voice/c-9ii-104.ogg" #Lucca (Victoria Wong)
+luc "D-d-don't think I'm giving up! I-I'm almost done charging!"
+
+play sound charge2
+show energyspark two with dissolve
+show lucca n waah
+voice "voice/c-9ii-105.ogg" #Lucca (Victoria Wong)
+luc "Th-this is your last chance, Yumi! Just, p-p-please move s-so I can hit her! ...Please?"
+
+show kamika u confident:
+    xzoom 1.0
+voice "voice/c-9ii-106.ogg" #Kamika (Ariane Marchese)
+kam "Give it up already! As long as she has eyes for me, you'll {i}never{/i} take her away from me!"
+
+show kamika u seduce:
+    xzoom -1.0
+voice "voice/c-9ii-107.ogg" #Kamika (Ariane Marchese)
+kam "Go on, Yumi, tell her! Tell her we don't need people like {i}her{/i} in our lives!"
+
+voice "voice/c-9ii-108.ogg" #Kamika (Ariane Marchese)
+kam "Stand up and defend me, Yumi! Prove your loyalty to me once and for all~!"
+
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        $ prismpower = True
+        "Yeah, I'm not gonna die like this. No sir. Nuh uh."
+
+        show lucca h neutral
+        hide energyspark with dissolve
+        "Lucca seemed to realize this as well. She nodded, cutting the juice."
+        jump luccasurrender
+    "Prove your loyalty":
+        $ kamika_points += 1
+        jump resist3
+#CHOICE
+#>>Stand down
+#>>Prove your loyalty
+
+label resist3:
+#BRANCH: dialogue path from ">>Prove your loyalty"
+
+voice "voice/c-9ii-109.ogg" #Yumi (Kathy Pfautsch)
+yum "Lucca... I won't back down."
+
+show lucca n bigaaaa
+voice "voice/c-9ii-110.ogg" #Lucca (Victoria Wong)
+luc "Wh... {i}WHAAAAAAAAAAAT?!{/i}"
+
+show kamika u confident:
+    xzoom 1.0
+voice "voice/c-9ii-111.ogg" #Kamika (Ariane Marchese)
+kam "{i}Eeyahahahahahahahaaa!!{/i} Oh Yumi, I could {i}kiss{/i} you right now~!"
+
+voice "voice/c-9ii-112.ogg" #Yumi (Kathy Pfautsch)
+yum "Don't push your luck."
+
+show lucca n sniff
+voice "voice/c-9ii-113.ogg" #Lucca (Victoria Wong)
+luc "Ah... Ahhhh... Umm..."
+
+show kamika u smug:
+    xzoom -1.0
+voice "voice/c-9ii-114.ogg" #Kamika (Ariane Marchese)
+kam "Well? Do you have anything to say to that, you horrible little {i}hag~?{/i}"
+
+show lucca n waah
+voice "voice/c-9ii-115.ogg" #Lucca (Victoria Wong)
+luc "I-I don't know! I... N-n-no one's ever refused to back down so many times before!"
+
+voice "voice/c-9ii-116.ogg" #Lucca (Victoria Wong)
+luc "I... Wh-what am I supposed to do {i}now...?{/i}"
+
+show kamika u smugsquint:
+    xzoom 1.0
+voice "voice/c-9ii-117.ogg" #Kamika (Ariane Marchese)
+kam "Awww, what a shame~ I guess you'll just have to crawl back to your miserable little hole now!"
+
+voice "voice/c-9ii-118.ogg" #Lucca (Victoria Wong)
+luc "But... I... y-you can't, it..."
+
+"Poor Lucca looks like she might fall apart any second now!"
+"I try to mouth the words over to her."
+"I tell her, 'I'm fine, I know what I'm doing. Please, stop...' as discreetly as possible, hoping Lucca can take the hint."
+"Fortunately, it looks like she got it."
+
+show lucca n doh
+hide energyspark with dissolve
+stop music
+voice "voice/c-9ii-119.ogg" #Lucca (Victoria Wong)
+luc "I... {i}I GIVE UP!!!{/i}"
+
+
+hide lucca with dissolve
+"Lucca collapses to the ground, overwhelmed with grief. Or is she doing her part in the acting, too? It's a little hard to tell with her..."
+
+play music kamevil fadein 1.0
+show kamika u confident with easeinleft:
+    align (0.5, 1.0)
+    xzoom -1.0
+voice "voice/c-9ii-120.ogg" #Kamika (Ariane Marchese)
+kam "Serves you right! Maybe next time you'll think twice before deciding to stand up to us!"
+
+show kamika u happy:
+    xzoom 1.0
+voice "voice/c-9ii-121.ogg" #Kamika (Ariane Marchese)
+kam "Nicely done, Yumi! I didn't expect much out of you, but you've blown past {i}all{/i} of my expectations~!"
+
+voice "voice/c-9ii-122.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh, believe me, I'm {i}thrilled{/i} to get your approval."
+
+voice "voice/c-9ii-123.ogg" #Yumi (Kathy Pfautsch)
+yum "The audience sure seemed to like your singing, though..."
+
+show kamika u confidentclosed:
+    xzoom -1.0
+voice "voice/c-9ii-124.ogg" #Kamika (Ariane Marchese)
+kam "'Like it?... They {i}LOVED{/i} it~! All it takes is a few pretty words to fill their sweet little heads; you humans are {i}so{/i} easy to subjugate!"
+
+voice "voice/c-9ii-125.ogg" #Yumi (Kathy Pfautsch)
+yum "...You wouldn't happen to be a Music major by any chance, would you?"
+
+#show kam annoyed
+
+show kamika u pout:
+    xzoom 1.0
+voice "voice/c-9ii-126.ogg" #Kamika (Ariane Marchese)
+kam "Huh? What's {i}that{/i} got to do with anything?"
+
+voice "voice/c-9ii-127.ogg" #Yumi (Kathy Pfautsch)
+yum "I'm just saying, maybe you shouldn't be using your singing just for silly stunts like this?"
+
+voice "voice/c-9ii-128.ogg" #Yumi (Kathy Pfautsch)
+yum "People like to hear you sing, so why not try to use it more for their benefit-"
+
+#show kam yelling
+
+show kamika u madclosed:
+    xzoom -1.0
+voice "voice/c-9ii-129.ogg" #Kamika (Ariane Marchese)
+kam "{i}Enough!!{/i} God, you're like a broken record! We already had this conversation yesterday!"
+
+show kamika u mad:
+    xzoom 1.0
+voice "voice/c-9ii-130.ogg" #Kamika (Ariane Marchese)
+kam "We are {i}not{/i} to be discussing {i}anything{/i} about that! Your focus should be on the mission and {i}nothing else!{/i}"
+
+voice "voice/c-9ii-131.ogg" #Yumi (Kathy Pfautsch)
+yum "But why not? Wouldn't it be better to have something to aspire to with your singing?"
+
+voice "voice/c-9ii-132.ogg" #Yumi (Kathy Pfautsch)
+yum "I can't honestly believe you'd get any personal satisfaction out of using your talents like this, so why even go this route to begin with?"
+
+show kamika u quiet:
+    xzoom -1.0
+voice "voice/c-9ii-133.ogg" #Kamika (Ariane Marchese)
+kam "I... th-that..."
+
+show kamika u mad:
+    xzoom 1.0
+voice "voice/c-9ii-134.ogg" #Kamika (Ariane Marchese)
+kam "That's {i}none of your business!{/i} Do me a favor and {i}stop{/i} trying to tell me how to live my life!"
+
+voice "voice/c-9ii-135.ogg" #Kamika (Ariane Marchese)
+kam "{i}I'm{/i} going back to work on the next step of our plan! {i}You{/i} are to stay put until I have need of you! {i}Got it?!{/i}"
+
+voice "voice/c-9ii-136.ogg" #Yumi (Kathy Pfautsch)
+yum "Alright, I got it..."
+
+#MERGE: all dialogue paths converge here
+jump s9iimerge
+
+stop music fadeout 1.0
+label s9iimerge:
+hide kamika u with dissolve
+"And with that, Kamika storms off..."
+
+jump scene10

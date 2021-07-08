@@ -227,7 +227,6 @@ init python:
     MapEmote('moe smuglook', 'moe base md_happy ed_side brow_mad')
     MapEmote('moe smugclosed', 'moe base md_happy ec_default brow_mad')
 
-
     #MADE BY ALF, DOUBLECHECK LATER
     MapEmote('stacey neutralclosed', 'stacey base md_sad ec_default brow_default')
     MapEmote('stacey therocklook', 'stacey base md_default ed_side brow_raised')
@@ -401,7 +400,7 @@ image white = "bgs/white.png"
 ###################
 # SFX             #
 ###################
-define turnpage = "sfx/turn_page_thick_magazine_002.wav"
+define turnpage = "sfx/turn_page_thick_magazine_002.ogg"
 define smack = "sfx/Desk Smack.ogg"
 define slam = "sfx/Desk Slam.ogg"
 define bump = "sfx/Bump.ogg"
@@ -469,7 +468,7 @@ define cafeamb = "ambient/Cafe BFX.ogg"
 define showeramb = "ambient/Shower BFX.ogg"
 define showerambbehind = "ambient/Shower from Behind Door _ _Steam for Pheromone use_ BFX.ogg"
 define trafficamb = "ambient/Traffic BFX.ogg"
-define forestamb = "ambient/427400__imjeax__forest-ambient-loop.wav"
+define forestamb = "ambient/427400__imjeax__forest-ambient-loop.ogg"
 define partybass = "ambient/Party.ogg"
 define quake = "ambient/Ramble.ogg"
 

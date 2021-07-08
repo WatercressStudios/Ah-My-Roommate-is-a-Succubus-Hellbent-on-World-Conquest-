@@ -1,0 +1,351 @@
+label scene10:
+
+play music luccatheme fadein 1.0
+show lucca h nervous with easeinleft:
+    align (0.40, 1.0)
+voice "voice/c-10-1.ogg" #Lucca (Victoria Wong)
+luc "Y-yikes... What a handful."
+
+voice "voice/c-10-2.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh yeah? Try living with her."
+
+show lucca h nervouser
+voice "voice/c-10-3.ogg" #Lucca (Victoria Wong)
+luc "Oof... I-I'm guessing you won't be h-heading back to the dorms yet?"
+
+voice "voice/c-10-4.ogg" #Yumi (Kathy Pfautsch)
+yum "I've put up with her enough for the day. Think I'll stick around here a while. You?"
+
+show lucca h nervous
+voice "voice/c-10-5.ogg" #Lucca (Victoria Wong)
+luc "N-no. I'm a little... a little tired after all that, so I'm gonna head back. B-bye..."
+
+voice "voice/c-10-6.ogg" #Yumi (Kathy Pfautsch)
+yum "Later."
+
+stop music fadeout 1.0
+hide lucca with easeoutright
+"She heads off, leaving me alone. But not for too long."
+
+
+show stacey neutral with easeinleft:
+    align (0.40, 1.0)
+voice "voice/c-10-7.ogg" #Stacey (Ashe Thurman)
+sta "'Sup."
+
+play music staceytheme fadein 1.0
+voice "voice/c-10-8.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh. hey, Stacey. Enjoy the show?"
+
+show stacey neutrallook
+voice "voice/c-10-9.ogg" #Stacey (Ashe Thurman)
+sta "Was okay. Seen better. Seen worse, too."
+
+voice "voice/c-10-10.ogg" #Yumi (Kathy Pfautsch)
+yum "Huh. Doesn't seem like the others really thought that way."
+
+show stacey neutralclosed
+voice "voice/c-10-11.ogg" #Stacey (Ashe Thurman)
+sta "There's a poem about that. Two roads diverged in a wood. Took the road less traveled by, made all the difference, etcetera."
+
+voice "voice/c-10-12.ogg" #Yumi (Kathy Pfautsch)
+yum "I think that just makes you a hipster."
+
+show stacey sad
+voice "voice/c-10-13.ogg" #Stacey (Ashe Thurman)
+sta "You wound me."
+
+#Note that the above exchange is exactly the same whether or not the concert was actually good.
+
+show stacey eyebrow
+voice "voice/c-10-14.ogg" #Stacey (Ashe Thurman)
+sta "So is it me or were you chatting up the star of the show back there."
+
+voice "voice/c-10-15.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh God, don't even get me started on her."
+
+show stacey smug
+voice "voice/c-10-16.ogg" #Stacey (Ashe Thurman)
+sta "Do it. I'll give you half a dollar."
+
+voice "voice/c-10-17.ogg" #Yumi (Kathy Pfautsch)
+yum "You mean fifty cents right?"
+
+show stacey neutral
+voice "voice/c-10-18.ogg" #Stacey (Ashe Thurman)
+sta "No."
+
+voice "voice/c-10-19.ogg" #Yumi (Kathy Pfautsch)
+yum "Okay, there has to be a story there. Tell me that first."
+
+show stacey neutrallook
+voice "voice/c-10-20.ogg" #Stacey (Ashe Thurman)
+sta "Oh, the usual. I wanted the dollar, but so did someone else. So we did the tug of war thing and now I have this half-dollar I don't know what to do with."
+
+show stacey sadclosed
+voice "voice/c-10-21.ogg" #Stacey (Ashe Thurman)
+sta "It's kind of tragic, when you think about it. Two people after the same thing. Their greed destroys it, leaving only misery in their wake. Their bitter tears bring life to the barren earth so the cycle can continue anew."
+
+voice "voice/c-10-22.ogg" #Yumi (Kathy Pfautsch)
+yum "Stacey, do you... do you want me to loan you a dollar?"
+
+show stacey smug
+voice "voice/c-10-23.ogg" #Stacey (Ashe Thurman)
+sta "That'd be great. Or just, like, half a dollar? And some tape."
+
+show stacey smuglook
+voice "voice/c-10-24.ogg" #Stacey (Ashe Thurman)
+sta "It'd have to be clear, though. Oh! Or green. I could make green work."
+
+show stacey smug
+voice "voice/c-10-25.ogg" #Stacey (Ashe Thurman)
+sta "So that's the story of my life. Now I think you've got some venting to do."
+
+voice "voice/c-10-26.ogg" #Yumi (Kathy Pfautsch)
+yum "Ugh. Okay, so her name is Kamika Malagic. She's my... new roommate."
+
+voice "voice/c-10-27.ogg" #Stacey (Ashe Thurman)
+sta "Ohh, dollar story for a roommate story. Looks like I'm coming out on top on this one."
+
+voice "voice/c-10-28.ogg" #Yumi (Kathy Pfautsch)
+yum "So first time I meet her, she beat me to the room and stunk up the whole damn place."
+
+show stacey eyebrow
+voice "voice/c-10-29.ogg" #Stacey (Ashe Thurman)
+sta "Like, the bathroom? Or she was sweaty, I guess. If you aren't building up to the reveal that she has a pet skunk I'm gonna be disappointed."
+
+voice "voice/c-10-30.ogg" #Yumi (Kathy Pfautsch)
+yum "She called it her {i}pheromones.{/i}"
+
+show stacey sarcasticlook
+voice "voice/c-10-31.ogg" #Stacey (Ashe Thurman)
+sta "So sweat, then. Except she used the kinky word for it. So pretentious..."
+
+voice "voice/c-10-32.ogg" #Yumi (Kathy Pfautsch)
+yum "{i}Right?!{/i} I- Wait, no. That's not the problem here!"
+
+show stacey neutral
+voice "voice/c-10-33.ogg" #Stacey (Ashe Thurman)
+sta "Oh. Sorry. You were venting, so I was trying to be supportive."
+
+voice "voice/c-10-34.ogg" #Yumi (Kathy Pfautsch)
+yum "I think I'm good without that."
+
+voice "voice/c-10-35.ogg" #Stacey (Ashe Thurman)
+sta "Got it."
+
+voice "voice/c-10-36.ogg" #Yumi (Kathy Pfautsch)
+yum "So anyways, the {i}next{/i} thing-"
+
+show stacey smuglook
+voice "voice/c-10-37.ogg" #Stacey (Ashe Thurman)
+sta "So I should probably say then that I don't actually think it's that pretentious. She was just making clever use of language to pretty up a bad situation. I've gotta respect that."
+
+voice "voice/c-10-38.ogg" #Yumi (Kathy Pfautsch)
+yum "Stacey. You're not helping."
+
+show stacey eyebrow
+voice "voice/c-10-39.ogg" #Stacey (Ashe Thurman)
+sta "You said not to. I'm sorta getting mixed signals here."
+
+voice "voice/c-10-40.ogg" #Yumi (Kathy Pfautsch)
+yum "Just let me finish. {i}Then{/i} be supportive. Alright?"
+
+show stacey neutral
+voice "voice/c-10-41.ogg" #Stacey (Ashe Thurman)
+sta "Yes, ma'am."
+
+voice "voice/c-10-42.ogg" #Yumi (Kathy Pfautsch)
+yum "So {i}anyways,{/i} she's insane! She has this ludicrous plan to seduce everyone in school, and then the entire rest of the world."
+
+show stacey sarcastic
+voice "voice/c-10-43.ogg" #Stacey (Ashe Thurman)
+sta "Oof. World domination? She doesn't think that's a little tacky?"
+
+voice "voice/c-10-44.ogg" #Yumi (Kathy Pfautsch)
+yum "Not at all! She even tried to make me her minion!"
+
+show stacey eyebrow
+voice "voice/c-10-45.ogg" #Stacey (Ashe Thurman)
+sta "Whoah. Wait wait wait. Is 'minion' her choice of words? Or yours."
+
+voice "voice/c-10-46.ogg" #Yumi (Kathy Pfautsch)
+yum "{i}Hers,{/i} obviously. What do I look like, some kind of loser?"
+
+show stacey neutral
+"She takes uncomfortably long to respond."
+
+show stacey eyebrowclosed
+voice "voice/c-10-47.ogg" #Stacey (Ashe Thurman)
+sta "Okay. So she's definitely tacky, but at least she's owning it? Commitment's cool. I give iiiiit... a twelve?"
+
+voice "voice/c-10-48.ogg" #Yumi (Kathy Pfautsch)
+yum "Stacey."
+
+show stacey neutral
+voice "voice/c-10-49.ogg" #Stacey (Ashe Thurman)
+sta "Sorry."
+
+voice "voice/c-10-50.ogg" #Yumi (Kathy Pfautsch)
+yum "And then she had the gall to just sneak up on me in the middle of the night-"
+
+show stacey sadclosed
+voice "voice/c-10-51.ogg" #Stacey (Ashe Thurman)
+sta "Oh this cannot end well."
+
+voice "voice/c-10-52.ogg" #Yumi (Kathy Pfautsch)
+yum "-and started to cuddle me!"
+
+show stacey neutral
+voice "voice/c-10-53.ogg" #Stacey (Ashe Thurman)
+sta "I stand corrected."
+
+voice "voice/c-10-54.ogg" #Yumi (Kathy Pfautsch)
+yum "It's creepy! I am {i}not{/i} putting up with that kind of bullshit!"
+
+show stacey neutrallook
+voice "voice/c-10-55.ogg" #Stacey (Ashe Thurman)
+sta "Maybe she thought you were cold?"
+
+voice "voice/c-10-56.ogg" #Yumi (Kathy Pfautsch)
+yum "She could have used a blanket!"
+
+show stacey neutral
+voice "voice/c-10-57.ogg" #Stacey (Ashe Thurman)
+sta "Yeah but that's way less kinky."
+
+voice "voice/c-10-58.ogg" #Yumi (Kathy Pfautsch)
+yum "{i}That's the problem!{/i}"
+
+voice "voice/c-10-59.ogg" #Stacey (Ashe Thurman)
+sta "Oh."
+
+show stacey eyebrow
+voice "voice/c-10-60.ogg" #Stacey (Ashe Thurman)
+sta "Okay, so lemme get this straight. You're saying you're frustrated because your roommate is smelly, doesn't accept responsibility, is a teensy bit evil, and doesn't respect your personal space."
+
+voice "voice/c-10-61.ogg" #Yumi (Kathy Pfautsch)
+yum "Yes! Exactly. Outside of the 'teensy' part."
+
+show stacey eyebrowlook
+voice "voice/c-10-62.ogg" #Stacey (Ashe Thurman)
+sta "Idunnooooooo, Yumi. Seems like you've got some bad yoga. You need to look within yourself, let your feng shui flow through you. Try some chakra, rearrange your vibes, that sorta thing."
+
+voice "voice/c-10-63.ogg" #Yumi (Kathy Pfautsch)
+yum "That is not what any of those words mean."
+
+show stacey grin
+voice "voice/c-10-64.ogg" #Stacey (Ashe Thurman)
+sta "Yeah, I know. I was kidding. Got 'em."
+
+show stacey neutral
+voice "voice/c-10-65.ogg" #Stacey (Ashe Thurman)
+sta "But still. Maybe just chill? Sounds like a preeeetty typical roomie to me."
+
+voice "voice/c-10-66.ogg" #Yumi (Kathy Pfautsch)
+yum "She is {i}not{/i} a typical 'roomie'! She's just... a demon!"
+
+show stacey smug
+voice "voice/c-10-67.ogg" #Stacey (Ashe Thurman)
+sta "Oooooooooooooooooooooooooooohhhhhhh. Like Moe!"
+
+stop music
+voice "voice/c-10-68.ogg" #Yumi (Kathy Pfautsch)
+yum "I- That- I don't- What?"
+
+voice "voice/c-10-69.ogg" #Stacey (Ashe Thurman)
+sta "What kind of demon are we talking here? Like with the horns, hellfire, tail, musky scent that makes you moist?"
+
+#I copypasted that but it's good
+
+show stacey neutrallook
+voice "voice/c-10-70.ogg" #Stacey (Ashe Thurman)
+sta "Although I guess if there was hellfire she'd set off the fire alarms. Although maybe hellfire doesn't make smoke?"
+
+show stacey neutral
+voice "voice/c-10-71.ogg" #Stacey (Ashe Thurman)
+sta "Otherwise hell would get really smokey. I'll have to ask."
+
+voice "voice/c-10-72.ogg" #Yumi (Kathy Pfautsch)
+yum "You mean you actually believe me?"
+
+play music happysong fadein 1.0
+voice "voice/c-10-73.ogg" #Stacey (Ashe Thurman)
+sta "Totes. And this kinda sounds like a problem, actually."
+
+voice "voice/c-10-74.ogg" #Stacey (Ashe Thurman)
+sta "Like, a normal roomie trying to take over the world? Claaaaassic sitcom shit, nothin' to worry about. But a {i}demon.{/i} That's spicy."
+
+voice "voice/c-10-75.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh my god. Someone actually believes me! I... We might actually be able to do something about this!"
+
+show stacey smug
+voice "voice/c-10-76.ogg" #Stacey (Ashe Thurman)
+sta "Thaaaaat's the spirit. We'll just talk this whole thing over with Moe, and he'll figure out what to do."
+
+voice "voice/c-10-77.ogg" #Yumi (Kathy Pfautsch)
+yum "Wait a minute. You said Moe was a demon?"
+
+voice "voice/c-10-78.ogg" #Stacey (Ashe Thurman)
+sta "Yeah. He's pretty great."
+
+voice "voice/c-10-79.ogg" #Yumi (Kathy Pfautsch)
+yum "Why the {i}hell{/i} would we get another demon involved?"
+
+show stacey sad
+voice "voice/c-10-80.ogg" #Stacey (Ashe Thurman)
+sta "Awwwwww, c'mon, he's not so bad."
+
+voice "voice/c-10-81.ogg" #Yumi (Kathy Pfautsch)
+yum "No! I am {i}not{/i} getting involved with more demons!"
+
+show stacey neutrallook
+voice "voice/c-10-82.ogg" #Stacey (Ashe Thurman)
+sta "Okay, okay. I know it {i}sounds{/i} bad."
+
+voice "voice/c-10-83.ogg" #Yumi (Kathy Pfautsch)
+yum "Because it is!"
+
+show stacey smug
+voice "voice/c-10-84.ogg" #Stacey (Ashe Thurman)
+sta "But think of it this way! If a lawyer is giving you problems, you get help from a lawyer, right?"
+
+voice "voice/c-10-85.ogg" #Yumi (Kathy Pfautsch)
+yum "...Right."
+
+show stacey smuglook
+voice "voice/c-10-86.ogg" #Stacey (Ashe Thurman)
+sta "And if a guy with a gun is giving you problems, you get help from another guy with a gun, riiiight?"
+
+voice "voice/c-10-87.ogg" #Yumi (Kathy Pfautsch)
+yum "I mean... sort of?."
+
+show stacey evil
+voice "voice/c-10-88.ogg" #Stacey (Ashe Thurman)
+sta "And if a bear is giving you problems, you get help from another bear, {i}right?{/i}"
+
+voice "voice/c-10-89.ogg" #Yumi (Kathy Pfautsch)
+yum "...No, Stacey. That is not what anyone does."
+
+show stacey smuglook
+voice "voice/c-10-90.ogg" #Stacey (Ashe Thurman)
+sta "Two outta three. Which {i}means{/i} that this plan has a sixty-six point six six six and so on chance of working!"
+
+show stacey smug
+voice "voice/c-10-91.ogg" #Stacey (Ashe Thurman)
+sta "And since it's a plan about {i}demons,{/i} a repeating six is basically a hundred."
+
+voice "voice/c-10-92.ogg" #Yumi (Kathy Pfautsch)
+yum "Okay, okay, you already had me at the lawyer. We have to get someone who knows the same rules so that we can play on an even field, right?"
+
+voice "voice/c-10-93.ogg" #Stacey (Ashe Thurman)
+sta "Yeah, see? I knew you'd get it. You're pretty smart like that."
+
+voice "voice/c-10-94.ogg" #Yumi (Kathy Pfautsch)
+yum "You're too kind."
+
+show stacey neutrallook
+voice "voice/c-10-95.ogg" #Stacey (Ashe Thurman)
+sta "Alriiiiight. He should be in the dorms right around now. C'mon."
+
+jump scene11

@@ -1,0 +1,95 @@
+label scene16:
+scene dormhallway with dissolve
+
+show stacey neutral with easeinleft:
+    align (0.20, 1.0)
+show lucca h sad with easeinright:
+    xzoom 1.0
+
+"I lean against the wall nearest my door, trying to relax as much as I can."
+
+"It's over. For now. It's way quieter when Kamika isn't cackling or boasting about something or other."
+"...It occurs to me that I didn't hear any sick rave beats anymore. Did Kamika turn those off??"
+
+show lucca h nervous
+show stacey neutrallook
+show moe madclosed with easeinright:
+    align (0.80, 1.0)
+"Moe returns from his dorm, approaching us calmly."
+
+voice "voice/c-16-1.ogg" #Lucca (Victoria Wong)
+luc "S-so..."
+
+play music funkyjam fadein 1.0
+voice "voice/c-16-2.ogg" #Yumi (Kathy Pfautsch)
+yum "Right. I have to say thanks to everyone for helping me with this... situation. I thought I've had enough demons to last a lifetime, but then Kamika..."
+
+voice "voice/c-16-3.ogg" #Yumi (Kathy Pfautsch)
+yum "You guys really saved my ass."
+
+show stacey smug
+voice "voice/c-16-4.ogg" #Stacey (Ashe Thurman)
+sta "It's whatever."
+
+show lucca h happy:
+    xzoom -1.0
+voice "voice/c-16-5.ogg" #Lucca (Victoria Wong)
+luc "Y-yeah! It's the least we could do..."
+
+show moe mad:
+    xzoom 1.0
+voice "voice/c-16-6.ogg" #Moe (CJ Heineman)
+moe "What're your plans? I've dealt with enough of Kamika's shit, and there's no way in literal Hell I'm talkin' to that bitch."
+
+show moe madside:
+    xzoom -1.0
+voice "voice/c-16-7.ogg" #Moe (CJ Heineman)
+moe "I have to watch the partygoers anyways."
+
+show lucca h neutral
+show stacey neutrallook
+voice "voice/c-16-8.ogg" #Moe (CJ Heineman)
+moe "...Y'all got a plan for Kamika? Been trying to ignore the problem for a while now on my end..."
+
+show stacey grin
+voice "voice/c-16-9.ogg" #Stacey (Ashe Thurman)
+sta "We could just tie her up."
+
+voice "voice/c-16-10.ogg" #Yumi (Kathy Pfautsch)
+yum "That sounds awf-wait."
+
+show stacey smug
+show lucca h nervous
+show moe smug:
+    xzoom 1.0
+"I can't believe I'm actually considering this."
+
+"I can't believe I'm not considering {i}worse{/i}."
+
+voice "voice/c-16-11.ogg" #Yumi (Kathy Pfautsch)
+yum "...As much as I would want to do that, I doubt it'd keep her. She may be a shitty demon, but she's still a demon."
+
+show stacey neutral
+voice "voice/c-16-12.ogg" #Stacey (Ashe Thurman)
+sta "You just feel bad for her."
+
+show lucca h neutral
+voice "voice/c-16-13.ogg" #Lucca (Victoria Wong)
+luc "I-I agree with Yumi..."
+
+show moe sigh
+voice "voice/c-16-14.ogg" #Moe (CJ Heineman)
+moe "Well, whatever you decide to do, count me out. I'll see you nerds later."
+
+show stacey neutralclosed
+voice "voice/c-16-15.ogg" #Stacey (Ashe Thurman)
+sta "Yeah, I have homework and shit to do anyways."
+
+if route == "kamika":
+    jump scene17i
+
+elif route == "lucca":
+    jump scene17ii
+
+elif route == "stacey":
+    jump scene17iii

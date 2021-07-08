@@ -1,0 +1,297 @@
+label scene13:
+scene lecturehall with dissolve
+play music classtime fadein 1.0
+
+#fade in from black, classroom
+##voice "voice/c-13-1.ogg" #Mister Deeks (???)
+dee "-And that is why the so called \"anime\" style is nothing more than an amalgamation of poor techniques that should not, under any circumstances, be the only thing you practice."
+
+##voice "voice/c-13-2.ogg" #Mister Deeks (???)
+dee "That's not to say it is a terrible medium on it's own, just that you should be improving far beyond what the style demands of you before you set such a limitation on yourself."
+
+##voice "voice/c-13-3.ogg" #Mister Deeks (???)
+dee "Class dismissed!"
+
+#POINT CHECK: IF insufficient points for any route; BAD END
+if stacey_points > 0:
+    jump s13continue
+elif lucca_points > 0:
+    jump s13continue
+elif kamika_points == 3:
+    jump s13continue
+else:
+    jump hermitend
+
+label hermitend:
+"Another day, another dreadful class."
+"I wish I could say that's the only unpleasant thing going on in my life."
+"Too many people, too much drama, all of it absurd."
+"Though, I suppose it's not so bad."
+"...Whatever, I should just focus on preparing for the next class."
+jump scene14iv
+
+
+#IF sufficient points for any route; continue scene
+
+label s13continue:
+
+show stacey neutral with dissolve:
+    align (0.35, 1.0)
+voice "voice/c-13-4.ogg" #Yumi (Kathy Pfautsch)
+yum "I can't believe he spent almost an entire hour talking about children's shows."
+
+voice "voice/c-13-5.ogg" #Stacey (Ashe Thurman)
+sta "Maybe he just hasn't researched enough."
+
+voice "voice/c-13-6.ogg" #Yumi (Kathy Pfautsch)
+yum "Does he look like the kind of guy who watches, let alone researches, anime?"
+
+show stacey eyebrow
+voice "voice/c-13-7.ogg" #Stacey (Ashe Thurman)
+sta "He seemed to like that Bobo's Strange Journey show a lot."
+
+voice "voice/c-13-8.ogg" #Yumi (Kathy Pfautsch)
+yum "Good taste."
+
+show stacey grin
+voice "voice/c-13-9.ogg" #Stacey (Ashe Thurman)
+sta "So, how are things on the roommate front? She suck your soul out yet?"
+
+voice "voice/c-13-10.ogg" #Yumi (Kathy Pfautsch)
+yum "That girl couldn't drain a juice box, let alone a soul."
+
+show stacey smug
+voice "voice/c-13-11.ogg" #Stacey (Ashe Thurman)
+sta "You think? I mean, her lungs should be strong enough."
+
+voice "voice/c-13-12.ogg" #Yumi (Kathy Pfautsch)
+yum "That's not what I me- ya know what, you're right."
+
+voice "voice/c-13-13.ogg" #Yumi (Kathy Pfautsch)
+yum "It's strange, for a demon she's rather... What's the word for it...?"
+
+show stacey therock
+voice "voice/c-13-14.ogg" #Stacey (Ashe Thurman)
+sta "Sucky?"
+
+voice "voice/c-13-15.ogg" #Yumi (Kathy Pfautsch)
+yum "Feels too literal. I wanna say \"naive\" but that seems contradictory somehow."
+
+show stacey confused
+voice "voice/c-13-16.ogg" #Stacey (Ashe Thurman)
+sta "I'd say she's beyond classification then."
+
+voice "voice/c-13-17.ogg" #Yumi (Kathy Pfautsch)
+yum "Really? Aren't you, like, the expert when it comes to demons?"
+
+voice "voice/c-13-18.ogg" #Stacey (Ashe Thurman)
+sta "Don't know what to tell you, friend. Moe is a pretty standard dude."
+
+voice "voice/c-13-19.ogg" #Yumi (Kathy Pfautsch)
+yum "Standard dude or standard demon?"
+
+show stacey grin
+voice "voice/c-13-20.ogg" #Stacey (Ashe Thurman)
+sta "Same shit TBH, fam."
+
+show stacey smug
+voice "voice/c-13-21.ogg" #Stacey (Ashe Thurman)
+sta "One time I went over to his room and there was this huge racket you could hear all the way from the hall."
+
+voice "voice/c-13-22.ogg" #Stacey (Ashe Thurman)
+sta "When I knocked on his door, the sound suddenly stopped. When he finally answered, a minute and a half later, I asked him about it."
+
+voice "voice/c-13-23.ogg" #Stacey (Ashe Thurman)
+sta "He started shaking and spouting off something about a bug infestation."
+
+show stacey evil
+voice "voice/c-13-24.ogg" #Stacey (Ashe Thurman)
+sta "Very convenient he had a box of tissues by his computer, 'just in case'."
+
+voice "voice/c-13-25.ogg" #Yumi (Kathy Pfautsch)
+yum "Damn, he really is normal."
+
+show stacey smug
+voice "voice/c-13-26.ogg" #Stacey (Ashe Thurman)
+sta "Shocking, I know."
+
+
+show lucca h neutral with easeinright:
+    align (0.65, 1.0)
+    xzoom -1.0
+voice "voice/c-13-27.ogg" #Lucca (Victoria Wong)
+luc "I h-hope I'm not interrupting anything..."
+
+voice "voice/c-13-28.ogg" #Yumi (Kathy Pfautsch)
+yum "Oh, hey Lucca."
+
+show stacey confused
+voice "voice/c-13-29.ogg" #Stacey (Ashe Thurman)
+sta "Yumi, you know the cowgirl?"
+
+voice "voice/c-13-30.ogg" #Yumi (Kathy Pfautsch)
+yum "We go way back, she's another demon, sort of."
+
+show lucca h mad
+voice "voice/c-13-31.ogg" #Lucca (Victoria Wong)
+luc "I'm right here, you know!"
+
+voice "voice/c-13-32.ogg" #Yumi (Kathy Pfautsch)
+yum "Don't mind her, she's friendly."
+
+show stacey sarcasticlook
+voice "voice/c-13-33.ogg" #Stacey (Ashe Thurman)
+sta "Are you sure? I hear you're not supposed to trust demons in funny hats."
+
+voice "voice/c-13-34.ogg" #Yumi (Kathy Pfautsch)
+yum "I was talking about you and your funny hat, actually."
+
+show lucca h uwah
+voice "voice/c-13-35.ogg" #Lucca (Victoria Wong)
+luc "I-I'll have you know this hat is fashionable and f-functional..."
+
+show stacey therocklook
+voice "voice/c-13-36.ogg" #Stacey (Ashe Thurman)
+sta "I bet there's a big ol' horn under there. Like a unicorn. Majestic and aerodynamic."
+
+show lucca h doh
+voice "voice/c-13-37.ogg" #Lucca (Victoria Wong)
+luc "W-what!? N-No!"
+
+"Stacey takes a good, hard look at Lucca's hat, carefully weighing the possibilities."
+
+
+sta "..."
+
+show lucca h nervouser
+voice "voice/c-13-39.ogg" #Lucca (Victoria Wong)
+luc "I-It's rude to stare..."
+
+show stacey smug
+voice "voice/c-13-40.ogg" #Stacey (Ashe Thurman)
+sta "Okay, I believe you."
+
+voice "voice/c-13-41.ogg" #Yumi (Kathy Pfautsch)
+yum "What."
+
+show stacey grin
+voice "voice/c-13-42.ogg" #Stacey (Ashe Thurman)
+sta "If she says there isn't a horn, there isn't one."
+
+voice "voice/c-13-43.ogg" #Yumi (Kathy Pfautsch)
+yum "Anyway..."
+
+show lucca h nervous
+voice "voice/c-13-44.ogg" #Lucca (Victoria Wong)
+luc "Yumi, I have to talk to you. I-In private. Are you free?"
+
+if kamika_points == 3:
+    jump kamikaroute
+elif stacey_points > lucca_points:
+    jump staceyroute
+elif lucca_points > stacey_points:
+    jump luccaroute
+else:
+    jump tiebreaker
+
+#IF equal LUCCA and STACEY points
+
+label tiebreaker:
+"Oh, shit. I promised both of them I'd help out today. Quick, make something up!"
+
+menu:
+    "Go with Stacey":
+        voice "voice/c-13-45.ogg" #Yumi (Kathy Pfautsch)
+        yum "Sorry Lucca, I already made plans. Can it wait?"
+
+        voice "voice/c-13-46.ogg" #Lucca (Victoria Wong)
+        show lucca h sigh
+        luc "...I-I guess..."
+        jump staceyroute
+    "Go with Lucca":
+        voice "voice/c-13-47.ogg" #Yumi (Kathy Pfautsch)
+        yum "Oh crap. Stacey, I'm gonna hafta cancel."
+
+        show stacey confused
+        voice "voice/c-13-48.ogg" #Stacey (Ashe Thurman)
+        sta "Eh? But, you promised..."
+
+        voice "voice/c-13-49.ogg" #Yumi (Kathy Pfautsch)
+        yum "I know, but this concerns a certain demon with an ego. I'm sorry!"
+
+        show stacey sad
+        voice "voice/c-13-50.ogg" #Stacey (Ashe Thurman)
+        sta "It's cool, I guess... Writing is a lonely task anyway."
+
+        show stacey smug
+        voice "voice/c-13-51.ogg" #Stacey (Ashe Thurman)
+        sta "Go, lay the demon!"
+
+        voice "voice/c-13-52.ogg" #Lucca (Victoria Wong)
+        luc "Do you mean \"Slay\"?"
+
+        show stacey grinclosed
+        voice "voice/c-13-53.ogg" #Stacey (Ashe Thurman)
+        sta "Close enough."
+        jump luccaroute
+
+
+label staceyroute:
+
+$ route = "stacey"
+voice "voice/c-13-54.ogg" #Yumi (Kathy Pfautsch)
+yum "I would, but I promised Stacey."
+
+show lucca h guilty
+voice "voice/c-13-55.ogg" #Lucca (Victoria Wong)
+luc "Not the issue here, but okay."
+
+show stacey eyebrow
+voice "voice/c-13-56.ogg" #Stacey (Ashe Thurman)
+sta "C'mon, let's go somewhere else for this."
+
+jump scene14i
+
+
+label luccaroute:
+
+$ route = "lucca"
+voice "voice/c-13-57.ogg" #Yumi (Kathy Pfautsch)
+yum "I'll talk to you later, Stacey."
+
+show stacey smug
+voice "voice/c-13-58.ogg" #Stacey (Ashe Thurman)
+sta "Take it easy, Yumi."
+
+show lucca h nervoussmile
+voice "voice/c-13-59.ogg" #Lucca (Victoria Wong)
+luc "A-Alright, let's go!"
+
+jump scene14ii
+
+
+label kamikaroute:
+
+$ route = "kamika"
+voice "voice/c-13-60.ogg" #Yumi (Kathy Pfautsch)
+yum "...Sorry, guys. I just can't sit still knowing Kamika might be up to {i}something{/i}."
+
+voice "voice/c-13-61.ogg" #Yumi (Kathy Pfautsch)
+yum "I'm gonna have to go and check up on her. I'll call you guys if anything major's happening."
+
+show stacey neutral
+voice "voice/c-13-62.ogg" #Stacey (Ashe Thurman)
+sta "You're the boss, boss. Do whatcha gotta do."
+
+show lucca h uwah
+voice "voice/c-13-63.ogg" #Lucca (Victoria Wong)
+luc "B-be careful, Yumi..."
+
+voice "voice/c-13-64.ogg" #Yumi (Kathy Pfautsch)
+yum "I'll be back soon. Hopefully."
+
+stop music fadeout 1.0
+scene black with dissolve
+"With trepidation in my heart, I make my way back to the dorms."
+
+jump scene14iii
