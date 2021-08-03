@@ -307,7 +307,7 @@ voice "voice/c-2-51.ogg" #Yumi (Kathy Pfautsch)
 yum "B-but I... you gotta believe me!"
 
 show moe squint
-voice "voice/c-2-52.ogg" #Moe (CJ Heineman)
+#voice "voice/c-2-52.ogg" #Moe (CJ Heineman) //Razz - Disabled due to no existing voice acting for this line
 moe "..."
 
 show moe sighsweat

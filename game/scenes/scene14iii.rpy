@@ -168,29 +168,29 @@ show phonedefault with dissolve
 show phone1 stanclosed
 show phoneyumi surprise
 
-voice "voice/c-14iii-30.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-30.ogg" #S-Tan (Dani Chambers)
 sat "Hiiiiiii, Yumi~! You, too, Kamika! Oh, don't you just look {i}darling{/i} today!"
 
 voice "voice/c-14iii-31.ogg" #Kamika (Ariane Marchese)
 kam "Satan?! What the hell do you want? I'm busy!"
 
 show phone1 stanhappy
-voice "voice/c-14iii-32.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-32.ogg" #S-Tan (Dani Chambers)
 sat "Oh, well, it's just... How do I say this. I have some good news... and I have some bad news!"
 
 show phone1 stanclosed
-voice "voice/c-14iii-33.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-33.ogg" #S-Tan (Dani Chambers)
 sat "The {i}good news{/i} is that Kamika's evil plans have been foiled once and for all, and she'll never give anyone any trouble ever again!"
 
 voice "voice/c-14iii-34.ogg" #Kamika (Ariane Marchese)
 kam "Screw you! How is that good news?!"
 
 show phone1 stanwink
-voice "voice/c-14iii-35.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-35.ogg" #S-Tan (Dani Chambers)
 sat "Hush, dear! I'm talking to Yumi, now."
 
 show phone1 stanhappy
-voice "voice/c-14iii-36.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-36.ogg" #S-Tan (Dani Chambers)
 sat "The {i}bad news{/i} is that you, and every other living creature within a ten mile radius, is about to die a slow and painful death that will char you down to your very souls!"
 
 show phoneyumi rant
@@ -198,7 +198,7 @@ voice "voice/c-14iii-37.ogg" #Yumi (Kathy Pfautsch)
 yum "{i}WHAT?!{/i}"
 
 show phone1 stanwink
-voice "voice/c-14iii-38.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-38.ogg" #S-Tan (Dani Chambers)
 sat "Oh, you know how it is, honey. Somebody did something they're not supposed to, and now we have to hit the off button. Nothing personal."
 
 show phoneyumi dread
@@ -206,33 +206,33 @@ voice "voice/c-14iii-39.ogg" #Kamika (Ariane Marchese)
 kam "What do you mean?!"
 
 show phone1 stanhappy
-voice "voice/c-14iii-40.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-40.ogg" #S-Tan (Dani Chambers)
 sat "Well see, {i}normally{/i} Kamika's harebrained schemes are okay, because she messes up too much to actually accomplish anything."
 
 show phone1 stanwink
-voice "voice/c-14iii-41.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-41.ogg" #S-Tan (Dani Chambers)
 sat "But my actuary says that with you as her servant, Kamika might actually take over the world! And we can't have that, now can we~?"
 
 show phone1 stanclosed
-voice "voice/c-14iii-42.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-42.ogg" #S-Tan (Dani Chambers)
 sat "Not to worry, though! With my Ultra Nuclear Heart Fireball of Love Mk. III, we can just nip this whole thing in the bud."
 
 voice "voice/c-14iii-43.ogg" #Kamika (Ariane Marchese)
 kam "You {i}bitch!{/i} I was {i}SO CLOSE!{/i}"
 
 show phone1 stanwink
-voice "voice/c-14iii-44.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-44.ogg" #S-Tan (Dani Chambers)
 sat "Aww, no hard feelings, sweetie. It's just good business!"
 
 voice "voice/c-14iii-45.ogg" #Yumi (Kathy Pfautsch)
 yum "But... what about everyone else?! Stacey? Lucca? Moe? What's going to happen to them?"
 
 show phone1 stanwink
-voice "voice/c-14iii-46.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-46.ogg" #S-Tan (Dani Chambers)
 sat "Oh, gosh, they {i}are{/i} in the nearest ten mile radius, aren't they..."
 
 show phone1 stanclosed
-voice "voice/c-14iii-47.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-47.ogg" #S-Tan (Dani Chambers)
 sat "Well, I wouldn't be Satan if I wasn't willing to make a few dirty sacrifices, now would I?"
 
 show phoneyumi rant
@@ -246,24 +246,24 @@ voice "voice/c-14iii-50.ogg" #Yumi (Kathy Pfautsch)
 yum "THAT IS NOT THE PROBLEM HERE."
 
 show phone1 stanwink
-voice "voice/c-14iii-51.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-51.ogg" #S-Tan (Dani Chambers)
 sat "Aww, don't look at it that way sweetie. I mean, when you think about it, did you {i}really{/i} have a choice?"
 
-voice "voice/c-14iii-52.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-52.ogg" #S-Tan (Dani Chambers)
 sat "I mean, free will is a myth, right? You just followed along fate's linear trail until you just sorta found yourself in a raging ball of hellfire! No one can blame you for that."
 
 show phone1 stanclosed
-voice "voice/c-14iii-53.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-53.ogg" #S-Tan (Dani Chambers)
 sat "Of course, if free will {i}did{/i} exist, this would definitely be your fault."
 
-voice "voice/c-14iii-54.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-54.ogg" #S-Tan (Dani Chambers)
 sat "You would have had to basically make every single wrong decision so far to get to this point."
 
-voice "voice/c-14iii-55.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-55.ogg" #S-Tan (Dani Chambers)
 sat "It'd be completely reckless and stupid, and I'd even go so far as to think you did this on purpose just to see what would happen!"
 
 show phone1 stanwink
-voice "voice/c-14iii-56.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-56.ogg" #S-Tan (Dani Chambers)
 sat "Buuuuut as it stands, the deaths of these thousands of innocent people, not to mention all the adorable woodland creatures, are just plain bad luck. So don't feel bad!"
 
 show phoneyumi dread
@@ -271,18 +271,18 @@ voice "voice/c-14iii-57.ogg" #Yumi (Kathy Pfautsch)
 yum "You're not helping."
 
 show phone1 stanhappy
-voice "voice/c-14iii-58.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-58.ogg" #S-Tan (Dani Chambers)
 sat "You know, it's the darndest thing, but I actually get that a lot!"
 
 voice "voice/c-14iii-59.ogg" #Kamika (Ariane Marchese)
 kam "This won't be the last of me Satan! I will make {i}sure{/i} you regret this!"
 
 show phone1 stanwink
-voice "voice/c-14iii-60.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-60.ogg" #S-Tan (Dani Chambers)
 sat "Aww, you're so cute when you're angry!"
 
 show phone1 stanclosed
-voice "voice/c-14iii-61.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-14iii-61.ogg" #S-Tan (Dani Chambers)
 sat "Whelp, fireball's about to touch down. Gotta jet! Oh, and see you in hell, Yumi! Oh my gosh, you're just going to {i}love{/i} it there! Toodles!"
 
 

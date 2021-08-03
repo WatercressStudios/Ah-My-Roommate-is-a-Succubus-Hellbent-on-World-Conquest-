@@ -450,14 +450,14 @@ kam "Ack! H-hey!"
 
 #npc: male student
 
-#voice "voice/c-1-96.ogg" #Male Student (???)
+#voice "voice/c-1-96.ogg" #Male Student (???) //Razz - Disabled due to no existing voice acting for this line
 mst "Oop, 'scuz me miss-"
 
 show kamika u shout
 voice "voice/c-1-97.ogg" #Kamika (Ariane Marchese)
 kam "YOU! Watch where you're going, you wretch! You could've bruised my perfect skin!"
 
-#voice "voice/c-1-98.ogg" #Male Student (???)
+#voice "voice/c-1-98.ogg" #Male Student (???) //Razz - Disabled due to no existing voice acting for this line
 mst "S-sorry, the aisles are really narrow! You kinda need to move?"
 
 show kamika u angrysurprise
@@ -465,10 +465,10 @@ voice "voice/c-1-99.ogg" #Kamika (Ariane Marchese)
 kam "How {i}dare you!?{/i}"
 
 show kamika u glare
-voice "voice/c-1-100.ogg" #Female Student)
+#voice "voice/c-1-100.ogg" #Female Student) //Razz - Disabled due to no existing voice acting for this line
 fst "Hey, don't yell at him! He said he was sorry, so back off, okay!?"
 
-voice "voice/c-1-101.ogg" #Female Student)
+#voice "voice/c-1-101.ogg" #Female Student) //Razz - Disabled due to no existing voice acting for this line
 fst "Sheesh, where do you get off..."
 
 show kamika u shoutclosed

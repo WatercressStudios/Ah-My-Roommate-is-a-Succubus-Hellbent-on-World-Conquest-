@@ -406,13 +406,13 @@ sta "Yeah, we keep in contact."
 "I answer the phone, wholly expecting my ears to be blown out."
 
 play music happysong fadein 1.0
-voice "voice/c-17iii-87.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-87.ogg" #S-Tan (Dani Chambers)
 sat "Hiiiiii!~ Yumi, Yumi, I got some updates for you! Has Lucca caught up with you yet??"
 
 voice "voice/c-17iii-88.ogg" #Yumi (Kathy Pfautsch)
 yum "No, it's just Stacey and I."
 
-voice "voice/c-17iii-89.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-89.ogg" #S-Tan (Dani Chambers)
 sat "Staceyyy! How are you girl?? How's the script going? Everything at school been fantastic?"
 
 voice "voice/c-17iii-90.ogg" #Stacey (Ashe Thurman)
@@ -435,16 +435,16 @@ sta "Yeah, hearing all about your brother helped me get the script together."
 voice "voice/c-17iii-95.ogg" #Yumi (Kathy Pfautsch)
 yum "Don't make fun of my brother! Only I can do that..."
 
-voice "voice/c-17iii-96.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-96.ogg" #S-Tan (Dani Chambers)
 sat "Aaaaanyywayys!~ I've had a good chat with our ex-Demon of Envy, and she says she'll stay out of trouble!"
 
-voice "voice/c-17iii-97.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-97.ogg" #S-Tan (Dani Chambers)
 sat "Isn't that great?"
 
 voice "voice/c-17iii-98.ogg" #Stacey (Ashe Thurman)
 sta "I'm calling bullshit."
 
-voice "voice/c-17iii-99.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-99.ogg" #S-Tan (Dani Chambers)
 sat "Are you saying you don't trust her??"
 
 #Doublespeak if possible
@@ -453,24 +453,24 @@ yum "Yes."
 voice "voice/c-17iii-101.ogg" #Stacey (Ashe Thurman)
 sta "Yes."
 
-voice "voice/c-17iii-102.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-102.ogg" #S-Tan (Dani Chambers)
 sat "Welll, that's why I have you two! You'll keep an eye on her, right?~~"
 
 "Something tells me that I don't exactly have a say in the matter."
 
-voice "voice/c-17iii-103.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-103.ogg" #S-Tan (Dani Chambers)
 sat "Anyways, I do owe you two an explanation. I'm sure you're, like, suuuuper confused."
 
 voice "voice/c-17iii-104.ogg" #Stacey (Ashe Thurman)
 sta "Well, yeah."
 
-voice "voice/c-17iii-105.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-105.ogg" #S-Tan (Dani Chambers)
 sat "Sososo, you know our little perfect grandiose idol troupe, the Sinful Stars?"
 
 voice "voice/c-17iii-106.ogg" #Yumi (Kathy Pfautsch)
 yum "Ye-"
 #interrupt
-voice "voice/c-17iii-107.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-107.ogg" #S-Tan (Dani Chambers)
 sat "Of course you do!! Wellll, Kamika used to be a member..."
 
 voice "voice/c-17iii-108.ogg" #Yumi (Kathy Pfautsch)
@@ -478,40 +478,40 @@ yum "I heard from Moe."
 
 "It makes sense - I think I've heard her sing in the shower every once in a while."
 
-voice "voice/c-17iii-109.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-109.ogg" #S-Tan (Dani Chambers)
 sat "Yeah! I had to find a replacement for her after she split, it was suuuch a headache!"
 
-voice "voice/c-17iii-110.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-110.ogg" #S-Tan (Dani Chambers)
 sat "Caused me so much more work. And she left on such bad terms! In the last week, she was sooo mean to everyone!!"
 
-voice "voice/c-17iii-111.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-111.ogg" #S-Tan (Dani Chambers)
 sat "But her shenanigans here were because of it. I tried to talk to her about it, believe me!"
 
-voice "voice/c-17iii-112.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-112.ogg" #S-Tan (Dani Chambers)
 sat "But she blocked me."
 
-voice "voice/c-17iii-113.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-113.ogg" #S-Tan (Dani Chambers)
 sat "So only today did I actually manage to make it through, thanks to Lucca."
 
-voice "voice/c-17iii-114.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-114.ogg" #S-Tan (Dani Chambers)
 sat "Turns out she was suuuper~ jealous of me! Who'da thought??"
 
 voice "voice/c-17iii-115.ogg" #Stacey (Ashe Thurman)
 sta "How surprising."
 
-voice "voice/c-17iii-116.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-116.ogg" #S-Tan (Dani Chambers)
 sat "I knoww right?"
 
-voice "voice/c-17iii-117.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-117.ogg" #S-Tan (Dani Chambers)
 sat "Well, things should be handled! If anything else happens, let me know! Oh, and Stacey, when you finish that script, send it over my way!"
 
-voice "voice/c-17iii-118.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-118.ogg" #S-Tan (Dani Chambers)
 sat "Us Sinful Stars can breath some real life into it!"
 
 voice "voice/c-17iii-119.ogg" #Stacey (Ashe Thurman)
 sta "Sure thing."
 
-voice "voice/c-17iii-120.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-120.ogg" #S-Tan (Dani Chambers)
 sat "Alrighty! I've got some business to attend to, so stay out of trouble you two!"
 
 voice "voice/c-17iii-121.ogg" #Yumi (Kathy Pfautsch)
@@ -520,7 +520,7 @@ yum "Yeah, believe me, we'll try."
 voice "voice/c-17iii-122.ogg" #Stacey (Ashe Thurman)
 sta "Later, S-Tan."
 
-voice "voice/c-17iii-123.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17iii-123.ogg" #S-Tan (Dani Chambers)
 sat "Toodles!"
 
 stop music fadeout 1.0

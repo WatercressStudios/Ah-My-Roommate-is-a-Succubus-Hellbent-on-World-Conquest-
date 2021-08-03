@@ -628,12 +628,12 @@ return
 label bitchend:
 
 show kamika d happy
-voice "voice/c-18-as.ogg" #Kamika (Ariane Marchese)
-kam "Ah, besides..."
+#voice "voice/c-18-as.ogg" #Kamika (Ariane Marchese) //Got rid of this line and updated the succeding line to match the voice acting
+#kam "Ah, besides..."
 
 show kamika d confidentclosed
 voice "voice/c-18-109.ogg" #Kamika (Ariane Marchese)
-kam "This time it's different! I'm going to take charge of my own destiny from here on out!"
+kam "W-well... this time it's different! I'm going to take charge of my own destiny from here on out!"
 
 voice "voice/c-18-110.ogg" #Kamika (Ariane Marchese)
 kam "I won't let other people dictate my happiness; I'll do everything I can for my own sake!"

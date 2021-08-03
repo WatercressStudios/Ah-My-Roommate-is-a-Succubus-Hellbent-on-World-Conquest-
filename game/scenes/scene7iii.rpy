@@ -538,7 +538,7 @@ kam "The events contained within will be the deciding factor in how the rest of 
 show slide powerpoint3 with dissolve
 #CG: show next slide in CG, mediocre acrylic paint drawing of Kamika watching a singer
 
-voice "voice/c-7iii-112.mp3" #Yumi (Kathy Pfautsch)
+voice "voice/c-7iii-112.ogg" #Yumi (Kathy Pfautsch)
 yum "Still using my art supplies, ugh. I don't even care anymore..."
 
 show laptop ks

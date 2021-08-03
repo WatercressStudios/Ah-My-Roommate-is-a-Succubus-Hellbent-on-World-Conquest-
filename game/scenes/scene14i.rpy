@@ -65,7 +65,7 @@ show rehearsal neutral
 voice "voice/c-14i-15.ogg" #Yumi (Kathy Pfautsch)
 yum "\"Master, I have not been by your side long. You cannot reasonably expect me to fulfill such a demand.\""
 
-show stacey neutralclosed look
+#show stacey neutralclosed look //Razz - this is during the "rehearsal" section of the script so I'm not sure why a normal stacy sprite is trying to be called here I'll just disable this
 voice "voice/c-14i-16.ogg" #Stacey (Ashe Thurman)
 sta "\"Is it power you need? I can grant you power, for a price.\""
 

@@ -196,7 +196,7 @@ yum "As in, okay, fine, it sounds like you're a demon."
 
 show phone1 levisigh
 show phoneyumi neutraltalk
-voice "voice/c-6-31.ogg" #Levi (???)
+#voice "voice/c-6-31.ogg" #Levi (???) //Razz - Disabled due to no existing voice acting for this line
 lev "..." ##VA can sigh here if they want
 
 show phone1 levieyebrow
@@ -476,7 +476,7 @@ yum "Go away, you stupid raccoon-"
 
 show stacey confused with easeinleft:
     align (0.2, 1.0)
-#voice "voice/c-6-87.ogg" #Stacey (Ashe Thurman)
+voice "voice/c-6-87.ogg" #Stacey (Ashe Thurman)
 sta "Um?"
 
 voice "voice/c-6-88.ogg" #Yumi (Kathy Pfautsch)

@@ -234,7 +234,7 @@ show lucca h nervous
 
 show phone1 levineutral zorder 3 with dissolve
 play music holdmusic fadein 1.0
-voice "voice/c-14ii-54.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-54.ogg" #Levi (Nina Sumter)
 lev "Sinful Stars hotline. How may I assist you?"
 
 show phoneyumi neutraltalk
@@ -252,11 +252,11 @@ voice "voice/c-14ii-57.ogg" #Yumi (Kathy Pfautsch)
 yum "...Lucca says hi."
 
 show phone1 levieyebrow
-voice "voice/c-14ii-58.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-58.ogg" #Levi (Nina Sumter)
 lev "Aww, hi."
 
 show phone1 levisigh
-voice "voice/c-14ii-59.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-59.ogg" #Levi (Nina Sumter)
 lev "I, um, can't tell if this is a social call or an SOS. Did everything work out with Kamika?"
 
 show phoneyumi surprise
@@ -264,11 +264,11 @@ voice "voice/c-14ii-60.ogg" #Yumi (Kathy Pfautsch)
 yum "Er, that's the thing, actually. Could you convey to Satan that we're dealing with the situation on our own?"
 
 show phone1 levineutral
-voice "voice/c-14ii-61.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-61.ogg" #Levi (Nina Sumter)
 lev "Sure thing, I'd be happy to, but I haven't seen her around, so I can't say if she knows about it in the first place."
 
 show phone1 levirant
-voice "voice/c-14ii-62.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-62.ogg" #Levi (Nina Sumter)
 lev "Probably just avoiding me because she knows I still demand an explanation for her leapfrogging my nun - "
 
 show phoneyumi dread
@@ -276,11 +276,11 @@ voice "voice/c-14ii-63.ogg" #Yumi (Kathy Pfautsch)
 yum "...Right, whatever. just tell her when you see her, okay?"
 
 show phone1 levisigh
-voice "voice/c-14ii-64.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-64.ogg" #Levi (Nina Sumter)
 lev "*sigh* Mm-hmm. You got it."
 
 show phone1 levieyebrow
-voice "voice/c-14ii-65.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-65.ogg" #Levi (Nina Sumter)
 lev "Also, you might want to go check out what's going on in your dorm room."
 
 show phoneyumi eyebrow
@@ -288,7 +288,7 @@ voice "voice/c-14ii-66.ogg" #Yumi (Kathy Pfautsch)
 yum "What?"
 
 show phone1 levineutral
-voice "voice/c-14ii-67.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-67.ogg" #Levi (Nina Sumter)
 lev "Moe just went AFK in the middle of the damn raid, saying there's some commotion going on over there."
 
 show phoneyumi dread
@@ -296,10 +296,10 @@ voice "voice/c-14ii-68.ogg" #Yumi (Kathy Pfautsch)
 yum "Oh, {i}shit{/i}!"
 
 show phone1 levideadpan
-voice "voice/c-14ii-69.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-69.ogg" #Levi (Nina Sumter)
 lev "Yeah, um, sorry to be the bearer of bad news."
 
-voice "voice/c-14ii-70.ogg" #Levi (Nina Sumter)
+#voice "voice/c-14ii-70.ogg" #Levi (Nina Sumter)
 lev "...Kay bye."
 
 #sfx

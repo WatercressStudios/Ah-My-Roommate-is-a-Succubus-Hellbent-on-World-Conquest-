@@ -114,7 +114,7 @@ show stacey eyebrow
 voice "voice/c-10-29.ogg" #Stacey (Ashe Thurman)
 sta "Like, the bathroom? Or she was sweaty, I guess. If you aren't building up to the reveal that she has a pet skunk I'm gonna be disappointed."
 
-voice "voice/c-10-30.ogg" #Yumi (Kathy Pfautsch)
+#voice "voice/c-10-30.ogg" #Yumi (Kathy Pfautsch) //Razz - Disable due to no existing voice acting. This is a line with content so it needs to be re-recorded at somepoint
 yum "She called it her {i}pheromones.{/i}"
 
 show stacey sarcasticlook

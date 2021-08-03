@@ -418,19 +418,19 @@ voice "voice/c-17ii-99.ogg" #Yumi (Kathy Pfautsch)
 yum "Y-yeah, I... okay. Hello?"
 
 play music happysong2 fadein 1.0
-voice "voice/c-17ii-100.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-100.ogg" #S-Tan (Dani Chambers)
 sat "Hiiiiii!~ Yumi, Yumi, I got some updates for you! Is Lucca there with you??"
 
 voice "voice/c-17ii-101.ogg" #Lucca (Victoria Wong)
 luc "I-I'm over here! But why are you calling? Aren't you, ah, really busy with contracts and stuff?"
 
-voice "voice/c-17ii-102.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-102.ogg" #S-Tan (Dani Chambers)
 sat "Aaaah, I can make time for my best gals!~ Hey, Yumi, we're still on for Thanksgiving this year, right??"
 
 voice "voice/c-17ii-103.ogg" #Yumi (Kathy Pfautsch)
 yum "Eh? I-I dunno... travelling is expensive, and I don't think I could-"
 
-voice "voice/c-17ii-104.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-104.ogg" #S-Tan (Dani Chambers)
 sat "Christmas then! I'll mark my calendar!~"
 
 voice "voice/c-17ii-105.ogg" #Yumi (Kathy Pfautsch)
@@ -439,13 +439,13 @@ yum "...Demons celebrate Christmas?"
 voice "voice/c-17ii-106.ogg" #Lucca (Victoria Wong)
 luc "It's the most wonderful time of the year, Yumi!"
 
-voice "voice/c-17ii-107.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-107.ogg" #S-Tan (Dani Chambers)
 sat "Lucca gets it!~"
 
-voice "voice/c-17ii-108.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-108.ogg" #S-Tan (Dani Chambers)
 sat "...Okay, mandated niceties are out of the way, so I should let you knoooow..."
 
-voice "voice/c-17ii-109.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-109.ogg" #S-Tan (Dani Chambers)
 sat "I had a long talk with our ex-Demon of Envy, and she promises to not get herself into any more trouble!"
 
 voice "voice/c-17ii-110.ogg" #Yumi (Kathy Pfautsch)
@@ -454,16 +454,16 @@ yum "...You sure that'll stick?"
 voice "voice/c-17ii-111.ogg" #Lucca (Victoria Wong)
 luc "She is the sort to tell someone what they want just to get them to, ah, buzz off. Pardon my language..."
 
-voice "voice/c-17ii-112.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-112.ogg" #S-Tan (Dani Chambers)
 sat "Aww, ya think so? ...Well, keep her in line for me! You two've been good at that so far, right?"
 
-voice "voice/c-17ii-113.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-113.ogg" #S-Tan (Dani Chambers)
 sat "Especially you, Lucca! You actually made a contribution! Maybe I should raise your salary!~"
 
 voice "voice/c-17ii-114.ogg" #Lucca (Victoria Wong)
 luc "But... you don't pay me anything."
 
-voice "voice/c-17ii-115.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-115.ogg" #S-Tan (Dani Chambers)
 sat "It's settled! 200% raise, just for you!~"
 
 voice "voice/c-17ii-116.ogg" #Lucca (Victoria Wong)
@@ -472,28 +472,28 @@ luc "...Ehh heh..."
 voice "voice/c-17ii-117.ogg" #Lucca (Victoria Wong)
 luc "I-I didn't do much, it... it was mostly Yumi. I-I just... helped with ideas, and stuff, but..."
 
-voice "voice/c-17ii-118.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-118.ogg" #S-Tan (Dani Chambers)
 sat "Oh, don't be so modest, Lucca! You're a Demon of Pride, remember?"
 
-voice "voice/c-17ii-119.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-119.ogg" #S-Tan (Dani Chambers)
 sat "If you didn't step in when you did, I might've had to get involved myself! And drama is just so {i}draining{/i}, y'know??"
 
 voice "voice/c-17ii-120.ogg" #Lucca (Victoria Wong)
 luc "I... I guess so..."
 
-voice "voice/c-17ii-121.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-121.ogg" #S-Tan (Dani Chambers)
 sat "Hey, you did good. The other girls all rely on you to look out for them too. Don't forget we all got your back, okay?"
 
-voice "voice/c-17ii-122.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-122.ogg" #S-Tan (Dani Chambers)
 sat "...And Moe too, I guess. Not like he'd admit it, buuut..."
 
 voice "voice/c-17ii-123.ogg" #Lucca (Victoria Wong)
 luc "I-I won't forget, S-Tan."
 
-voice "voice/c-17ii-124.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-124.ogg" #S-Tan (Dani Chambers)
 sat "Good! I got stuff to do at the office, but have fun over there! Mind your studies!"
 
-voice "voice/c-17ii-125.mp3" #S-Tan (Dani Chambers)
+voice "voice/c-17ii-125.ogg" #S-Tan (Dani Chambers)
 sat "And lemme know when you get your degree, I always wanted to hold shows in a casino and hotel complex built in my likeness!~"
 
 voice "voice/c-17ii-126.ogg" #Lucca (Victoria Wong)

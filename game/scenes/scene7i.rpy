@@ -137,7 +137,7 @@ luc "I-I'm sorry! I just... I wanted to express myself..."
 
 "Geez, she's really good at making me feel like the bad guy here. But that doesn't mean I'm gonna allow this to slide."
 
-voice "voice/c-7if.ogg" #Yumi (Kathy Pfautsch)
+voice "voice/c-7i-f.ogg" #Yumi (Kathy Pfautsch)
 yum "Look, I'm not gonna report you for this or anything. Just... try to clean up after yourself, alright?"
 
 show lucca n sniff

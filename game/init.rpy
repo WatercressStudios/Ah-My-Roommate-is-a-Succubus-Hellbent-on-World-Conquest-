@@ -11,6 +11,7 @@ define moe = Character("Moe", color="#FFFFFF", voice_tag="moe", callback=speaker
 define sat = Character("S-Tan", color="#FFFFFF", voice_tag="sat", callback=speaker("satan"))
 
 init python:
+
     DefineImages('bgs', prepend='bg')
     DefineImages('cgs', prepend='cg')
     layerorder = ['base','mouth','eyes','brow','cry', 'cry0', 'cry1', 'cry2', 'cry3', 'cry4', 'cry5', 'blush', 'glasses', 'angryvein', 'sweatdrop']
